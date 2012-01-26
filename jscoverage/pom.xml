@@ -13,41 +13,78 @@
 		<relativePath>../</relativePath>
 	</parent>
 
+	<properties>
+		<antlr.version>3.1.2-1</antlr.version>
+	</properties>
+
 	<dependencies>
-
-		<dependency>
-			<groupId>joda-time</groupId>
-			<artifactId>joda-time</artifactId>
-			<version>2.0</version>
-		</dependency>
-
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
 			<version>1.6.4</version>
 		</dependency>
-
 		<dependency>
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
 			<version>11.0.1</version>
 		</dependency>
-
 		<dependency>
 			<groupId>org.antlr</groupId>
 			<artifactId>antlr</artifactId>
-			<version>3.4</version>
+			<version>${antlr.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>3.8.2</version>
-		</dependency>
-		<dependency>
-			<groupId>com.google.inject</groupId>
-			<artifactId>guice</artifactId>
-			<version>2.0</version>
+			<version>4.8.2</version>
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
 
+
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-antrun-plugin</artifactId>
+				<version>1.7</version>
+				<executions>
+					<execution>
+						<phase>generate-resources</phase>
+						<configuration>
+							<target>
+								<java
+									jar="${settings.localRepository}/org/antlr/antlr/${antlr.version}/antlr-${antlr.version}-jar-with-dependencies.jar"
+									fork="true" dir="src/main/java">
+									<arg value="-make" />
+									<arg value="-o" />
+									<arg value="src/main/java" />
+									<arg
+										value="net/awired/jscoverage/instrumentation/es3/ES3Instrument.g" />
+								</java>
+								<java
+									jar="${settings.localRepository}/org/antlr/antlr/${antlr.version}/antlr-${antlr.version}-jar-with-dependencies.jar"
+									fork="true" dir="src/main/java">
+									<arg value="-make" />
+									<arg value="-o" />
+									<arg value="src/main/java" />
+									<arg value="net/awired/jscoverage/instrumentation/es3/ES3.g" />
+								</java>
+							</target>
+						</configuration>
+						<goals>
+							<goal>run</goal>
+						</goals>
+					</execution>
+				</executions>
+				<dependencies>
+					<dependency>
+						<groupId>org.antlr</groupId>
+						<artifactId>antlr</artifactId>
+						<version>${antlr.version}</version>
+						<classifier>jar-with-dependencies</classifier>
+					</dependency>
+				</dependencies>
+			</plugin>
+		</plugins>
+	</build>
 </project>
