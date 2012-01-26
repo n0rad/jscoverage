@@ -186,7 +186,7 @@ tokens
 	POS ;
 }
 
-@lexer::header {package com.google.jstestdriver.coverage.es3;}
+@lexer::header {package net.awired.jscoverage.instrumentation.es3;}
 
 @lexer::members
 {
@@ -268,7 +268,7 @@ public Token nextToken()
 	return result;		
 }
 }
-@parser::header {package com.google.jstestdriver.coverage.es3;}
+@parser::header {package net.awired.jscoverage.instrumentation.es3;}
 @parser::members
 {
 private final boolean isLeftHandSideAssign(RuleReturnScope lhs, Object[] cached)
