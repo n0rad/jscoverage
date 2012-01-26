@@ -1,5 +1,5 @@
-// $ANTLR 3.1.3 Mar 18, 2009 10:09:25 com/google/jstestdriver/coverage/es3/ES3.g 2012-01-25 23:23:56
-package net.awired.jscoverage.instrumentation.es3;
+// $ANTLR 3.1.2 net/awired/jscoverage/instrumentation/es3/ES3.g 2012-01-26 02:31:49
+package com.google.jstestdriver.coverage.es3;
 
 import org.antlr.runtime.*;
 import java.util.Stack;
@@ -266,15 +266,15 @@ public class ES3Lexer extends Lexer {
         super(input,state);
 
     }
-    public String getGrammarFileName() { return "com/google/jstestdriver/coverage/es3/ES3.g"; }
+    public String getGrammarFileName() { return "net/awired/jscoverage/instrumentation/es3/ES3.g"; }
 
     // $ANTLR start "NULL"
     public final void mNULL() throws RecognitionException {
         try {
             int _type = NULL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:88:6: ( 'null' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:88:8: 'null'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:88:6: ( 'null' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:88:8: 'null'
             {
             match("null"); 
 
@@ -294,8 +294,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = TRUE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:89:6: ( 'true' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:89:8: 'true'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:89:6: ( 'true' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:89:8: 'true'
             {
             match("true"); 
 
@@ -315,8 +315,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = FALSE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:90:7: ( 'false' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:90:9: 'false'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:90:7: ( 'false' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:90:9: 'false'
             {
             match("false"); 
 
@@ -336,8 +336,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = BREAK;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:91:7: ( 'break' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:91:9: 'break'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:91:7: ( 'break' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:91:9: 'break'
             {
             match("break"); 
 
@@ -357,8 +357,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = CASE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:92:6: ( 'case' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:92:8: 'case'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:92:6: ( 'case' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:92:8: 'case'
             {
             match("case"); 
 
@@ -378,8 +378,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = CATCH;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:93:7: ( 'catch' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:93:9: 'catch'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:93:7: ( 'catch' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:93:9: 'catch'
             {
             match("catch"); 
 
@@ -399,8 +399,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = CONTINUE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:94:10: ( 'continue' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:94:12: 'continue'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:94:10: ( 'continue' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:94:12: 'continue'
             {
             match("continue"); 
 
@@ -420,8 +420,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = DEFAULT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:95:9: ( 'default' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:95:11: 'default'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:95:9: ( 'default' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:95:11: 'default'
             {
             match("default"); 
 
@@ -441,8 +441,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = DELETE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:96:8: ( 'delete' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:96:10: 'delete'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:96:8: ( 'delete' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:96:10: 'delete'
             {
             match("delete"); 
 
@@ -462,8 +462,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = DO;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:97:4: ( 'do' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:97:6: 'do'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:97:4: ( 'do' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:97:6: 'do'
             {
             match("do"); 
 
@@ -483,8 +483,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = ELSE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:98:6: ( 'else' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:98:8: 'else'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:98:6: ( 'else' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:98:8: 'else'
             {
             match("else"); 
 
@@ -504,8 +504,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = FINALLY;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:99:9: ( 'finally' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:99:11: 'finally'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:99:9: ( 'finally' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:99:11: 'finally'
             {
             match("finally"); 
 
@@ -525,8 +525,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = FOR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:100:5: ( 'for' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:100:7: 'for'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:100:5: ( 'for' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:100:7: 'for'
             {
             match("for"); 
 
@@ -546,8 +546,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = FUNCTION;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:101:10: ( 'function' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:101:12: 'function'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:101:10: ( 'function' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:101:12: 'function'
             {
             match("function"); 
 
@@ -567,8 +567,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = IF;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:102:4: ( 'if' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:102:6: 'if'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:102:4: ( 'if' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:102:6: 'if'
             {
             match("if"); 
 
@@ -588,8 +588,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = IN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:103:4: ( 'in' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:103:6: 'in'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:103:4: ( 'in' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:103:6: 'in'
             {
             match("in"); 
 
@@ -609,8 +609,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = INSTANCEOF;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:104:12: ( 'instanceof' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:104:14: 'instanceof'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:104:12: ( 'instanceof' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:104:14: 'instanceof'
             {
             match("instanceof"); 
 
@@ -630,8 +630,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = NEW;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:105:5: ( 'new' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:105:7: 'new'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:105:5: ( 'new' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:105:7: 'new'
             {
             match("new"); 
 
@@ -651,8 +651,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = RETURN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:106:8: ( 'return' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:106:10: 'return'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:106:8: ( 'return' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:106:10: 'return'
             {
             match("return"); 
 
@@ -672,8 +672,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = SWITCH;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:107:8: ( 'switch' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:107:10: 'switch'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:107:8: ( 'switch' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:107:10: 'switch'
             {
             match("switch"); 
 
@@ -693,8 +693,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = THIS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:108:6: ( 'this' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:108:8: 'this'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:108:6: ( 'this' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:108:8: 'this'
             {
             match("this"); 
 
@@ -714,8 +714,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = THROW;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:109:7: ( 'throw' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:109:9: 'throw'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:109:7: ( 'throw' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:109:9: 'throw'
             {
             match("throw"); 
 
@@ -735,8 +735,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = TRY;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:110:5: ( 'try' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:110:7: 'try'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:110:5: ( 'try' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:110:7: 'try'
             {
             match("try"); 
 
@@ -756,8 +756,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = TYPEOF;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:111:8: ( 'typeof' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:111:10: 'typeof'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:111:8: ( 'typeof' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:111:10: 'typeof'
             {
             match("typeof"); 
 
@@ -777,8 +777,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = VAR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:112:5: ( 'var' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:112:7: 'var'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:112:5: ( 'var' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:112:7: 'var'
             {
             match("var"); 
 
@@ -798,8 +798,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = VOID;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:113:6: ( 'void' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:113:8: 'void'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:113:6: ( 'void' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:113:8: 'void'
             {
             match("void"); 
 
@@ -819,8 +819,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = WHILE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:114:7: ( 'while' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:114:9: 'while'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:114:7: ( 'while' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:114:9: 'while'
             {
             match("while"); 
 
@@ -840,8 +840,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = WITH;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:115:6: ( 'with' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:115:8: 'with'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:115:6: ( 'with' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:115:8: 'with'
             {
             match("with"); 
 
@@ -861,8 +861,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = ABSTRACT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:116:10: ( 'abstract' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:116:12: 'abstract'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:116:10: ( 'abstract' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:116:12: 'abstract'
             {
             match("abstract"); 
 
@@ -882,8 +882,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = BOOLEAN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:117:9: ( 'boolean' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:117:11: 'boolean'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:117:9: ( 'boolean' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:117:11: 'boolean'
             {
             match("boolean"); 
 
@@ -903,8 +903,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = BYTE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:118:6: ( 'byte' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:118:8: 'byte'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:118:6: ( 'byte' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:118:8: 'byte'
             {
             match("byte"); 
 
@@ -924,8 +924,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = CHAR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:119:6: ( 'char' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:119:8: 'char'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:119:6: ( 'char' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:119:8: 'char'
             {
             match("char"); 
 
@@ -945,8 +945,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = CLASS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:120:7: ( 'class' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:120:9: 'class'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:120:7: ( 'class' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:120:9: 'class'
             {
             match("class"); 
 
@@ -966,8 +966,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = CONST;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:121:7: ( 'const' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:121:9: 'const'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:121:7: ( 'const' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:121:9: 'const'
             {
             match("const"); 
 
@@ -987,8 +987,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = DEBUGGER;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:122:10: ( 'debugger' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:122:12: 'debugger'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:122:10: ( 'debugger' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:122:12: 'debugger'
             {
             match("debugger"); 
 
@@ -1008,8 +1008,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = DOUBLE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:123:8: ( 'double' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:123:10: 'double'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:123:8: ( 'double' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:123:10: 'double'
             {
             match("double"); 
 
@@ -1029,8 +1029,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = ENUM;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:124:6: ( 'enum' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:124:8: 'enum'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:124:6: ( 'enum' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:124:8: 'enum'
             {
             match("enum"); 
 
@@ -1050,8 +1050,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = EXPORT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:125:8: ( 'export' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:125:10: 'export'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:125:8: ( 'export' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:125:10: 'export'
             {
             match("export"); 
 
@@ -1071,8 +1071,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = EXTENDS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:126:9: ( 'extends' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:126:11: 'extends'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:126:9: ( 'extends' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:126:11: 'extends'
             {
             match("extends"); 
 
@@ -1092,8 +1092,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = FINAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:127:7: ( 'final' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:127:9: 'final'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:127:7: ( 'final' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:127:9: 'final'
             {
             match("final"); 
 
@@ -1113,8 +1113,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = FLOAT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:128:7: ( 'float' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:128:9: 'float'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:128:7: ( 'float' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:128:9: 'float'
             {
             match("float"); 
 
@@ -1134,8 +1134,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = GOTO;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:129:6: ( 'goto' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:129:8: 'goto'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:129:6: ( 'goto' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:129:8: 'goto'
             {
             match("goto"); 
 
@@ -1155,8 +1155,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = IMPLEMENTS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:130:12: ( 'implements' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:130:14: 'implements'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:130:12: ( 'implements' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:130:14: 'implements'
             {
             match("implements"); 
 
@@ -1176,8 +1176,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = IMPORT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:131:8: ( 'import' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:131:10: 'import'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:131:8: ( 'import' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:131:10: 'import'
             {
             match("import"); 
 
@@ -1197,8 +1197,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = INT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:132:5: ( 'int' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:132:7: 'int'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:132:5: ( 'int' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:132:7: 'int'
             {
             match("int"); 
 
@@ -1218,8 +1218,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = INTERFACE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:133:11: ( 'interface' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:133:13: 'interface'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:133:11: ( 'interface' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:133:13: 'interface'
             {
             match("interface"); 
 
@@ -1239,8 +1239,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = LONG;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:134:6: ( 'long' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:134:8: 'long'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:134:6: ( 'long' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:134:8: 'long'
             {
             match("long"); 
 
@@ -1260,8 +1260,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = NATIVE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:135:8: ( 'native' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:135:10: 'native'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:135:8: ( 'native' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:135:10: 'native'
             {
             match("native"); 
 
@@ -1281,8 +1281,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = PACKAGE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:136:9: ( 'package' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:136:11: 'package'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:136:9: ( 'package' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:136:11: 'package'
             {
             match("package"); 
 
@@ -1302,8 +1302,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = PRIVATE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:137:9: ( 'private' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:137:11: 'private'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:137:9: ( 'private' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:137:11: 'private'
             {
             match("private"); 
 
@@ -1323,8 +1323,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = PROTECTED;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:138:11: ( 'protected' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:138:13: 'protected'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:138:11: ( 'protected' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:138:13: 'protected'
             {
             match("protected"); 
 
@@ -1344,8 +1344,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = PUBLIC;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:139:8: ( 'public' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:139:10: 'public'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:139:8: ( 'public' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:139:10: 'public'
             {
             match("public"); 
 
@@ -1365,8 +1365,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = SHORT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:140:7: ( 'short' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:140:9: 'short'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:140:7: ( 'short' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:140:9: 'short'
             {
             match("short"); 
 
@@ -1386,8 +1386,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = STATIC;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:141:8: ( 'static' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:141:10: 'static'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:141:8: ( 'static' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:141:10: 'static'
             {
             match("static"); 
 
@@ -1407,8 +1407,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = SUPER;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:142:7: ( 'super' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:142:9: 'super'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:142:7: ( 'super' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:142:9: 'super'
             {
             match("super"); 
 
@@ -1428,8 +1428,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = SYNCHRONIZED;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:143:14: ( 'synchronized' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:143:16: 'synchronized'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:143:14: ( 'synchronized' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:143:16: 'synchronized'
             {
             match("synchronized"); 
 
@@ -1449,8 +1449,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = THROWS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:144:8: ( 'throws' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:144:10: 'throws'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:144:8: ( 'throws' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:144:10: 'throws'
             {
             match("throws"); 
 
@@ -1470,8 +1470,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = TRANSIENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:145:11: ( 'transient' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:145:13: 'transient'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:145:11: ( 'transient' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:145:13: 'transient'
             {
             match("transient"); 
 
@@ -1491,8 +1491,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = VOLATILE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:146:10: ( 'volatile' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:146:12: 'volatile'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:146:10: ( 'volatile' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:146:12: 'volatile'
             {
             match("volatile"); 
 
@@ -1512,8 +1512,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = LBRACE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:147:8: ( '{' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:147:10: '{'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:147:8: ( '{' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:147:10: '{'
             {
             match('{'); 
 
@@ -1532,8 +1532,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = RBRACE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:148:8: ( '}' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:148:10: '}'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:148:8: ( '}' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:148:10: '}'
             {
             match('}'); 
 
@@ -1552,8 +1552,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = LPAREN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:149:8: ( '(' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:149:10: '('
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:149:8: ( '(' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:149:10: '('
             {
             match('('); 
 
@@ -1572,8 +1572,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = RPAREN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:150:8: ( ')' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:150:10: ')'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:150:8: ( ')' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:150:10: ')'
             {
             match(')'); 
 
@@ -1592,8 +1592,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = LBRACK;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:151:8: ( '[' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:151:10: '['
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:151:8: ( '[' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:151:10: '['
             {
             match('['); 
 
@@ -1612,8 +1612,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = RBRACK;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:152:8: ( ']' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:152:10: ']'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:152:8: ( ']' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:152:10: ']'
             {
             match(']'); 
 
@@ -1632,8 +1632,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = DOT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:153:5: ( '.' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:153:7: '.'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:153:5: ( '.' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:153:7: '.'
             {
             match('.'); 
 
@@ -1652,8 +1652,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = SEMIC;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:154:7: ( ';' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:154:9: ';'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:154:7: ( ';' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:154:9: ';'
             {
             match(';'); 
 
@@ -1672,8 +1672,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = COMMA;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:155:7: ( ',' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:155:9: ','
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:155:7: ( ',' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:155:9: ','
             {
             match(','); 
 
@@ -1692,8 +1692,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = LT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:156:4: ( '<' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:156:6: '<'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:156:4: ( '<' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:156:6: '<'
             {
             match('<'); 
 
@@ -1712,8 +1712,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = GT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:157:4: ( '>' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:157:6: '>'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:157:4: ( '>' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:157:6: '>'
             {
             match('>'); 
 
@@ -1732,8 +1732,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = LTE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:158:5: ( '<=' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:158:7: '<='
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:158:5: ( '<=' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:158:7: '<='
             {
             match("<="); 
 
@@ -1753,8 +1753,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = GTE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:159:5: ( '>=' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:159:7: '>='
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:159:5: ( '>=' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:159:7: '>='
             {
             match(">="); 
 
@@ -1774,8 +1774,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = EQ;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:160:4: ( '==' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:160:6: '=='
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:160:4: ( '==' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:160:6: '=='
             {
             match("=="); 
 
@@ -1795,8 +1795,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = NEQ;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:161:5: ( '!=' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:161:7: '!='
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:161:5: ( '!=' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:161:7: '!='
             {
             match("!="); 
 
@@ -1816,8 +1816,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = SAME;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:162:6: ( '===' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:162:8: '==='
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:162:6: ( '===' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:162:8: '==='
             {
             match("==="); 
 
@@ -1837,8 +1837,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = NSAME;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:163:7: ( '!==' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:163:9: '!=='
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:163:7: ( '!==' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:163:9: '!=='
             {
             match("!=="); 
 
@@ -1858,8 +1858,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = ADD;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:164:5: ( '+' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:164:7: '+'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:164:5: ( '+' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:164:7: '+'
             {
             match('+'); 
 
@@ -1878,8 +1878,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = SUB;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:165:5: ( '-' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:165:7: '-'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:165:5: ( '-' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:165:7: '-'
             {
             match('-'); 
 
@@ -1898,8 +1898,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = MUL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:166:5: ( '*' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:166:7: '*'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:166:5: ( '*' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:166:7: '*'
             {
             match('*'); 
 
@@ -1918,8 +1918,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = MOD;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:167:5: ( '%' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:167:7: '%'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:167:5: ( '%' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:167:7: '%'
             {
             match('%'); 
 
@@ -1938,8 +1938,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = INC;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:168:5: ( '++' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:168:7: '++'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:168:5: ( '++' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:168:7: '++'
             {
             match("++"); 
 
@@ -1959,8 +1959,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = DEC;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:169:5: ( '--' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:169:7: '--'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:169:5: ( '--' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:169:7: '--'
             {
             match("--"); 
 
@@ -1980,8 +1980,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = SHL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:170:5: ( '<<' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:170:7: '<<'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:170:5: ( '<<' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:170:7: '<<'
             {
             match("<<"); 
 
@@ -2001,8 +2001,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = SHR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:171:5: ( '>>' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:171:7: '>>'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:171:5: ( '>>' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:171:7: '>>'
             {
             match(">>"); 
 
@@ -2022,8 +2022,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = SHU;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:172:5: ( '>>>' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:172:7: '>>>'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:172:5: ( '>>>' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:172:7: '>>>'
             {
             match(">>>"); 
 
@@ -2043,8 +2043,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = AND;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:173:5: ( '&' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:173:7: '&'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:173:5: ( '&' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:173:7: '&'
             {
             match('&'); 
 
@@ -2063,8 +2063,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = OR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:174:4: ( '|' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:174:6: '|'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:174:4: ( '|' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:174:6: '|'
             {
             match('|'); 
 
@@ -2083,8 +2083,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = XOR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:175:5: ( '^' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:175:7: '^'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:175:5: ( '^' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:175:7: '^'
             {
             match('^'); 
 
@@ -2103,8 +2103,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = NOT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:176:5: ( '!' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:176:7: '!'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:176:5: ( '!' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:176:7: '!'
             {
             match('!'); 
 
@@ -2123,8 +2123,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = INV;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:177:5: ( '~' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:177:7: '~'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:177:5: ( '~' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:177:7: '~'
             {
             match('~'); 
 
@@ -2143,8 +2143,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = LAND;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:178:6: ( '&&' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:178:8: '&&'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:178:6: ( '&&' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:178:8: '&&'
             {
             match("&&"); 
 
@@ -2164,8 +2164,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = LOR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:179:5: ( '||' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:179:7: '||'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:179:5: ( '||' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:179:7: '||'
             {
             match("||"); 
 
@@ -2185,8 +2185,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = QUE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:180:5: ( '?' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:180:7: '?'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:180:5: ( '?' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:180:7: '?'
             {
             match('?'); 
 
@@ -2205,8 +2205,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = COLON;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:181:7: ( ':' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:181:9: ':'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:181:7: ( ':' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:181:9: ':'
             {
             match(':'); 
 
@@ -2225,8 +2225,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = ASSIGN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:182:8: ( '=' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:182:10: '='
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:182:8: ( '=' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:182:10: '='
             {
             match('='); 
 
@@ -2245,8 +2245,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = ADDASS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:183:8: ( '+=' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:183:10: '+='
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:183:8: ( '+=' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:183:10: '+='
             {
             match("+="); 
 
@@ -2266,8 +2266,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = SUBASS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:184:8: ( '-=' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:184:10: '-='
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:184:8: ( '-=' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:184:10: '-='
             {
             match("-="); 
 
@@ -2287,8 +2287,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = MULASS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:185:8: ( '*=' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:185:10: '*='
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:185:8: ( '*=' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:185:10: '*='
             {
             match("*="); 
 
@@ -2308,8 +2308,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = MODASS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:186:8: ( '%=' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:186:10: '%='
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:186:8: ( '%=' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:186:10: '%='
             {
             match("%="); 
 
@@ -2329,8 +2329,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = SHLASS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:187:8: ( '<<=' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:187:10: '<<='
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:187:8: ( '<<=' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:187:10: '<<='
             {
             match("<<="); 
 
@@ -2350,8 +2350,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = SHRASS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:188:8: ( '>>=' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:188:10: '>>='
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:188:8: ( '>>=' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:188:10: '>>='
             {
             match(">>="); 
 
@@ -2371,8 +2371,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = SHUASS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:189:8: ( '>>>=' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:189:10: '>>>='
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:189:8: ( '>>>=' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:189:10: '>>>='
             {
             match(">>>="); 
 
@@ -2392,8 +2392,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = ANDASS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:190:8: ( '&=' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:190:10: '&='
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:190:8: ( '&=' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:190:10: '&='
             {
             match("&="); 
 
@@ -2413,8 +2413,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = ORASS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:191:7: ( '|=' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:191:9: '|='
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:191:7: ( '|=' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:191:9: '|='
             {
             match("|="); 
 
@@ -2434,8 +2434,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = XORASS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:192:8: ( '^=' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:192:10: '^='
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:192:8: ( '^=' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:192:10: '^='
             {
             match("^="); 
 
@@ -2455,8 +2455,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = DIV;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:193:5: ( '/' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:193:7: '/'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:193:5: ( '/' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:193:7: '/'
             {
             match('/'); 
 
@@ -2475,8 +2475,8 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = DIVASS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:194:8: ( '/=' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:194:10: '/='
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:194:8: ( '/=' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:194:10: '/='
             {
             match("/="); 
 
@@ -2494,8 +2494,8 @@ public class ES3Lexer extends Lexer {
     // $ANTLR start "BSLASH"
     public final void mBSLASH() throws RecognitionException {
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:409:2: ( '\\\\' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:409:4: '\\\\'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:409:2: ( '\\\\' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:409:4: '\\\\'
             {
             match('\\'); 
 
@@ -2510,8 +2510,8 @@ public class ES3Lexer extends Lexer {
     // $ANTLR start "DQUOTE"
     public final void mDQUOTE() throws RecognitionException {
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:413:2: ( '\"' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:413:4: '\"'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:413:2: ( '\"' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:413:4: '\"'
             {
             match('\"'); 
 
@@ -2526,8 +2526,8 @@ public class ES3Lexer extends Lexer {
     // $ANTLR start "SQUOTE"
     public final void mSQUOTE() throws RecognitionException {
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:417:2: ( '\\'' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:417:4: '\\''
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:417:2: ( '\\'' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:417:4: '\\''
             {
             match('\''); 
 
@@ -2542,8 +2542,8 @@ public class ES3Lexer extends Lexer {
     // $ANTLR start "TAB"
     public final void mTAB() throws RecognitionException {
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:423:2: ( '\\u0009' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:423:4: '\\u0009'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:423:2: ( '\\u0009' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:423:4: '\\u0009'
             {
             match('\t'); 
 
@@ -2558,8 +2558,8 @@ public class ES3Lexer extends Lexer {
     // $ANTLR start "VT"
     public final void mVT() throws RecognitionException {
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:427:2: ( '\\u000b' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:427:4: '\\u000b'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:427:2: ( '\\u000b' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:427:4: '\\u000b'
             {
             match('\u000B'); 
 
@@ -2574,8 +2574,8 @@ public class ES3Lexer extends Lexer {
     // $ANTLR start "FF"
     public final void mFF() throws RecognitionException {
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:431:2: ( '\\u000c' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:431:4: '\\u000c'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:431:2: ( '\\u000c' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:431:4: '\\u000c'
             {
             match('\f'); 
 
@@ -2590,8 +2590,8 @@ public class ES3Lexer extends Lexer {
     // $ANTLR start "SP"
     public final void mSP() throws RecognitionException {
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:435:2: ( '\\u0020' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:435:4: '\\u0020'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:435:2: ( '\\u0020' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:435:4: '\\u0020'
             {
             match(' '); 
 
@@ -2606,8 +2606,8 @@ public class ES3Lexer extends Lexer {
     // $ANTLR start "NBSP"
     public final void mNBSP() throws RecognitionException {
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:439:2: ( '\\u00a0' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:439:4: '\\u00a0'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:439:2: ( '\\u00a0' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:439:4: '\\u00a0'
             {
             match('\u00A0'); 
 
@@ -2622,8 +2622,8 @@ public class ES3Lexer extends Lexer {
     // $ANTLR start "USP"
     public final void mUSP() throws RecognitionException {
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:443:2: ( '\\u1680' | '\\u180E' | '\\u2000' | '\\u2001' | '\\u2002' | '\\u2003' | '\\u2004' | '\\u2005' | '\\u2006' | '\\u2007' | '\\u2008' | '\\u2009' | '\\u200A' | '\\u202F' | '\\u205F' | '\\u3000' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:443:2: ( '\\u1680' | '\\u180E' | '\\u2000' | '\\u2001' | '\\u2002' | '\\u2003' | '\\u2004' | '\\u2005' | '\\u2006' | '\\u2007' | '\\u2008' | '\\u2009' | '\\u200A' | '\\u202F' | '\\u205F' | '\\u3000' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:
             {
             if ( input.LA(1)=='\u1680'||input.LA(1)=='\u180E'||(input.LA(1)>='\u2000' && input.LA(1)<='\u200A')||input.LA(1)=='\u202F'||input.LA(1)=='\u205F'||input.LA(1)=='\u3000' ) {
                 input.consume();
@@ -2648,10 +2648,10 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = WhiteSpace;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:462:2: ( ( TAB | VT | FF | SP | NBSP | USP )+ )
-            // com/google/jstestdriver/coverage/es3/ES3.g:462:4: ( TAB | VT | FF | SP | NBSP | USP )+
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:462:2: ( ( TAB | VT | FF | SP | NBSP | USP )+ )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:462:4: ( TAB | VT | FF | SP | NBSP | USP )+
             {
-            // com/google/jstestdriver/coverage/es3/ES3.g:462:4: ( TAB | VT | FF | SP | NBSP | USP )+
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:462:4: ( TAB | VT | FF | SP | NBSP | USP )+
             int cnt1=0;
             loop1:
             do {
@@ -2665,7 +2665,7 @@ public class ES3Lexer extends Lexer {
 
                 switch (alt1) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:
             	    {
             	    if ( input.LA(1)=='\t'||(input.LA(1)>='\u000B' && input.LA(1)<='\f')||input.LA(1)==' '||input.LA(1)=='\u00A0'||input.LA(1)=='\u1680'||input.LA(1)=='\u180E'||(input.LA(1)>='\u2000' && input.LA(1)<='\u200A')||input.LA(1)=='\u202F'||input.LA(1)=='\u205F'||input.LA(1)=='\u3000' ) {
             	        input.consume();
@@ -2704,8 +2704,8 @@ public class ES3Lexer extends Lexer {
     // $ANTLR start "LF"
     public final void mLF() throws RecognitionException {
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:470:2: ( '\\n' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:470:4: '\\n'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:470:2: ( '\\n' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:470:4: '\\n'
             {
             match('\n'); 
 
@@ -2720,8 +2720,8 @@ public class ES3Lexer extends Lexer {
     // $ANTLR start "CR"
     public final void mCR() throws RecognitionException {
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:474:2: ( '\\r' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:474:4: '\\r'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:474:2: ( '\\r' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:474:4: '\\r'
             {
             match('\r'); 
 
@@ -2736,8 +2736,8 @@ public class ES3Lexer extends Lexer {
     // $ANTLR start "LS"
     public final void mLS() throws RecognitionException {
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:478:2: ( '\\u2028' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:478:4: '\\u2028'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:478:2: ( '\\u2028' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:478:4: '\\u2028'
             {
             match('\u2028'); 
 
@@ -2752,8 +2752,8 @@ public class ES3Lexer extends Lexer {
     // $ANTLR start "PS"
     public final void mPS() throws RecognitionException {
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:482:2: ( '\\u2029' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:482:4: '\\u2029'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:482:2: ( '\\u2029' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:482:4: '\\u2029'
             {
             match('\u2029'); 
 
@@ -2768,8 +2768,8 @@ public class ES3Lexer extends Lexer {
     // $ANTLR start "LineTerminator"
     public final void mLineTerminator() throws RecognitionException {
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:486:2: ( CR | LF | LS | PS )
-            // com/google/jstestdriver/coverage/es3/ES3.g:
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:486:2: ( CR | LF | LS | PS )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:
             {
             if ( input.LA(1)=='\n'||input.LA(1)=='\r'||(input.LA(1)>='\u2028' && input.LA(1)<='\u2029') ) {
                 input.consume();
@@ -2794,10 +2794,10 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = EOL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:490:2: ( ( ( CR ( LF )? ) | LF | LS | PS ) )
-            // com/google/jstestdriver/coverage/es3/ES3.g:490:4: ( ( CR ( LF )? ) | LF | LS | PS )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:490:2: ( ( ( CR ( LF )? ) | LF | LS | PS ) )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:490:4: ( ( CR ( LF )? ) | LF | LS | PS )
             {
-            // com/google/jstestdriver/coverage/es3/ES3.g:490:4: ( ( CR ( LF )? ) | LF | LS | PS )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:490:4: ( ( CR ( LF )? ) | LF | LS | PS )
             int alt3=4;
             switch ( input.LA(1) ) {
             case '\r':
@@ -2829,13 +2829,13 @@ public class ES3Lexer extends Lexer {
 
             switch (alt3) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:490:6: ( CR ( LF )? )
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:490:6: ( CR ( LF )? )
                     {
-                    // com/google/jstestdriver/coverage/es3/ES3.g:490:6: ( CR ( LF )? )
-                    // com/google/jstestdriver/coverage/es3/ES3.g:490:8: CR ( LF )?
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:490:6: ( CR ( LF )? )
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:490:8: CR ( LF )?
                     {
                     mCR(); 
-                    // com/google/jstestdriver/coverage/es3/ES3.g:490:11: ( LF )?
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:490:11: ( LF )?
                     int alt2=2;
                     int LA2_0 = input.LA(1);
 
@@ -2844,7 +2844,7 @@ public class ES3Lexer extends Lexer {
                     }
                     switch (alt2) {
                         case 1 :
-                            // com/google/jstestdriver/coverage/es3/ES3.g:490:11: LF
+                            // net/awired/jscoverage/instrumentation/es3/ES3.g:490:11: LF
                             {
                             mLF(); 
 
@@ -2860,21 +2860,21 @@ public class ES3Lexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:490:19: LF
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:490:19: LF
                     {
                     mLF(); 
 
                     }
                     break;
                 case 3 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:490:24: LS
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:490:24: LS
                     {
                     mLS(); 
 
                     }
                     break;
                 case 4 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:490:29: PS
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:490:29: PS
                     {
                     mPS(); 
 
@@ -2900,12 +2900,12 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = MultiLineComment;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:497:2: ( '/*' ( options {greedy=false; } : . )* '*/' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:497:4: '/*' ( options {greedy=false; } : . )* '*/'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:497:2: ( '/*' ( options {greedy=false; } : . )* '*/' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:497:4: '/*' ( options {greedy=false; } : . )* '*/'
             {
             match("/*"); 
 
-            // com/google/jstestdriver/coverage/es3/ES3.g:497:9: ( options {greedy=false; } : . )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:497:9: ( options {greedy=false; } : . )*
             loop4:
             do {
                 int alt4=2;
@@ -2930,7 +2930,7 @@ public class ES3Lexer extends Lexer {
 
                 switch (alt4) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:497:41: .
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:497:41: .
             	    {
             	    matchAny(); 
 
@@ -2961,12 +2961,12 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = SingleLineComment;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:501:2: ( '//' (~ ( LineTerminator ) )* )
-            // com/google/jstestdriver/coverage/es3/ES3.g:501:4: '//' (~ ( LineTerminator ) )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:501:2: ( '//' (~ ( LineTerminator ) )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:501:4: '//' (~ ( LineTerminator ) )*
             {
             match("//"); 
 
-            // com/google/jstestdriver/coverage/es3/ES3.g:501:9: (~ ( LineTerminator ) )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:501:9: (~ ( LineTerminator ) )*
             loop5:
             do {
                 int alt5=2;
@@ -2979,7 +2979,7 @@ public class ES3Lexer extends Lexer {
 
                 switch (alt5) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:501:11: ~ ( LineTerminator )
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:501:11: ~ ( LineTerminator )
             	    {
             	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='\t')||(input.LA(1)>='\u000B' && input.LA(1)<='\f')||(input.LA(1)>='\u000E' && input.LA(1)<='\u2027')||(input.LA(1)>='\u202A' && input.LA(1)<='\uFFFF') ) {
             	        input.consume();
@@ -3014,7 +3014,7 @@ public class ES3Lexer extends Lexer {
     // $ANTLR start "IdentifierStartASCII"
     public final void mIdentifierStartASCII() throws RecognitionException {
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:602:2: ( 'a' .. 'z' | 'A' .. 'Z' | '$' | '_' | BSLASH 'u' HexDigit HexDigit HexDigit HexDigit )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:602:2: ( 'a' .. 'z' | 'A' .. 'Z' | '$' | '_' | BSLASH 'u' HexDigit HexDigit HexDigit HexDigit )
             int alt6=5;
             switch ( input.LA(1) ) {
             case 'a':
@@ -3101,35 +3101,35 @@ public class ES3Lexer extends Lexer {
 
             switch (alt6) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:602:4: 'a' .. 'z'
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:602:4: 'a' .. 'z'
                     {
                     matchRange('a','z'); 
 
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:602:15: 'A' .. 'Z'
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:602:15: 'A' .. 'Z'
                     {
                     matchRange('A','Z'); 
 
                     }
                     break;
                 case 3 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:603:4: '$'
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:603:4: '$'
                     {
                     match('$'); 
 
                     }
                     break;
                 case 4 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:604:4: '_'
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:604:4: '_'
                     {
                     match('_'); 
 
                     }
                     break;
                 case 5 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:605:4: BSLASH 'u' HexDigit HexDigit HexDigit HexDigit
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:605:4: BSLASH 'u' HexDigit HexDigit HexDigit HexDigit
                     {
                     mBSLASH(); 
                     match('u'); 
@@ -3151,7 +3151,7 @@ public class ES3Lexer extends Lexer {
     // $ANTLR start "IdentifierPart"
     public final void mIdentifierPart() throws RecognitionException {
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:613:2: ( DecimalDigit | IdentifierStartASCII | {...}?)
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:613:2: ( DecimalDigit | IdentifierStartASCII | {...}?)
             int alt7=3;
             switch ( input.LA(1) ) {
             case '0':
@@ -3232,21 +3232,21 @@ public class ES3Lexer extends Lexer {
 
             switch (alt7) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:613:4: DecimalDigit
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:613:4: DecimalDigit
                     {
                     mDecimalDigit(); 
 
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:614:4: IdentifierStartASCII
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:614:4: IdentifierStartASCII
                     {
                     mIdentifierStartASCII(); 
 
                     }
                     break;
                 case 3 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:615:4: {...}?
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:615:4: {...}?
                     {
                     if ( !(( isIdentifierPartUnicode(input.LA(1)) )) ) {
                         throw new FailedPredicateException(input, "IdentifierPart", " isIdentifierPartUnicode(input.LA(1)) ");
@@ -3266,11 +3266,11 @@ public class ES3Lexer extends Lexer {
     // $ANTLR start "IdentifierNameASCIIStart"
     public final void mIdentifierNameASCIIStart() throws RecognitionException {
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:619:2: ( IdentifierStartASCII ( IdentifierPart )* )
-            // com/google/jstestdriver/coverage/es3/ES3.g:619:4: IdentifierStartASCII ( IdentifierPart )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:619:2: ( IdentifierStartASCII ( IdentifierPart )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:619:4: IdentifierStartASCII ( IdentifierPart )*
             {
             mIdentifierStartASCII(); 
-            // com/google/jstestdriver/coverage/es3/ES3.g:619:25: ( IdentifierPart )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:619:25: ( IdentifierPart )*
             loop8:
             do {
                 int alt8=2;
@@ -3286,7 +3286,7 @@ public class ES3Lexer extends Lexer {
 
                 switch (alt8) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:619:25: IdentifierPart
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:619:25: IdentifierPart
             	    {
             	    mIdentifierPart(); 
 
@@ -3312,7 +3312,7 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = Identifier;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:631:2: ( IdentifierNameASCIIStart | )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:631:2: ( IdentifierNameASCIIStart | )
             int alt9=2;
             int LA9_0 = input.LA(1);
 
@@ -3323,14 +3323,14 @@ public class ES3Lexer extends Lexer {
                 alt9=2;}
             switch (alt9) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:631:4: IdentifierNameASCIIStart
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:631:4: IdentifierNameASCIIStart
                     {
                     mIdentifierNameASCIIStart(); 
 
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:632:4: 
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:632:4: 
                     {
                      consumeIdentifierUnicodeStart(); 
 
@@ -3349,8 +3349,8 @@ public class ES3Lexer extends Lexer {
     // $ANTLR start "DecimalDigit"
     public final void mDecimalDigit() throws RecognitionException {
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:715:2: ( '0' .. '9' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:715:4: '0' .. '9'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:715:2: ( '0' .. '9' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:715:4: '0' .. '9'
             {
             matchRange('0','9'); 
 
@@ -3365,8 +3365,8 @@ public class ES3Lexer extends Lexer {
     // $ANTLR start "HexDigit"
     public final void mHexDigit() throws RecognitionException {
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:719:2: ( DecimalDigit | 'a' .. 'f' | 'A' .. 'F' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:719:2: ( DecimalDigit | 'a' .. 'f' | 'A' .. 'F' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:
             {
             if ( (input.LA(1)>='0' && input.LA(1)<='9')||(input.LA(1)>='A' && input.LA(1)<='F')||(input.LA(1)>='a' && input.LA(1)<='f') ) {
                 input.consume();
@@ -3389,8 +3389,8 @@ public class ES3Lexer extends Lexer {
     // $ANTLR start "OctalDigit"
     public final void mOctalDigit() throws RecognitionException {
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:723:2: ( '0' .. '7' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:723:4: '0' .. '7'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:723:2: ( '0' .. '7' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:723:4: '0' .. '7'
             {
             matchRange('0','7'); 
 
@@ -3405,8 +3405,8 @@ public class ES3Lexer extends Lexer {
     // $ANTLR start "ExponentPart"
     public final void mExponentPart() throws RecognitionException {
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:727:2: ( ( 'e' | 'E' ) ( '+' | '-' )? ( DecimalDigit )+ )
-            // com/google/jstestdriver/coverage/es3/ES3.g:727:4: ( 'e' | 'E' ) ( '+' | '-' )? ( DecimalDigit )+
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:727:2: ( ( 'e' | 'E' ) ( '+' | '-' )? ( DecimalDigit )+ )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:727:4: ( 'e' | 'E' ) ( '+' | '-' )? ( DecimalDigit )+
             {
             if ( input.LA(1)=='E'||input.LA(1)=='e' ) {
                 input.consume();
@@ -3417,7 +3417,7 @@ public class ES3Lexer extends Lexer {
                 recover(mse);
                 throw mse;}
 
-            // com/google/jstestdriver/coverage/es3/ES3.g:727:18: ( '+' | '-' )?
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:727:18: ( '+' | '-' )?
             int alt10=2;
             int LA10_0 = input.LA(1);
 
@@ -3426,7 +3426,7 @@ public class ES3Lexer extends Lexer {
             }
             switch (alt10) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:
                     {
                     if ( input.LA(1)=='+'||input.LA(1)=='-' ) {
                         input.consume();
@@ -3443,7 +3443,7 @@ public class ES3Lexer extends Lexer {
 
             }
 
-            // com/google/jstestdriver/coverage/es3/ES3.g:727:33: ( DecimalDigit )+
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:727:33: ( DecimalDigit )+
             int cnt11=0;
             loop11:
             do {
@@ -3457,7 +3457,7 @@ public class ES3Lexer extends Lexer {
 
                 switch (alt11) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:727:33: DecimalDigit
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:727:33: DecimalDigit
             	    {
             	    mDecimalDigit(); 
 
@@ -3485,7 +3485,7 @@ public class ES3Lexer extends Lexer {
     // $ANTLR start "DecimalIntegerLiteral"
     public final void mDecimalIntegerLiteral() throws RecognitionException {
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:731:2: ( '0' | '1' .. '9' ( DecimalDigit )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:731:2: ( '0' | '1' .. '9' ( DecimalDigit )* )
             int alt13=2;
             int LA13_0 = input.LA(1);
 
@@ -3503,17 +3503,17 @@ public class ES3Lexer extends Lexer {
             }
             switch (alt13) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:731:4: '0'
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:731:4: '0'
                     {
                     match('0'); 
 
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:732:4: '1' .. '9' ( DecimalDigit )*
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:732:4: '1' .. '9' ( DecimalDigit )*
                     {
                     matchRange('1','9'); 
-                    // com/google/jstestdriver/coverage/es3/ES3.g:732:13: ( DecimalDigit )*
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:732:13: ( DecimalDigit )*
                     loop12:
                     do {
                         int alt12=2;
@@ -3526,7 +3526,7 @@ public class ES3Lexer extends Lexer {
 
                         switch (alt12) {
                     	case 1 :
-                    	    // com/google/jstestdriver/coverage/es3/ES3.g:732:13: DecimalDigit
+                    	    // net/awired/jscoverage/instrumentation/es3/ES3.g:732:13: DecimalDigit
                     	    {
                     	    mDecimalDigit(); 
 
@@ -3554,16 +3554,16 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = DecimalLiteral;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:736:2: ( DecimalIntegerLiteral '.' ( DecimalDigit )* ( ExponentPart )? | '.' ( DecimalDigit )+ ( ExponentPart )? | DecimalIntegerLiteral ( ExponentPart )? )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:736:2: ( DecimalIntegerLiteral '.' ( DecimalDigit )* ( ExponentPart )? | '.' ( DecimalDigit )+ ( ExponentPart )? | DecimalIntegerLiteral ( ExponentPart )? )
             int alt19=3;
             alt19 = dfa19.predict(input);
             switch (alt19) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:736:4: DecimalIntegerLiteral '.' ( DecimalDigit )* ( ExponentPart )?
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:736:4: DecimalIntegerLiteral '.' ( DecimalDigit )* ( ExponentPart )?
                     {
                     mDecimalIntegerLiteral(); 
                     match('.'); 
-                    // com/google/jstestdriver/coverage/es3/ES3.g:736:30: ( DecimalDigit )*
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:736:30: ( DecimalDigit )*
                     loop14:
                     do {
                         int alt14=2;
@@ -3576,7 +3576,7 @@ public class ES3Lexer extends Lexer {
 
                         switch (alt14) {
                     	case 1 :
-                    	    // com/google/jstestdriver/coverage/es3/ES3.g:736:30: DecimalDigit
+                    	    // net/awired/jscoverage/instrumentation/es3/ES3.g:736:30: DecimalDigit
                     	    {
                     	    mDecimalDigit(); 
 
@@ -3588,7 +3588,7 @@ public class ES3Lexer extends Lexer {
                         }
                     } while (true);
 
-                    // com/google/jstestdriver/coverage/es3/ES3.g:736:44: ( ExponentPart )?
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:736:44: ( ExponentPart )?
                     int alt15=2;
                     int LA15_0 = input.LA(1);
 
@@ -3597,7 +3597,7 @@ public class ES3Lexer extends Lexer {
                     }
                     switch (alt15) {
                         case 1 :
-                            // com/google/jstestdriver/coverage/es3/ES3.g:736:44: ExponentPart
+                            // net/awired/jscoverage/instrumentation/es3/ES3.g:736:44: ExponentPart
                             {
                             mExponentPart(); 
 
@@ -3610,10 +3610,10 @@ public class ES3Lexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:737:4: '.' ( DecimalDigit )+ ( ExponentPart )?
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:737:4: '.' ( DecimalDigit )+ ( ExponentPart )?
                     {
                     match('.'); 
-                    // com/google/jstestdriver/coverage/es3/ES3.g:737:8: ( DecimalDigit )+
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:737:8: ( DecimalDigit )+
                     int cnt16=0;
                     loop16:
                     do {
@@ -3627,7 +3627,7 @@ public class ES3Lexer extends Lexer {
 
                         switch (alt16) {
                     	case 1 :
-                    	    // com/google/jstestdriver/coverage/es3/ES3.g:737:8: DecimalDigit
+                    	    // net/awired/jscoverage/instrumentation/es3/ES3.g:737:8: DecimalDigit
                     	    {
                     	    mDecimalDigit(); 
 
@@ -3643,7 +3643,7 @@ public class ES3Lexer extends Lexer {
                         cnt16++;
                     } while (true);
 
-                    // com/google/jstestdriver/coverage/es3/ES3.g:737:22: ( ExponentPart )?
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:737:22: ( ExponentPart )?
                     int alt17=2;
                     int LA17_0 = input.LA(1);
 
@@ -3652,7 +3652,7 @@ public class ES3Lexer extends Lexer {
                     }
                     switch (alt17) {
                         case 1 :
-                            // com/google/jstestdriver/coverage/es3/ES3.g:737:22: ExponentPart
+                            // net/awired/jscoverage/instrumentation/es3/ES3.g:737:22: ExponentPart
                             {
                             mExponentPart(); 
 
@@ -3665,10 +3665,10 @@ public class ES3Lexer extends Lexer {
                     }
                     break;
                 case 3 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:738:4: DecimalIntegerLiteral ( ExponentPart )?
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:738:4: DecimalIntegerLiteral ( ExponentPart )?
                     {
                     mDecimalIntegerLiteral(); 
-                    // com/google/jstestdriver/coverage/es3/ES3.g:738:26: ( ExponentPart )?
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:738:26: ( ExponentPart )?
                     int alt18=2;
                     int LA18_0 = input.LA(1);
 
@@ -3677,7 +3677,7 @@ public class ES3Lexer extends Lexer {
                     }
                     switch (alt18) {
                         case 1 :
-                            // com/google/jstestdriver/coverage/es3/ES3.g:738:26: ExponentPart
+                            // net/awired/jscoverage/instrumentation/es3/ES3.g:738:26: ExponentPart
                             {
                             mExponentPart(); 
 
@@ -3704,11 +3704,11 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = OctalIntegerLiteral;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:742:2: ( '0' ( OctalDigit )+ )
-            // com/google/jstestdriver/coverage/es3/ES3.g:742:4: '0' ( OctalDigit )+
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:742:2: ( '0' ( OctalDigit )+ )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:742:4: '0' ( OctalDigit )+
             {
             match('0'); 
-            // com/google/jstestdriver/coverage/es3/ES3.g:742:8: ( OctalDigit )+
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:742:8: ( OctalDigit )+
             int cnt20=0;
             loop20:
             do {
@@ -3722,7 +3722,7 @@ public class ES3Lexer extends Lexer {
 
                 switch (alt20) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:742:8: OctalDigit
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:742:8: OctalDigit
             	    {
             	    mOctalDigit(); 
 
@@ -3754,10 +3754,10 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = HexIntegerLiteral;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:746:2: ( ( '0x' | '0X' ) ( HexDigit )+ )
-            // com/google/jstestdriver/coverage/es3/ES3.g:746:4: ( '0x' | '0X' ) ( HexDigit )+
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:746:2: ( ( '0x' | '0X' ) ( HexDigit )+ )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:746:4: ( '0x' | '0X' ) ( HexDigit )+
             {
-            // com/google/jstestdriver/coverage/es3/ES3.g:746:4: ( '0x' | '0X' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:746:4: ( '0x' | '0X' )
             int alt21=2;
             int LA21_0 = input.LA(1);
 
@@ -3785,7 +3785,7 @@ public class ES3Lexer extends Lexer {
             }
             switch (alt21) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:746:6: '0x'
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:746:6: '0x'
                     {
                     match("0x"); 
 
@@ -3793,7 +3793,7 @@ public class ES3Lexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:746:13: '0X'
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:746:13: '0X'
                     {
                     match("0X"); 
 
@@ -3803,7 +3803,7 @@ public class ES3Lexer extends Lexer {
 
             }
 
-            // com/google/jstestdriver/coverage/es3/ES3.g:746:20: ( HexDigit )+
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:746:20: ( HexDigit )+
             int cnt22=0;
             loop22:
             do {
@@ -3817,7 +3817,7 @@ public class ES3Lexer extends Lexer {
 
                 switch (alt22) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:746:20: HexDigit
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:746:20: HexDigit
             	    {
             	    mHexDigit(); 
 
@@ -3847,8 +3847,8 @@ public class ES3Lexer extends Lexer {
     // $ANTLR start "CharacterEscapeSequence"
     public final void mCharacterEscapeSequence() throws RecognitionException {
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:765:2: (~ ( DecimalDigit | 'x' | 'u' | LineTerminator ) )
-            // com/google/jstestdriver/coverage/es3/ES3.g:765:4: ~ ( DecimalDigit | 'x' | 'u' | LineTerminator )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:765:2: (~ ( DecimalDigit | 'x' | 'u' | LineTerminator ) )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:765:4: ~ ( DecimalDigit | 'x' | 'u' | LineTerminator )
             {
             if ( (input.LA(1)>='\u0000' && input.LA(1)<='\t')||(input.LA(1)>='\u000B' && input.LA(1)<='\f')||(input.LA(1)>='\u000E' && input.LA(1)<='/')||(input.LA(1)>=':' && input.LA(1)<='t')||(input.LA(1)>='v' && input.LA(1)<='w')||(input.LA(1)>='y' && input.LA(1)<='\u2027')||(input.LA(1)>='\u202A' && input.LA(1)<='\uFFFF') ) {
                 input.consume();
@@ -3871,8 +3871,8 @@ public class ES3Lexer extends Lexer {
     // $ANTLR start "ZeroToThree"
     public final void mZeroToThree() throws RecognitionException {
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:769:2: ( '0' .. '3' )
-            // com/google/jstestdriver/coverage/es3/ES3.g:769:4: '0' .. '3'
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:769:2: ( '0' .. '3' )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:769:4: '0' .. '3'
             {
             matchRange('0','3'); 
 
@@ -3887,7 +3887,7 @@ public class ES3Lexer extends Lexer {
     // $ANTLR start "OctalEscapeSequence"
     public final void mOctalEscapeSequence() throws RecognitionException {
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:773:2: ( OctalDigit | ZeroToThree OctalDigit | '4' .. '7' OctalDigit | ZeroToThree OctalDigit OctalDigit )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:773:2: ( OctalDigit | ZeroToThree OctalDigit | '4' .. '7' OctalDigit | ZeroToThree OctalDigit OctalDigit )
             int alt23=4;
             int LA23_0 = input.LA(1);
 
@@ -3923,14 +3923,14 @@ public class ES3Lexer extends Lexer {
             }
             switch (alt23) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:773:4: OctalDigit
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:773:4: OctalDigit
                     {
                     mOctalDigit(); 
 
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:774:4: ZeroToThree OctalDigit
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:774:4: ZeroToThree OctalDigit
                     {
                     mZeroToThree(); 
                     mOctalDigit(); 
@@ -3938,7 +3938,7 @@ public class ES3Lexer extends Lexer {
                     }
                     break;
                 case 3 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:775:4: '4' .. '7' OctalDigit
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:775:4: '4' .. '7' OctalDigit
                     {
                     matchRange('4','7'); 
                     mOctalDigit(); 
@@ -3946,7 +3946,7 @@ public class ES3Lexer extends Lexer {
                     }
                     break;
                 case 4 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:776:4: ZeroToThree OctalDigit OctalDigit
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:776:4: ZeroToThree OctalDigit OctalDigit
                     {
                     mZeroToThree(); 
                     mOctalDigit(); 
@@ -3965,8 +3965,8 @@ public class ES3Lexer extends Lexer {
     // $ANTLR start "HexEscapeSequence"
     public final void mHexEscapeSequence() throws RecognitionException {
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:780:2: ( 'x' HexDigit HexDigit )
-            // com/google/jstestdriver/coverage/es3/ES3.g:780:4: 'x' HexDigit HexDigit
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:780:2: ( 'x' HexDigit HexDigit )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:780:4: 'x' HexDigit HexDigit
             {
             match('x'); 
             mHexDigit(); 
@@ -3983,8 +3983,8 @@ public class ES3Lexer extends Lexer {
     // $ANTLR start "UnicodeEscapeSequence"
     public final void mUnicodeEscapeSequence() throws RecognitionException {
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:784:2: ( 'u' HexDigit HexDigit HexDigit HexDigit )
-            // com/google/jstestdriver/coverage/es3/ES3.g:784:4: 'u' HexDigit HexDigit HexDigit HexDigit
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:784:2: ( 'u' HexDigit HexDigit HexDigit HexDigit )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:784:4: 'u' HexDigit HexDigit HexDigit HexDigit
             {
             match('u'); 
             mHexDigit(); 
@@ -4003,11 +4003,11 @@ public class ES3Lexer extends Lexer {
     // $ANTLR start "EscapeSequence"
     public final void mEscapeSequence() throws RecognitionException {
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:788:2: ( BSLASH ( CharacterEscapeSequence | OctalEscapeSequence | HexEscapeSequence | UnicodeEscapeSequence ) )
-            // com/google/jstestdriver/coverage/es3/ES3.g:789:2: BSLASH ( CharacterEscapeSequence | OctalEscapeSequence | HexEscapeSequence | UnicodeEscapeSequence )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:788:2: ( BSLASH ( CharacterEscapeSequence | OctalEscapeSequence | HexEscapeSequence | UnicodeEscapeSequence ) )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:789:2: BSLASH ( CharacterEscapeSequence | OctalEscapeSequence | HexEscapeSequence | UnicodeEscapeSequence )
             {
             mBSLASH(); 
-            // com/google/jstestdriver/coverage/es3/ES3.g:790:2: ( CharacterEscapeSequence | OctalEscapeSequence | HexEscapeSequence | UnicodeEscapeSequence )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:790:2: ( CharacterEscapeSequence | OctalEscapeSequence | HexEscapeSequence | UnicodeEscapeSequence )
             int alt24=4;
             int LA24_0 = input.LA(1);
 
@@ -4031,28 +4031,28 @@ public class ES3Lexer extends Lexer {
             }
             switch (alt24) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:791:3: CharacterEscapeSequence
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:791:3: CharacterEscapeSequence
                     {
                     mCharacterEscapeSequence(); 
 
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:792:5: OctalEscapeSequence
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:792:5: OctalEscapeSequence
                     {
                     mOctalEscapeSequence(); 
 
                     }
                     break;
                 case 3 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:793:5: HexEscapeSequence
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:793:5: HexEscapeSequence
                     {
                     mHexEscapeSequence(); 
 
                     }
                     break;
                 case 4 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:794:5: UnicodeEscapeSequence
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:794:5: UnicodeEscapeSequence
                     {
                     mUnicodeEscapeSequence(); 
 
@@ -4075,7 +4075,7 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = StringLiteral;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:799:2: ( SQUOTE (~ ( SQUOTE | BSLASH | LineTerminator ) | EscapeSequence )* SQUOTE | DQUOTE (~ ( DQUOTE | BSLASH | LineTerminator ) | EscapeSequence )* DQUOTE )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:799:2: ( SQUOTE (~ ( SQUOTE | BSLASH | LineTerminator ) | EscapeSequence )* SQUOTE | DQUOTE (~ ( DQUOTE | BSLASH | LineTerminator ) | EscapeSequence )* DQUOTE )
             int alt27=2;
             int LA27_0 = input.LA(1);
 
@@ -4093,10 +4093,10 @@ public class ES3Lexer extends Lexer {
             }
             switch (alt27) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:799:4: SQUOTE (~ ( SQUOTE | BSLASH | LineTerminator ) | EscapeSequence )* SQUOTE
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:799:4: SQUOTE (~ ( SQUOTE | BSLASH | LineTerminator ) | EscapeSequence )* SQUOTE
                     {
                     mSQUOTE(); 
-                    // com/google/jstestdriver/coverage/es3/ES3.g:799:11: (~ ( SQUOTE | BSLASH | LineTerminator ) | EscapeSequence )*
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:799:11: (~ ( SQUOTE | BSLASH | LineTerminator ) | EscapeSequence )*
                     loop25:
                     do {
                         int alt25=3;
@@ -4112,7 +4112,7 @@ public class ES3Lexer extends Lexer {
 
                         switch (alt25) {
                     	case 1 :
-                    	    // com/google/jstestdriver/coverage/es3/ES3.g:799:13: ~ ( SQUOTE | BSLASH | LineTerminator )
+                    	    // net/awired/jscoverage/instrumentation/es3/ES3.g:799:13: ~ ( SQUOTE | BSLASH | LineTerminator )
                     	    {
                     	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='\t')||(input.LA(1)>='\u000B' && input.LA(1)<='\f')||(input.LA(1)>='\u000E' && input.LA(1)<='&')||(input.LA(1)>='(' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\u2027')||(input.LA(1)>='\u202A' && input.LA(1)<='\uFFFF') ) {
                     	        input.consume();
@@ -4127,7 +4127,7 @@ public class ES3Lexer extends Lexer {
                     	    }
                     	    break;
                     	case 2 :
-                    	    // com/google/jstestdriver/coverage/es3/ES3.g:799:53: EscapeSequence
+                    	    // net/awired/jscoverage/instrumentation/es3/ES3.g:799:53: EscapeSequence
                     	    {
                     	    mEscapeSequence(); 
 
@@ -4144,10 +4144,10 @@ public class ES3Lexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:800:4: DQUOTE (~ ( DQUOTE | BSLASH | LineTerminator ) | EscapeSequence )* DQUOTE
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:800:4: DQUOTE (~ ( DQUOTE | BSLASH | LineTerminator ) | EscapeSequence )* DQUOTE
                     {
                     mDQUOTE(); 
-                    // com/google/jstestdriver/coverage/es3/ES3.g:800:11: (~ ( DQUOTE | BSLASH | LineTerminator ) | EscapeSequence )*
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:800:11: (~ ( DQUOTE | BSLASH | LineTerminator ) | EscapeSequence )*
                     loop26:
                     do {
                         int alt26=3;
@@ -4163,7 +4163,7 @@ public class ES3Lexer extends Lexer {
 
                         switch (alt26) {
                     	case 1 :
-                    	    // com/google/jstestdriver/coverage/es3/ES3.g:800:13: ~ ( DQUOTE | BSLASH | LineTerminator )
+                    	    // net/awired/jscoverage/instrumentation/es3/ES3.g:800:13: ~ ( DQUOTE | BSLASH | LineTerminator )
                     	    {
                     	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='\t')||(input.LA(1)>='\u000B' && input.LA(1)<='\f')||(input.LA(1)>='\u000E' && input.LA(1)<='!')||(input.LA(1)>='#' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\u2027')||(input.LA(1)>='\u202A' && input.LA(1)<='\uFFFF') ) {
                     	        input.consume();
@@ -4178,7 +4178,7 @@ public class ES3Lexer extends Lexer {
                     	    }
                     	    break;
                     	case 2 :
-                    	    // com/google/jstestdriver/coverage/es3/ES3.g:800:53: EscapeSequence
+                    	    // net/awired/jscoverage/instrumentation/es3/ES3.g:800:53: EscapeSequence
                     	    {
                     	    mEscapeSequence(); 
 
@@ -4207,8 +4207,8 @@ public class ES3Lexer extends Lexer {
     // $ANTLR start "BackslashSequence"
     public final void mBackslashSequence() throws RecognitionException {
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:808:2: ( BSLASH ~ ( LineTerminator ) )
-            // com/google/jstestdriver/coverage/es3/ES3.g:808:4: BSLASH ~ ( LineTerminator )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:808:2: ( BSLASH ~ ( LineTerminator ) )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:808:4: BSLASH ~ ( LineTerminator )
             {
             mBSLASH(); 
             if ( (input.LA(1)>='\u0000' && input.LA(1)<='\t')||(input.LA(1)>='\u000B' && input.LA(1)<='\f')||(input.LA(1)>='\u000E' && input.LA(1)<='\u2027')||(input.LA(1)>='\u202A' && input.LA(1)<='\uFFFF') ) {
@@ -4232,7 +4232,7 @@ public class ES3Lexer extends Lexer {
     // $ANTLR start "RegularExpressionFirstChar"
     public final void mRegularExpressionFirstChar() throws RecognitionException {
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:812:2: (~ ( LineTerminator | MUL | BSLASH | DIV ) | BackslashSequence )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:812:2: (~ ( LineTerminator | MUL | BSLASH | DIV ) | BackslashSequence )
             int alt28=2;
             int LA28_0 = input.LA(1);
 
@@ -4250,7 +4250,7 @@ public class ES3Lexer extends Lexer {
             }
             switch (alt28) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:812:4: ~ ( LineTerminator | MUL | BSLASH | DIV )
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:812:4: ~ ( LineTerminator | MUL | BSLASH | DIV )
                     {
                     if ( (input.LA(1)>='\u0000' && input.LA(1)<='\t')||(input.LA(1)>='\u000B' && input.LA(1)<='\f')||(input.LA(1)>='\u000E' && input.LA(1)<=')')||(input.LA(1)>='+' && input.LA(1)<='.')||(input.LA(1)>='0' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\u2027')||(input.LA(1)>='\u202A' && input.LA(1)<='\uFFFF') ) {
                         input.consume();
@@ -4265,7 +4265,7 @@ public class ES3Lexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:813:4: BackslashSequence
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:813:4: BackslashSequence
                     {
                     mBackslashSequence(); 
 
@@ -4282,7 +4282,7 @@ public class ES3Lexer extends Lexer {
     // $ANTLR start "RegularExpressionChar"
     public final void mRegularExpressionChar() throws RecognitionException {
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:817:2: (~ ( LineTerminator | BSLASH | DIV ) | BackslashSequence )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:817:2: (~ ( LineTerminator | BSLASH | DIV ) | BackslashSequence )
             int alt29=2;
             int LA29_0 = input.LA(1);
 
@@ -4300,7 +4300,7 @@ public class ES3Lexer extends Lexer {
             }
             switch (alt29) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:817:4: ~ ( LineTerminator | BSLASH | DIV )
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:817:4: ~ ( LineTerminator | BSLASH | DIV )
                     {
                     if ( (input.LA(1)>='\u0000' && input.LA(1)<='\t')||(input.LA(1)>='\u000B' && input.LA(1)<='\f')||(input.LA(1)>='\u000E' && input.LA(1)<='.')||(input.LA(1)>='0' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\u2027')||(input.LA(1)>='\u202A' && input.LA(1)<='\uFFFF') ) {
                         input.consume();
@@ -4315,7 +4315,7 @@ public class ES3Lexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:818:4: BackslashSequence
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:818:4: BackslashSequence
                     {
                     mBackslashSequence(); 
 
@@ -4334,15 +4334,15 @@ public class ES3Lexer extends Lexer {
         try {
             int _type = RegularExpressionLiteral;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // com/google/jstestdriver/coverage/es3/ES3.g:822:2: ({...}? => DIV RegularExpressionFirstChar ( RegularExpressionChar )* DIV ( IdentifierPart )* )
-            // com/google/jstestdriver/coverage/es3/ES3.g:822:4: {...}? => DIV RegularExpressionFirstChar ( RegularExpressionChar )* DIV ( IdentifierPart )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:822:2: ({...}? => DIV RegularExpressionFirstChar ( RegularExpressionChar )* DIV ( IdentifierPart )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:822:4: {...}? => DIV RegularExpressionFirstChar ( RegularExpressionChar )* DIV ( IdentifierPart )*
             {
             if ( !(( areRegularExpressionsEnabled() )) ) {
                 throw new FailedPredicateException(input, "RegularExpressionLiteral", " areRegularExpressionsEnabled() ");
             }
             mDIV(); 
             mRegularExpressionFirstChar(); 
-            // com/google/jstestdriver/coverage/es3/ES3.g:822:73: ( RegularExpressionChar )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:822:73: ( RegularExpressionChar )*
             loop30:
             do {
                 int alt30=2;
@@ -4355,7 +4355,7 @@ public class ES3Lexer extends Lexer {
 
                 switch (alt30) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:822:73: RegularExpressionChar
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:822:73: RegularExpressionChar
             	    {
             	    mRegularExpressionChar(); 
 
@@ -4368,7 +4368,7 @@ public class ES3Lexer extends Lexer {
             } while (true);
 
             mDIV(); 
-            // com/google/jstestdriver/coverage/es3/ES3.g:822:100: ( IdentifierPart )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:822:100: ( IdentifierPart )*
             loop31:
             do {
                 int alt31=2;
@@ -4384,7 +4384,7 @@ public class ES3Lexer extends Lexer {
 
                 switch (alt31) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:822:100: IdentifierPart
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:822:100: IdentifierPart
             	    {
             	    mIdentifierPart(); 
 
@@ -4408,824 +4408,824 @@ public class ES3Lexer extends Lexer {
     // $ANTLR end "RegularExpressionLiteral"
 
     public void mTokens() throws RecognitionException {
-        // com/google/jstestdriver/coverage/es3/ES3.g:1:8: ( NULL | TRUE | FALSE | BREAK | CASE | CATCH | CONTINUE | DEFAULT | DELETE | DO | ELSE | FINALLY | FOR | FUNCTION | IF | IN | INSTANCEOF | NEW | RETURN | SWITCH | THIS | THROW | TRY | TYPEOF | VAR | VOID | WHILE | WITH | ABSTRACT | BOOLEAN | BYTE | CHAR | CLASS | CONST | DEBUGGER | DOUBLE | ENUM | EXPORT | EXTENDS | FINAL | FLOAT | GOTO | IMPLEMENTS | IMPORT | INT | INTERFACE | LONG | NATIVE | PACKAGE | PRIVATE | PROTECTED | PUBLIC | SHORT | STATIC | SUPER | SYNCHRONIZED | THROWS | TRANSIENT | VOLATILE | LBRACE | RBRACE | LPAREN | RPAREN | LBRACK | RBRACK | DOT | SEMIC | COMMA | LT | GT | LTE | GTE | EQ | NEQ | SAME | NSAME | ADD | SUB | MUL | MOD | INC | DEC | SHL | SHR | SHU | AND | OR | XOR | NOT | INV | LAND | LOR | QUE | COLON | ASSIGN | ADDASS | SUBASS | MULASS | MODASS | SHLASS | SHRASS | SHUASS | ANDASS | ORASS | XORASS | DIV | DIVASS | WhiteSpace | EOL | MultiLineComment | SingleLineComment | Identifier | DecimalLiteral | OctalIntegerLiteral | HexIntegerLiteral | StringLiteral | RegularExpressionLiteral )
+        // net/awired/jscoverage/instrumentation/es3/ES3.g:1:8: ( NULL | TRUE | FALSE | BREAK | CASE | CATCH | CONTINUE | DEFAULT | DELETE | DO | ELSE | FINALLY | FOR | FUNCTION | IF | IN | INSTANCEOF | NEW | RETURN | SWITCH | THIS | THROW | TRY | TYPEOF | VAR | VOID | WHILE | WITH | ABSTRACT | BOOLEAN | BYTE | CHAR | CLASS | CONST | DEBUGGER | DOUBLE | ENUM | EXPORT | EXTENDS | FINAL | FLOAT | GOTO | IMPLEMENTS | IMPORT | INT | INTERFACE | LONG | NATIVE | PACKAGE | PRIVATE | PROTECTED | PUBLIC | SHORT | STATIC | SUPER | SYNCHRONIZED | THROWS | TRANSIENT | VOLATILE | LBRACE | RBRACE | LPAREN | RPAREN | LBRACK | RBRACK | DOT | SEMIC | COMMA | LT | GT | LTE | GTE | EQ | NEQ | SAME | NSAME | ADD | SUB | MUL | MOD | INC | DEC | SHL | SHR | SHU | AND | OR | XOR | NOT | INV | LAND | LOR | QUE | COLON | ASSIGN | ADDASS | SUBASS | MULASS | MODASS | SHLASS | SHRASS | SHUASS | ANDASS | ORASS | XORASS | DIV | DIVASS | WhiteSpace | EOL | MultiLineComment | SingleLineComment | Identifier | DecimalLiteral | OctalIntegerLiteral | HexIntegerLiteral | StringLiteral | RegularExpressionLiteral )
         int alt32=117;
         alt32 = dfa32.predict(input);
         switch (alt32) {
             case 1 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:10: NULL
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:10: NULL
                 {
                 mNULL(); 
 
                 }
                 break;
             case 2 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:15: TRUE
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:15: TRUE
                 {
                 mTRUE(); 
 
                 }
                 break;
             case 3 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:20: FALSE
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:20: FALSE
                 {
                 mFALSE(); 
 
                 }
                 break;
             case 4 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:26: BREAK
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:26: BREAK
                 {
                 mBREAK(); 
 
                 }
                 break;
             case 5 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:32: CASE
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:32: CASE
                 {
                 mCASE(); 
 
                 }
                 break;
             case 6 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:37: CATCH
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:37: CATCH
                 {
                 mCATCH(); 
 
                 }
                 break;
             case 7 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:43: CONTINUE
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:43: CONTINUE
                 {
                 mCONTINUE(); 
 
                 }
                 break;
             case 8 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:52: DEFAULT
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:52: DEFAULT
                 {
                 mDEFAULT(); 
 
                 }
                 break;
             case 9 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:60: DELETE
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:60: DELETE
                 {
                 mDELETE(); 
 
                 }
                 break;
             case 10 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:67: DO
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:67: DO
                 {
                 mDO(); 
 
                 }
                 break;
             case 11 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:70: ELSE
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:70: ELSE
                 {
                 mELSE(); 
 
                 }
                 break;
             case 12 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:75: FINALLY
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:75: FINALLY
                 {
                 mFINALLY(); 
 
                 }
                 break;
             case 13 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:83: FOR
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:83: FOR
                 {
                 mFOR(); 
 
                 }
                 break;
             case 14 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:87: FUNCTION
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:87: FUNCTION
                 {
                 mFUNCTION(); 
 
                 }
                 break;
             case 15 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:96: IF
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:96: IF
                 {
                 mIF(); 
 
                 }
                 break;
             case 16 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:99: IN
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:99: IN
                 {
                 mIN(); 
 
                 }
                 break;
             case 17 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:102: INSTANCEOF
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:102: INSTANCEOF
                 {
                 mINSTANCEOF(); 
 
                 }
                 break;
             case 18 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:113: NEW
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:113: NEW
                 {
                 mNEW(); 
 
                 }
                 break;
             case 19 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:117: RETURN
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:117: RETURN
                 {
                 mRETURN(); 
 
                 }
                 break;
             case 20 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:124: SWITCH
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:124: SWITCH
                 {
                 mSWITCH(); 
 
                 }
                 break;
             case 21 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:131: THIS
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:131: THIS
                 {
                 mTHIS(); 
 
                 }
                 break;
             case 22 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:136: THROW
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:136: THROW
                 {
                 mTHROW(); 
 
                 }
                 break;
             case 23 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:142: TRY
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:142: TRY
                 {
                 mTRY(); 
 
                 }
                 break;
             case 24 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:146: TYPEOF
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:146: TYPEOF
                 {
                 mTYPEOF(); 
 
                 }
                 break;
             case 25 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:153: VAR
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:153: VAR
                 {
                 mVAR(); 
 
                 }
                 break;
             case 26 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:157: VOID
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:157: VOID
                 {
                 mVOID(); 
 
                 }
                 break;
             case 27 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:162: WHILE
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:162: WHILE
                 {
                 mWHILE(); 
 
                 }
                 break;
             case 28 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:168: WITH
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:168: WITH
                 {
                 mWITH(); 
 
                 }
                 break;
             case 29 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:173: ABSTRACT
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:173: ABSTRACT
                 {
                 mABSTRACT(); 
 
                 }
                 break;
             case 30 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:182: BOOLEAN
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:182: BOOLEAN
                 {
                 mBOOLEAN(); 
 
                 }
                 break;
             case 31 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:190: BYTE
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:190: BYTE
                 {
                 mBYTE(); 
 
                 }
                 break;
             case 32 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:195: CHAR
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:195: CHAR
                 {
                 mCHAR(); 
 
                 }
                 break;
             case 33 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:200: CLASS
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:200: CLASS
                 {
                 mCLASS(); 
 
                 }
                 break;
             case 34 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:206: CONST
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:206: CONST
                 {
                 mCONST(); 
 
                 }
                 break;
             case 35 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:212: DEBUGGER
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:212: DEBUGGER
                 {
                 mDEBUGGER(); 
 
                 }
                 break;
             case 36 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:221: DOUBLE
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:221: DOUBLE
                 {
                 mDOUBLE(); 
 
                 }
                 break;
             case 37 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:228: ENUM
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:228: ENUM
                 {
                 mENUM(); 
 
                 }
                 break;
             case 38 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:233: EXPORT
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:233: EXPORT
                 {
                 mEXPORT(); 
 
                 }
                 break;
             case 39 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:240: EXTENDS
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:240: EXTENDS
                 {
                 mEXTENDS(); 
 
                 }
                 break;
             case 40 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:248: FINAL
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:248: FINAL
                 {
                 mFINAL(); 
 
                 }
                 break;
             case 41 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:254: FLOAT
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:254: FLOAT
                 {
                 mFLOAT(); 
 
                 }
                 break;
             case 42 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:260: GOTO
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:260: GOTO
                 {
                 mGOTO(); 
 
                 }
                 break;
             case 43 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:265: IMPLEMENTS
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:265: IMPLEMENTS
                 {
                 mIMPLEMENTS(); 
 
                 }
                 break;
             case 44 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:276: IMPORT
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:276: IMPORT
                 {
                 mIMPORT(); 
 
                 }
                 break;
             case 45 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:283: INT
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:283: INT
                 {
                 mINT(); 
 
                 }
                 break;
             case 46 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:287: INTERFACE
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:287: INTERFACE
                 {
                 mINTERFACE(); 
 
                 }
                 break;
             case 47 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:297: LONG
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:297: LONG
                 {
                 mLONG(); 
 
                 }
                 break;
             case 48 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:302: NATIVE
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:302: NATIVE
                 {
                 mNATIVE(); 
 
                 }
                 break;
             case 49 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:309: PACKAGE
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:309: PACKAGE
                 {
                 mPACKAGE(); 
 
                 }
                 break;
             case 50 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:317: PRIVATE
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:317: PRIVATE
                 {
                 mPRIVATE(); 
 
                 }
                 break;
             case 51 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:325: PROTECTED
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:325: PROTECTED
                 {
                 mPROTECTED(); 
 
                 }
                 break;
             case 52 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:335: PUBLIC
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:335: PUBLIC
                 {
                 mPUBLIC(); 
 
                 }
                 break;
             case 53 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:342: SHORT
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:342: SHORT
                 {
                 mSHORT(); 
 
                 }
                 break;
             case 54 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:348: STATIC
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:348: STATIC
                 {
                 mSTATIC(); 
 
                 }
                 break;
             case 55 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:355: SUPER
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:355: SUPER
                 {
                 mSUPER(); 
 
                 }
                 break;
             case 56 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:361: SYNCHRONIZED
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:361: SYNCHRONIZED
                 {
                 mSYNCHRONIZED(); 
 
                 }
                 break;
             case 57 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:374: THROWS
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:374: THROWS
                 {
                 mTHROWS(); 
 
                 }
                 break;
             case 58 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:381: TRANSIENT
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:381: TRANSIENT
                 {
                 mTRANSIENT(); 
 
                 }
                 break;
             case 59 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:391: VOLATILE
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:391: VOLATILE
                 {
                 mVOLATILE(); 
 
                 }
                 break;
             case 60 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:400: LBRACE
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:400: LBRACE
                 {
                 mLBRACE(); 
 
                 }
                 break;
             case 61 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:407: RBRACE
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:407: RBRACE
                 {
                 mRBRACE(); 
 
                 }
                 break;
             case 62 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:414: LPAREN
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:414: LPAREN
                 {
                 mLPAREN(); 
 
                 }
                 break;
             case 63 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:421: RPAREN
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:421: RPAREN
                 {
                 mRPAREN(); 
 
                 }
                 break;
             case 64 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:428: LBRACK
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:428: LBRACK
                 {
                 mLBRACK(); 
 
                 }
                 break;
             case 65 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:435: RBRACK
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:435: RBRACK
                 {
                 mRBRACK(); 
 
                 }
                 break;
             case 66 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:442: DOT
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:442: DOT
                 {
                 mDOT(); 
 
                 }
                 break;
             case 67 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:446: SEMIC
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:446: SEMIC
                 {
                 mSEMIC(); 
 
                 }
                 break;
             case 68 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:452: COMMA
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:452: COMMA
                 {
                 mCOMMA(); 
 
                 }
                 break;
             case 69 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:458: LT
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:458: LT
                 {
                 mLT(); 
 
                 }
                 break;
             case 70 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:461: GT
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:461: GT
                 {
                 mGT(); 
 
                 }
                 break;
             case 71 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:464: LTE
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:464: LTE
                 {
                 mLTE(); 
 
                 }
                 break;
             case 72 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:468: GTE
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:468: GTE
                 {
                 mGTE(); 
 
                 }
                 break;
             case 73 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:472: EQ
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:472: EQ
                 {
                 mEQ(); 
 
                 }
                 break;
             case 74 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:475: NEQ
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:475: NEQ
                 {
                 mNEQ(); 
 
                 }
                 break;
             case 75 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:479: SAME
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:479: SAME
                 {
                 mSAME(); 
 
                 }
                 break;
             case 76 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:484: NSAME
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:484: NSAME
                 {
                 mNSAME(); 
 
                 }
                 break;
             case 77 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:490: ADD
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:490: ADD
                 {
                 mADD(); 
 
                 }
                 break;
             case 78 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:494: SUB
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:494: SUB
                 {
                 mSUB(); 
 
                 }
                 break;
             case 79 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:498: MUL
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:498: MUL
                 {
                 mMUL(); 
 
                 }
                 break;
             case 80 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:502: MOD
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:502: MOD
                 {
                 mMOD(); 
 
                 }
                 break;
             case 81 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:506: INC
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:506: INC
                 {
                 mINC(); 
 
                 }
                 break;
             case 82 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:510: DEC
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:510: DEC
                 {
                 mDEC(); 
 
                 }
                 break;
             case 83 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:514: SHL
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:514: SHL
                 {
                 mSHL(); 
 
                 }
                 break;
             case 84 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:518: SHR
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:518: SHR
                 {
                 mSHR(); 
 
                 }
                 break;
             case 85 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:522: SHU
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:522: SHU
                 {
                 mSHU(); 
 
                 }
                 break;
             case 86 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:526: AND
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:526: AND
                 {
                 mAND(); 
 
                 }
                 break;
             case 87 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:530: OR
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:530: OR
                 {
                 mOR(); 
 
                 }
                 break;
             case 88 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:533: XOR
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:533: XOR
                 {
                 mXOR(); 
 
                 }
                 break;
             case 89 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:537: NOT
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:537: NOT
                 {
                 mNOT(); 
 
                 }
                 break;
             case 90 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:541: INV
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:541: INV
                 {
                 mINV(); 
 
                 }
                 break;
             case 91 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:545: LAND
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:545: LAND
                 {
                 mLAND(); 
 
                 }
                 break;
             case 92 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:550: LOR
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:550: LOR
                 {
                 mLOR(); 
 
                 }
                 break;
             case 93 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:554: QUE
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:554: QUE
                 {
                 mQUE(); 
 
                 }
                 break;
             case 94 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:558: COLON
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:558: COLON
                 {
                 mCOLON(); 
 
                 }
                 break;
             case 95 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:564: ASSIGN
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:564: ASSIGN
                 {
                 mASSIGN(); 
 
                 }
                 break;
             case 96 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:571: ADDASS
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:571: ADDASS
                 {
                 mADDASS(); 
 
                 }
                 break;
             case 97 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:578: SUBASS
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:578: SUBASS
                 {
                 mSUBASS(); 
 
                 }
                 break;
             case 98 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:585: MULASS
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:585: MULASS
                 {
                 mMULASS(); 
 
                 }
                 break;
             case 99 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:592: MODASS
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:592: MODASS
                 {
                 mMODASS(); 
 
                 }
                 break;
             case 100 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:599: SHLASS
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:599: SHLASS
                 {
                 mSHLASS(); 
 
                 }
                 break;
             case 101 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:606: SHRASS
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:606: SHRASS
                 {
                 mSHRASS(); 
 
                 }
                 break;
             case 102 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:613: SHUASS
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:613: SHUASS
                 {
                 mSHUASS(); 
 
                 }
                 break;
             case 103 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:620: ANDASS
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:620: ANDASS
                 {
                 mANDASS(); 
 
                 }
                 break;
             case 104 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:627: ORASS
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:627: ORASS
                 {
                 mORASS(); 
 
                 }
                 break;
             case 105 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:633: XORASS
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:633: XORASS
                 {
                 mXORASS(); 
 
                 }
                 break;
             case 106 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:640: DIV
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:640: DIV
                 {
                 mDIV(); 
 
                 }
                 break;
             case 107 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:644: DIVASS
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:644: DIVASS
                 {
                 mDIVASS(); 
 
                 }
                 break;
             case 108 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:651: WhiteSpace
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:651: WhiteSpace
                 {
                 mWhiteSpace(); 
 
                 }
                 break;
             case 109 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:662: EOL
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:662: EOL
                 {
                 mEOL(); 
 
                 }
                 break;
             case 110 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:666: MultiLineComment
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:666: MultiLineComment
                 {
                 mMultiLineComment(); 
 
                 }
                 break;
             case 111 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:683: SingleLineComment
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:683: SingleLineComment
                 {
                 mSingleLineComment(); 
 
                 }
                 break;
             case 112 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:701: Identifier
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:701: Identifier
                 {
                 mIdentifier(); 
 
                 }
                 break;
             case 113 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:712: DecimalLiteral
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:712: DecimalLiteral
                 {
                 mDecimalLiteral(); 
 
                 }
                 break;
             case 114 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:727: OctalIntegerLiteral
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:727: OctalIntegerLiteral
                 {
                 mOctalIntegerLiteral(); 
 
                 }
                 break;
             case 115 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:747: HexIntegerLiteral
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:747: HexIntegerLiteral
                 {
                 mHexIntegerLiteral(); 
 
                 }
                 break;
             case 116 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:765: StringLiteral
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:765: StringLiteral
                 {
                 mStringLiteral(); 
 
                 }
                 break;
             case 117 :
-                // com/google/jstestdriver/coverage/es3/ES3.g:1:779: RegularExpressionLiteral
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1:779: RegularExpressionLiteral
                 {
                 mRegularExpressionLiteral(); 
 

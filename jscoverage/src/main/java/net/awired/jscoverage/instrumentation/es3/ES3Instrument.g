@@ -187,11 +187,11 @@ tokens
 }
 
 @parser::header {
-  package com.google.jstestdriver.coverage.es3;
+  package net.awired.jscoverage.instrumentation.es3;
   import org.antlr.runtime.tree.Tree;
 }
 @lexer::header {
-  package com.google.jstestdriver.coverage.es3;
+  package net.awired.jscoverage.instrumentation.es3;
 }
 @lexer::members
 {

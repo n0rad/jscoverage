@@ -56,8 +56,6 @@
 									jar="${settings.localRepository}/org/antlr/antlr/${antlr.version}/antlr-${antlr.version}-jar-with-dependencies.jar"
 									fork="true" dir="src/main/java">
 									<arg value="-make" />
-									<arg value="-o" />
-									<arg value="src/main/java" />
 									<arg
 										value="net/awired/jscoverage/instrumentation/es3/ES3Instrument.g" />
 								</java>
@@ -65,8 +63,6 @@
 									jar="${settings.localRepository}/org/antlr/antlr/${antlr.version}/antlr-${antlr.version}-jar-with-dependencies.jar"
 									fork="true" dir="src/main/java">
 									<arg value="-make" />
-									<arg value="-o" />
-									<arg value="src/main/java" />
 									<arg value="net/awired/jscoverage/instrumentation/es3/ES3.g" />
 								</java>
 							</target>

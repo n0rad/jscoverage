@@ -1,4 +1,4 @@
-// $ANTLR 3.1.3 Mar 18, 2009 10:09:25 com/google/jstestdriver/coverage/es3/ES3Instrument.g 2012-01-25 23:23:48
+// $ANTLR 3.1.2 net/awired/jscoverage/instrumentation/es3/ES3Instrument.g 2012-01-26 02:31:42
 
   package net.awired.jscoverage.instrumentation.es3;
   import org.antlr.runtime.tree.Tree;
@@ -221,7 +221,7 @@ public class ES3InstrumentParser extends Parser {
     }
 
     public String[] getTokenNames() { return ES3InstrumentParser.tokenNames; }
-    public String getGrammarFileName() { return "com/google/jstestdriver/coverage/es3/ES3Instrument.g"; }
+    public String getGrammarFileName() { return "net/awired/jscoverage/instrumentation/es3/ES3Instrument.g"; }
 
 
 
@@ -374,13 +374,13 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "token"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:528:1: token : ( reservedWord | Identifier | punctuator | numericLiteral | StringLiteral );
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:528:1: token : ( reservedWord | Identifier | punctuator | numericLiteral | StringLiteral );
     public final ES3InstrumentParser.token_return token() throws RecognitionException {
         ES3InstrumentParser.token_return retval = new ES3InstrumentParser.token_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:529:2: ( reservedWord | Identifier | punctuator | numericLiteral | StringLiteral )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:529:2: ( reservedWord | Identifier | punctuator | numericLiteral | StringLiteral )
             int alt1=5;
             switch ( input.LA(1) ) {
             case NULL:
@@ -524,7 +524,7 @@ public class ES3InstrumentParser extends Parser {
 
             switch (alt1) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:529:4: reservedWord
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:529:4: reservedWord
                     {
                     pushFollow(FOLLOW_reservedWord_in_token1759);
                     reservedWord();
@@ -535,14 +535,14 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:530:4: Identifier
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:530:4: Identifier
                     {
                     match(input,Identifier,FOLLOW_Identifier_in_token1764); 
 
                     }
                     break;
                 case 3 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:531:4: punctuator
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:531:4: punctuator
                     {
                     pushFollow(FOLLOW_punctuator_in_token1769);
                     punctuator();
@@ -553,7 +553,7 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 4 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:532:4: numericLiteral
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:532:4: numericLiteral
                     {
                     pushFollow(FOLLOW_numericLiteral_in_token1774);
                     numericLiteral();
@@ -564,7 +564,7 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 5 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:533:4: StringLiteral
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:533:4: StringLiteral
                     {
                     match(input,StringLiteral,FOLLOW_StringLiteral_in_token1779); 
 
@@ -592,13 +592,13 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "reservedWord"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:538:1: reservedWord : ( keyword | futureReservedWord | NULL | booleanLiteral );
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:538:1: reservedWord : ( keyword | futureReservedWord | NULL | booleanLiteral );
     public final ES3InstrumentParser.reservedWord_return reservedWord() throws RecognitionException {
         ES3InstrumentParser.reservedWord_return retval = new ES3InstrumentParser.reservedWord_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:539:2: ( keyword | futureReservedWord | NULL | booleanLiteral )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:539:2: ( keyword | futureReservedWord | NULL | booleanLiteral )
             int alt2=4;
             switch ( input.LA(1) ) {
             case BREAK:
@@ -685,7 +685,7 @@ public class ES3InstrumentParser extends Parser {
 
             switch (alt2) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:539:4: keyword
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:539:4: keyword
                     {
                     pushFollow(FOLLOW_keyword_in_reservedWord1792);
                     keyword();
@@ -696,7 +696,7 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:540:4: futureReservedWord
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:540:4: futureReservedWord
                     {
                     pushFollow(FOLLOW_futureReservedWord_in_reservedWord1797);
                     futureReservedWord();
@@ -707,14 +707,14 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 3 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:541:4: NULL
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:541:4: NULL
                     {
                     match(input,NULL,FOLLOW_NULL_in_reservedWord1802); 
 
                     }
                     break;
                 case 4 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:542:4: booleanLiteral
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:542:4: booleanLiteral
                     {
                     pushFollow(FOLLOW_booleanLiteral_in_reservedWord1807);
                     booleanLiteral();
@@ -746,14 +746,14 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "keyword"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:549:1: keyword : ( BREAK | CASE | CATCH | CONTINUE | DEFAULT | DELETE | DO | ELSE | FINALLY | FOR | FUNCTION | IF | IN | INSTANCEOF | NEW | RETURN | SWITCH | THIS | THROW | TRY | TYPEOF | VAR | VOID | WHILE | WITH );
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:549:1: keyword : ( BREAK | CASE | CATCH | CONTINUE | DEFAULT | DELETE | DO | ELSE | FINALLY | FOR | FUNCTION | IF | IN | INSTANCEOF | NEW | RETURN | SWITCH | THIS | THROW | TRY | TYPEOF | VAR | VOID | WHILE | WITH );
     public final ES3InstrumentParser.keyword_return keyword() throws RecognitionException {
         ES3InstrumentParser.keyword_return retval = new ES3InstrumentParser.keyword_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:550:2: ( BREAK | CASE | CATCH | CONTINUE | DEFAULT | DELETE | DO | ELSE | FINALLY | FOR | FUNCTION | IF | IN | INSTANCEOF | NEW | RETURN | SWITCH | THIS | THROW | TRY | TYPEOF | VAR | VOID | WHILE | WITH )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:550:2: ( BREAK | CASE | CATCH | CONTINUE | DEFAULT | DELETE | DO | ELSE | FINALLY | FOR | FUNCTION | IF | IN | INSTANCEOF | NEW | RETURN | SWITCH | THIS | THROW | TRY | TYPEOF | VAR | VOID | WHILE | WITH )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:
             {
             if ( (input.LA(1)>=BREAK && input.LA(1)<=WITH) ) {
                 input.consume();
@@ -787,14 +787,14 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "futureReservedWord"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:581:1: futureReservedWord : ( ABSTRACT | BOOLEAN | BYTE | CHAR | CLASS | CONST | DEBUGGER | DOUBLE | ENUM | EXPORT | EXTENDS | FINAL | FLOAT | GOTO | IMPLEMENTS | IMPORT | INT | INTERFACE | LONG | NATIVE | PACKAGE | PRIVATE | PROTECTED | PUBLIC | SHORT | STATIC | SUPER | SYNCHRONIZED | THROWS | TRANSIENT | VOLATILE );
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:581:1: futureReservedWord : ( ABSTRACT | BOOLEAN | BYTE | CHAR | CLASS | CONST | DEBUGGER | DOUBLE | ENUM | EXPORT | EXTENDS | FINAL | FLOAT | GOTO | IMPLEMENTS | IMPORT | INT | INTERFACE | LONG | NATIVE | PACKAGE | PRIVATE | PROTECTED | PUBLIC | SHORT | STATIC | SUPER | SYNCHRONIZED | THROWS | TRANSIENT | VOLATILE );
     public final ES3InstrumentParser.futureReservedWord_return futureReservedWord() throws RecognitionException {
         ES3InstrumentParser.futureReservedWord_return retval = new ES3InstrumentParser.futureReservedWord_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:582:2: ( ABSTRACT | BOOLEAN | BYTE | CHAR | CLASS | CONST | DEBUGGER | DOUBLE | ENUM | EXPORT | EXTENDS | FINAL | FLOAT | GOTO | IMPLEMENTS | IMPORT | INT | INTERFACE | LONG | NATIVE | PACKAGE | PRIVATE | PROTECTED | PUBLIC | SHORT | STATIC | SUPER | SYNCHRONIZED | THROWS | TRANSIENT | VOLATILE )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:582:2: ( ABSTRACT | BOOLEAN | BYTE | CHAR | CLASS | CONST | DEBUGGER | DOUBLE | ENUM | EXPORT | EXTENDS | FINAL | FLOAT | GOTO | IMPLEMENTS | IMPORT | INT | INTERFACE | LONG | NATIVE | PACKAGE | PRIVATE | PROTECTED | PUBLIC | SHORT | STATIC | SUPER | SYNCHRONIZED | THROWS | TRANSIENT | VOLATILE )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:
             {
             if ( (input.LA(1)>=ABSTRACT && input.LA(1)<=VOLATILE) ) {
                 input.consume();
@@ -828,14 +828,14 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "punctuator"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:659:1: punctuator : ( LBRACE | RBRACE | LPAREN | RPAREN | LBRACK | RBRACK | DOT | SEMIC | COMMA | LT | GT | LTE | GTE | EQ | NEQ | SAME | NSAME | ADD | SUB | MUL | MOD | INC | DEC | SHL | SHR | SHU | AND | OR | XOR | NOT | INV | LAND | LOR | QUE | COLON | ASSIGN | ADDASS | SUBASS | MULASS | MODASS | SHLASS | SHRASS | SHUASS | ANDASS | ORASS | XORASS | DIV | DIVASS );
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:659:1: punctuator : ( LBRACE | RBRACE | LPAREN | RPAREN | LBRACK | RBRACK | DOT | SEMIC | COMMA | LT | GT | LTE | GTE | EQ | NEQ | SAME | NSAME | ADD | SUB | MUL | MOD | INC | DEC | SHL | SHR | SHU | AND | OR | XOR | NOT | INV | LAND | LOR | QUE | COLON | ASSIGN | ADDASS | SUBASS | MULASS | MODASS | SHLASS | SHRASS | SHUASS | ANDASS | ORASS | XORASS | DIV | DIVASS );
     public final ES3InstrumentParser.punctuator_return punctuator() throws RecognitionException {
         ES3InstrumentParser.punctuator_return retval = new ES3InstrumentParser.punctuator_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:660:2: ( LBRACE | RBRACE | LPAREN | RPAREN | LBRACK | RBRACK | DOT | SEMIC | COMMA | LT | GT | LTE | GTE | EQ | NEQ | SAME | NSAME | ADD | SUB | MUL | MOD | INC | DEC | SHL | SHR | SHU | AND | OR | XOR | NOT | INV | LAND | LOR | QUE | COLON | ASSIGN | ADDASS | SUBASS | MULASS | MODASS | SHLASS | SHRASS | SHUASS | ANDASS | ORASS | XORASS | DIV | DIVASS )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:660:2: ( LBRACE | RBRACE | LPAREN | RPAREN | LBRACK | RBRACK | DOT | SEMIC | COMMA | LT | GT | LTE | GTE | EQ | NEQ | SAME | NSAME | ADD | SUB | MUL | MOD | INC | DEC | SHL | SHR | SHU | AND | OR | XOR | NOT | INV | LAND | LOR | QUE | COLON | ASSIGN | ADDASS | SUBASS | MULASS | MODASS | SHLASS | SHRASS | SHUASS | ANDASS | ORASS | XORASS | DIV | DIVASS )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:
             {
             if ( (input.LA(1)>=LBRACE && input.LA(1)<=DIVASS) ) {
                 input.consume();
@@ -869,13 +869,13 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "literal"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:714:1: literal : ( NULL | booleanLiteral | numericLiteral | StringLiteral | RegularExpressionLiteral );
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:714:1: literal : ( NULL | booleanLiteral | numericLiteral | StringLiteral | RegularExpressionLiteral );
     public final ES3InstrumentParser.literal_return literal() throws RecognitionException {
         ES3InstrumentParser.literal_return retval = new ES3InstrumentParser.literal_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:715:2: ( NULL | booleanLiteral | numericLiteral | StringLiteral | RegularExpressionLiteral )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:715:2: ( NULL | booleanLiteral | numericLiteral | StringLiteral | RegularExpressionLiteral )
             int alt3=5;
             switch ( input.LA(1) ) {
             case NULL:
@@ -915,14 +915,14 @@ public class ES3InstrumentParser extends Parser {
 
             switch (alt3) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:715:4: NULL
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:715:4: NULL
                     {
                     match(input,NULL,FOLLOW_NULL_in_literal2488); 
 
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:716:4: booleanLiteral
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:716:4: booleanLiteral
                     {
                     pushFollow(FOLLOW_booleanLiteral_in_literal2493);
                     booleanLiteral();
@@ -933,7 +933,7 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 3 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:717:4: numericLiteral
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:717:4: numericLiteral
                     {
                     pushFollow(FOLLOW_numericLiteral_in_literal2498);
                     numericLiteral();
@@ -944,14 +944,14 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 4 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:718:4: StringLiteral
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:718:4: StringLiteral
                     {
                     match(input,StringLiteral,FOLLOW_StringLiteral_in_literal2503); 
 
                     }
                     break;
                 case 5 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:719:4: RegularExpressionLiteral
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:719:4: RegularExpressionLiteral
                     {
                     match(input,RegularExpressionLiteral,FOLLOW_RegularExpressionLiteral_in_literal2508); 
 
@@ -979,14 +979,14 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "booleanLiteral"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:722:1: booleanLiteral : ( TRUE | FALSE );
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:722:1: booleanLiteral : ( TRUE | FALSE );
     public final ES3InstrumentParser.booleanLiteral_return booleanLiteral() throws RecognitionException {
         ES3InstrumentParser.booleanLiteral_return retval = new ES3InstrumentParser.booleanLiteral_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:723:2: ( TRUE | FALSE )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:723:2: ( TRUE | FALSE )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:
             {
             if ( (input.LA(1)>=TRUE && input.LA(1)<=FALSE) ) {
                 input.consume();
@@ -1020,14 +1020,14 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "numericLiteral"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:769:1: numericLiteral : ( DecimalLiteral | OctalIntegerLiteral | HexIntegerLiteral );
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:769:1: numericLiteral : ( DecimalLiteral | OctalIntegerLiteral | HexIntegerLiteral );
     public final ES3InstrumentParser.numericLiteral_return numericLiteral() throws RecognitionException {
         ES3InstrumentParser.numericLiteral_return retval = new ES3InstrumentParser.numericLiteral_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:770:2: ( DecimalLiteral | OctalIntegerLiteral | HexIntegerLiteral )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:770:2: ( DecimalLiteral | OctalIntegerLiteral | HexIntegerLiteral )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:
             {
             if ( (input.LA(1)>=DecimalLiteral && input.LA(1)<=HexIntegerLiteral) ) {
                 input.consume();
@@ -1061,7 +1061,7 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "primaryExpression"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:857:1: primaryExpression : ( THIS | Identifier | literal | arrayLiteral | objectLiteral | lpar= LPAREN expression RPAREN );
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:857:1: primaryExpression : ( THIS | Identifier | literal | arrayLiteral | objectLiteral | lpar= LPAREN expression RPAREN );
     public final ES3InstrumentParser.primaryExpression_return primaryExpression() throws RecognitionException {
         ES3InstrumentParser.primaryExpression_return retval = new ES3InstrumentParser.primaryExpression_return();
         retval.start = input.LT(1);
@@ -1069,7 +1069,7 @@ public class ES3InstrumentParser extends Parser {
         Token lpar=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:858:2: ( THIS | Identifier | literal | arrayLiteral | objectLiteral | lpar= LPAREN expression RPAREN )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:858:2: ( THIS | Identifier | literal | arrayLiteral | objectLiteral | lpar= LPAREN expression RPAREN )
             int alt4=6;
             switch ( input.LA(1) ) {
             case THIS:
@@ -1118,21 +1118,21 @@ public class ES3InstrumentParser extends Parser {
 
             switch (alt4) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:858:4: THIS
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:858:4: THIS
                     {
                     match(input,THIS,FOLLOW_THIS_in_primaryExpression3121); 
 
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:859:4: Identifier
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:859:4: Identifier
                     {
                     match(input,Identifier,FOLLOW_Identifier_in_primaryExpression3126); 
 
                     }
                     break;
                 case 3 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:860:4: literal
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:860:4: literal
                     {
                     pushFollow(FOLLOW_literal_in_primaryExpression3131);
                     literal();
@@ -1143,7 +1143,7 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 4 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:861:4: arrayLiteral
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:861:4: arrayLiteral
                     {
                     pushFollow(FOLLOW_arrayLiteral_in_primaryExpression3136);
                     arrayLiteral();
@@ -1154,7 +1154,7 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 5 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:862:4: objectLiteral
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:862:4: objectLiteral
                     {
                     pushFollow(FOLLOW_objectLiteral_in_primaryExpression3141);
                     objectLiteral();
@@ -1165,7 +1165,7 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 6 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:863:4: lpar= LPAREN expression RPAREN
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:863:4: lpar= LPAREN expression RPAREN
                     {
                     lpar=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_primaryExpression3148); 
                     pushFollow(FOLLOW_expression_in_primaryExpression3150);
@@ -1199,7 +1199,7 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "arrayLiteral"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:866:1: arrayLiteral : lb= LBRACK ( arrayItem ( COMMA arrayItem )* )? RBRACK ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:866:1: arrayLiteral : lb= LBRACK ( arrayItem ( COMMA arrayItem )* )? RBRACK ;
     public final ES3InstrumentParser.arrayLiteral_return arrayLiteral() throws RecognitionException {
         ES3InstrumentParser.arrayLiteral_return retval = new ES3InstrumentParser.arrayLiteral_return();
         retval.start = input.LT(1);
@@ -1207,11 +1207,11 @@ public class ES3InstrumentParser extends Parser {
         Token lb=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:867:2: (lb= LBRACK ( arrayItem ( COMMA arrayItem )* )? RBRACK )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:867:4: lb= LBRACK ( arrayItem ( COMMA arrayItem )* )? RBRACK
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:867:2: (lb= LBRACK ( arrayItem ( COMMA arrayItem )* )? RBRACK )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:867:4: lb= LBRACK ( arrayItem ( COMMA arrayItem )* )? RBRACK
             {
             lb=(Token)match(input,LBRACK,FOLLOW_LBRACK_in_arrayLiteral3166); 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:867:14: ( arrayItem ( COMMA arrayItem )* )?
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:867:14: ( arrayItem ( COMMA arrayItem )* )?
             int alt6=2;
             int LA6_0 = input.LA(1);
 
@@ -1227,14 +1227,14 @@ public class ES3InstrumentParser extends Parser {
             }
             switch (alt6) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:867:16: arrayItem ( COMMA arrayItem )*
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:867:16: arrayItem ( COMMA arrayItem )*
                     {
                     pushFollow(FOLLOW_arrayItem_in_arrayLiteral3170);
                     arrayItem();
 
                     state._fsp--;
 
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:867:26: ( COMMA arrayItem )*
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:867:26: ( COMMA arrayItem )*
                     loop5:
                     do {
                         int alt5=2;
@@ -1247,7 +1247,7 @@ public class ES3InstrumentParser extends Parser {
 
                         switch (alt5) {
                     	case 1 :
-                    	    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:867:28: COMMA arrayItem
+                    	    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:867:28: COMMA arrayItem
                     	    {
                     	    match(input,COMMA,FOLLOW_COMMA_in_arrayLiteral3174); 
                     	    pushFollow(FOLLOW_arrayItem_in_arrayLiteral3176);
@@ -1294,7 +1294,7 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "arrayItem"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:871:1: arrayItem : (expr= assignmentExpression | {...}?) ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:871:1: arrayItem : (expr= assignmentExpression | {...}?) ;
     public final ES3InstrumentParser.arrayItem_return arrayItem() throws RecognitionException {
         ES3InstrumentParser.arrayItem_return retval = new ES3InstrumentParser.arrayItem_return();
         retval.start = input.LT(1);
@@ -1303,10 +1303,10 @@ public class ES3InstrumentParser extends Parser {
 
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:872:2: ( (expr= assignmentExpression | {...}?) )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:872:4: (expr= assignmentExpression | {...}?)
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:872:2: ( (expr= assignmentExpression | {...}?) )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:872:4: (expr= assignmentExpression | {...}?)
             {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:872:4: (expr= assignmentExpression | {...}?)
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:872:4: (expr= assignmentExpression | {...}?)
             int alt7=2;
             int LA7_0 = input.LA(1);
 
@@ -1324,7 +1324,7 @@ public class ES3InstrumentParser extends Parser {
             }
             switch (alt7) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:872:6: expr= assignmentExpression
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:872:6: expr= assignmentExpression
                     {
                     pushFollow(FOLLOW_assignmentExpression_in_arrayItem3201);
                     expr=assignmentExpression();
@@ -1335,7 +1335,7 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:872:34: {...}?
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:872:34: {...}?
                     {
                     if ( !(( input.LA(1) == COMMA )) ) {
                         throw new FailedPredicateException(input, "arrayItem", " input.LA(1) == COMMA ");
@@ -1369,7 +1369,7 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "objectLiteral"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:876:1: objectLiteral : lb= LBRACE ( nameValuePair ( COMMA nameValuePair )* )? RBRACE ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:876:1: objectLiteral : lb= LBRACE ( nameValuePair ( COMMA nameValuePair )* )? RBRACE ;
     public final ES3InstrumentParser.objectLiteral_return objectLiteral() throws RecognitionException {
         ES3InstrumentParser.objectLiteral_return retval = new ES3InstrumentParser.objectLiteral_return();
         retval.start = input.LT(1);
@@ -1377,11 +1377,11 @@ public class ES3InstrumentParser extends Parser {
         Token lb=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:877:2: (lb= LBRACE ( nameValuePair ( COMMA nameValuePair )* )? RBRACE )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:877:4: lb= LBRACE ( nameValuePair ( COMMA nameValuePair )* )? RBRACE
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:877:2: (lb= LBRACE ( nameValuePair ( COMMA nameValuePair )* )? RBRACE )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:877:4: lb= LBRACE ( nameValuePair ( COMMA nameValuePair )* )? RBRACE
             {
             lb=(Token)match(input,LBRACE,FOLLOW_LBRACE_in_objectLiteral3222); 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:877:14: ( nameValuePair ( COMMA nameValuePair )* )?
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:877:14: ( nameValuePair ( COMMA nameValuePair )* )?
             int alt9=2;
             int LA9_0 = input.LA(1);
 
@@ -1390,14 +1390,14 @@ public class ES3InstrumentParser extends Parser {
             }
             switch (alt9) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:877:16: nameValuePair ( COMMA nameValuePair )*
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:877:16: nameValuePair ( COMMA nameValuePair )*
                     {
                     pushFollow(FOLLOW_nameValuePair_in_objectLiteral3226);
                     nameValuePair();
 
                     state._fsp--;
 
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:877:30: ( COMMA nameValuePair )*
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:877:30: ( COMMA nameValuePair )*
                     loop8:
                     do {
                         int alt8=2;
@@ -1410,7 +1410,7 @@ public class ES3InstrumentParser extends Parser {
 
                         switch (alt8) {
                     	case 1 :
-                    	    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:877:32: COMMA nameValuePair
+                    	    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:877:32: COMMA nameValuePair
                     	    {
                     	    match(input,COMMA,FOLLOW_COMMA_in_objectLiteral3230); 
                     	    pushFollow(FOLLOW_nameValuePair_in_objectLiteral3232);
@@ -1457,14 +1457,14 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "nameValuePair"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:881:1: nameValuePair : propertyName COLON assignmentExpression ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:881:1: nameValuePair : propertyName COLON assignmentExpression ;
     public final ES3InstrumentParser.nameValuePair_return nameValuePair() throws RecognitionException {
         ES3InstrumentParser.nameValuePair_return retval = new ES3InstrumentParser.nameValuePair_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:882:2: ( propertyName COLON assignmentExpression )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:882:4: propertyName COLON assignmentExpression
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:882:2: ( propertyName COLON assignmentExpression )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:882:4: propertyName COLON assignmentExpression
             {
             pushFollow(FOLLOW_propertyName_in_nameValuePair3254);
             propertyName();
@@ -1500,13 +1500,13 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "propertyName"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:886:1: propertyName : ( Identifier | StringLiteral | numericLiteral );
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:886:1: propertyName : ( Identifier | StringLiteral | numericLiteral );
     public final ES3InstrumentParser.propertyName_return propertyName() throws RecognitionException {
         ES3InstrumentParser.propertyName_return retval = new ES3InstrumentParser.propertyName_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:887:2: ( Identifier | StringLiteral | numericLiteral )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:887:2: ( Identifier | StringLiteral | numericLiteral )
             int alt10=3;
             switch ( input.LA(1) ) {
             case Identifier:
@@ -1535,21 +1535,21 @@ public class ES3InstrumentParser extends Parser {
 
             switch (alt10) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:887:4: Identifier
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:887:4: Identifier
                     {
                     match(input,Identifier,FOLLOW_Identifier_in_propertyName3271); 
 
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:888:4: StringLiteral
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:888:4: StringLiteral
                     {
                     match(input,StringLiteral,FOLLOW_StringLiteral_in_propertyName3276); 
 
                     }
                     break;
                 case 3 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:889:4: numericLiteral
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:889:4: numericLiteral
                     {
                     pushFollow(FOLLOW_numericLiteral_in_propertyName3281);
                     numericLiteral();
@@ -1581,13 +1581,13 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "memberExpression"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:901:1: memberExpression : ( primaryExpression | functionExpression | newExpression );
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:901:1: memberExpression : ( primaryExpression | functionExpression | newExpression );
     public final ES3InstrumentParser.memberExpression_return memberExpression() throws RecognitionException {
         ES3InstrumentParser.memberExpression_return retval = new ES3InstrumentParser.memberExpression_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:902:2: ( primaryExpression | functionExpression | newExpression )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:902:2: ( primaryExpression | functionExpression | newExpression )
             int alt11=3;
             switch ( input.LA(1) ) {
             case NULL:
@@ -1626,7 +1626,7 @@ public class ES3InstrumentParser extends Parser {
 
             switch (alt11) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:902:4: primaryExpression
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:902:4: primaryExpression
                     {
                     pushFollow(FOLLOW_primaryExpression_in_memberExpression3299);
                     primaryExpression();
@@ -1637,7 +1637,7 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:903:4: functionExpression
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:903:4: functionExpression
                     {
                     pushFollow(FOLLOW_functionExpression_in_memberExpression3304);
                     functionExpression();
@@ -1648,7 +1648,7 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 3 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:904:4: newExpression
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:904:4: newExpression
                     {
                     pushFollow(FOLLOW_newExpression_in_memberExpression3309);
                     newExpression();
@@ -1680,14 +1680,14 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "newExpression"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:907:1: newExpression : NEW primaryExpression ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:907:1: newExpression : NEW primaryExpression ;
     public final ES3InstrumentParser.newExpression_return newExpression() throws RecognitionException {
         ES3InstrumentParser.newExpression_return retval = new ES3InstrumentParser.newExpression_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:908:2: ( NEW primaryExpression )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:908:4: NEW primaryExpression
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:908:2: ( NEW primaryExpression )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:908:4: NEW primaryExpression
             {
             match(input,NEW,FOLLOW_NEW_in_newExpression3320); 
             pushFollow(FOLLOW_primaryExpression_in_newExpression3322);
@@ -1718,17 +1718,17 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "arguments"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:912:1: arguments : LPAREN ( assignmentExpression ( COMMA assignmentExpression )* )? RPAREN ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:912:1: arguments : LPAREN ( assignmentExpression ( COMMA assignmentExpression )* )? RPAREN ;
     public final ES3InstrumentParser.arguments_return arguments() throws RecognitionException {
         ES3InstrumentParser.arguments_return retval = new ES3InstrumentParser.arguments_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:913:2: ( LPAREN ( assignmentExpression ( COMMA assignmentExpression )* )? RPAREN )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:913:4: LPAREN ( assignmentExpression ( COMMA assignmentExpression )* )? RPAREN
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:913:2: ( LPAREN ( assignmentExpression ( COMMA assignmentExpression )* )? RPAREN )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:913:4: LPAREN ( assignmentExpression ( COMMA assignmentExpression )* )? RPAREN
             {
             match(input,LPAREN,FOLLOW_LPAREN_in_arguments3335); 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:913:11: ( assignmentExpression ( COMMA assignmentExpression )* )?
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:913:11: ( assignmentExpression ( COMMA assignmentExpression )* )?
             int alt13=2;
             int LA13_0 = input.LA(1);
 
@@ -1737,14 +1737,14 @@ public class ES3InstrumentParser extends Parser {
             }
             switch (alt13) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:913:13: assignmentExpression ( COMMA assignmentExpression )*
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:913:13: assignmentExpression ( COMMA assignmentExpression )*
                     {
                     pushFollow(FOLLOW_assignmentExpression_in_arguments3339);
                     assignmentExpression();
 
                     state._fsp--;
 
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:913:34: ( COMMA assignmentExpression )*
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:913:34: ( COMMA assignmentExpression )*
                     loop12:
                     do {
                         int alt12=2;
@@ -1757,7 +1757,7 @@ public class ES3InstrumentParser extends Parser {
 
                         switch (alt12) {
                     	case 1 :
-                    	    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:913:36: COMMA assignmentExpression
+                    	    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:913:36: COMMA assignmentExpression
                     	    {
                     	    match(input,COMMA,FOLLOW_COMMA_in_arguments3343); 
                     	    pushFollow(FOLLOW_assignmentExpression_in_arguments3345);
@@ -1804,17 +1804,17 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "leftHandSideExpression"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:917:1: leftHandSideExpression : ( memberExpression ) ( arguments | LBRACK expression RBRACK | DOT Identifier )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:917:1: leftHandSideExpression : ( memberExpression ) ( arguments | LBRACK expression RBRACK | DOT Identifier )* ;
     public final ES3InstrumentParser.leftHandSideExpression_return leftHandSideExpression() throws RecognitionException {
         ES3InstrumentParser.leftHandSideExpression_return retval = new ES3InstrumentParser.leftHandSideExpression_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:918:2: ( ( memberExpression ) ( arguments | LBRACK expression RBRACK | DOT Identifier )* )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:919:2: ( memberExpression ) ( arguments | LBRACK expression RBRACK | DOT Identifier )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:918:2: ( ( memberExpression ) ( arguments | LBRACK expression RBRACK | DOT Identifier )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:919:2: ( memberExpression ) ( arguments | LBRACK expression RBRACK | DOT Identifier )*
             {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:919:2: ( memberExpression )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:920:3: memberExpression
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:919:2: ( memberExpression )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:920:3: memberExpression
             {
             pushFollow(FOLLOW_memberExpression_in_leftHandSideExpression3372);
             memberExpression();
@@ -1824,7 +1824,7 @@ public class ES3InstrumentParser extends Parser {
 
             }
 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:922:2: ( arguments | LBRACK expression RBRACK | DOT Identifier )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:922:2: ( arguments | LBRACK expression RBRACK | DOT Identifier )*
             loop14:
             do {
                 int alt14=4;
@@ -1849,7 +1849,7 @@ public class ES3InstrumentParser extends Parser {
 
                 switch (alt14) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:923:3: arguments
+            	    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:923:3: arguments
             	    {
             	    pushFollow(FOLLOW_arguments_in_leftHandSideExpression3385);
             	    arguments();
@@ -1860,7 +1860,7 @@ public class ES3InstrumentParser extends Parser {
             	    }
             	    break;
             	case 2 :
-            	    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:924:5: LBRACK expression RBRACK
+            	    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:924:5: LBRACK expression RBRACK
             	    {
             	    match(input,LBRACK,FOLLOW_LBRACK_in_leftHandSideExpression3394); 
             	    pushFollow(FOLLOW_expression_in_leftHandSideExpression3396);
@@ -1873,7 +1873,7 @@ public class ES3InstrumentParser extends Parser {
             	    }
             	    break;
             	case 3 :
-            	    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:925:5: DOT Identifier
+            	    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:925:5: DOT Identifier
             	    {
             	    match(input,DOT,FOLLOW_DOT_in_leftHandSideExpression3405); 
             	    match(input,Identifier,FOLLOW_Identifier_in_leftHandSideExpression3407); 
@@ -1909,14 +1909,14 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "postfixExpression"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:939:1: postfixExpression : leftHandSideExpression ( postfixOperator )? ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:939:1: postfixExpression : leftHandSideExpression ( postfixOperator )? ;
     public final ES3InstrumentParser.postfixExpression_return postfixExpression() throws RecognitionException {
         ES3InstrumentParser.postfixExpression_return retval = new ES3InstrumentParser.postfixExpression_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:940:2: ( leftHandSideExpression ( postfixOperator )? )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:940:4: leftHandSideExpression ( postfixOperator )?
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:940:2: ( leftHandSideExpression ( postfixOperator )? )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:940:4: leftHandSideExpression ( postfixOperator )?
             {
             pushFollow(FOLLOW_leftHandSideExpression_in_postfixExpression3430);
             leftHandSideExpression();
@@ -1924,7 +1924,7 @@ public class ES3InstrumentParser extends Parser {
             state._fsp--;
 
              if (input.LA(1) == INC || input.LA(1) == DEC) promoteEOL(null); 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:940:95: ( postfixOperator )?
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:940:95: ( postfixOperator )?
             int alt15=2;
             int LA15_0 = input.LA(1);
 
@@ -1933,7 +1933,7 @@ public class ES3InstrumentParser extends Parser {
             }
             switch (alt15) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:940:97: postfixOperator
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:940:97: postfixOperator
                     {
                     pushFollow(FOLLOW_postfixOperator_in_postfixExpression3436);
                     postfixOperator();
@@ -1969,7 +1969,7 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "postfixOperator"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:943:1: postfixOperator : (op= INC | op= DEC );
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:943:1: postfixOperator : (op= INC | op= DEC );
     public final ES3InstrumentParser.postfixOperator_return postfixOperator() throws RecognitionException {
         ES3InstrumentParser.postfixOperator_return retval = new ES3InstrumentParser.postfixOperator_return();
         retval.start = input.LT(1);
@@ -1977,7 +1977,7 @@ public class ES3InstrumentParser extends Parser {
         Token op=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:944:2: (op= INC | op= DEC )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:944:2: (op= INC | op= DEC )
             int alt16=2;
             int LA16_0 = input.LA(1);
 
@@ -1995,7 +1995,7 @@ public class ES3InstrumentParser extends Parser {
             }
             switch (alt16) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:944:4: op= INC
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:944:4: op= INC
                     {
                     op=(Token)match(input,INC,FOLLOW_INC_in_postfixOperator3453); 
                      op.setType(PINC); 
@@ -2003,7 +2003,7 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:945:4: op= DEC
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:945:4: op= DEC
                     {
                     op=(Token)match(input,DEC,FOLLOW_DEC_in_postfixOperator3462); 
                      op.setType(PDEC); 
@@ -2032,13 +2032,13 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "unaryExpression"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:952:1: unaryExpression : ( postfixExpression | unaryOperator unaryExpression );
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:952:1: unaryExpression : ( postfixExpression | unaryOperator unaryExpression );
     public final ES3InstrumentParser.unaryExpression_return unaryExpression() throws RecognitionException {
         ES3InstrumentParser.unaryExpression_return retval = new ES3InstrumentParser.unaryExpression_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:953:2: ( postfixExpression | unaryOperator unaryExpression )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:953:2: ( postfixExpression | unaryOperator unaryExpression )
             int alt17=2;
             int LA17_0 = input.LA(1);
 
@@ -2056,7 +2056,7 @@ public class ES3InstrumentParser extends Parser {
             }
             switch (alt17) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:953:4: postfixExpression
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:953:4: postfixExpression
                     {
                     pushFollow(FOLLOW_postfixExpression_in_unaryExpression3479);
                     postfixExpression();
@@ -2067,7 +2067,7 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:954:4: unaryOperator unaryExpression
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:954:4: unaryOperator unaryExpression
                     {
                     pushFollow(FOLLOW_unaryOperator_in_unaryExpression3484);
                     unaryOperator();
@@ -2104,7 +2104,7 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "unaryOperator"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:957:1: unaryOperator : ( DELETE | VOID | TYPEOF | INC | DEC | op= ADD | op= SUB | INV | NOT );
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:957:1: unaryOperator : ( DELETE | VOID | TYPEOF | INC | DEC | op= ADD | op= SUB | INV | NOT );
     public final ES3InstrumentParser.unaryOperator_return unaryOperator() throws RecognitionException {
         ES3InstrumentParser.unaryOperator_return retval = new ES3InstrumentParser.unaryOperator_return();
         retval.start = input.LT(1);
@@ -2112,7 +2112,7 @@ public class ES3InstrumentParser extends Parser {
         Token op=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:958:2: ( DELETE | VOID | TYPEOF | INC | DEC | op= ADD | op= SUB | INV | NOT )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:958:2: ( DELETE | VOID | TYPEOF | INC | DEC | op= ADD | op= SUB | INV | NOT )
             int alt18=9;
             switch ( input.LA(1) ) {
             case DELETE:
@@ -2169,42 +2169,42 @@ public class ES3InstrumentParser extends Parser {
 
             switch (alt18) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:958:4: DELETE
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:958:4: DELETE
                     {
                     match(input,DELETE,FOLLOW_DELETE_in_unaryOperator3498); 
 
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:959:4: VOID
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:959:4: VOID
                     {
                     match(input,VOID,FOLLOW_VOID_in_unaryOperator3503); 
 
                     }
                     break;
                 case 3 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:960:4: TYPEOF
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:960:4: TYPEOF
                     {
                     match(input,TYPEOF,FOLLOW_TYPEOF_in_unaryOperator3508); 
 
                     }
                     break;
                 case 4 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:961:4: INC
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:961:4: INC
                     {
                     match(input,INC,FOLLOW_INC_in_unaryOperator3513); 
 
                     }
                     break;
                 case 5 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:962:4: DEC
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:962:4: DEC
                     {
                     match(input,DEC,FOLLOW_DEC_in_unaryOperator3518); 
 
                     }
                     break;
                 case 6 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:963:4: op= ADD
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:963:4: op= ADD
                     {
                     op=(Token)match(input,ADD,FOLLOW_ADD_in_unaryOperator3525); 
                      op.setType(POS); 
@@ -2212,7 +2212,7 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 7 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:964:4: op= SUB
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:964:4: op= SUB
                     {
                     op=(Token)match(input,SUB,FOLLOW_SUB_in_unaryOperator3534); 
                      op.setType(NEG); 
@@ -2220,14 +2220,14 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 8 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:965:4: INV
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:965:4: INV
                     {
                     match(input,INV,FOLLOW_INV_in_unaryOperator3541); 
 
                     }
                     break;
                 case 9 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:966:4: NOT
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:966:4: NOT
                     {
                     match(input,NOT,FOLLOW_NOT_in_unaryOperator3546); 
 
@@ -2255,21 +2255,21 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "multiplicativeExpression"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:973:1: multiplicativeExpression : unaryExpression ( ( MUL | DIV | MOD ) unaryExpression )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:973:1: multiplicativeExpression : unaryExpression ( ( MUL | DIV | MOD ) unaryExpression )* ;
     public final ES3InstrumentParser.multiplicativeExpression_return multiplicativeExpression() throws RecognitionException {
         ES3InstrumentParser.multiplicativeExpression_return retval = new ES3InstrumentParser.multiplicativeExpression_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:974:2: ( unaryExpression ( ( MUL | DIV | MOD ) unaryExpression )* )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:974:4: unaryExpression ( ( MUL | DIV | MOD ) unaryExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:974:2: ( unaryExpression ( ( MUL | DIV | MOD ) unaryExpression )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:974:4: unaryExpression ( ( MUL | DIV | MOD ) unaryExpression )*
             {
             pushFollow(FOLLOW_unaryExpression_in_multiplicativeExpression3561);
             unaryExpression();
 
             state._fsp--;
 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:974:20: ( ( MUL | DIV | MOD ) unaryExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:974:20: ( ( MUL | DIV | MOD ) unaryExpression )*
             loop19:
             do {
                 int alt19=2;
@@ -2282,7 +2282,7 @@ public class ES3InstrumentParser extends Parser {
 
                 switch (alt19) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:974:22: ( MUL | DIV | MOD ) unaryExpression
+            	    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:974:22: ( MUL | DIV | MOD ) unaryExpression
             	    {
             	    if ( (input.LA(1)>=MUL && input.LA(1)<=MOD)||input.LA(1)==DIV ) {
             	        input.consume();
@@ -2330,21 +2330,21 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "additiveExpression"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:981:1: additiveExpression : multiplicativeExpression ( ( ADD | SUB ) multiplicativeExpression )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:981:1: additiveExpression : multiplicativeExpression ( ( ADD | SUB ) multiplicativeExpression )* ;
     public final ES3InstrumentParser.additiveExpression_return additiveExpression() throws RecognitionException {
         ES3InstrumentParser.additiveExpression_return retval = new ES3InstrumentParser.additiveExpression_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:982:2: ( multiplicativeExpression ( ( ADD | SUB ) multiplicativeExpression )* )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:982:4: multiplicativeExpression ( ( ADD | SUB ) multiplicativeExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:982:2: ( multiplicativeExpression ( ( ADD | SUB ) multiplicativeExpression )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:982:4: multiplicativeExpression ( ( ADD | SUB ) multiplicativeExpression )*
             {
             pushFollow(FOLLOW_multiplicativeExpression_in_additiveExpression3597);
             multiplicativeExpression();
 
             state._fsp--;
 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:982:29: ( ( ADD | SUB ) multiplicativeExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:982:29: ( ( ADD | SUB ) multiplicativeExpression )*
             loop20:
             do {
                 int alt20=2;
@@ -2357,7 +2357,7 @@ public class ES3InstrumentParser extends Parser {
 
                 switch (alt20) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:982:31: ( ADD | SUB ) multiplicativeExpression
+            	    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:982:31: ( ADD | SUB ) multiplicativeExpression
             	    {
             	    if ( (input.LA(1)>=ADD && input.LA(1)<=SUB) ) {
             	        input.consume();
@@ -2405,21 +2405,21 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "shiftExpression"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:989:1: shiftExpression : additiveExpression ( ( SHL | SHR | SHU ) additiveExpression )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:989:1: shiftExpression : additiveExpression ( ( SHL | SHR | SHU ) additiveExpression )* ;
     public final ES3InstrumentParser.shiftExpression_return shiftExpression() throws RecognitionException {
         ES3InstrumentParser.shiftExpression_return retval = new ES3InstrumentParser.shiftExpression_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:990:2: ( additiveExpression ( ( SHL | SHR | SHU ) additiveExpression )* )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:990:4: additiveExpression ( ( SHL | SHR | SHU ) additiveExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:990:2: ( additiveExpression ( ( SHL | SHR | SHU ) additiveExpression )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:990:4: additiveExpression ( ( SHL | SHR | SHU ) additiveExpression )*
             {
             pushFollow(FOLLOW_additiveExpression_in_shiftExpression3630);
             additiveExpression();
 
             state._fsp--;
 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:990:23: ( ( SHL | SHR | SHU ) additiveExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:990:23: ( ( SHL | SHR | SHU ) additiveExpression )*
             loop21:
             do {
                 int alt21=2;
@@ -2432,7 +2432,7 @@ public class ES3InstrumentParser extends Parser {
 
                 switch (alt21) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:990:25: ( SHL | SHR | SHU ) additiveExpression
+            	    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:990:25: ( SHL | SHR | SHU ) additiveExpression
             	    {
             	    if ( (input.LA(1)>=SHL && input.LA(1)<=SHU) ) {
             	        input.consume();
@@ -2480,21 +2480,21 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "relationalExpression"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:997:1: relationalExpression : shiftExpression ( ( LT | GT | LTE | GTE | INSTANCEOF | IN ) shiftExpression )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:997:1: relationalExpression : shiftExpression ( ( LT | GT | LTE | GTE | INSTANCEOF | IN ) shiftExpression )* ;
     public final ES3InstrumentParser.relationalExpression_return relationalExpression() throws RecognitionException {
         ES3InstrumentParser.relationalExpression_return retval = new ES3InstrumentParser.relationalExpression_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:998:2: ( shiftExpression ( ( LT | GT | LTE | GTE | INSTANCEOF | IN ) shiftExpression )* )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:998:4: shiftExpression ( ( LT | GT | LTE | GTE | INSTANCEOF | IN ) shiftExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:998:2: ( shiftExpression ( ( LT | GT | LTE | GTE | INSTANCEOF | IN ) shiftExpression )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:998:4: shiftExpression ( ( LT | GT | LTE | GTE | INSTANCEOF | IN ) shiftExpression )*
             {
             pushFollow(FOLLOW_shiftExpression_in_relationalExpression3667);
             shiftExpression();
 
             state._fsp--;
 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:998:20: ( ( LT | GT | LTE | GTE | INSTANCEOF | IN ) shiftExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:998:20: ( ( LT | GT | LTE | GTE | INSTANCEOF | IN ) shiftExpression )*
             loop22:
             do {
                 int alt22=2;
@@ -2507,7 +2507,7 @@ public class ES3InstrumentParser extends Parser {
 
                 switch (alt22) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:998:22: ( LT | GT | LTE | GTE | INSTANCEOF | IN ) shiftExpression
+            	    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:998:22: ( LT | GT | LTE | GTE | INSTANCEOF | IN ) shiftExpression
             	    {
             	    if ( (input.LA(1)>=IN && input.LA(1)<=INSTANCEOF)||(input.LA(1)>=LT && input.LA(1)<=GTE) ) {
             	        input.consume();
@@ -2555,21 +2555,21 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "relationalExpressionNoIn"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1001:1: relationalExpressionNoIn : shiftExpression ( ( LT | GT | LTE | GTE | INSTANCEOF ) shiftExpression )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1001:1: relationalExpressionNoIn : shiftExpression ( ( LT | GT | LTE | GTE | INSTANCEOF ) shiftExpression )* ;
     public final ES3InstrumentParser.relationalExpressionNoIn_return relationalExpressionNoIn() throws RecognitionException {
         ES3InstrumentParser.relationalExpressionNoIn_return retval = new ES3InstrumentParser.relationalExpressionNoIn_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1002:2: ( shiftExpression ( ( LT | GT | LTE | GTE | INSTANCEOF ) shiftExpression )* )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1002:4: shiftExpression ( ( LT | GT | LTE | GTE | INSTANCEOF ) shiftExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1002:2: ( shiftExpression ( ( LT | GT | LTE | GTE | INSTANCEOF ) shiftExpression )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1002:4: shiftExpression ( ( LT | GT | LTE | GTE | INSTANCEOF ) shiftExpression )*
             {
             pushFollow(FOLLOW_shiftExpression_in_relationalExpressionNoIn3711);
             shiftExpression();
 
             state._fsp--;
 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1002:20: ( ( LT | GT | LTE | GTE | INSTANCEOF ) shiftExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1002:20: ( ( LT | GT | LTE | GTE | INSTANCEOF ) shiftExpression )*
             loop23:
             do {
                 int alt23=2;
@@ -2582,7 +2582,7 @@ public class ES3InstrumentParser extends Parser {
 
                 switch (alt23) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1002:22: ( LT | GT | LTE | GTE | INSTANCEOF ) shiftExpression
+            	    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1002:22: ( LT | GT | LTE | GTE | INSTANCEOF ) shiftExpression
             	    {
             	    if ( input.LA(1)==INSTANCEOF||(input.LA(1)>=LT && input.LA(1)<=GTE) ) {
             	        input.consume();
@@ -2630,21 +2630,21 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "equalityExpression"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1009:1: equalityExpression : relationalExpression ( ( EQ | NEQ | SAME | NSAME ) relationalExpression )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1009:1: equalityExpression : relationalExpression ( ( EQ | NEQ | SAME | NSAME ) relationalExpression )* ;
     public final ES3InstrumentParser.equalityExpression_return equalityExpression() throws RecognitionException {
         ES3InstrumentParser.equalityExpression_return retval = new ES3InstrumentParser.equalityExpression_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1010:2: ( relationalExpression ( ( EQ | NEQ | SAME | NSAME ) relationalExpression )* )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1010:4: relationalExpression ( ( EQ | NEQ | SAME | NSAME ) relationalExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1010:2: ( relationalExpression ( ( EQ | NEQ | SAME | NSAME ) relationalExpression )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1010:4: relationalExpression ( ( EQ | NEQ | SAME | NSAME ) relationalExpression )*
             {
             pushFollow(FOLLOW_relationalExpression_in_equalityExpression3756);
             relationalExpression();
 
             state._fsp--;
 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1010:25: ( ( EQ | NEQ | SAME | NSAME ) relationalExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1010:25: ( ( EQ | NEQ | SAME | NSAME ) relationalExpression )*
             loop24:
             do {
                 int alt24=2;
@@ -2657,7 +2657,7 @@ public class ES3InstrumentParser extends Parser {
 
                 switch (alt24) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1010:27: ( EQ | NEQ | SAME | NSAME ) relationalExpression
+            	    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1010:27: ( EQ | NEQ | SAME | NSAME ) relationalExpression
             	    {
             	    if ( (input.LA(1)>=EQ && input.LA(1)<=NSAME) ) {
             	        input.consume();
@@ -2705,21 +2705,21 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "equalityExpressionNoIn"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1013:1: equalityExpressionNoIn : relationalExpressionNoIn ( ( EQ | NEQ | SAME | NSAME ) relationalExpressionNoIn )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1013:1: equalityExpressionNoIn : relationalExpressionNoIn ( ( EQ | NEQ | SAME | NSAME ) relationalExpressionNoIn )* ;
     public final ES3InstrumentParser.equalityExpressionNoIn_return equalityExpressionNoIn() throws RecognitionException {
         ES3InstrumentParser.equalityExpressionNoIn_return retval = new ES3InstrumentParser.equalityExpressionNoIn_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1014:2: ( relationalExpressionNoIn ( ( EQ | NEQ | SAME | NSAME ) relationalExpressionNoIn )* )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1014:4: relationalExpressionNoIn ( ( EQ | NEQ | SAME | NSAME ) relationalExpressionNoIn )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1014:2: ( relationalExpressionNoIn ( ( EQ | NEQ | SAME | NSAME ) relationalExpressionNoIn )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1014:4: relationalExpressionNoIn ( ( EQ | NEQ | SAME | NSAME ) relationalExpressionNoIn )*
             {
             pushFollow(FOLLOW_relationalExpressionNoIn_in_equalityExpressionNoIn3792);
             relationalExpressionNoIn();
 
             state._fsp--;
 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1014:29: ( ( EQ | NEQ | SAME | NSAME ) relationalExpressionNoIn )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1014:29: ( ( EQ | NEQ | SAME | NSAME ) relationalExpressionNoIn )*
             loop25:
             do {
                 int alt25=2;
@@ -2732,7 +2732,7 @@ public class ES3InstrumentParser extends Parser {
 
                 switch (alt25) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1014:31: ( EQ | NEQ | SAME | NSAME ) relationalExpressionNoIn
+            	    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1014:31: ( EQ | NEQ | SAME | NSAME ) relationalExpressionNoIn
             	    {
             	    if ( (input.LA(1)>=EQ && input.LA(1)<=NSAME) ) {
             	        input.consume();
@@ -2780,21 +2780,21 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "bitwiseANDExpression"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1021:1: bitwiseANDExpression : equalityExpression ( AND equalityExpression )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1021:1: bitwiseANDExpression : equalityExpression ( AND equalityExpression )* ;
     public final ES3InstrumentParser.bitwiseANDExpression_return bitwiseANDExpression() throws RecognitionException {
         ES3InstrumentParser.bitwiseANDExpression_return retval = new ES3InstrumentParser.bitwiseANDExpression_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1022:2: ( equalityExpression ( AND equalityExpression )* )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1022:4: equalityExpression ( AND equalityExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1022:2: ( equalityExpression ( AND equalityExpression )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1022:4: equalityExpression ( AND equalityExpression )*
             {
             pushFollow(FOLLOW_equalityExpression_in_bitwiseANDExpression3834);
             equalityExpression();
 
             state._fsp--;
 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1022:23: ( AND equalityExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1022:23: ( AND equalityExpression )*
             loop26:
             do {
                 int alt26=2;
@@ -2807,7 +2807,7 @@ public class ES3InstrumentParser extends Parser {
 
                 switch (alt26) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1022:25: AND equalityExpression
+            	    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1022:25: AND equalityExpression
             	    {
             	    match(input,AND,FOLLOW_AND_in_bitwiseANDExpression3838); 
             	    pushFollow(FOLLOW_equalityExpression_in_bitwiseANDExpression3840);
@@ -2847,21 +2847,21 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "bitwiseANDExpressionNoIn"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1025:1: bitwiseANDExpressionNoIn : equalityExpressionNoIn ( AND equalityExpressionNoIn )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1025:1: bitwiseANDExpressionNoIn : equalityExpressionNoIn ( AND equalityExpressionNoIn )* ;
     public final ES3InstrumentParser.bitwiseANDExpressionNoIn_return bitwiseANDExpressionNoIn() throws RecognitionException {
         ES3InstrumentParser.bitwiseANDExpressionNoIn_return retval = new ES3InstrumentParser.bitwiseANDExpressionNoIn_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1026:2: ( equalityExpressionNoIn ( AND equalityExpressionNoIn )* )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1026:4: equalityExpressionNoIn ( AND equalityExpressionNoIn )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1026:2: ( equalityExpressionNoIn ( AND equalityExpressionNoIn )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1026:4: equalityExpressionNoIn ( AND equalityExpressionNoIn )*
             {
             pushFollow(FOLLOW_equalityExpressionNoIn_in_bitwiseANDExpressionNoIn3854);
             equalityExpressionNoIn();
 
             state._fsp--;
 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1026:27: ( AND equalityExpressionNoIn )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1026:27: ( AND equalityExpressionNoIn )*
             loop27:
             do {
                 int alt27=2;
@@ -2874,7 +2874,7 @@ public class ES3InstrumentParser extends Parser {
 
                 switch (alt27) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1026:29: AND equalityExpressionNoIn
+            	    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1026:29: AND equalityExpressionNoIn
             	    {
             	    match(input,AND,FOLLOW_AND_in_bitwiseANDExpressionNoIn3858); 
             	    pushFollow(FOLLOW_equalityExpressionNoIn_in_bitwiseANDExpressionNoIn3860);
@@ -2914,21 +2914,21 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "bitwiseXORExpression"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1029:1: bitwiseXORExpression : bitwiseANDExpression ( XOR bitwiseANDExpression )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1029:1: bitwiseXORExpression : bitwiseANDExpression ( XOR bitwiseANDExpression )* ;
     public final ES3InstrumentParser.bitwiseXORExpression_return bitwiseXORExpression() throws RecognitionException {
         ES3InstrumentParser.bitwiseXORExpression_return retval = new ES3InstrumentParser.bitwiseXORExpression_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1030:2: ( bitwiseANDExpression ( XOR bitwiseANDExpression )* )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1030:4: bitwiseANDExpression ( XOR bitwiseANDExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1030:2: ( bitwiseANDExpression ( XOR bitwiseANDExpression )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1030:4: bitwiseANDExpression ( XOR bitwiseANDExpression )*
             {
             pushFollow(FOLLOW_bitwiseANDExpression_in_bitwiseXORExpression3876);
             bitwiseANDExpression();
 
             state._fsp--;
 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1030:25: ( XOR bitwiseANDExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1030:25: ( XOR bitwiseANDExpression )*
             loop28:
             do {
                 int alt28=2;
@@ -2941,7 +2941,7 @@ public class ES3InstrumentParser extends Parser {
 
                 switch (alt28) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1030:27: XOR bitwiseANDExpression
+            	    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1030:27: XOR bitwiseANDExpression
             	    {
             	    match(input,XOR,FOLLOW_XOR_in_bitwiseXORExpression3880); 
             	    pushFollow(FOLLOW_bitwiseANDExpression_in_bitwiseXORExpression3882);
@@ -2981,21 +2981,21 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "bitwiseXORExpressionNoIn"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1033:1: bitwiseXORExpressionNoIn : bitwiseANDExpressionNoIn ( XOR bitwiseANDExpressionNoIn )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1033:1: bitwiseXORExpressionNoIn : bitwiseANDExpressionNoIn ( XOR bitwiseANDExpressionNoIn )* ;
     public final ES3InstrumentParser.bitwiseXORExpressionNoIn_return bitwiseXORExpressionNoIn() throws RecognitionException {
         ES3InstrumentParser.bitwiseXORExpressionNoIn_return retval = new ES3InstrumentParser.bitwiseXORExpressionNoIn_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1034:2: ( bitwiseANDExpressionNoIn ( XOR bitwiseANDExpressionNoIn )* )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1034:4: bitwiseANDExpressionNoIn ( XOR bitwiseANDExpressionNoIn )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1034:2: ( bitwiseANDExpressionNoIn ( XOR bitwiseANDExpressionNoIn )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1034:4: bitwiseANDExpressionNoIn ( XOR bitwiseANDExpressionNoIn )*
             {
             pushFollow(FOLLOW_bitwiseANDExpressionNoIn_in_bitwiseXORExpressionNoIn3898);
             bitwiseANDExpressionNoIn();
 
             state._fsp--;
 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1034:29: ( XOR bitwiseANDExpressionNoIn )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1034:29: ( XOR bitwiseANDExpressionNoIn )*
             loop29:
             do {
                 int alt29=2;
@@ -3008,7 +3008,7 @@ public class ES3InstrumentParser extends Parser {
 
                 switch (alt29) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1034:31: XOR bitwiseANDExpressionNoIn
+            	    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1034:31: XOR bitwiseANDExpressionNoIn
             	    {
             	    match(input,XOR,FOLLOW_XOR_in_bitwiseXORExpressionNoIn3902); 
             	    pushFollow(FOLLOW_bitwiseANDExpressionNoIn_in_bitwiseXORExpressionNoIn3904);
@@ -3048,21 +3048,21 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "bitwiseORExpression"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1037:1: bitwiseORExpression : bitwiseXORExpression ( OR bitwiseXORExpression )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1037:1: bitwiseORExpression : bitwiseXORExpression ( OR bitwiseXORExpression )* ;
     public final ES3InstrumentParser.bitwiseORExpression_return bitwiseORExpression() throws RecognitionException {
         ES3InstrumentParser.bitwiseORExpression_return retval = new ES3InstrumentParser.bitwiseORExpression_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1038:2: ( bitwiseXORExpression ( OR bitwiseXORExpression )* )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1038:4: bitwiseXORExpression ( OR bitwiseXORExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1038:2: ( bitwiseXORExpression ( OR bitwiseXORExpression )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1038:4: bitwiseXORExpression ( OR bitwiseXORExpression )*
             {
             pushFollow(FOLLOW_bitwiseXORExpression_in_bitwiseORExpression3919);
             bitwiseXORExpression();
 
             state._fsp--;
 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1038:25: ( OR bitwiseXORExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1038:25: ( OR bitwiseXORExpression )*
             loop30:
             do {
                 int alt30=2;
@@ -3075,7 +3075,7 @@ public class ES3InstrumentParser extends Parser {
 
                 switch (alt30) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1038:27: OR bitwiseXORExpression
+            	    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1038:27: OR bitwiseXORExpression
             	    {
             	    match(input,OR,FOLLOW_OR_in_bitwiseORExpression3923); 
             	    pushFollow(FOLLOW_bitwiseXORExpression_in_bitwiseORExpression3925);
@@ -3115,21 +3115,21 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "bitwiseORExpressionNoIn"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1041:1: bitwiseORExpressionNoIn : bitwiseXORExpressionNoIn ( OR bitwiseXORExpressionNoIn )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1041:1: bitwiseORExpressionNoIn : bitwiseXORExpressionNoIn ( OR bitwiseXORExpressionNoIn )* ;
     public final ES3InstrumentParser.bitwiseORExpressionNoIn_return bitwiseORExpressionNoIn() throws RecognitionException {
         ES3InstrumentParser.bitwiseORExpressionNoIn_return retval = new ES3InstrumentParser.bitwiseORExpressionNoIn_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1042:2: ( bitwiseXORExpressionNoIn ( OR bitwiseXORExpressionNoIn )* )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1042:4: bitwiseXORExpressionNoIn ( OR bitwiseXORExpressionNoIn )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1042:2: ( bitwiseXORExpressionNoIn ( OR bitwiseXORExpressionNoIn )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1042:4: bitwiseXORExpressionNoIn ( OR bitwiseXORExpressionNoIn )*
             {
             pushFollow(FOLLOW_bitwiseXORExpressionNoIn_in_bitwiseORExpressionNoIn3940);
             bitwiseXORExpressionNoIn();
 
             state._fsp--;
 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1042:29: ( OR bitwiseXORExpressionNoIn )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1042:29: ( OR bitwiseXORExpressionNoIn )*
             loop31:
             do {
                 int alt31=2;
@@ -3142,7 +3142,7 @@ public class ES3InstrumentParser extends Parser {
 
                 switch (alt31) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1042:31: OR bitwiseXORExpressionNoIn
+            	    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1042:31: OR bitwiseXORExpressionNoIn
             	    {
             	    match(input,OR,FOLLOW_OR_in_bitwiseORExpressionNoIn3944); 
             	    pushFollow(FOLLOW_bitwiseXORExpressionNoIn_in_bitwiseORExpressionNoIn3946);
@@ -3182,21 +3182,21 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "logicalANDExpression"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1049:1: logicalANDExpression : bitwiseORExpression ( LAND bitwiseORExpression )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1049:1: logicalANDExpression : bitwiseORExpression ( LAND bitwiseORExpression )* ;
     public final ES3InstrumentParser.logicalANDExpression_return logicalANDExpression() throws RecognitionException {
         ES3InstrumentParser.logicalANDExpression_return retval = new ES3InstrumentParser.logicalANDExpression_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1050:2: ( bitwiseORExpression ( LAND bitwiseORExpression )* )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1050:4: bitwiseORExpression ( LAND bitwiseORExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1050:2: ( bitwiseORExpression ( LAND bitwiseORExpression )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1050:4: bitwiseORExpression ( LAND bitwiseORExpression )*
             {
             pushFollow(FOLLOW_bitwiseORExpression_in_logicalANDExpression3965);
             bitwiseORExpression();
 
             state._fsp--;
 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1050:24: ( LAND bitwiseORExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1050:24: ( LAND bitwiseORExpression )*
             loop32:
             do {
                 int alt32=2;
@@ -3209,7 +3209,7 @@ public class ES3InstrumentParser extends Parser {
 
                 switch (alt32) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1050:26: LAND bitwiseORExpression
+            	    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1050:26: LAND bitwiseORExpression
             	    {
             	    match(input,LAND,FOLLOW_LAND_in_logicalANDExpression3969); 
             	    pushFollow(FOLLOW_bitwiseORExpression_in_logicalANDExpression3971);
@@ -3249,21 +3249,21 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "logicalANDExpressionNoIn"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1053:1: logicalANDExpressionNoIn : bitwiseORExpressionNoIn ( LAND bitwiseORExpressionNoIn )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1053:1: logicalANDExpressionNoIn : bitwiseORExpressionNoIn ( LAND bitwiseORExpressionNoIn )* ;
     public final ES3InstrumentParser.logicalANDExpressionNoIn_return logicalANDExpressionNoIn() throws RecognitionException {
         ES3InstrumentParser.logicalANDExpressionNoIn_return retval = new ES3InstrumentParser.logicalANDExpressionNoIn_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1054:2: ( bitwiseORExpressionNoIn ( LAND bitwiseORExpressionNoIn )* )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1054:4: bitwiseORExpressionNoIn ( LAND bitwiseORExpressionNoIn )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1054:2: ( bitwiseORExpressionNoIn ( LAND bitwiseORExpressionNoIn )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1054:4: bitwiseORExpressionNoIn ( LAND bitwiseORExpressionNoIn )*
             {
             pushFollow(FOLLOW_bitwiseORExpressionNoIn_in_logicalANDExpressionNoIn3985);
             bitwiseORExpressionNoIn();
 
             state._fsp--;
 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1054:28: ( LAND bitwiseORExpressionNoIn )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1054:28: ( LAND bitwiseORExpressionNoIn )*
             loop33:
             do {
                 int alt33=2;
@@ -3276,7 +3276,7 @@ public class ES3InstrumentParser extends Parser {
 
                 switch (alt33) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1054:30: LAND bitwiseORExpressionNoIn
+            	    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1054:30: LAND bitwiseORExpressionNoIn
             	    {
             	    match(input,LAND,FOLLOW_LAND_in_logicalANDExpressionNoIn3989); 
             	    pushFollow(FOLLOW_bitwiseORExpressionNoIn_in_logicalANDExpressionNoIn3991);
@@ -3316,21 +3316,21 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "logicalORExpression"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1057:1: logicalORExpression : logicalANDExpression ( LOR logicalANDExpression )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1057:1: logicalORExpression : logicalANDExpression ( LOR logicalANDExpression )* ;
     public final ES3InstrumentParser.logicalORExpression_return logicalORExpression() throws RecognitionException {
         ES3InstrumentParser.logicalORExpression_return retval = new ES3InstrumentParser.logicalORExpression_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1058:2: ( logicalANDExpression ( LOR logicalANDExpression )* )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1058:4: logicalANDExpression ( LOR logicalANDExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1058:2: ( logicalANDExpression ( LOR logicalANDExpression )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1058:4: logicalANDExpression ( LOR logicalANDExpression )*
             {
             pushFollow(FOLLOW_logicalANDExpression_in_logicalORExpression4006);
             logicalANDExpression();
 
             state._fsp--;
 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1058:25: ( LOR logicalANDExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1058:25: ( LOR logicalANDExpression )*
             loop34:
             do {
                 int alt34=2;
@@ -3343,7 +3343,7 @@ public class ES3InstrumentParser extends Parser {
 
                 switch (alt34) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1058:27: LOR logicalANDExpression
+            	    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1058:27: LOR logicalANDExpression
             	    {
             	    match(input,LOR,FOLLOW_LOR_in_logicalORExpression4010); 
             	    pushFollow(FOLLOW_logicalANDExpression_in_logicalORExpression4012);
@@ -3383,21 +3383,21 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "logicalORExpressionNoIn"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1061:1: logicalORExpressionNoIn : logicalANDExpressionNoIn ( LOR logicalANDExpressionNoIn )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1061:1: logicalORExpressionNoIn : logicalANDExpressionNoIn ( LOR logicalANDExpressionNoIn )* ;
     public final ES3InstrumentParser.logicalORExpressionNoIn_return logicalORExpressionNoIn() throws RecognitionException {
         ES3InstrumentParser.logicalORExpressionNoIn_return retval = new ES3InstrumentParser.logicalORExpressionNoIn_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1062:2: ( logicalANDExpressionNoIn ( LOR logicalANDExpressionNoIn )* )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1062:4: logicalANDExpressionNoIn ( LOR logicalANDExpressionNoIn )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1062:2: ( logicalANDExpressionNoIn ( LOR logicalANDExpressionNoIn )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1062:4: logicalANDExpressionNoIn ( LOR logicalANDExpressionNoIn )*
             {
             pushFollow(FOLLOW_logicalANDExpressionNoIn_in_logicalORExpressionNoIn4027);
             logicalANDExpressionNoIn();
 
             state._fsp--;
 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1062:29: ( LOR logicalANDExpressionNoIn )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1062:29: ( LOR logicalANDExpressionNoIn )*
             loop35:
             do {
                 int alt35=2;
@@ -3410,7 +3410,7 @@ public class ES3InstrumentParser extends Parser {
 
                 switch (alt35) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1062:31: LOR logicalANDExpressionNoIn
+            	    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1062:31: LOR logicalANDExpressionNoIn
             	    {
             	    match(input,LOR,FOLLOW_LOR_in_logicalORExpressionNoIn4031); 
             	    pushFollow(FOLLOW_logicalANDExpressionNoIn_in_logicalORExpressionNoIn4033);
@@ -3450,21 +3450,21 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "conditionalExpression"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1069:1: conditionalExpression : logicalORExpression ( QUE assignmentExpression COLON assignmentExpression )? ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1069:1: conditionalExpression : logicalORExpression ( QUE assignmentExpression COLON assignmentExpression )? ;
     public final ES3InstrumentParser.conditionalExpression_return conditionalExpression() throws RecognitionException {
         ES3InstrumentParser.conditionalExpression_return retval = new ES3InstrumentParser.conditionalExpression_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1070:2: ( logicalORExpression ( QUE assignmentExpression COLON assignmentExpression )? )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1070:4: logicalORExpression ( QUE assignmentExpression COLON assignmentExpression )?
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1070:2: ( logicalORExpression ( QUE assignmentExpression COLON assignmentExpression )? )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1070:4: logicalORExpression ( QUE assignmentExpression COLON assignmentExpression )?
             {
             pushFollow(FOLLOW_logicalORExpression_in_conditionalExpression4052);
             logicalORExpression();
 
             state._fsp--;
 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1070:24: ( QUE assignmentExpression COLON assignmentExpression )?
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1070:24: ( QUE assignmentExpression COLON assignmentExpression )?
             int alt36=2;
             int LA36_0 = input.LA(1);
 
@@ -3473,7 +3473,7 @@ public class ES3InstrumentParser extends Parser {
             }
             switch (alt36) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1070:26: QUE assignmentExpression COLON assignmentExpression
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1070:26: QUE assignmentExpression COLON assignmentExpression
                     {
                     match(input,QUE,FOLLOW_QUE_in_conditionalExpression4056); 
                     pushFollow(FOLLOW_assignmentExpression_in_conditionalExpression4058);
@@ -3516,21 +3516,21 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "conditionalExpressionNoIn"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1073:1: conditionalExpressionNoIn : logicalORExpressionNoIn ( QUE assignmentExpressionNoIn COLON assignmentExpressionNoIn )? ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1073:1: conditionalExpressionNoIn : logicalORExpressionNoIn ( QUE assignmentExpressionNoIn COLON assignmentExpressionNoIn )? ;
     public final ES3InstrumentParser.conditionalExpressionNoIn_return conditionalExpressionNoIn() throws RecognitionException {
         ES3InstrumentParser.conditionalExpressionNoIn_return retval = new ES3InstrumentParser.conditionalExpressionNoIn_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1074:2: ( logicalORExpressionNoIn ( QUE assignmentExpressionNoIn COLON assignmentExpressionNoIn )? )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1074:4: logicalORExpressionNoIn ( QUE assignmentExpressionNoIn COLON assignmentExpressionNoIn )?
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1074:2: ( logicalORExpressionNoIn ( QUE assignmentExpressionNoIn COLON assignmentExpressionNoIn )? )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1074:4: logicalORExpressionNoIn ( QUE assignmentExpressionNoIn COLON assignmentExpressionNoIn )?
             {
             pushFollow(FOLLOW_logicalORExpressionNoIn_in_conditionalExpressionNoIn4076);
             logicalORExpressionNoIn();
 
             state._fsp--;
 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1074:28: ( QUE assignmentExpressionNoIn COLON assignmentExpressionNoIn )?
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1074:28: ( QUE assignmentExpressionNoIn COLON assignmentExpressionNoIn )?
             int alt37=2;
             int LA37_0 = input.LA(1);
 
@@ -3539,7 +3539,7 @@ public class ES3InstrumentParser extends Parser {
             }
             switch (alt37) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1074:30: QUE assignmentExpressionNoIn COLON assignmentExpressionNoIn
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1074:30: QUE assignmentExpressionNoIn COLON assignmentExpressionNoIn
                     {
                     match(input,QUE,FOLLOW_QUE_in_conditionalExpressionNoIn4080); 
                     pushFollow(FOLLOW_assignmentExpressionNoIn_in_conditionalExpressionNoIn4082);
@@ -3582,7 +3582,7 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "assignmentExpression"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1103:1: assignmentExpression : lhs= conditionalExpression ({...}? assignmentOperator assignmentExpression )? ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1103:1: assignmentExpression : lhs= conditionalExpression ({...}? assignmentOperator assignmentExpression )? ;
     public final ES3InstrumentParser.assignmentExpression_return assignmentExpression() throws RecognitionException {
         ES3InstrumentParser.assignmentExpression_return retval = new ES3InstrumentParser.assignmentExpression_return();
         retval.start = input.LT(1);
@@ -3594,15 +3594,15 @@ public class ES3InstrumentParser extends Parser {
         	Object[] isLhs = new Object[1];
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1108:2: (lhs= conditionalExpression ({...}? assignmentOperator assignmentExpression )? )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1108:4: lhs= conditionalExpression ({...}? assignmentOperator assignmentExpression )?
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1108:2: (lhs= conditionalExpression ({...}? assignmentOperator assignmentExpression )? )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1108:4: lhs= conditionalExpression ({...}? assignmentOperator assignmentExpression )?
             {
             pushFollow(FOLLOW_conditionalExpression_in_assignmentExpression4114);
             lhs=conditionalExpression();
 
             state._fsp--;
 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1109:2: ({...}? assignmentOperator assignmentExpression )?
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1109:2: ({...}? assignmentOperator assignmentExpression )?
             int alt38=2;
             int LA38_0 = input.LA(1);
 
@@ -3615,7 +3615,7 @@ public class ES3InstrumentParser extends Parser {
             }
             switch (alt38) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1109:4: {...}? assignmentOperator assignmentExpression
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1109:4: {...}? assignmentOperator assignmentExpression
                     {
                     if ( !(( isLeftHandSideAssign(lhs, isLhs) )) ) {
                         throw new FailedPredicateException(input, "assignmentExpression", " isLeftHandSideAssign(lhs, isLhs) ");
@@ -3659,14 +3659,14 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "assignmentOperator"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1112:1: assignmentOperator : ( ASSIGN | MULASS | DIVASS | MODASS | ADDASS | SUBASS | SHLASS | SHRASS | SHUASS | ANDASS | XORASS | ORASS );
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1112:1: assignmentOperator : ( ASSIGN | MULASS | DIVASS | MODASS | ADDASS | SUBASS | SHLASS | SHRASS | SHUASS | ANDASS | XORASS | ORASS );
     public final ES3InstrumentParser.assignmentOperator_return assignmentOperator() throws RecognitionException {
         ES3InstrumentParser.assignmentOperator_return retval = new ES3InstrumentParser.assignmentOperator_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1113:2: ( ASSIGN | MULASS | DIVASS | MODASS | ADDASS | SUBASS | SHLASS | SHRASS | SHUASS | ANDASS | XORASS | ORASS )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1113:2: ( ASSIGN | MULASS | DIVASS | MODASS | ADDASS | SUBASS | SHLASS | SHRASS | SHUASS | ANDASS | XORASS | ORASS )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:
             {
             if ( (input.LA(1)>=ASSIGN && input.LA(1)<=XORASS)||input.LA(1)==DIVASS ) {
                 input.consume();
@@ -3700,7 +3700,7 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "assignmentExpressionNoIn"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1116:1: assignmentExpressionNoIn : lhs= conditionalExpressionNoIn ({...}? assignmentOperator assignmentExpressionNoIn )? ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1116:1: assignmentExpressionNoIn : lhs= conditionalExpressionNoIn ({...}? assignmentOperator assignmentExpressionNoIn )? ;
     public final ES3InstrumentParser.assignmentExpressionNoIn_return assignmentExpressionNoIn() throws RecognitionException {
         ES3InstrumentParser.assignmentExpressionNoIn_return retval = new ES3InstrumentParser.assignmentExpressionNoIn_return();
         retval.start = input.LT(1);
@@ -3712,15 +3712,15 @@ public class ES3InstrumentParser extends Parser {
         	Object[] isLhs = new Object[1];
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1121:2: (lhs= conditionalExpressionNoIn ({...}? assignmentOperator assignmentExpressionNoIn )? )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1121:4: lhs= conditionalExpressionNoIn ({...}? assignmentOperator assignmentExpressionNoIn )?
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1121:2: (lhs= conditionalExpressionNoIn ({...}? assignmentOperator assignmentExpressionNoIn )? )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1121:4: lhs= conditionalExpressionNoIn ({...}? assignmentOperator assignmentExpressionNoIn )?
             {
             pushFollow(FOLLOW_conditionalExpressionNoIn_in_assignmentExpressionNoIn4200);
             lhs=conditionalExpressionNoIn();
 
             state._fsp--;
 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1122:2: ({...}? assignmentOperator assignmentExpressionNoIn )?
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1122:2: ({...}? assignmentOperator assignmentExpressionNoIn )?
             int alt39=2;
             int LA39_0 = input.LA(1);
 
@@ -3733,7 +3733,7 @@ public class ES3InstrumentParser extends Parser {
             }
             switch (alt39) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1122:4: {...}? assignmentOperator assignmentExpressionNoIn
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1122:4: {...}? assignmentOperator assignmentExpressionNoIn
                     {
                     if ( !(( isLeftHandSideAssign(lhs, isLhs) )) ) {
                         throw new FailedPredicateException(input, "assignmentExpressionNoIn", " isLeftHandSideAssign(lhs, isLhs) ");
@@ -3777,7 +3777,7 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "expression"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1129:1: expression : exprs+= assignmentExpression ( COMMA exprs+= assignmentExpression )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1129:1: expression : exprs+= assignmentExpression ( COMMA exprs+= assignmentExpression )* ;
     public final ES3InstrumentParser.expression_return expression() throws RecognitionException {
         ES3InstrumentParser.expression_return retval = new ES3InstrumentParser.expression_return();
         retval.start = input.LT(1);
@@ -3786,8 +3786,8 @@ public class ES3InstrumentParser extends Parser {
         ES3InstrumentParser.assignmentExpression_return exprs = null;
          exprs = null;
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1130:2: (exprs+= assignmentExpression ( COMMA exprs+= assignmentExpression )* )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1130:4: exprs+= assignmentExpression ( COMMA exprs+= assignmentExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1130:2: (exprs+= assignmentExpression ( COMMA exprs+= assignmentExpression )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1130:4: exprs+= assignmentExpression ( COMMA exprs+= assignmentExpression )*
             {
             pushFollow(FOLLOW_assignmentExpression_in_expression4231);
             exprs=assignmentExpression();
@@ -3797,7 +3797,7 @@ public class ES3InstrumentParser extends Parser {
             if (list_exprs==null) list_exprs=new ArrayList();
             list_exprs.add(exprs.getTemplate());
 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1130:32: ( COMMA exprs+= assignmentExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1130:32: ( COMMA exprs+= assignmentExpression )*
             loop40:
             do {
                 int alt40=2;
@@ -3810,7 +3810,7 @@ public class ES3InstrumentParser extends Parser {
 
                 switch (alt40) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1130:34: COMMA exprs+= assignmentExpression
+            	    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1130:34: COMMA exprs+= assignmentExpression
             	    {
             	    match(input,COMMA,FOLLOW_COMMA_in_expression4235); 
             	    pushFollow(FOLLOW_assignmentExpression_in_expression4239);
@@ -3853,7 +3853,7 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "expressionNoIn"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1135:1: expressionNoIn : exprs+= assignmentExpressionNoIn ( COMMA exprs+= assignmentExpressionNoIn )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1135:1: expressionNoIn : exprs+= assignmentExpressionNoIn ( COMMA exprs+= assignmentExpressionNoIn )* ;
     public final ES3InstrumentParser.expressionNoIn_return expressionNoIn() throws RecognitionException {
         ES3InstrumentParser.expressionNoIn_return retval = new ES3InstrumentParser.expressionNoIn_return();
         retval.start = input.LT(1);
@@ -3862,8 +3862,8 @@ public class ES3InstrumentParser extends Parser {
         ES3InstrumentParser.assignmentExpressionNoIn_return exprs = null;
          exprs = null;
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1136:2: (exprs+= assignmentExpressionNoIn ( COMMA exprs+= assignmentExpressionNoIn )* )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1136:4: exprs+= assignmentExpressionNoIn ( COMMA exprs+= assignmentExpressionNoIn )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1136:2: (exprs+= assignmentExpressionNoIn ( COMMA exprs+= assignmentExpressionNoIn )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1136:4: exprs+= assignmentExpressionNoIn ( COMMA exprs+= assignmentExpressionNoIn )*
             {
             pushFollow(FOLLOW_assignmentExpressionNoIn_in_expressionNoIn4259);
             exprs=assignmentExpressionNoIn();
@@ -3873,7 +3873,7 @@ public class ES3InstrumentParser extends Parser {
             if (list_exprs==null) list_exprs=new ArrayList();
             list_exprs.add(exprs.getTemplate());
 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1136:36: ( COMMA exprs+= assignmentExpressionNoIn )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1136:36: ( COMMA exprs+= assignmentExpressionNoIn )*
             loop41:
             do {
                 int alt41=2;
@@ -3886,7 +3886,7 @@ public class ES3InstrumentParser extends Parser {
 
                 switch (alt41) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1136:38: COMMA exprs+= assignmentExpressionNoIn
+            	    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1136:38: COMMA exprs+= assignmentExpressionNoIn
             	    {
             	    match(input,COMMA,FOLLOW_COMMA_in_expressionNoIn4263); 
             	    pushFollow(FOLLOW_assignmentExpressionNoIn_in_expressionNoIn4267);
@@ -3929,7 +3929,7 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "semic"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1163:1: semic : ( SEMIC | EOF | RBRACE | EOL | MultiLineComment );
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1163:1: semic : ( SEMIC | EOF | RBRACE | EOL | MultiLineComment );
     public final ES3InstrumentParser.semic_return semic() throws RecognitionException {
         ES3InstrumentParser.semic_return retval = new ES3InstrumentParser.semic_return();
         retval.start = input.LT(1);
@@ -3941,7 +3941,7 @@ public class ES3InstrumentParser extends Parser {
         	promoteEOL(retval);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1171:2: ( SEMIC | EOF | RBRACE | EOL | MultiLineComment )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1171:2: ( SEMIC | EOF | RBRACE | EOL | MultiLineComment )
             int alt42=5;
             switch ( input.LA(1) ) {
             case SEMIC:
@@ -3978,21 +3978,21 @@ public class ES3InstrumentParser extends Parser {
 
             switch (alt42) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1171:4: SEMIC
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1171:4: SEMIC
                     {
                     match(input,SEMIC,FOLLOW_SEMIC_in_semic4301); 
 
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1172:4: EOF
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1172:4: EOF
                     {
                     match(input,EOF,FOLLOW_EOF_in_semic4306); 
 
                     }
                     break;
                 case 3 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1173:4: RBRACE
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1173:4: RBRACE
                     {
                     match(input,RBRACE,FOLLOW_RBRACE_in_semic4311); 
                      input.rewind(marker); 
@@ -4000,14 +4000,14 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 4 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1174:4: EOL
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1174:4: EOL
                     {
                     match(input,EOL,FOLLOW_EOL_in_semic4318); 
 
                     }
                     break;
                 case 5 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1174:10: MultiLineComment
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1174:10: MultiLineComment
                     {
                     match(input,MultiLineComment,FOLLOW_MultiLineComment_in_semic4322); 
 
@@ -4040,7 +4040,7 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "statement"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1182:1: statement options {k=1; } : ({...}? block | statementTail ) -> {instrument && !$statement::isBlock}? instrument(stmt=$texthash=$program::hashln=$start.getLine()) -> pass(stmt=$text);
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1182:1: statement options {k=1; } : ({...}? block | statementTail ) -> {instrument && !$statement::isBlock}? instrument(stmt=$texthash=$program::hashln=$start.getLine()) -> pass(stmt=$text);
     public final ES3InstrumentParser.statement_return statement() throws RecognitionException {
         statement_stack.push(new statement_scope());
         ES3InstrumentParser.statement_return retval = new ES3InstrumentParser.statement_return();
@@ -4055,15 +4055,15 @@ public class ES3InstrumentParser extends Parser {
         	}	
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1203:2: ( ({...}? block | statementTail ) -> {instrument && !$statement::isBlock}? instrument(stmt=$texthash=$program::hashln=$start.getLine()) -> pass(stmt=$text))
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1203:4: ({...}? block | statementTail )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1203:2: ( ({...}? block | statementTail ) -> {instrument && !$statement::isBlock}? instrument(stmt=$texthash=$program::hashln=$start.getLine()) -> pass(stmt=$text))
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1203:4: ({...}? block | statementTail )
             {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1203:4: ({...}? block | statementTail )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1203:4: ({...}? block | statementTail )
             int alt43=2;
             alt43 = dfa43.predict(input);
             switch (alt43) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1203:5: {...}? block
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1203:5: {...}? block
                     {
                     if ( !(( ((statement_scope)statement_stack.peek()).isBlock = input.LA(1) == LBRACE )) ) {
                         throw new FailedPredicateException(input, "statement", " $statement::isBlock = input.LA(1) == LBRACE ");
@@ -4077,7 +4077,7 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1203:62: statementTail
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1203:62: statementTail
                     {
                     pushFollow(FOLLOW_statementTail_in_statement4369);
                     statementTail();
@@ -4136,18 +4136,18 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "statementTail"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1208:1: statementTail : ( variableStatement | emptyStatement | expressionStatement | ifStatement | iterationStatement | continueStatement | breakStatement | returnStatement | withStatement | labelledStatement | switchStatement | throwStatement | tryStatement );
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1208:1: statementTail : ( variableStatement | emptyStatement | expressionStatement | ifStatement | iterationStatement | continueStatement | breakStatement | returnStatement | withStatement | labelledStatement | switchStatement | throwStatement | tryStatement );
     public final ES3InstrumentParser.statementTail_return statementTail() throws RecognitionException {
         ES3InstrumentParser.statementTail_return retval = new ES3InstrumentParser.statementTail_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1209:2: ( variableStatement | emptyStatement | expressionStatement | ifStatement | iterationStatement | continueStatement | breakStatement | returnStatement | withStatement | labelledStatement | switchStatement | throwStatement | tryStatement )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1209:2: ( variableStatement | emptyStatement | expressionStatement | ifStatement | iterationStatement | continueStatement | breakStatement | returnStatement | withStatement | labelledStatement | switchStatement | throwStatement | tryStatement )
             int alt44=13;
             alt44 = dfa44.predict(input);
             switch (alt44) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1209:4: variableStatement
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1209:4: variableStatement
                     {
                     pushFollow(FOLLOW_variableStatement_in_statementTail4422);
                     variableStatement();
@@ -4158,7 +4158,7 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1210:4: emptyStatement
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1210:4: emptyStatement
                     {
                     pushFollow(FOLLOW_emptyStatement_in_statementTail4427);
                     emptyStatement();
@@ -4169,7 +4169,7 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 3 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1211:4: expressionStatement
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1211:4: expressionStatement
                     {
                     pushFollow(FOLLOW_expressionStatement_in_statementTail4432);
                     expressionStatement();
@@ -4180,7 +4180,7 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 4 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1212:4: ifStatement
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1212:4: ifStatement
                     {
                     pushFollow(FOLLOW_ifStatement_in_statementTail4437);
                     ifStatement();
@@ -4191,7 +4191,7 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 5 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1213:4: iterationStatement
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1213:4: iterationStatement
                     {
                     pushFollow(FOLLOW_iterationStatement_in_statementTail4442);
                     iterationStatement();
@@ -4202,7 +4202,7 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 6 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1214:4: continueStatement
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1214:4: continueStatement
                     {
                     pushFollow(FOLLOW_continueStatement_in_statementTail4447);
                     continueStatement();
@@ -4213,7 +4213,7 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 7 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1215:4: breakStatement
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1215:4: breakStatement
                     {
                     pushFollow(FOLLOW_breakStatement_in_statementTail4452);
                     breakStatement();
@@ -4224,7 +4224,7 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 8 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1216:4: returnStatement
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1216:4: returnStatement
                     {
                     pushFollow(FOLLOW_returnStatement_in_statementTail4457);
                     returnStatement();
@@ -4235,7 +4235,7 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 9 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1217:4: withStatement
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1217:4: withStatement
                     {
                     pushFollow(FOLLOW_withStatement_in_statementTail4462);
                     withStatement();
@@ -4246,7 +4246,7 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 10 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1218:4: labelledStatement
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1218:4: labelledStatement
                     {
                     pushFollow(FOLLOW_labelledStatement_in_statementTail4467);
                     labelledStatement();
@@ -4257,7 +4257,7 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 11 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1219:4: switchStatement
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1219:4: switchStatement
                     {
                     pushFollow(FOLLOW_switchStatement_in_statementTail4472);
                     switchStatement();
@@ -4268,7 +4268,7 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 12 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1220:4: throwStatement
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1220:4: throwStatement
                     {
                     pushFollow(FOLLOW_throwStatement_in_statementTail4477);
                     throwStatement();
@@ -4279,7 +4279,7 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 13 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1221:4: tryStatement
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1221:4: tryStatement
                     {
                     pushFollow(FOLLOW_tryStatement_in_statementTail4482);
                     tryStatement();
@@ -4311,7 +4311,7 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "block"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1226:1: block : lb= LBRACE ( statement )* RBRACE ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1226:1: block : lb= LBRACE ( statement )* RBRACE ;
     public final ES3InstrumentParser.block_return block() throws RecognitionException {
         ES3InstrumentParser.block_return retval = new ES3InstrumentParser.block_return();
         retval.start = input.LT(1);
@@ -4319,11 +4319,11 @@ public class ES3InstrumentParser extends Parser {
         Token lb=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1227:2: (lb= LBRACE ( statement )* RBRACE )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1227:4: lb= LBRACE ( statement )* RBRACE
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1227:2: (lb= LBRACE ( statement )* RBRACE )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1227:4: lb= LBRACE ( statement )* RBRACE
             {
             lb=(Token)match(input,LBRACE,FOLLOW_LBRACE_in_block4497); 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1227:14: ( statement )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1227:14: ( statement )*
             loop45:
             do {
                 int alt45=2;
@@ -4336,7 +4336,7 @@ public class ES3InstrumentParser extends Parser {
 
                 switch (alt45) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1227:14: statement
+            	    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1227:14: statement
             	    {
             	    pushFollow(FOLLOW_statement_in_block4499);
             	    statement();
@@ -4376,14 +4376,14 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "variableStatement"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1235:1: variableStatement : VAR variableDeclaration ( COMMA variableDeclaration )* semic ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1235:1: variableStatement : VAR variableDeclaration ( COMMA variableDeclaration )* semic ;
     public final ES3InstrumentParser.variableStatement_return variableStatement() throws RecognitionException {
         ES3InstrumentParser.variableStatement_return retval = new ES3InstrumentParser.variableStatement_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1236:2: ( VAR variableDeclaration ( COMMA variableDeclaration )* semic )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1236:4: VAR variableDeclaration ( COMMA variableDeclaration )* semic
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1236:2: ( VAR variableDeclaration ( COMMA variableDeclaration )* semic )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1236:4: VAR variableDeclaration ( COMMA variableDeclaration )* semic
             {
             match(input,VAR,FOLLOW_VAR_in_variableStatement4520); 
             pushFollow(FOLLOW_variableDeclaration_in_variableStatement4522);
@@ -4391,7 +4391,7 @@ public class ES3InstrumentParser extends Parser {
 
             state._fsp--;
 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1236:28: ( COMMA variableDeclaration )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1236:28: ( COMMA variableDeclaration )*
             loop46:
             do {
                 int alt46=2;
@@ -4404,7 +4404,7 @@ public class ES3InstrumentParser extends Parser {
 
                 switch (alt46) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1236:30: COMMA variableDeclaration
+            	    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1236:30: COMMA variableDeclaration
             	    {
             	    match(input,COMMA,FOLLOW_COMMA_in_variableStatement4526); 
             	    pushFollow(FOLLOW_variableDeclaration_in_variableStatement4528);
@@ -4449,17 +4449,17 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "variableDeclaration"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1240:1: variableDeclaration : Identifier ( ASSIGN assignmentExpression )? ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1240:1: variableDeclaration : Identifier ( ASSIGN assignmentExpression )? ;
     public final ES3InstrumentParser.variableDeclaration_return variableDeclaration() throws RecognitionException {
         ES3InstrumentParser.variableDeclaration_return retval = new ES3InstrumentParser.variableDeclaration_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1241:2: ( Identifier ( ASSIGN assignmentExpression )? )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1241:4: Identifier ( ASSIGN assignmentExpression )?
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1241:2: ( Identifier ( ASSIGN assignmentExpression )? )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1241:4: Identifier ( ASSIGN assignmentExpression )?
             {
             match(input,Identifier,FOLLOW_Identifier_in_variableDeclaration4546); 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1241:15: ( ASSIGN assignmentExpression )?
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1241:15: ( ASSIGN assignmentExpression )?
             int alt47=2;
             int LA47_0 = input.LA(1);
 
@@ -4468,7 +4468,7 @@ public class ES3InstrumentParser extends Parser {
             }
             switch (alt47) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1241:17: ASSIGN assignmentExpression
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1241:17: ASSIGN assignmentExpression
                     {
                     match(input,ASSIGN,FOLLOW_ASSIGN_in_variableDeclaration4550); 
                     pushFollow(FOLLOW_assignmentExpression_in_variableDeclaration4552);
@@ -4505,17 +4505,17 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "variableDeclarationNoIn"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1244:1: variableDeclarationNoIn : Identifier ( ASSIGN assignmentExpressionNoIn )? ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1244:1: variableDeclarationNoIn : Identifier ( ASSIGN assignmentExpressionNoIn )? ;
     public final ES3InstrumentParser.variableDeclarationNoIn_return variableDeclarationNoIn() throws RecognitionException {
         ES3InstrumentParser.variableDeclarationNoIn_return retval = new ES3InstrumentParser.variableDeclarationNoIn_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1245:2: ( Identifier ( ASSIGN assignmentExpressionNoIn )? )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1245:4: Identifier ( ASSIGN assignmentExpressionNoIn )?
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1245:2: ( Identifier ( ASSIGN assignmentExpressionNoIn )? )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1245:4: Identifier ( ASSIGN assignmentExpressionNoIn )?
             {
             match(input,Identifier,FOLLOW_Identifier_in_variableDeclarationNoIn4567); 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1245:15: ( ASSIGN assignmentExpressionNoIn )?
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1245:15: ( ASSIGN assignmentExpressionNoIn )?
             int alt48=2;
             int LA48_0 = input.LA(1);
 
@@ -4524,7 +4524,7 @@ public class ES3InstrumentParser extends Parser {
             }
             switch (alt48) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1245:17: ASSIGN assignmentExpressionNoIn
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1245:17: ASSIGN assignmentExpressionNoIn
                     {
                     match(input,ASSIGN,FOLLOW_ASSIGN_in_variableDeclarationNoIn4571); 
                     pushFollow(FOLLOW_assignmentExpressionNoIn_in_variableDeclarationNoIn4573);
@@ -4561,14 +4561,14 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "emptyStatement"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1252:1: emptyStatement : SEMIC ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1252:1: emptyStatement : SEMIC ;
     public final ES3InstrumentParser.emptyStatement_return emptyStatement() throws RecognitionException {
         ES3InstrumentParser.emptyStatement_return retval = new ES3InstrumentParser.emptyStatement_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1253:2: ( SEMIC )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1253:4: SEMIC
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1253:2: ( SEMIC )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1253:4: SEMIC
             {
             match(input,SEMIC,FOLLOW_SEMIC_in_emptyStatement4592); 
 
@@ -4594,14 +4594,14 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "expressionStatement"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1266:1: expressionStatement : expression semic ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1266:1: expressionStatement : expression semic ;
     public final ES3InstrumentParser.expressionStatement_return expressionStatement() throws RecognitionException {
         ES3InstrumentParser.expressionStatement_return retval = new ES3InstrumentParser.expressionStatement_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1267:2: ( expression semic )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1267:4: expression semic
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1267:2: ( expression semic )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1267:4: expression semic
             {
             pushFollow(FOLLOW_expression_in_expressionStatement4610);
             expression();
@@ -4636,7 +4636,7 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "ifStatement"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1275:1: ifStatement : IF LPAREN expression RPAREN statement ({...}? elseStatement )? -> template(p=input.toString($start.getTokenIndex(), $statement.start.getTokenIndex() - 1)body=wrapInBraces($statement.start, $statement.stop, input)elseClause=\n\t $elseStatement.stop != null ? input.toString($statement.stop.getTokenIndex()+1, $elseStatement.stop.getTokenIndex() ) : null) \"<p><body><elseClause>\";
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1275:1: ifStatement : IF LPAREN expression RPAREN statement ({...}? elseStatement )? -> template(p=input.toString($start.getTokenIndex(), $statement.start.getTokenIndex() - 1)body=wrapInBraces($statement.start, $statement.stop, input)elseClause=\n\t $elseStatement.stop != null ? input.toString($statement.stop.getTokenIndex()+1, $elseStatement.stop.getTokenIndex() ) : null) \"<p><body><elseClause>\";
     public final ES3InstrumentParser.ifStatement_return ifStatement() throws RecognitionException {
         ES3InstrumentParser.ifStatement_return retval = new ES3InstrumentParser.ifStatement_return();
         retval.start = input.LT(1);
@@ -4647,8 +4647,8 @@ public class ES3InstrumentParser extends Parser {
 
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1277:2: ( IF LPAREN expression RPAREN statement ({...}? elseStatement )? -> template(p=input.toString($start.getTokenIndex(), $statement.start.getTokenIndex() - 1)body=wrapInBraces($statement.start, $statement.stop, input)elseClause=\n\t $elseStatement.stop != null ? input.toString($statement.stop.getTokenIndex()+1, $elseStatement.stop.getTokenIndex() ) : null) \"<p><body><elseClause>\")
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1277:4: IF LPAREN expression RPAREN statement ({...}? elseStatement )?
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1277:2: ( IF LPAREN expression RPAREN statement ({...}? elseStatement )? -> template(p=input.toString($start.getTokenIndex(), $statement.start.getTokenIndex() - 1)body=wrapInBraces($statement.start, $statement.stop, input)elseClause=\n\t $elseStatement.stop != null ? input.toString($statement.stop.getTokenIndex()+1, $elseStatement.stop.getTokenIndex() ) : null) \"<p><body><elseClause>\")
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1277:4: IF LPAREN expression RPAREN statement ({...}? elseStatement )?
             {
             match(input,IF,FOLLOW_IF_in_ifStatement4630); 
             match(input,LPAREN,FOLLOW_LPAREN_in_ifStatement4632); 
@@ -4663,7 +4663,7 @@ public class ES3InstrumentParser extends Parser {
 
             state._fsp--;
 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1277:42: ({...}? elseStatement )?
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1277:42: ({...}? elseStatement )?
             int alt49=2;
             int LA49_0 = input.LA(1);
 
@@ -4676,7 +4676,7 @@ public class ES3InstrumentParser extends Parser {
             }
             switch (alt49) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1277:44: {...}? elseStatement
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1277:44: {...}? elseStatement
                     {
                     if ( !(( input.LA(1) == ELSE )) ) {
                         throw new FailedPredicateException(input, "ifStatement", " input.LA(1) == ELSE ");
@@ -4728,7 +4728,7 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "elseStatement"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1285:1: elseStatement : ELSE statement -> template(prefix=input.toString($start.getTokenIndex(), $statement.start.getTokenIndex() - 1)stmt=wrapInBraces($statement.start, $statement.stop, input)) \"<prefix><stmt>\";
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1285:1: elseStatement : ELSE statement -> template(prefix=input.toString($start.getTokenIndex(), $statement.start.getTokenIndex() - 1)stmt=wrapInBraces($statement.start, $statement.stop, input)) \"<prefix><stmt>\";
     public final ES3InstrumentParser.elseStatement_return elseStatement() throws RecognitionException {
         ES3InstrumentParser.elseStatement_return retval = new ES3InstrumentParser.elseStatement_return();
         retval.start = input.LT(1);
@@ -4737,8 +4737,8 @@ public class ES3InstrumentParser extends Parser {
 
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1286:2: ( ELSE statement -> template(prefix=input.toString($start.getTokenIndex(), $statement.start.getTokenIndex() - 1)stmt=wrapInBraces($statement.start, $statement.stop, input)) \"<prefix><stmt>\")
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1286:4: ELSE statement
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1286:2: ( ELSE statement -> template(prefix=input.toString($start.getTokenIndex(), $statement.start.getTokenIndex() - 1)stmt=wrapInBraces($statement.start, $statement.stop, input)) \"<prefix><stmt>\")
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1286:4: ELSE statement
             {
             match(input,ELSE,FOLLOW_ELSE_in_elseStatement4716); 
             pushFollow(FOLLOW_statement_in_elseStatement4718);
@@ -4781,13 +4781,13 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "iterationStatement"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1294:1: iterationStatement : ( doStatement | whileStatement | forStatement );
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1294:1: iterationStatement : ( doStatement | whileStatement | forStatement );
     public final ES3InstrumentParser.iterationStatement_return iterationStatement() throws RecognitionException {
         ES3InstrumentParser.iterationStatement_return retval = new ES3InstrumentParser.iterationStatement_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1295:2: ( doStatement | whileStatement | forStatement )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1295:2: ( doStatement | whileStatement | forStatement )
             int alt50=3;
             switch ( input.LA(1) ) {
             case DO:
@@ -4814,7 +4814,7 @@ public class ES3InstrumentParser extends Parser {
 
             switch (alt50) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1295:4: doStatement
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1295:4: doStatement
                     {
                     pushFollow(FOLLOW_doStatement_in_iterationStatement4755);
                     doStatement();
@@ -4825,7 +4825,7 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1296:4: whileStatement
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1296:4: whileStatement
                     {
                     pushFollow(FOLLOW_whileStatement_in_iterationStatement4760);
                     whileStatement();
@@ -4836,7 +4836,7 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 3 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1297:4: forStatement
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1297:4: forStatement
                     {
                     pushFollow(FOLLOW_forStatement_in_iterationStatement4765);
                     forStatement();
@@ -4868,7 +4868,7 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "doStatement"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1300:1: doStatement : DO statement WHILE LPAREN expression RPAREN semic -> template(pre=input.toString($start.getTokenIndex(), $statement.start.getTokenIndex() - 1)stmt=wrapInBraces($statement.start, $statement.stop, input)post=input.toString($WHILE, $RPAREN)end=$semic.text) \"<pre><stmt><post><end>\";
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1300:1: doStatement : DO statement WHILE LPAREN expression RPAREN semic -> template(pre=input.toString($start.getTokenIndex(), $statement.start.getTokenIndex() - 1)stmt=wrapInBraces($statement.start, $statement.stop, input)post=input.toString($WHILE, $RPAREN)end=$semic.text) \"<pre><stmt><post><end>\";
     public final ES3InstrumentParser.doStatement_return doStatement() throws RecognitionException {
         ES3InstrumentParser.doStatement_return retval = new ES3InstrumentParser.doStatement_return();
         retval.start = input.LT(1);
@@ -4881,8 +4881,8 @@ public class ES3InstrumentParser extends Parser {
 
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1301:2: ( DO statement WHILE LPAREN expression RPAREN semic -> template(pre=input.toString($start.getTokenIndex(), $statement.start.getTokenIndex() - 1)stmt=wrapInBraces($statement.start, $statement.stop, input)post=input.toString($WHILE, $RPAREN)end=$semic.text) \"<pre><stmt><post><end>\")
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1301:4: DO statement WHILE LPAREN expression RPAREN semic
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1301:2: ( DO statement WHILE LPAREN expression RPAREN semic -> template(pre=input.toString($start.getTokenIndex(), $statement.start.getTokenIndex() - 1)stmt=wrapInBraces($statement.start, $statement.stop, input)post=input.toString($WHILE, $RPAREN)end=$semic.text) \"<pre><stmt><post><end>\")
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1301:4: DO statement WHILE LPAREN expression RPAREN semic
             {
             match(input,DO,FOLLOW_DO_in_doStatement4777); 
             pushFollow(FOLLOW_statement_in_doStatement4779);
@@ -4938,7 +4938,7 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "whileStatement"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1308:1: whileStatement : WHILE LPAREN expression RPAREN statement -> template(pre=input.toString($start.getTokenIndex(), $statement.start.getTokenIndex() - 1)stmt=wrapInBraces($statement.start, $statement.stop, input)) \"<pre><stmt>\";
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1308:1: whileStatement : WHILE LPAREN expression RPAREN statement -> template(pre=input.toString($start.getTokenIndex(), $statement.start.getTokenIndex() - 1)stmt=wrapInBraces($statement.start, $statement.stop, input)) \"<pre><stmt>\";
     public final ES3InstrumentParser.whileStatement_return whileStatement() throws RecognitionException {
         ES3InstrumentParser.whileStatement_return retval = new ES3InstrumentParser.whileStatement_return();
         retval.start = input.LT(1);
@@ -4947,8 +4947,8 @@ public class ES3InstrumentParser extends Parser {
 
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1309:2: ( WHILE LPAREN expression RPAREN statement -> template(pre=input.toString($start.getTokenIndex(), $statement.start.getTokenIndex() - 1)stmt=wrapInBraces($statement.start, $statement.stop, input)) \"<pre><stmt>\")
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1309:4: WHILE LPAREN expression RPAREN statement
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1309:2: ( WHILE LPAREN expression RPAREN statement -> template(pre=input.toString($start.getTokenIndex(), $statement.start.getTokenIndex() - 1)stmt=wrapInBraces($statement.start, $statement.stop, input)) \"<pre><stmt>\")
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1309:4: WHILE LPAREN expression RPAREN statement
             {
             match(input,WHILE,FOLLOW_WHILE_in_whileStatement4875); 
             match(input,LPAREN,FOLLOW_LPAREN_in_whileStatement4877); 
@@ -4998,7 +4998,7 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "forStatement"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1356:1: forStatement : FOR LPAREN forControl RPAREN statement -> template(pre=input.toString($start.getTokenIndex(), $statement.start.getTokenIndex() - 1)stmt=wrapInBraces($statement.start, $statement.stop, input)) \"<pre><stmt>\";
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1356:1: forStatement : FOR LPAREN forControl RPAREN statement -> template(pre=input.toString($start.getTokenIndex(), $statement.start.getTokenIndex() - 1)stmt=wrapInBraces($statement.start, $statement.stop, input)) \"<pre><stmt>\";
     public final ES3InstrumentParser.forStatement_return forStatement() throws RecognitionException {
         ES3InstrumentParser.forStatement_return retval = new ES3InstrumentParser.forStatement_return();
         retval.start = input.LT(1);
@@ -5007,8 +5007,8 @@ public class ES3InstrumentParser extends Parser {
 
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1357:2: ( FOR LPAREN forControl RPAREN statement -> template(pre=input.toString($start.getTokenIndex(), $statement.start.getTokenIndex() - 1)stmt=wrapInBraces($statement.start, $statement.stop, input)) \"<pre><stmt>\")
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1357:4: FOR LPAREN forControl RPAREN statement
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1357:2: ( FOR LPAREN forControl RPAREN statement -> template(pre=input.toString($start.getTokenIndex(), $statement.start.getTokenIndex() - 1)stmt=wrapInBraces($statement.start, $statement.stop, input)) \"<pre><stmt>\")
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1357:4: FOR LPAREN forControl RPAREN statement
             {
             match(input,FOR,FOLLOW_FOR_in_forStatement4944); 
             match(input,LPAREN,FOLLOW_LPAREN_in_forStatement4946); 
@@ -5058,13 +5058,13 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "forControl"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1363:1: forControl : ( forControlVar | forControlExpression | forControlSemic );
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1363:1: forControl : ( forControlVar | forControlExpression | forControlSemic );
     public final ES3InstrumentParser.forControl_return forControl() throws RecognitionException {
         ES3InstrumentParser.forControl_return retval = new ES3InstrumentParser.forControl_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1364:2: ( forControlVar | forControlExpression | forControlSemic )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1364:2: ( forControlVar | forControlExpression | forControlSemic )
             int alt51=3;
             switch ( input.LA(1) ) {
             case VAR:
@@ -5114,7 +5114,7 @@ public class ES3InstrumentParser extends Parser {
 
             switch (alt51) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1364:4: forControlVar
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1364:4: forControlVar
                     {
                     pushFollow(FOLLOW_forControlVar_in_forControl5017);
                     forControlVar();
@@ -5125,7 +5125,7 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1365:4: forControlExpression
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1365:4: forControlExpression
                     {
                     pushFollow(FOLLOW_forControlExpression_in_forControl5022);
                     forControlExpression();
@@ -5136,7 +5136,7 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 3 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1366:4: forControlSemic
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1366:4: forControlSemic
                     {
                     pushFollow(FOLLOW_forControlSemic_in_forControl5027);
                     forControlSemic();
@@ -5168,7 +5168,7 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "forControlVar"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1369:1: forControlVar : VAR variableDeclarationNoIn ( ( IN expression ) | ( ( COMMA variableDeclarationNoIn )* SEMIC (ex1= expression )? SEMIC (ex2= expression )? ) ) ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1369:1: forControlVar : VAR variableDeclarationNoIn ( ( IN expression ) | ( ( COMMA variableDeclarationNoIn )* SEMIC (ex1= expression )? SEMIC (ex2= expression )? ) ) ;
     public final ES3InstrumentParser.forControlVar_return forControlVar() throws RecognitionException {
         ES3InstrumentParser.forControlVar_return retval = new ES3InstrumentParser.forControlVar_return();
         retval.start = input.LT(1);
@@ -5179,8 +5179,8 @@ public class ES3InstrumentParser extends Parser {
 
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1370:2: ( VAR variableDeclarationNoIn ( ( IN expression ) | ( ( COMMA variableDeclarationNoIn )* SEMIC (ex1= expression )? SEMIC (ex2= expression )? ) ) )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1370:4: VAR variableDeclarationNoIn ( ( IN expression ) | ( ( COMMA variableDeclarationNoIn )* SEMIC (ex1= expression )? SEMIC (ex2= expression )? ) )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1370:2: ( VAR variableDeclarationNoIn ( ( IN expression ) | ( ( COMMA variableDeclarationNoIn )* SEMIC (ex1= expression )? SEMIC (ex2= expression )? ) ) )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1370:4: VAR variableDeclarationNoIn ( ( IN expression ) | ( ( COMMA variableDeclarationNoIn )* SEMIC (ex1= expression )? SEMIC (ex2= expression )? ) )
             {
             match(input,VAR,FOLLOW_VAR_in_forControlVar5038); 
             pushFollow(FOLLOW_variableDeclarationNoIn_in_forControlVar5040);
@@ -5188,7 +5188,7 @@ public class ES3InstrumentParser extends Parser {
 
             state._fsp--;
 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1371:2: ( ( IN expression ) | ( ( COMMA variableDeclarationNoIn )* SEMIC (ex1= expression )? SEMIC (ex2= expression )? ) )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1371:2: ( ( IN expression ) | ( ( COMMA variableDeclarationNoIn )* SEMIC (ex1= expression )? SEMIC (ex2= expression )? ) )
             int alt55=2;
             int LA55_0 = input.LA(1);
 
@@ -5206,10 +5206,10 @@ public class ES3InstrumentParser extends Parser {
             }
             switch (alt55) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1372:3: ( IN expression )
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1372:3: ( IN expression )
                     {
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1372:3: ( IN expression )
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1373:4: IN expression
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1372:3: ( IN expression )
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1373:4: IN expression
                     {
                     match(input,IN,FOLLOW_IN_in_forControlVar5052); 
                     pushFollow(FOLLOW_expression_in_forControlVar5054);
@@ -5224,12 +5224,12 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1377:3: ( ( COMMA variableDeclarationNoIn )* SEMIC (ex1= expression )? SEMIC (ex2= expression )? )
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1377:3: ( ( COMMA variableDeclarationNoIn )* SEMIC (ex1= expression )? SEMIC (ex2= expression )? )
                     {
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1377:3: ( ( COMMA variableDeclarationNoIn )* SEMIC (ex1= expression )? SEMIC (ex2= expression )? )
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1378:4: ( COMMA variableDeclarationNoIn )* SEMIC (ex1= expression )? SEMIC (ex2= expression )?
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1377:3: ( ( COMMA variableDeclarationNoIn )* SEMIC (ex1= expression )? SEMIC (ex2= expression )? )
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1378:4: ( COMMA variableDeclarationNoIn )* SEMIC (ex1= expression )? SEMIC (ex2= expression )?
                     {
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1378:4: ( COMMA variableDeclarationNoIn )*
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1378:4: ( COMMA variableDeclarationNoIn )*
                     loop52:
                     do {
                         int alt52=2;
@@ -5242,7 +5242,7 @@ public class ES3InstrumentParser extends Parser {
 
                         switch (alt52) {
                     	case 1 :
-                    	    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1378:6: COMMA variableDeclarationNoIn
+                    	    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1378:6: COMMA variableDeclarationNoIn
                     	    {
                     	    match(input,COMMA,FOLLOW_COMMA_in_forControlVar5077); 
                     	    pushFollow(FOLLOW_variableDeclarationNoIn_in_forControlVar5079);
@@ -5260,7 +5260,7 @@ public class ES3InstrumentParser extends Parser {
                     } while (true);
 
                     match(input,SEMIC,FOLLOW_SEMIC_in_forControlVar5084); 
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1378:48: (ex1= expression )?
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1378:48: (ex1= expression )?
                     int alt53=2;
                     int LA53_0 = input.LA(1);
 
@@ -5269,7 +5269,7 @@ public class ES3InstrumentParser extends Parser {
                     }
                     switch (alt53) {
                         case 1 :
-                            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1378:48: ex1= expression
+                            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1378:48: ex1= expression
                             {
                             pushFollow(FOLLOW_expression_in_forControlVar5088);
                             ex1=expression();
@@ -5283,7 +5283,7 @@ public class ES3InstrumentParser extends Parser {
                     }
 
                     match(input,SEMIC,FOLLOW_SEMIC_in_forControlVar5091); 
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1378:70: (ex2= expression )?
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1378:70: (ex2= expression )?
                     int alt54=2;
                     int LA54_0 = input.LA(1);
 
@@ -5292,7 +5292,7 @@ public class ES3InstrumentParser extends Parser {
                     }
                     switch (alt54) {
                         case 1 :
-                            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1378:70: ex2= expression
+                            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1378:70: ex2= expression
                             {
                             pushFollow(FOLLOW_expression_in_forControlVar5095);
                             ex2=expression();
@@ -5337,7 +5337,7 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "forControlExpression"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1384:1: forControlExpression : ex1= expressionNoIn ({...}? ( IN ex2= expression ) | ( SEMIC (ex2= expression )? SEMIC (ex3= expression )? ) ) ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1384:1: forControlExpression : ex1= expressionNoIn ({...}? ( IN ex2= expression ) | ( SEMIC (ex2= expression )? SEMIC (ex3= expression )? ) ) ;
     public final ES3InstrumentParser.forControlExpression_return forControlExpression() throws RecognitionException {
         ES3InstrumentParser.forControlExpression_return retval = new ES3InstrumentParser.forControlExpression_return();
         retval.start = input.LT(1);
@@ -5353,15 +5353,15 @@ public class ES3InstrumentParser extends Parser {
         	Object[] isLhs = new Object[1];
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1389:2: (ex1= expressionNoIn ({...}? ( IN ex2= expression ) | ( SEMIC (ex2= expression )? SEMIC (ex3= expression )? ) ) )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1389:4: ex1= expressionNoIn ({...}? ( IN ex2= expression ) | ( SEMIC (ex2= expression )? SEMIC (ex3= expression )? ) )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1389:2: (ex1= expressionNoIn ({...}? ( IN ex2= expression ) | ( SEMIC (ex2= expression )? SEMIC (ex3= expression )? ) ) )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1389:4: ex1= expressionNoIn ({...}? ( IN ex2= expression ) | ( SEMIC (ex2= expression )? SEMIC (ex3= expression )? ) )
             {
             pushFollow(FOLLOW_expressionNoIn_in_forControlExpression5125);
             ex1=expressionNoIn();
 
             state._fsp--;
 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1390:2: ({...}? ( IN ex2= expression ) | ( SEMIC (ex2= expression )? SEMIC (ex3= expression )? ) )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1390:2: ({...}? ( IN ex2= expression ) | ( SEMIC (ex2= expression )? SEMIC (ex3= expression )? ) )
             int alt58=2;
             int LA58_0 = input.LA(1);
 
@@ -5379,13 +5379,13 @@ public class ES3InstrumentParser extends Parser {
             }
             switch (alt58) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1391:3: {...}? ( IN ex2= expression )
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1391:3: {...}? ( IN ex2= expression )
                     {
                     if ( !(( isLeftHandSideIn(ex1, isLhs) )) ) {
                         throw new FailedPredicateException(input, "forControlExpression", " isLeftHandSideIn(ex1, isLhs) ");
                     }
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1391:37: ( IN ex2= expression )
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1392:4: IN ex2= expression
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1391:37: ( IN ex2= expression )
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1392:4: IN ex2= expression
                     {
                     match(input,IN,FOLLOW_IN_in_forControlExpression5140); 
                     pushFollow(FOLLOW_expression_in_forControlExpression5144);
@@ -5400,13 +5400,13 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1396:3: ( SEMIC (ex2= expression )? SEMIC (ex3= expression )? )
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1396:3: ( SEMIC (ex2= expression )? SEMIC (ex3= expression )? )
                     {
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1396:3: ( SEMIC (ex2= expression )? SEMIC (ex3= expression )? )
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1397:4: SEMIC (ex2= expression )? SEMIC (ex3= expression )?
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1396:3: ( SEMIC (ex2= expression )? SEMIC (ex3= expression )? )
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1397:4: SEMIC (ex2= expression )? SEMIC (ex3= expression )?
                     {
                     match(input,SEMIC,FOLLOW_SEMIC_in_forControlExpression5165); 
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1397:13: (ex2= expression )?
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1397:13: (ex2= expression )?
                     int alt56=2;
                     int LA56_0 = input.LA(1);
 
@@ -5415,7 +5415,7 @@ public class ES3InstrumentParser extends Parser {
                     }
                     switch (alt56) {
                         case 1 :
-                            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1397:13: ex2= expression
+                            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1397:13: ex2= expression
                             {
                             pushFollow(FOLLOW_expression_in_forControlExpression5169);
                             ex2=expression();
@@ -5429,7 +5429,7 @@ public class ES3InstrumentParser extends Parser {
                     }
 
                     match(input,SEMIC,FOLLOW_SEMIC_in_forControlExpression5172); 
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1397:35: (ex3= expression )?
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1397:35: (ex3= expression )?
                     int alt57=2;
                     int LA57_0 = input.LA(1);
 
@@ -5438,7 +5438,7 @@ public class ES3InstrumentParser extends Parser {
                     }
                     switch (alt57) {
                         case 1 :
-                            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1397:35: ex3= expression
+                            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1397:35: ex3= expression
                             {
                             pushFollow(FOLLOW_expression_in_forControlExpression5176);
                             ex3=expression();
@@ -5483,7 +5483,7 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "forControlSemic"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1403:1: forControlSemic : SEMIC (ex1= expression )? SEMIC (ex2= expression )? ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1403:1: forControlSemic : SEMIC (ex1= expression )? SEMIC (ex2= expression )? ;
     public final ES3InstrumentParser.forControlSemic_return forControlSemic() throws RecognitionException {
         ES3InstrumentParser.forControlSemic_return retval = new ES3InstrumentParser.forControlSemic_return();
         retval.start = input.LT(1);
@@ -5494,11 +5494,11 @@ public class ES3InstrumentParser extends Parser {
 
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1404:2: ( SEMIC (ex1= expression )? SEMIC (ex2= expression )? )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1404:4: SEMIC (ex1= expression )? SEMIC (ex2= expression )?
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1404:2: ( SEMIC (ex1= expression )? SEMIC (ex2= expression )? )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1404:4: SEMIC (ex1= expression )? SEMIC (ex2= expression )?
             {
             match(input,SEMIC,FOLLOW_SEMIC_in_forControlSemic5199); 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1404:13: (ex1= expression )?
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1404:13: (ex1= expression )?
             int alt59=2;
             int LA59_0 = input.LA(1);
 
@@ -5507,7 +5507,7 @@ public class ES3InstrumentParser extends Parser {
             }
             switch (alt59) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1404:13: ex1= expression
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1404:13: ex1= expression
                     {
                     pushFollow(FOLLOW_expression_in_forControlSemic5203);
                     ex1=expression();
@@ -5521,7 +5521,7 @@ public class ES3InstrumentParser extends Parser {
             }
 
             match(input,SEMIC,FOLLOW_SEMIC_in_forControlSemic5206); 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1404:35: (ex2= expression )?
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1404:35: (ex2= expression )?
             int alt60=2;
             int LA60_0 = input.LA(1);
 
@@ -5530,7 +5530,7 @@ public class ES3InstrumentParser extends Parser {
             }
             switch (alt60) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1404:35: ex2= expression
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1404:35: ex2= expression
                     {
                     pushFollow(FOLLOW_expression_in_forControlSemic5210);
                     ex2=expression();
@@ -5566,18 +5566,18 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "continueStatement"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1417:1: continueStatement : CONTINUE ( Identifier )? semic ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1417:1: continueStatement : CONTINUE ( Identifier )? semic ;
     public final ES3InstrumentParser.continueStatement_return continueStatement() throws RecognitionException {
         ES3InstrumentParser.continueStatement_return retval = new ES3InstrumentParser.continueStatement_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1418:2: ( CONTINUE ( Identifier )? semic )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1418:4: CONTINUE ( Identifier )? semic
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1418:2: ( CONTINUE ( Identifier )? semic )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1418:4: CONTINUE ( Identifier )? semic
             {
             match(input,CONTINUE,FOLLOW_CONTINUE_in_continueStatement5231); 
              if (input.LA(1) == Identifier) promoteEOL(null); 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1418:66: ( Identifier )?
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1418:66: ( Identifier )?
             int alt61=2;
             int LA61_0 = input.LA(1);
 
@@ -5586,7 +5586,7 @@ public class ES3InstrumentParser extends Parser {
             }
             switch (alt61) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1418:66: Identifier
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1418:66: Identifier
                     {
                     match(input,Identifier,FOLLOW_Identifier_in_continueStatement5235); 
 
@@ -5623,18 +5623,18 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "breakStatement"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1430:1: breakStatement : BREAK ( Identifier )? semic ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1430:1: breakStatement : BREAK ( Identifier )? semic ;
     public final ES3InstrumentParser.breakStatement_return breakStatement() throws RecognitionException {
         ES3InstrumentParser.breakStatement_return retval = new ES3InstrumentParser.breakStatement_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1431:2: ( BREAK ( Identifier )? semic )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1431:4: BREAK ( Identifier )? semic
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1431:2: ( BREAK ( Identifier )? semic )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1431:4: BREAK ( Identifier )? semic
             {
             match(input,BREAK,FOLLOW_BREAK_in_breakStatement5256); 
              if (input.LA(1) == Identifier) promoteEOL(null); 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1431:63: ( Identifier )?
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1431:63: ( Identifier )?
             int alt62=2;
             int LA62_0 = input.LA(1);
 
@@ -5643,7 +5643,7 @@ public class ES3InstrumentParser extends Parser {
             }
             switch (alt62) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1431:63: Identifier
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1431:63: Identifier
                     {
                     match(input,Identifier,FOLLOW_Identifier_in_breakStatement5260); 
 
@@ -5680,18 +5680,18 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "returnStatement"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1451:1: returnStatement : RETURN ( expression )? semic ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1451:1: returnStatement : RETURN ( expression )? semic ;
     public final ES3InstrumentParser.returnStatement_return returnStatement() throws RecognitionException {
         ES3InstrumentParser.returnStatement_return retval = new ES3InstrumentParser.returnStatement_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1452:2: ( RETURN ( expression )? semic )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1452:4: RETURN ( expression )? semic
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1452:2: ( RETURN ( expression )? semic )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1452:4: RETURN ( expression )? semic
             {
             match(input,RETURN,FOLLOW_RETURN_in_returnStatement5281); 
              promoteEOL(null); 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1452:33: ( expression )?
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1452:33: ( expression )?
             int alt63=2;
             int LA63_0 = input.LA(1);
 
@@ -5700,7 +5700,7 @@ public class ES3InstrumentParser extends Parser {
             }
             switch (alt63) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1452:33: expression
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1452:33: expression
                     {
                     pushFollow(FOLLOW_expression_in_returnStatement5285);
                     expression();
@@ -5741,7 +5741,7 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "withStatement"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1459:1: withStatement : WITH LPAREN expression RPAREN statement -> template(pre=input.toString($start.getTokenIndex(), $statement.start.getTokenIndex() - 1)stmt=wrapInBraces($statement.start, $statement.stop, input)) \"<pre><stmt>\";
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1459:1: withStatement : WITH LPAREN expression RPAREN statement -> template(pre=input.toString($start.getTokenIndex(), $statement.start.getTokenIndex() - 1)stmt=wrapInBraces($statement.start, $statement.stop, input)) \"<pre><stmt>\";
     public final ES3InstrumentParser.withStatement_return withStatement() throws RecognitionException {
         ES3InstrumentParser.withStatement_return retval = new ES3InstrumentParser.withStatement_return();
         retval.start = input.LT(1);
@@ -5750,8 +5750,8 @@ public class ES3InstrumentParser extends Parser {
 
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1460:2: ( WITH LPAREN expression RPAREN statement -> template(pre=input.toString($start.getTokenIndex(), $statement.start.getTokenIndex() - 1)stmt=wrapInBraces($statement.start, $statement.stop, input)) \"<pre><stmt>\")
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1460:4: WITH LPAREN expression RPAREN statement
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1460:2: ( WITH LPAREN expression RPAREN statement -> template(pre=input.toString($start.getTokenIndex(), $statement.start.getTokenIndex() - 1)stmt=wrapInBraces($statement.start, $statement.stop, input)) \"<pre><stmt>\")
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1460:4: WITH LPAREN expression RPAREN statement
             {
             match(input,WITH,FOLLOW_WITH_in_withStatement5304); 
             match(input,LPAREN,FOLLOW_LPAREN_in_withStatement5306); 
@@ -5801,7 +5801,7 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "switchStatement"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1470:1: switchStatement : SWITCH LPAREN expression RPAREN LBRACE ({...}? => defaultClause | caseClause )* RBRACE ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1470:1: switchStatement : SWITCH LPAREN expression RPAREN LBRACE ({...}? => defaultClause | caseClause )* RBRACE ;
     public final ES3InstrumentParser.switchStatement_return switchStatement() throws RecognitionException {
         ES3InstrumentParser.switchStatement_return retval = new ES3InstrumentParser.switchStatement_return();
         retval.start = input.LT(1);
@@ -5810,8 +5810,8 @@ public class ES3InstrumentParser extends Parser {
         	int defaultClauseCount = 0;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1475:2: ( SWITCH LPAREN expression RPAREN LBRACE ({...}? => defaultClause | caseClause )* RBRACE )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1475:4: SWITCH LPAREN expression RPAREN LBRACE ({...}? => defaultClause | caseClause )* RBRACE
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1475:2: ( SWITCH LPAREN expression RPAREN LBRACE ({...}? => defaultClause | caseClause )* RBRACE )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1475:4: SWITCH LPAREN expression RPAREN LBRACE ({...}? => defaultClause | caseClause )* RBRACE
             {
             match(input,SWITCH,FOLLOW_SWITCH_in_switchStatement5381); 
             match(input,LPAREN,FOLLOW_LPAREN_in_switchStatement5383); 
@@ -5822,7 +5822,7 @@ public class ES3InstrumentParser extends Parser {
 
             match(input,RPAREN,FOLLOW_RPAREN_in_switchStatement5387); 
             match(input,LBRACE,FOLLOW_LBRACE_in_switchStatement5389); 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1475:43: ({...}? => defaultClause | caseClause )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1475:43: ({...}? => defaultClause | caseClause )*
             loop64:
             do {
                 int alt64=3;
@@ -5838,7 +5838,7 @@ public class ES3InstrumentParser extends Parser {
 
                 switch (alt64) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1475:45: {...}? => defaultClause
+            	    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1475:45: {...}? => defaultClause
             	    {
             	    if ( !(( defaultClauseCount == 0 )) ) {
             	        throw new FailedPredicateException(input, "switchStatement", " defaultClauseCount == 0 ");
@@ -5853,7 +5853,7 @@ public class ES3InstrumentParser extends Parser {
             	    }
             	    break;
             	case 2 :
-            	    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1475:118: caseClause
+            	    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1475:118: caseClause
             	    {
             	    pushFollow(FOLLOW_caseClause_in_switchStatement5402);
             	    caseClause();
@@ -5893,14 +5893,14 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "caseClause"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1479:1: caseClause : CASE expression COLON ( statement )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1479:1: caseClause : CASE expression COLON ( statement )* ;
     public final ES3InstrumentParser.caseClause_return caseClause() throws RecognitionException {
         ES3InstrumentParser.caseClause_return retval = new ES3InstrumentParser.caseClause_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1480:2: ( CASE expression COLON ( statement )* )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1480:4: CASE expression COLON ( statement )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1480:2: ( CASE expression COLON ( statement )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1480:4: CASE expression COLON ( statement )*
             {
             match(input,CASE,FOLLOW_CASE_in_caseClause5420); 
             pushFollow(FOLLOW_expression_in_caseClause5422);
@@ -5909,7 +5909,7 @@ public class ES3InstrumentParser extends Parser {
             state._fsp--;
 
             match(input,COLON,FOLLOW_COLON_in_caseClause5424); 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1480:26: ( statement )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1480:26: ( statement )*
             loop65:
             do {
                 int alt65=2;
@@ -5922,7 +5922,7 @@ public class ES3InstrumentParser extends Parser {
 
                 switch (alt65) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1480:26: statement
+            	    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1480:26: statement
             	    {
             	    pushFollow(FOLLOW_statement_in_caseClause5426);
             	    statement();
@@ -5961,18 +5961,18 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "defaultClause"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1483:1: defaultClause : DEFAULT COLON ( statement )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1483:1: defaultClause : DEFAULT COLON ( statement )* ;
     public final ES3InstrumentParser.defaultClause_return defaultClause() throws RecognitionException {
         ES3InstrumentParser.defaultClause_return retval = new ES3InstrumentParser.defaultClause_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1484:2: ( DEFAULT COLON ( statement )* )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1484:4: DEFAULT COLON ( statement )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1484:2: ( DEFAULT COLON ( statement )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1484:4: DEFAULT COLON ( statement )*
             {
             match(input,DEFAULT,FOLLOW_DEFAULT_in_defaultClause5439); 
             match(input,COLON,FOLLOW_COLON_in_defaultClause5441); 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1484:18: ( statement )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1484:18: ( statement )*
             loop66:
             do {
                 int alt66=2;
@@ -5985,7 +5985,7 @@ public class ES3InstrumentParser extends Parser {
 
                 switch (alt66) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1484:18: statement
+            	    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1484:18: statement
             	    {
             	    pushFollow(FOLLOW_statement_in_defaultClause5443);
             	    statement();
@@ -6024,14 +6024,14 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "labelledStatement"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1491:1: labelledStatement : Identifier COLON statement ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1491:1: labelledStatement : Identifier COLON statement ;
     public final ES3InstrumentParser.labelledStatement_return labelledStatement() throws RecognitionException {
         ES3InstrumentParser.labelledStatement_return retval = new ES3InstrumentParser.labelledStatement_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1492:2: ( Identifier COLON statement )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1492:4: Identifier COLON statement
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1492:2: ( Identifier COLON statement )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1492:4: Identifier COLON statement
             {
             match(input,Identifier,FOLLOW_Identifier_in_labelledStatement5460); 
             match(input,COLON,FOLLOW_COLON_in_labelledStatement5462); 
@@ -6063,14 +6063,14 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "throwStatement"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1515:1: throwStatement : THROW expression semic ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1515:1: throwStatement : THROW expression semic ;
     public final ES3InstrumentParser.throwStatement_return throwStatement() throws RecognitionException {
         ES3InstrumentParser.throwStatement_return retval = new ES3InstrumentParser.throwStatement_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1516:2: ( THROW expression semic )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1516:4: THROW expression semic
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1516:2: ( THROW expression semic )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1516:4: THROW expression semic
             {
             match(input,THROW,FOLLOW_THROW_in_throwStatement5484); 
              promoteEOL(null); 
@@ -6107,14 +6107,14 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "tryStatement"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1523:1: tryStatement : TRY block ( catchClause ( finallyClause )? | finallyClause ) ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1523:1: tryStatement : TRY block ( catchClause ( finallyClause )? | finallyClause ) ;
     public final ES3InstrumentParser.tryStatement_return tryStatement() throws RecognitionException {
         ES3InstrumentParser.tryStatement_return retval = new ES3InstrumentParser.tryStatement_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1524:2: ( TRY block ( catchClause ( finallyClause )? | finallyClause ) )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1524:4: TRY block ( catchClause ( finallyClause )? | finallyClause )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1524:2: ( TRY block ( catchClause ( finallyClause )? | finallyClause ) )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1524:4: TRY block ( catchClause ( finallyClause )? | finallyClause )
             {
             match(input,TRY,FOLLOW_TRY_in_tryStatement5506); 
             pushFollow(FOLLOW_block_in_tryStatement5508);
@@ -6122,7 +6122,7 @@ public class ES3InstrumentParser extends Parser {
 
             state._fsp--;
 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1524:14: ( catchClause ( finallyClause )? | finallyClause )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1524:14: ( catchClause ( finallyClause )? | finallyClause )
             int alt68=2;
             int LA68_0 = input.LA(1);
 
@@ -6140,14 +6140,14 @@ public class ES3InstrumentParser extends Parser {
             }
             switch (alt68) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1524:16: catchClause ( finallyClause )?
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1524:16: catchClause ( finallyClause )?
                     {
                     pushFollow(FOLLOW_catchClause_in_tryStatement5512);
                     catchClause();
 
                     state._fsp--;
 
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1524:28: ( finallyClause )?
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1524:28: ( finallyClause )?
                     int alt67=2;
                     int LA67_0 = input.LA(1);
 
@@ -6156,7 +6156,7 @@ public class ES3InstrumentParser extends Parser {
                     }
                     switch (alt67) {
                         case 1 :
-                            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1524:28: finallyClause
+                            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1524:28: finallyClause
                             {
                             pushFollow(FOLLOW_finallyClause_in_tryStatement5514);
                             finallyClause();
@@ -6173,7 +6173,7 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1524:45: finallyClause
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1524:45: finallyClause
                     {
                     pushFollow(FOLLOW_finallyClause_in_tryStatement5519);
                     finallyClause();
@@ -6209,14 +6209,14 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "catchClause"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1527:1: catchClause : CATCH LPAREN Identifier RPAREN block ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1527:1: catchClause : CATCH LPAREN Identifier RPAREN block ;
     public final ES3InstrumentParser.catchClause_return catchClause() throws RecognitionException {
         ES3InstrumentParser.catchClause_return retval = new ES3InstrumentParser.catchClause_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1528:2: ( CATCH LPAREN Identifier RPAREN block )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1528:4: CATCH LPAREN Identifier RPAREN block
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1528:2: ( CATCH LPAREN Identifier RPAREN block )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1528:4: CATCH LPAREN Identifier RPAREN block
             {
             match(input,CATCH,FOLLOW_CATCH_in_catchClause5533); 
             match(input,LPAREN,FOLLOW_LPAREN_in_catchClause5535); 
@@ -6250,14 +6250,14 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "finallyClause"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1531:1: finallyClause : FINALLY block ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1531:1: finallyClause : FINALLY block ;
     public final ES3InstrumentParser.finallyClause_return finallyClause() throws RecognitionException {
         ES3InstrumentParser.finallyClause_return retval = new ES3InstrumentParser.finallyClause_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1532:2: ( FINALLY block )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1532:4: FINALLY block
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1532:2: ( FINALLY block )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1532:4: FINALLY block
             {
             match(input,FINALLY,FOLLOW_FINALLY_in_finallyClause5553); 
             pushFollow(FOLLOW_block_in_finallyClause5555);
@@ -6288,7 +6288,7 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "functionDeclaration"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1546:1: functionDeclaration : FUNCTION name= Identifier formalParameterList functionBody -> {instrument}? instrument(stmt=$textln=$start.getLine()hash=$program::hash) -> pass(stmt=$text);
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1546:1: functionDeclaration : FUNCTION name= Identifier formalParameterList functionBody -> {instrument}? instrument(stmt=$textln=$start.getLine()hash=$program::hash) -> pass(stmt=$text);
     public final ES3InstrumentParser.functionDeclaration_return functionDeclaration() throws RecognitionException {
         ES3InstrumentParser.functionDeclaration_return retval = new ES3InstrumentParser.functionDeclaration_return();
         retval.start = input.LT(1);
@@ -6304,8 +6304,8 @@ public class ES3InstrumentParser extends Parser {
         	}	
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1555:2: ( FUNCTION name= Identifier formalParameterList functionBody -> {instrument}? instrument(stmt=$textln=$start.getLine()hash=$program::hash) -> pass(stmt=$text))
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1555:4: FUNCTION name= Identifier formalParameterList functionBody
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1555:2: ( FUNCTION name= Identifier formalParameterList functionBody -> {instrument}? instrument(stmt=$textln=$start.getLine()hash=$program::hash) -> pass(stmt=$text))
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1555:4: FUNCTION name= Identifier formalParameterList functionBody
             {
             match(input,FUNCTION,FOLLOW_FUNCTION_in_functionDeclaration5581); 
             name=(Token)match(input,Identifier,FOLLOW_Identifier_in_functionDeclaration5585); 
@@ -6359,7 +6359,7 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "functionExpression"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1560:1: functionExpression : FUNCTION (name= Identifier )? formalParameterList functionBody ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1560:1: functionExpression : FUNCTION (name= Identifier )? formalParameterList functionBody ;
     public final ES3InstrumentParser.functionExpression_return functionExpression() throws RecognitionException {
         ES3InstrumentParser.functionExpression_return retval = new ES3InstrumentParser.functionExpression_return();
         retval.start = input.LT(1);
@@ -6367,11 +6367,11 @@ public class ES3InstrumentParser extends Parser {
         Token name=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1561:2: ( FUNCTION (name= Identifier )? formalParameterList functionBody )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1561:4: FUNCTION (name= Identifier )? formalParameterList functionBody
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1561:2: ( FUNCTION (name= Identifier )? formalParameterList functionBody )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1561:4: FUNCTION (name= Identifier )? formalParameterList functionBody
             {
             match(input,FUNCTION,FOLLOW_FUNCTION_in_functionExpression5639); 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1561:17: (name= Identifier )?
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1561:17: (name= Identifier )?
             int alt69=2;
             int LA69_0 = input.LA(1);
 
@@ -6380,7 +6380,7 @@ public class ES3InstrumentParser extends Parser {
             }
             switch (alt69) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1561:17: name= Identifier
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1561:17: name= Identifier
                     {
                     name=(Token)match(input,Identifier,FOLLOW_Identifier_in_functionExpression5643); 
 
@@ -6422,17 +6422,17 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "formalParameterList"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1565:1: formalParameterList : LPAREN ( Identifier ( COMMA Identifier )* )? RPAREN ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1565:1: formalParameterList : LPAREN ( Identifier ( COMMA Identifier )* )? RPAREN ;
     public final ES3InstrumentParser.formalParameterList_return formalParameterList() throws RecognitionException {
         ES3InstrumentParser.formalParameterList_return retval = new ES3InstrumentParser.formalParameterList_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1566:2: ( LPAREN ( Identifier ( COMMA Identifier )* )? RPAREN )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1566:4: LPAREN ( Identifier ( COMMA Identifier )* )? RPAREN
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1566:2: ( LPAREN ( Identifier ( COMMA Identifier )* )? RPAREN )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1566:4: LPAREN ( Identifier ( COMMA Identifier )* )? RPAREN
             {
             match(input,LPAREN,FOLLOW_LPAREN_in_formalParameterList5661); 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1566:11: ( Identifier ( COMMA Identifier )* )?
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1566:11: ( Identifier ( COMMA Identifier )* )?
             int alt71=2;
             int LA71_0 = input.LA(1);
 
@@ -6441,10 +6441,10 @@ public class ES3InstrumentParser extends Parser {
             }
             switch (alt71) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1566:13: Identifier ( COMMA Identifier )*
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1566:13: Identifier ( COMMA Identifier )*
                     {
                     match(input,Identifier,FOLLOW_Identifier_in_formalParameterList5665); 
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1566:24: ( COMMA Identifier )*
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1566:24: ( COMMA Identifier )*
                     loop70:
                     do {
                         int alt70=2;
@@ -6457,7 +6457,7 @@ public class ES3InstrumentParser extends Parser {
 
                         switch (alt70) {
                     	case 1 :
-                    	    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1566:26: COMMA Identifier
+                    	    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1566:26: COMMA Identifier
                     	    {
                     	    match(input,COMMA,FOLLOW_COMMA_in_formalParameterList5669); 
                     	    match(input,Identifier,FOLLOW_Identifier_in_formalParameterList5671); 
@@ -6500,7 +6500,7 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "functionBody"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1570:1: functionBody : lb= LBRACE ( sourceElement )* RBRACE ;
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1570:1: functionBody : lb= LBRACE ( sourceElement )* RBRACE ;
     public final ES3InstrumentParser.functionBody_return functionBody() throws RecognitionException {
         ES3InstrumentParser.functionBody_return retval = new ES3InstrumentParser.functionBody_return();
         retval.start = input.LT(1);
@@ -6508,11 +6508,11 @@ public class ES3InstrumentParser extends Parser {
         Token lb=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1571:2: (lb= LBRACE ( sourceElement )* RBRACE )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1571:4: lb= LBRACE ( sourceElement )* RBRACE
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1571:2: (lb= LBRACE ( sourceElement )* RBRACE )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1571:4: lb= LBRACE ( sourceElement )* RBRACE
             {
             lb=(Token)match(input,LBRACE,FOLLOW_LBRACE_in_functionBody5694); 
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1571:14: ( sourceElement )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1571:14: ( sourceElement )*
             loop72:
             do {
                 int alt72=2;
@@ -6525,7 +6525,7 @@ public class ES3InstrumentParser extends Parser {
 
                 switch (alt72) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1571:14: sourceElement
+            	    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1571:14: sourceElement
             	    {
             	    pushFollow(FOLLOW_sourceElement_in_functionBody5696);
             	    sourceElement();
@@ -6573,7 +6573,7 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "program"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1579:1: program : ( ( sourceElement )* ) -> init_instrument(stmt=$texthash=$program::hashname=namelines=$program::executableLines.toString());
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1579:1: program : ( ( sourceElement )* ) -> init_instrument(stmt=$texthash=$program::hashname=namelines=$program::executableLines.toString());
     public final ES3InstrumentParser.program_return program() throws RecognitionException {
         program_stack.push(new program_scope());
         ES3InstrumentParser.program_return retval = new ES3InstrumentParser.program_return();
@@ -6587,13 +6587,13 @@ public class ES3InstrumentParser extends Parser {
           ((program_scope)program_stack.peek()).stopLine = 0;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1593:2: ( ( ( sourceElement )* ) -> init_instrument(stmt=$texthash=$program::hashname=namelines=$program::executableLines.toString()))
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1593:4: ( ( sourceElement )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1593:2: ( ( ( sourceElement )* ) -> init_instrument(stmt=$texthash=$program::hashname=namelines=$program::executableLines.toString()))
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1593:4: ( ( sourceElement )* )
             {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1593:4: ( ( sourceElement )* )
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1593:5: ( sourceElement )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1593:4: ( ( sourceElement )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1593:5: ( sourceElement )*
             {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1593:5: ( sourceElement )*
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1593:5: ( sourceElement )*
             loop73:
             do {
                 int alt73=2;
@@ -6606,7 +6606,7 @@ public class ES3InstrumentParser extends Parser {
 
                 switch (alt73) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1593:5: sourceElement
+            	    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1593:5: sourceElement
             	    {
             	    pushFollow(FOLLOW_sourceElement_in_program5727);
             	    sourceElement();
@@ -6662,18 +6662,18 @@ public class ES3InstrumentParser extends Parser {
     };
 
     // $ANTLR start "sourceElement"
-    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1602:1: sourceElement options {k=1; } : ({...}? functionDeclaration | statement );
+    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1602:1: sourceElement options {k=1; } : ({...}? functionDeclaration | statement );
     public final ES3InstrumentParser.sourceElement_return sourceElement() throws RecognitionException {
         ES3InstrumentParser.sourceElement_return retval = new ES3InstrumentParser.sourceElement_return();
         retval.start = input.LT(1);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1607:2: ({...}? functionDeclaration | statement )
+            // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1607:2: ({...}? functionDeclaration | statement )
             int alt74=2;
             alt74 = dfa74.predict(input);
             switch (alt74) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1607:4: {...}? functionDeclaration
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1607:4: {...}? functionDeclaration
                     {
                     if ( !(( input.LA(1) == FUNCTION )) ) {
                         throw new FailedPredicateException(input, "sourceElement", " input.LA(1) == FUNCTION ");
@@ -6687,7 +6687,7 @@ public class ES3InstrumentParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3Instrument.g:1608:4: statement
+                    // net/awired/jscoverage/instrumentation/es3/ES3Instrument.g:1608:4: statement
                     {
                     pushFollow(FOLLOW_statement_in_sourceElement5797);
                     statement();

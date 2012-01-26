@@ -1,5 +1,5 @@
-// $ANTLR 3.1.3 Mar 18, 2009 10:09:25 com/google/jstestdriver/coverage/es3/ES3.g 2012-01-25 23:23:53
-package net.awired.jscoverage.instrumentation.es3;
+// $ANTLR 3.1.2 net/awired/jscoverage/instrumentation/es3/ES3.g 2012-01-26 02:31:46
+package com.google.jstestdriver.coverage.es3;
 
 import org.antlr.runtime.*;
 import java.util.Stack;
@@ -204,7 +204,7 @@ public class ES3Parser extends Parser {
     }
 
     public String[] getTokenNames() { return ES3Parser.tokenNames; }
-    public String getGrammarFileName() { return "com/google/jstestdriver/coverage/es3/ES3.g"; }
+    public String getGrammarFileName() { return "net/awired/jscoverage/instrumentation/es3/ES3.g"; }
 
 
     private final boolean isLeftHandSideAssign(RuleReturnScope lhs, Object[] cached)
@@ -341,7 +341,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "token"
-    // com/google/jstestdriver/coverage/es3/ES3.g:508:1: token : ( reservedWord | Identifier | punctuator | numericLiteral | StringLiteral );
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:508:1: token : ( reservedWord | Identifier | punctuator | numericLiteral | StringLiteral );
     public final ES3Parser.token_return token() throws RecognitionException {
         ES3Parser.token_return retval = new ES3Parser.token_return();
         retval.start = input.LT(1);
@@ -361,7 +361,7 @@ public class ES3Parser extends Parser {
         Object StringLiteral5_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:509:2: ( reservedWord | Identifier | punctuator | numericLiteral | StringLiteral )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:509:2: ( reservedWord | Identifier | punctuator | numericLiteral | StringLiteral )
             int alt1=5;
             switch ( input.LA(1) ) {
             case NULL:
@@ -505,7 +505,7 @@ public class ES3Parser extends Parser {
 
             switch (alt1) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:509:4: reservedWord
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:509:4: reservedWord
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -519,7 +519,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:510:4: Identifier
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:510:4: Identifier
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -531,7 +531,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 3 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:511:4: punctuator
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:511:4: punctuator
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -545,7 +545,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 4 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:512:4: numericLiteral
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:512:4: numericLiteral
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -559,7 +559,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 5 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:513:4: StringLiteral
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:513:4: StringLiteral
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -596,7 +596,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "reservedWord"
-    // com/google/jstestdriver/coverage/es3/ES3.g:518:1: reservedWord : ( keyword | futureReservedWord | NULL | booleanLiteral );
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:518:1: reservedWord : ( keyword | futureReservedWord | NULL | booleanLiteral );
     public final ES3Parser.reservedWord_return reservedWord() throws RecognitionException {
         ES3Parser.reservedWord_return retval = new ES3Parser.reservedWord_return();
         retval.start = input.LT(1);
@@ -614,7 +614,7 @@ public class ES3Parser extends Parser {
         Object NULL8_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:519:2: ( keyword | futureReservedWord | NULL | booleanLiteral )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:519:2: ( keyword | futureReservedWord | NULL | booleanLiteral )
             int alt2=4;
             switch ( input.LA(1) ) {
             case BREAK:
@@ -701,7 +701,7 @@ public class ES3Parser extends Parser {
 
             switch (alt2) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:519:4: keyword
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:519:4: keyword
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -715,7 +715,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:520:4: futureReservedWord
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:520:4: futureReservedWord
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -729,7 +729,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 3 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:521:4: NULL
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:521:4: NULL
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -741,7 +741,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 4 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:522:4: booleanLiteral
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:522:4: booleanLiteral
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -780,7 +780,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "keyword"
-    // com/google/jstestdriver/coverage/es3/ES3.g:529:1: keyword : ( BREAK | CASE | CATCH | CONTINUE | DEFAULT | DELETE | DO | ELSE | FINALLY | FOR | FUNCTION | IF | IN | INSTANCEOF | NEW | RETURN | SWITCH | THIS | THROW | TRY | TYPEOF | VAR | VOID | WHILE | WITH );
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:529:1: keyword : ( BREAK | CASE | CATCH | CONTINUE | DEFAULT | DELETE | DO | ELSE | FINALLY | FOR | FUNCTION | IF | IN | INSTANCEOF | NEW | RETURN | SWITCH | THIS | THROW | TRY | TYPEOF | VAR | VOID | WHILE | WITH );
     public final ES3Parser.keyword_return keyword() throws RecognitionException {
         ES3Parser.keyword_return retval = new ES3Parser.keyword_return();
         retval.start = input.LT(1);
@@ -792,8 +792,8 @@ public class ES3Parser extends Parser {
         Object set10_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:530:2: ( BREAK | CASE | CATCH | CONTINUE | DEFAULT | DELETE | DO | ELSE | FINALLY | FOR | FUNCTION | IF | IN | INSTANCEOF | NEW | RETURN | SWITCH | THIS | THROW | TRY | TYPEOF | VAR | VOID | WHILE | WITH )
-            // com/google/jstestdriver/coverage/es3/ES3.g:
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:530:2: ( BREAK | CASE | CATCH | CONTINUE | DEFAULT | DELETE | DO | ELSE | FINALLY | FOR | FUNCTION | IF | IN | INSTANCEOF | NEW | RETURN | SWITCH | THIS | THROW | TRY | TYPEOF | VAR | VOID | WHILE | WITH )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:
             {
             root_0 = (Object)adaptor.nil();
 
@@ -835,7 +835,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "futureReservedWord"
-    // com/google/jstestdriver/coverage/es3/ES3.g:561:1: futureReservedWord : ( ABSTRACT | BOOLEAN | BYTE | CHAR | CLASS | CONST | DEBUGGER | DOUBLE | ENUM | EXPORT | EXTENDS | FINAL | FLOAT | GOTO | IMPLEMENTS | IMPORT | INT | INTERFACE | LONG | NATIVE | PACKAGE | PRIVATE | PROTECTED | PUBLIC | SHORT | STATIC | SUPER | SYNCHRONIZED | THROWS | TRANSIENT | VOLATILE );
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:561:1: futureReservedWord : ( ABSTRACT | BOOLEAN | BYTE | CHAR | CLASS | CONST | DEBUGGER | DOUBLE | ENUM | EXPORT | EXTENDS | FINAL | FLOAT | GOTO | IMPLEMENTS | IMPORT | INT | INTERFACE | LONG | NATIVE | PACKAGE | PRIVATE | PROTECTED | PUBLIC | SHORT | STATIC | SUPER | SYNCHRONIZED | THROWS | TRANSIENT | VOLATILE );
     public final ES3Parser.futureReservedWord_return futureReservedWord() throws RecognitionException {
         ES3Parser.futureReservedWord_return retval = new ES3Parser.futureReservedWord_return();
         retval.start = input.LT(1);
@@ -847,8 +847,8 @@ public class ES3Parser extends Parser {
         Object set11_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:562:2: ( ABSTRACT | BOOLEAN | BYTE | CHAR | CLASS | CONST | DEBUGGER | DOUBLE | ENUM | EXPORT | EXTENDS | FINAL | FLOAT | GOTO | IMPLEMENTS | IMPORT | INT | INTERFACE | LONG | NATIVE | PACKAGE | PRIVATE | PROTECTED | PUBLIC | SHORT | STATIC | SUPER | SYNCHRONIZED | THROWS | TRANSIENT | VOLATILE )
-            // com/google/jstestdriver/coverage/es3/ES3.g:
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:562:2: ( ABSTRACT | BOOLEAN | BYTE | CHAR | CLASS | CONST | DEBUGGER | DOUBLE | ENUM | EXPORT | EXTENDS | FINAL | FLOAT | GOTO | IMPLEMENTS | IMPORT | INT | INTERFACE | LONG | NATIVE | PACKAGE | PRIVATE | PROTECTED | PUBLIC | SHORT | STATIC | SUPER | SYNCHRONIZED | THROWS | TRANSIENT | VOLATILE )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:
             {
             root_0 = (Object)adaptor.nil();
 
@@ -890,7 +890,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "punctuator"
-    // com/google/jstestdriver/coverage/es3/ES3.g:639:1: punctuator : ( LBRACE | RBRACE | LPAREN | RPAREN | LBRACK | RBRACK | DOT | SEMIC | COMMA | LT | GT | LTE | GTE | EQ | NEQ | SAME | NSAME | ADD | SUB | MUL | MOD | INC | DEC | SHL | SHR | SHU | AND | OR | XOR | NOT | INV | LAND | LOR | QUE | COLON | ASSIGN | ADDASS | SUBASS | MULASS | MODASS | SHLASS | SHRASS | SHUASS | ANDASS | ORASS | XORASS | DIV | DIVASS );
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:639:1: punctuator : ( LBRACE | RBRACE | LPAREN | RPAREN | LBRACK | RBRACK | DOT | SEMIC | COMMA | LT | GT | LTE | GTE | EQ | NEQ | SAME | NSAME | ADD | SUB | MUL | MOD | INC | DEC | SHL | SHR | SHU | AND | OR | XOR | NOT | INV | LAND | LOR | QUE | COLON | ASSIGN | ADDASS | SUBASS | MULASS | MODASS | SHLASS | SHRASS | SHUASS | ANDASS | ORASS | XORASS | DIV | DIVASS );
     public final ES3Parser.punctuator_return punctuator() throws RecognitionException {
         ES3Parser.punctuator_return retval = new ES3Parser.punctuator_return();
         retval.start = input.LT(1);
@@ -902,8 +902,8 @@ public class ES3Parser extends Parser {
         Object set12_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:640:2: ( LBRACE | RBRACE | LPAREN | RPAREN | LBRACK | RBRACK | DOT | SEMIC | COMMA | LT | GT | LTE | GTE | EQ | NEQ | SAME | NSAME | ADD | SUB | MUL | MOD | INC | DEC | SHL | SHR | SHU | AND | OR | XOR | NOT | INV | LAND | LOR | QUE | COLON | ASSIGN | ADDASS | SUBASS | MULASS | MODASS | SHLASS | SHRASS | SHUASS | ANDASS | ORASS | XORASS | DIV | DIVASS )
-            // com/google/jstestdriver/coverage/es3/ES3.g:
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:640:2: ( LBRACE | RBRACE | LPAREN | RPAREN | LBRACK | RBRACK | DOT | SEMIC | COMMA | LT | GT | LTE | GTE | EQ | NEQ | SAME | NSAME | ADD | SUB | MUL | MOD | INC | DEC | SHL | SHR | SHU | AND | OR | XOR | NOT | INV | LAND | LOR | QUE | COLON | ASSIGN | ADDASS | SUBASS | MULASS | MODASS | SHLASS | SHRASS | SHUASS | ANDASS | ORASS | XORASS | DIV | DIVASS )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:
             {
             root_0 = (Object)adaptor.nil();
 
@@ -945,7 +945,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "literal"
-    // com/google/jstestdriver/coverage/es3/ES3.g:694:1: literal : ( NULL | booleanLiteral | numericLiteral | StringLiteral | RegularExpressionLiteral );
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:694:1: literal : ( NULL | booleanLiteral | numericLiteral | StringLiteral | RegularExpressionLiteral );
     public final ES3Parser.literal_return literal() throws RecognitionException {
         ES3Parser.literal_return retval = new ES3Parser.literal_return();
         retval.start = input.LT(1);
@@ -965,7 +965,7 @@ public class ES3Parser extends Parser {
         Object RegularExpressionLiteral17_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:695:2: ( NULL | booleanLiteral | numericLiteral | StringLiteral | RegularExpressionLiteral )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:695:2: ( NULL | booleanLiteral | numericLiteral | StringLiteral | RegularExpressionLiteral )
             int alt3=5;
             switch ( input.LA(1) ) {
             case NULL:
@@ -1005,7 +1005,7 @@ public class ES3Parser extends Parser {
 
             switch (alt3) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:695:4: NULL
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:695:4: NULL
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -1017,7 +1017,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:696:4: booleanLiteral
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:696:4: booleanLiteral
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -1031,7 +1031,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 3 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:697:4: numericLiteral
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:697:4: numericLiteral
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -1045,7 +1045,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 4 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:698:4: StringLiteral
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:698:4: StringLiteral
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -1057,7 +1057,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 5 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:699:4: RegularExpressionLiteral
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:699:4: RegularExpressionLiteral
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -1094,7 +1094,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "booleanLiteral"
-    // com/google/jstestdriver/coverage/es3/ES3.g:702:1: booleanLiteral : ( TRUE | FALSE );
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:702:1: booleanLiteral : ( TRUE | FALSE );
     public final ES3Parser.booleanLiteral_return booleanLiteral() throws RecognitionException {
         ES3Parser.booleanLiteral_return retval = new ES3Parser.booleanLiteral_return();
         retval.start = input.LT(1);
@@ -1106,8 +1106,8 @@ public class ES3Parser extends Parser {
         Object set18_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:703:2: ( TRUE | FALSE )
-            // com/google/jstestdriver/coverage/es3/ES3.g:
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:703:2: ( TRUE | FALSE )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:
             {
             root_0 = (Object)adaptor.nil();
 
@@ -1149,7 +1149,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "numericLiteral"
-    // com/google/jstestdriver/coverage/es3/ES3.g:749:1: numericLiteral : ( DecimalLiteral | OctalIntegerLiteral | HexIntegerLiteral );
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:749:1: numericLiteral : ( DecimalLiteral | OctalIntegerLiteral | HexIntegerLiteral );
     public final ES3Parser.numericLiteral_return numericLiteral() throws RecognitionException {
         ES3Parser.numericLiteral_return retval = new ES3Parser.numericLiteral_return();
         retval.start = input.LT(1);
@@ -1161,8 +1161,8 @@ public class ES3Parser extends Parser {
         Object set19_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:750:2: ( DecimalLiteral | OctalIntegerLiteral | HexIntegerLiteral )
-            // com/google/jstestdriver/coverage/es3/ES3.g:
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:750:2: ( DecimalLiteral | OctalIntegerLiteral | HexIntegerLiteral )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:
             {
             root_0 = (Object)adaptor.nil();
 
@@ -1204,7 +1204,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "primaryExpression"
-    // com/google/jstestdriver/coverage/es3/ES3.g:837:1: primaryExpression : ( THIS | Identifier | literal | arrayLiteral | objectLiteral | lpar= LPAREN expression RPAREN -> ^( PAREXPR[$lpar, \"PAREXPR\"] expression ) );
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:837:1: primaryExpression : ( THIS | Identifier | literal | arrayLiteral | objectLiteral | lpar= LPAREN expression RPAREN -> ^( PAREXPR[$lpar, \"PAREXPR\"] expression ) );
     public final ES3Parser.primaryExpression_return primaryExpression() throws RecognitionException {
         ES3Parser.primaryExpression_return retval = new ES3Parser.primaryExpression_return();
         retval.start = input.LT(1);
@@ -1232,7 +1232,7 @@ public class ES3Parser extends Parser {
         RewriteRuleTokenStream stream_LPAREN=new RewriteRuleTokenStream(adaptor,"token LPAREN");
         RewriteRuleSubtreeStream stream_expression=new RewriteRuleSubtreeStream(adaptor,"rule expression");
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:838:2: ( THIS | Identifier | literal | arrayLiteral | objectLiteral | lpar= LPAREN expression RPAREN -> ^( PAREXPR[$lpar, \"PAREXPR\"] expression ) )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:838:2: ( THIS | Identifier | literal | arrayLiteral | objectLiteral | lpar= LPAREN expression RPAREN -> ^( PAREXPR[$lpar, \"PAREXPR\"] expression ) )
             int alt4=6;
             switch ( input.LA(1) ) {
             case THIS:
@@ -1281,7 +1281,7 @@ public class ES3Parser extends Parser {
 
             switch (alt4) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:838:4: THIS
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:838:4: THIS
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -1293,7 +1293,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:839:4: Identifier
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:839:4: Identifier
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -1305,7 +1305,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 3 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:840:4: literal
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:840:4: literal
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -1319,7 +1319,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 4 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:841:4: arrayLiteral
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:841:4: arrayLiteral
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -1333,7 +1333,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 5 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:842:4: objectLiteral
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:842:4: objectLiteral
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -1347,7 +1347,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 6 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:843:4: lpar= LPAREN expression RPAREN
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:843:4: lpar= LPAREN expression RPAREN
                     {
                     lpar=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_primaryExpression3141);  
                     stream_LPAREN.add(lpar);
@@ -1376,7 +1376,7 @@ public class ES3Parser extends Parser {
                     root_0 = (Object)adaptor.nil();
                     // 843:34: -> ^( PAREXPR[$lpar, \"PAREXPR\"] expression )
                     {
-                        // com/google/jstestdriver/coverage/es3/ES3.g:843:37: ^( PAREXPR[$lpar, \"PAREXPR\"] expression )
+                        // net/awired/jscoverage/instrumentation/es3/ES3.g:843:37: ^( PAREXPR[$lpar, \"PAREXPR\"] expression )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot((Object)adaptor.create(PAREXPR, lpar, "PAREXPR"), root_1);
@@ -1417,7 +1417,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "arrayLiteral"
-    // com/google/jstestdriver/coverage/es3/ES3.g:846:1: arrayLiteral : lb= LBRACK ( arrayItem ( COMMA ( arrayItem )? )* )? RBRACK -> ^( ARRAY[$lb, \"ARRAY\"] ( arrayItem )* ) ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:846:1: arrayLiteral : lb= LBRACK ( arrayItem ( COMMA ( arrayItem )? )* )? RBRACK -> ^( ARRAY[$lb, \"ARRAY\"] ( arrayItem )* ) ;
     public final ES3Parser.arrayLiteral_return arrayLiteral() throws RecognitionException {
         ES3Parser.arrayLiteral_return retval = new ES3Parser.arrayLiteral_return();
         retval.start = input.LT(1);
@@ -1440,13 +1440,13 @@ public class ES3Parser extends Parser {
         RewriteRuleTokenStream stream_COMMA=new RewriteRuleTokenStream(adaptor,"token COMMA");
         RewriteRuleSubtreeStream stream_arrayItem=new RewriteRuleSubtreeStream(adaptor,"rule arrayItem");
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:847:2: (lb= LBRACK ( arrayItem ( COMMA ( arrayItem )? )* )? RBRACK -> ^( ARRAY[$lb, \"ARRAY\"] ( arrayItem )* ) )
-            // com/google/jstestdriver/coverage/es3/ES3.g:847:4: lb= LBRACK ( arrayItem ( COMMA ( arrayItem )? )* )? RBRACK
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:847:2: (lb= LBRACK ( arrayItem ( COMMA ( arrayItem )? )* )? RBRACK -> ^( ARRAY[$lb, \"ARRAY\"] ( arrayItem )* ) )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:847:4: lb= LBRACK ( arrayItem ( COMMA ( arrayItem )? )* )? RBRACK
             {
             lb=(Token)match(input,LBRACK,FOLLOW_LBRACK_in_arrayLiteral3169);  
             stream_LBRACK.add(lb);
 
-            // com/google/jstestdriver/coverage/es3/ES3.g:847:14: ( arrayItem ( COMMA ( arrayItem )? )* )?
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:847:14: ( arrayItem ( COMMA ( arrayItem )? )* )?
             int alt7=2;
             int LA7_0 = input.LA(1);
 
@@ -1462,7 +1462,7 @@ public class ES3Parser extends Parser {
             }
             switch (alt7) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:847:16: arrayItem ( COMMA ( arrayItem )? )*
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:847:16: arrayItem ( COMMA ( arrayItem )? )*
                     {
                     pushFollow(FOLLOW_arrayItem_in_arrayLiteral3173);
                     arrayItem27=arrayItem();
@@ -1470,7 +1470,7 @@ public class ES3Parser extends Parser {
                     state._fsp--;
 
                     stream_arrayItem.add(arrayItem27.getTree());
-                    // com/google/jstestdriver/coverage/es3/ES3.g:847:26: ( COMMA ( arrayItem )? )*
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:847:26: ( COMMA ( arrayItem )? )*
                     loop6:
                     do {
                         int alt6=2;
@@ -1483,12 +1483,12 @@ public class ES3Parser extends Parser {
 
                         switch (alt6) {
                     	case 1 :
-                    	    // com/google/jstestdriver/coverage/es3/ES3.g:847:28: COMMA ( arrayItem )?
+                    	    // net/awired/jscoverage/instrumentation/es3/ES3.g:847:28: COMMA ( arrayItem )?
                     	    {
                     	    COMMA28=(Token)match(input,COMMA,FOLLOW_COMMA_in_arrayLiteral3177);  
                     	    stream_COMMA.add(COMMA28);
 
-                    	    // com/google/jstestdriver/coverage/es3/ES3.g:847:34: ( arrayItem )?
+                    	    // net/awired/jscoverage/instrumentation/es3/ES3.g:847:34: ( arrayItem )?
                     	    int alt5=2;
                     	    switch ( input.LA(1) ) {
                     	        case NULL:
@@ -1541,7 +1541,7 @@ public class ES3Parser extends Parser {
 
                     	    switch (alt5) {
                     	        case 1 :
-                    	            // com/google/jstestdriver/coverage/es3/ES3.g:847:35: arrayItem
+                    	            // net/awired/jscoverage/instrumentation/es3/ES3.g:847:35: arrayItem
                     	            {
                     	            pushFollow(FOLLOW_arrayItem_in_arrayLiteral3180);
                     	            arrayItem29=arrayItem();
@@ -1588,12 +1588,12 @@ public class ES3Parser extends Parser {
             root_0 = (Object)adaptor.nil();
             // 848:2: -> ^( ARRAY[$lb, \"ARRAY\"] ( arrayItem )* )
             {
-                // com/google/jstestdriver/coverage/es3/ES3.g:848:5: ^( ARRAY[$lb, \"ARRAY\"] ( arrayItem )* )
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:848:5: ^( ARRAY[$lb, \"ARRAY\"] ( arrayItem )* )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot((Object)adaptor.create(ARRAY, lb, "ARRAY"), root_1);
 
-                // com/google/jstestdriver/coverage/es3/ES3.g:848:28: ( arrayItem )*
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:848:28: ( arrayItem )*
                 while ( stream_arrayItem.hasNext() ) {
                     adaptor.addChild(root_1, stream_arrayItem.nextTree());
 
@@ -1632,7 +1632,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "arrayItem"
-    // com/google/jstestdriver/coverage/es3/ES3.g:851:1: arrayItem : (expr= assignmentExpression | {...}?) -> ^( ITEM ( $expr)? ) ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:851:1: arrayItem : (expr= assignmentExpression | {...}?) -> ^( ITEM ( $expr)? ) ;
     public final ES3Parser.arrayItem_return arrayItem() throws RecognitionException {
         ES3Parser.arrayItem_return retval = new ES3Parser.arrayItem_return();
         retval.start = input.LT(1);
@@ -1644,10 +1644,10 @@ public class ES3Parser extends Parser {
 
         RewriteRuleSubtreeStream stream_assignmentExpression=new RewriteRuleSubtreeStream(adaptor,"rule assignmentExpression");
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:852:2: ( (expr= assignmentExpression | {...}?) -> ^( ITEM ( $expr)? ) )
-            // com/google/jstestdriver/coverage/es3/ES3.g:852:4: (expr= assignmentExpression | {...}?)
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:852:2: ( (expr= assignmentExpression | {...}?) -> ^( ITEM ( $expr)? ) )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:852:4: (expr= assignmentExpression | {...}?)
             {
-            // com/google/jstestdriver/coverage/es3/ES3.g:852:4: (expr= assignmentExpression | {...}?)
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:852:4: (expr= assignmentExpression | {...}?)
             int alt8=2;
             int LA8_0 = input.LA(1);
 
@@ -1665,7 +1665,7 @@ public class ES3Parser extends Parser {
             }
             switch (alt8) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:852:6: expr= assignmentExpression
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:852:6: expr= assignmentExpression
                     {
                     pushFollow(FOLLOW_assignmentExpression_in_arrayItem3218);
                     expr=assignmentExpression();
@@ -1677,7 +1677,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:852:34: {...}?
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:852:34: {...}?
                     {
                     if ( !(( input.LA(1) == COMMA )) ) {
                         throw new FailedPredicateException(input, "arrayItem", " input.LA(1) == COMMA ");
@@ -1704,12 +1704,12 @@ public class ES3Parser extends Parser {
             root_0 = (Object)adaptor.nil();
             // 853:2: -> ^( ITEM ( $expr)? )
             {
-                // com/google/jstestdriver/coverage/es3/ES3.g:853:5: ^( ITEM ( $expr)? )
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:853:5: ^( ITEM ( $expr)? )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot((Object)adaptor.create(ITEM, "ITEM"), root_1);
 
-                // com/google/jstestdriver/coverage/es3/ES3.g:853:13: ( $expr)?
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:853:13: ( $expr)?
                 if ( stream_expr.hasNext() ) {
                     adaptor.addChild(root_1, stream_expr.nextTree());
 
@@ -1748,7 +1748,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "objectLiteral"
-    // com/google/jstestdriver/coverage/es3/ES3.g:856:1: objectLiteral : lb= LBRACE ( nameValuePair ( COMMA nameValuePair )* ( COMMA )? )? RBRACE -> ^( OBJECT[$lb, \"OBJECT\"] ( nameValuePair )* ) ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:856:1: objectLiteral : lb= LBRACE ( nameValuePair ( COMMA nameValuePair )* ( COMMA )? )? RBRACE -> ^( OBJECT[$lb, \"OBJECT\"] ( nameValuePair )* ) ;
     public final ES3Parser.objectLiteral_return objectLiteral() throws RecognitionException {
         ES3Parser.objectLiteral_return retval = new ES3Parser.objectLiteral_return();
         retval.start = input.LT(1);
@@ -1773,13 +1773,13 @@ public class ES3Parser extends Parser {
         RewriteRuleTokenStream stream_LBRACE=new RewriteRuleTokenStream(adaptor,"token LBRACE");
         RewriteRuleSubtreeStream stream_nameValuePair=new RewriteRuleSubtreeStream(adaptor,"rule nameValuePair");
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:857:2: (lb= LBRACE ( nameValuePair ( COMMA nameValuePair )* ( COMMA )? )? RBRACE -> ^( OBJECT[$lb, \"OBJECT\"] ( nameValuePair )* ) )
-            // com/google/jstestdriver/coverage/es3/ES3.g:857:4: lb= LBRACE ( nameValuePair ( COMMA nameValuePair )* ( COMMA )? )? RBRACE
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:857:2: (lb= LBRACE ( nameValuePair ( COMMA nameValuePair )* ( COMMA )? )? RBRACE -> ^( OBJECT[$lb, \"OBJECT\"] ( nameValuePair )* ) )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:857:4: lb= LBRACE ( nameValuePair ( COMMA nameValuePair )* ( COMMA )? )? RBRACE
             {
             lb=(Token)match(input,LBRACE,FOLLOW_LBRACE_in_objectLiteral3250);  
             stream_LBRACE.add(lb);
 
-            // com/google/jstestdriver/coverage/es3/ES3.g:857:14: ( nameValuePair ( COMMA nameValuePair )* ( COMMA )? )?
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:857:14: ( nameValuePair ( COMMA nameValuePair )* ( COMMA )? )?
             int alt11=2;
             int LA11_0 = input.LA(1);
 
@@ -1788,7 +1788,7 @@ public class ES3Parser extends Parser {
             }
             switch (alt11) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:857:16: nameValuePair ( COMMA nameValuePair )* ( COMMA )?
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:857:16: nameValuePair ( COMMA nameValuePair )* ( COMMA )?
                     {
                     pushFollow(FOLLOW_nameValuePair_in_objectLiteral3254);
                     nameValuePair31=nameValuePair();
@@ -1796,7 +1796,7 @@ public class ES3Parser extends Parser {
                     state._fsp--;
 
                     stream_nameValuePair.add(nameValuePair31.getTree());
-                    // com/google/jstestdriver/coverage/es3/ES3.g:857:30: ( COMMA nameValuePair )*
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:857:30: ( COMMA nameValuePair )*
                     loop9:
                     do {
                         int alt9=2;
@@ -1815,7 +1815,7 @@ public class ES3Parser extends Parser {
 
                         switch (alt9) {
                     	case 1 :
-                    	    // com/google/jstestdriver/coverage/es3/ES3.g:857:32: COMMA nameValuePair
+                    	    // net/awired/jscoverage/instrumentation/es3/ES3.g:857:32: COMMA nameValuePair
                     	    {
                     	    COMMA32=(Token)match(input,COMMA,FOLLOW_COMMA_in_objectLiteral3258);  
                     	    stream_COMMA.add(COMMA32);
@@ -1835,7 +1835,7 @@ public class ES3Parser extends Parser {
                         }
                     } while (true);
 
-                    // com/google/jstestdriver/coverage/es3/ES3.g:857:55: ( COMMA )?
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:857:55: ( COMMA )?
                     int alt10=2;
                     int LA10_0 = input.LA(1);
 
@@ -1844,7 +1844,7 @@ public class ES3Parser extends Parser {
                     }
                     switch (alt10) {
                         case 1 :
-                            // com/google/jstestdriver/coverage/es3/ES3.g:857:56: COMMA
+                            // net/awired/jscoverage/instrumentation/es3/ES3.g:857:56: COMMA
                             {
                             COMMA34=(Token)match(input,COMMA,FOLLOW_COMMA_in_objectLiteral3266);  
                             stream_COMMA.add(COMMA34);
@@ -1879,12 +1879,12 @@ public class ES3Parser extends Parser {
             root_0 = (Object)adaptor.nil();
             // 858:2: -> ^( OBJECT[$lb, \"OBJECT\"] ( nameValuePair )* )
             {
-                // com/google/jstestdriver/coverage/es3/ES3.g:858:5: ^( OBJECT[$lb, \"OBJECT\"] ( nameValuePair )* )
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:858:5: ^( OBJECT[$lb, \"OBJECT\"] ( nameValuePair )* )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot((Object)adaptor.create(OBJECT, lb, "OBJECT"), root_1);
 
-                // com/google/jstestdriver/coverage/es3/ES3.g:858:30: ( nameValuePair )*
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:858:30: ( nameValuePair )*
                 while ( stream_nameValuePair.hasNext() ) {
                     adaptor.addChild(root_1, stream_nameValuePair.nextTree());
 
@@ -1923,7 +1923,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "nameValuePair"
-    // com/google/jstestdriver/coverage/es3/ES3.g:861:1: nameValuePair : propertyName COLON assignmentExpression -> ^( NAMEDVALUE propertyName assignmentExpression ) ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:861:1: nameValuePair : propertyName COLON assignmentExpression -> ^( NAMEDVALUE propertyName assignmentExpression ) ;
     public final ES3Parser.nameValuePair_return nameValuePair() throws RecognitionException {
         ES3Parser.nameValuePair_return retval = new ES3Parser.nameValuePair_return();
         retval.start = input.LT(1);
@@ -1941,8 +1941,8 @@ public class ES3Parser extends Parser {
         RewriteRuleSubtreeStream stream_propertyName=new RewriteRuleSubtreeStream(adaptor,"rule propertyName");
         RewriteRuleSubtreeStream stream_assignmentExpression=new RewriteRuleSubtreeStream(adaptor,"rule assignmentExpression");
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:862:2: ( propertyName COLON assignmentExpression -> ^( NAMEDVALUE propertyName assignmentExpression ) )
-            // com/google/jstestdriver/coverage/es3/ES3.g:862:4: propertyName COLON assignmentExpression
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:862:2: ( propertyName COLON assignmentExpression -> ^( NAMEDVALUE propertyName assignmentExpression ) )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:862:4: propertyName COLON assignmentExpression
             {
             pushFollow(FOLLOW_propertyName_in_nameValuePair3298);
             propertyName36=propertyName();
@@ -1974,7 +1974,7 @@ public class ES3Parser extends Parser {
             root_0 = (Object)adaptor.nil();
             // 863:2: -> ^( NAMEDVALUE propertyName assignmentExpression )
             {
-                // com/google/jstestdriver/coverage/es3/ES3.g:863:5: ^( NAMEDVALUE propertyName assignmentExpression )
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:863:5: ^( NAMEDVALUE propertyName assignmentExpression )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot((Object)adaptor.create(NAMEDVALUE, "NAMEDVALUE"), root_1);
@@ -2014,7 +2014,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "propertyName"
-    // com/google/jstestdriver/coverage/es3/ES3.g:866:1: propertyName : ( Identifier | StringLiteral | numericLiteral );
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:866:1: propertyName : ( Identifier | StringLiteral | numericLiteral );
     public final ES3Parser.propertyName_return propertyName() throws RecognitionException {
         ES3Parser.propertyName_return retval = new ES3Parser.propertyName_return();
         retval.start = input.LT(1);
@@ -2030,7 +2030,7 @@ public class ES3Parser extends Parser {
         Object StringLiteral40_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:867:2: ( Identifier | StringLiteral | numericLiteral )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:867:2: ( Identifier | StringLiteral | numericLiteral )
             int alt12=3;
             switch ( input.LA(1) ) {
             case Identifier:
@@ -2059,7 +2059,7 @@ public class ES3Parser extends Parser {
 
             switch (alt12) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:867:4: Identifier
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:867:4: Identifier
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -2071,7 +2071,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:868:4: StringLiteral
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:868:4: StringLiteral
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -2083,7 +2083,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 3 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:869:4: numericLiteral
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:869:4: numericLiteral
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -2122,7 +2122,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "memberExpression"
-    // com/google/jstestdriver/coverage/es3/ES3.g:881:1: memberExpression : ( primaryExpression | functionExpression | newExpression );
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:881:1: memberExpression : ( primaryExpression | functionExpression | newExpression );
     public final ES3Parser.memberExpression_return memberExpression() throws RecognitionException {
         ES3Parser.memberExpression_return retval = new ES3Parser.memberExpression_return();
         retval.start = input.LT(1);
@@ -2138,7 +2138,7 @@ public class ES3Parser extends Parser {
 
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:882:2: ( primaryExpression | functionExpression | newExpression )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:882:2: ( primaryExpression | functionExpression | newExpression )
             int alt13=3;
             switch ( input.LA(1) ) {
             case NULL:
@@ -2177,7 +2177,7 @@ public class ES3Parser extends Parser {
 
             switch (alt13) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:882:4: primaryExpression
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:882:4: primaryExpression
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -2191,7 +2191,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:883:4: functionExpression
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:883:4: functionExpression
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -2205,7 +2205,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 3 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:884:4: newExpression
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:884:4: newExpression
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -2244,7 +2244,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "newExpression"
-    // com/google/jstestdriver/coverage/es3/ES3.g:887:1: newExpression : NEW primaryExpression ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:887:1: newExpression : NEW primaryExpression ;
     public final ES3Parser.newExpression_return newExpression() throws RecognitionException {
         ES3Parser.newExpression_return retval = new ES3Parser.newExpression_return();
         retval.start = input.LT(1);
@@ -2258,8 +2258,8 @@ public class ES3Parser extends Parser {
         Object NEW45_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:888:2: ( NEW primaryExpression )
-            // com/google/jstestdriver/coverage/es3/ES3.g:888:4: NEW primaryExpression
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:888:2: ( NEW primaryExpression )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:888:4: NEW primaryExpression
             {
             root_0 = (Object)adaptor.nil();
 
@@ -2300,7 +2300,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "multiLineComment"
-    // com/google/jstestdriver/coverage/es3/ES3.g:891:1: multiLineComment : MultiLineComment ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:891:1: multiLineComment : MultiLineComment ;
     public final ES3Parser.multiLineComment_return multiLineComment() throws RecognitionException {
         ES3Parser.multiLineComment_return retval = new ES3Parser.multiLineComment_return();
         retval.start = input.LT(1);
@@ -2312,8 +2312,8 @@ public class ES3Parser extends Parser {
         Object MultiLineComment47_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:892:9: ( MultiLineComment )
-            // com/google/jstestdriver/coverage/es3/ES3.g:892:11: MultiLineComment
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:892:9: ( MultiLineComment )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:892:11: MultiLineComment
             {
             root_0 = (Object)adaptor.nil();
 
@@ -2348,7 +2348,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "arguments"
-    // com/google/jstestdriver/coverage/es3/ES3.g:895:1: arguments : LPAREN ( assignmentExpression ( COMMA assignmentExpression )* )? RPAREN -> ^( ARGS ( assignmentExpression )* ) ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:895:1: arguments : LPAREN ( assignmentExpression ( COMMA assignmentExpression )* )? RPAREN -> ^( ARGS ( assignmentExpression )* ) ;
     public final ES3Parser.arguments_return arguments() throws RecognitionException {
         ES3Parser.arguments_return retval = new ES3Parser.arguments_return();
         retval.start = input.LT(1);
@@ -2371,13 +2371,13 @@ public class ES3Parser extends Parser {
         RewriteRuleTokenStream stream_LPAREN=new RewriteRuleTokenStream(adaptor,"token LPAREN");
         RewriteRuleSubtreeStream stream_assignmentExpression=new RewriteRuleSubtreeStream(adaptor,"rule assignmentExpression");
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:896:2: ( LPAREN ( assignmentExpression ( COMMA assignmentExpression )* )? RPAREN -> ^( ARGS ( assignmentExpression )* ) )
-            // com/google/jstestdriver/coverage/es3/ES3.g:896:4: LPAREN ( assignmentExpression ( COMMA assignmentExpression )* )? RPAREN
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:896:2: ( LPAREN ( assignmentExpression ( COMMA assignmentExpression )* )? RPAREN -> ^( ARGS ( assignmentExpression )* ) )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:896:4: LPAREN ( assignmentExpression ( COMMA assignmentExpression )* )? RPAREN
             {
             LPAREN48=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_arguments3415);  
             stream_LPAREN.add(LPAREN48);
 
-            // com/google/jstestdriver/coverage/es3/ES3.g:896:11: ( assignmentExpression ( COMMA assignmentExpression )* )?
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:896:11: ( assignmentExpression ( COMMA assignmentExpression )* )?
             int alt15=2;
             int LA15_0 = input.LA(1);
 
@@ -2386,7 +2386,7 @@ public class ES3Parser extends Parser {
             }
             switch (alt15) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:896:13: assignmentExpression ( COMMA assignmentExpression )*
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:896:13: assignmentExpression ( COMMA assignmentExpression )*
                     {
                     pushFollow(FOLLOW_assignmentExpression_in_arguments3419);
                     assignmentExpression49=assignmentExpression();
@@ -2394,7 +2394,7 @@ public class ES3Parser extends Parser {
                     state._fsp--;
 
                     stream_assignmentExpression.add(assignmentExpression49.getTree());
-                    // com/google/jstestdriver/coverage/es3/ES3.g:896:34: ( COMMA assignmentExpression )*
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:896:34: ( COMMA assignmentExpression )*
                     loop14:
                     do {
                         int alt14=2;
@@ -2407,7 +2407,7 @@ public class ES3Parser extends Parser {
 
                         switch (alt14) {
                     	case 1 :
-                    	    // com/google/jstestdriver/coverage/es3/ES3.g:896:36: COMMA assignmentExpression
+                    	    // net/awired/jscoverage/instrumentation/es3/ES3.g:896:36: COMMA assignmentExpression
                     	    {
                     	    COMMA50=(Token)match(input,COMMA,FOLLOW_COMMA_in_arguments3423);  
                     	    stream_COMMA.add(COMMA50);
@@ -2451,12 +2451,12 @@ public class ES3Parser extends Parser {
             root_0 = (Object)adaptor.nil();
             // 897:2: -> ^( ARGS ( assignmentExpression )* )
             {
-                // com/google/jstestdriver/coverage/es3/ES3.g:897:5: ^( ARGS ( assignmentExpression )* )
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:897:5: ^( ARGS ( assignmentExpression )* )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot((Object)adaptor.create(ARGS, "ARGS"), root_1);
 
-                // com/google/jstestdriver/coverage/es3/ES3.g:897:13: ( assignmentExpression )*
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:897:13: ( assignmentExpression )*
                 while ( stream_assignmentExpression.hasNext() ) {
                     adaptor.addChild(root_1, stream_assignmentExpression.nextTree());
 
@@ -2495,7 +2495,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "leftHandSideExpression"
-    // com/google/jstestdriver/coverage/es3/ES3.g:900:1: leftHandSideExpression : ( memberExpression -> memberExpression ) ( arguments -> ^( CALL $leftHandSideExpression arguments ) | LBRACK expression RBRACK -> ^( BYINDEX $leftHandSideExpression expression ) | DOT Identifier -> ^( BYFIELD $leftHandSideExpression Identifier ) )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:900:1: leftHandSideExpression : ( memberExpression -> memberExpression ) ( arguments -> ^( CALL $leftHandSideExpression arguments ) | LBRACK expression RBRACK -> ^( BYINDEX $leftHandSideExpression expression ) | DOT Identifier -> ^( BYFIELD $leftHandSideExpression Identifier ) )* ;
     public final ES3Parser.leftHandSideExpression_return leftHandSideExpression() throws RecognitionException {
         ES3Parser.leftHandSideExpression_return retval = new ES3Parser.leftHandSideExpression_return();
         retval.start = input.LT(1);
@@ -2525,11 +2525,11 @@ public class ES3Parser extends Parser {
         RewriteRuleSubtreeStream stream_expression=new RewriteRuleSubtreeStream(adaptor,"rule expression");
         RewriteRuleSubtreeStream stream_arguments=new RewriteRuleSubtreeStream(adaptor,"rule arguments");
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:901:2: ( ( memberExpression -> memberExpression ) ( arguments -> ^( CALL $leftHandSideExpression arguments ) | LBRACK expression RBRACK -> ^( BYINDEX $leftHandSideExpression expression ) | DOT Identifier -> ^( BYFIELD $leftHandSideExpression Identifier ) )* )
-            // com/google/jstestdriver/coverage/es3/ES3.g:902:2: ( memberExpression -> memberExpression ) ( arguments -> ^( CALL $leftHandSideExpression arguments ) | LBRACK expression RBRACK -> ^( BYINDEX $leftHandSideExpression expression ) | DOT Identifier -> ^( BYFIELD $leftHandSideExpression Identifier ) )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:901:2: ( ( memberExpression -> memberExpression ) ( arguments -> ^( CALL $leftHandSideExpression arguments ) | LBRACK expression RBRACK -> ^( BYINDEX $leftHandSideExpression expression ) | DOT Identifier -> ^( BYFIELD $leftHandSideExpression Identifier ) )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:902:2: ( memberExpression -> memberExpression ) ( arguments -> ^( CALL $leftHandSideExpression arguments ) | LBRACK expression RBRACK -> ^( BYINDEX $leftHandSideExpression expression ) | DOT Identifier -> ^( BYFIELD $leftHandSideExpression Identifier ) )*
             {
-            // com/google/jstestdriver/coverage/es3/ES3.g:902:2: ( memberExpression -> memberExpression )
-            // com/google/jstestdriver/coverage/es3/ES3.g:903:3: memberExpression
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:902:2: ( memberExpression -> memberExpression )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:903:3: memberExpression
             {
             pushFollow(FOLLOW_memberExpression_in_leftHandSideExpression3462);
             memberExpression53=memberExpression();
@@ -2559,7 +2559,7 @@ public class ES3Parser extends Parser {
             retval.tree = root_0;
             }
 
-            // com/google/jstestdriver/coverage/es3/ES3.g:905:2: ( arguments -> ^( CALL $leftHandSideExpression arguments ) | LBRACK expression RBRACK -> ^( BYINDEX $leftHandSideExpression expression ) | DOT Identifier -> ^( BYFIELD $leftHandSideExpression Identifier ) )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:905:2: ( arguments -> ^( CALL $leftHandSideExpression arguments ) | LBRACK expression RBRACK -> ^( BYINDEX $leftHandSideExpression expression ) | DOT Identifier -> ^( BYFIELD $leftHandSideExpression Identifier ) )*
             loop16:
             do {
                 int alt16=4;
@@ -2584,7 +2584,7 @@ public class ES3Parser extends Parser {
 
                 switch (alt16) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:906:3: arguments
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:906:3: arguments
             	    {
             	    pushFollow(FOLLOW_arguments_in_leftHandSideExpression3478);
             	    arguments54=arguments();
@@ -2595,7 +2595,7 @@ public class ES3Parser extends Parser {
 
 
             	    // AST REWRITE
-            	    // elements: leftHandSideExpression, arguments
+            	    // elements: arguments, leftHandSideExpression
             	    // token labels: 
             	    // rule labels: retval
             	    // token list labels: 
@@ -2607,7 +2607,7 @@ public class ES3Parser extends Parser {
             	    root_0 = (Object)adaptor.nil();
             	    // 906:15: -> ^( CALL $leftHandSideExpression arguments )
             	    {
-            	        // com/google/jstestdriver/coverage/es3/ES3.g:906:18: ^( CALL $leftHandSideExpression arguments )
+            	        // net/awired/jscoverage/instrumentation/es3/ES3.g:906:18: ^( CALL $leftHandSideExpression arguments )
             	        {
             	        Object root_1 = (Object)adaptor.nil();
             	        root_1 = (Object)adaptor.becomeRoot((Object)adaptor.create(CALL, "CALL"), root_1);
@@ -2624,7 +2624,7 @@ public class ES3Parser extends Parser {
             	    }
             	    break;
             	case 2 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:907:5: LBRACK expression RBRACK
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:907:5: LBRACK expression RBRACK
             	    {
             	    LBRACK55=(Token)match(input,LBRACK,FOLLOW_LBRACK_in_leftHandSideExpression3499);  
             	    stream_LBRACK.add(LBRACK55);
@@ -2641,7 +2641,7 @@ public class ES3Parser extends Parser {
 
 
             	    // AST REWRITE
-            	    // elements: expression, leftHandSideExpression
+            	    // elements: leftHandSideExpression, expression
             	    // token labels: 
             	    // rule labels: retval
             	    // token list labels: 
@@ -2653,7 +2653,7 @@ public class ES3Parser extends Parser {
             	    root_0 = (Object)adaptor.nil();
             	    // 907:30: -> ^( BYINDEX $leftHandSideExpression expression )
             	    {
-            	        // com/google/jstestdriver/coverage/es3/ES3.g:907:33: ^( BYINDEX $leftHandSideExpression expression )
+            	        // net/awired/jscoverage/instrumentation/es3/ES3.g:907:33: ^( BYINDEX $leftHandSideExpression expression )
             	        {
             	        Object root_1 = (Object)adaptor.nil();
             	        root_1 = (Object)adaptor.becomeRoot((Object)adaptor.create(BYINDEX, "BYINDEX"), root_1);
@@ -2670,7 +2670,7 @@ public class ES3Parser extends Parser {
             	    }
             	    break;
             	case 3 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:908:5: DOT Identifier
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:908:5: DOT Identifier
             	    {
             	    DOT58=(Token)match(input,DOT,FOLLOW_DOT_in_leftHandSideExpression3522);  
             	    stream_DOT.add(DOT58);
@@ -2681,7 +2681,7 @@ public class ES3Parser extends Parser {
 
 
             	    // AST REWRITE
-            	    // elements: Identifier, leftHandSideExpression
+            	    // elements: leftHandSideExpression, Identifier
             	    // token labels: 
             	    // rule labels: retval
             	    // token list labels: 
@@ -2693,7 +2693,7 @@ public class ES3Parser extends Parser {
             	    root_0 = (Object)adaptor.nil();
             	    // 908:21: -> ^( BYFIELD $leftHandSideExpression Identifier )
             	    {
-            	        // com/google/jstestdriver/coverage/es3/ES3.g:908:24: ^( BYFIELD $leftHandSideExpression Identifier )
+            	        // net/awired/jscoverage/instrumentation/es3/ES3.g:908:24: ^( BYFIELD $leftHandSideExpression Identifier )
             	        {
             	        Object root_1 = (Object)adaptor.nil();
             	        root_1 = (Object)adaptor.becomeRoot((Object)adaptor.create(BYFIELD, "BYFIELD"), root_1);
@@ -2742,7 +2742,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "postfixExpression"
-    // com/google/jstestdriver/coverage/es3/ES3.g:922:1: postfixExpression : leftHandSideExpression ( postfixOperator )? ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:922:1: postfixExpression : leftHandSideExpression ( postfixOperator )? ;
     public final ES3Parser.postfixExpression_return postfixExpression() throws RecognitionException {
         ES3Parser.postfixExpression_return retval = new ES3Parser.postfixExpression_return();
         retval.start = input.LT(1);
@@ -2756,8 +2756,8 @@ public class ES3Parser extends Parser {
 
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:923:2: ( leftHandSideExpression ( postfixOperator )? )
-            // com/google/jstestdriver/coverage/es3/ES3.g:923:4: leftHandSideExpression ( postfixOperator )?
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:923:2: ( leftHandSideExpression ( postfixOperator )? )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:923:4: leftHandSideExpression ( postfixOperator )?
             {
             root_0 = (Object)adaptor.nil();
 
@@ -2768,7 +2768,7 @@ public class ES3Parser extends Parser {
 
             adaptor.addChild(root_0, leftHandSideExpression60.getTree());
              if (input.LA(1) == INC || input.LA(1) == DEC) promoteEOL(null); 
-            // com/google/jstestdriver/coverage/es3/ES3.g:923:95: ( postfixOperator )?
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:923:95: ( postfixOperator )?
             int alt17=2;
             int LA17_0 = input.LA(1);
 
@@ -2777,7 +2777,7 @@ public class ES3Parser extends Parser {
             }
             switch (alt17) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:923:97: postfixOperator
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:923:97: postfixOperator
                     {
                     pushFollow(FOLLOW_postfixOperator_in_postfixExpression3565);
                     postfixOperator61=postfixOperator();
@@ -2818,7 +2818,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "postfixOperator"
-    // com/google/jstestdriver/coverage/es3/ES3.g:926:1: postfixOperator : (op= INC | op= DEC );
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:926:1: postfixOperator : (op= INC | op= DEC );
     public final ES3Parser.postfixOperator_return postfixOperator() throws RecognitionException {
         ES3Parser.postfixOperator_return retval = new ES3Parser.postfixOperator_return();
         retval.start = input.LT(1);
@@ -2830,7 +2830,7 @@ public class ES3Parser extends Parser {
         Object op_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:927:2: (op= INC | op= DEC )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:927:2: (op= INC | op= DEC )
             int alt18=2;
             int LA18_0 = input.LA(1);
 
@@ -2848,7 +2848,7 @@ public class ES3Parser extends Parser {
             }
             switch (alt18) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:927:4: op= INC
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:927:4: op= INC
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -2861,7 +2861,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:928:4: op= DEC
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:928:4: op= DEC
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -2899,7 +2899,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "unaryExpression"
-    // com/google/jstestdriver/coverage/es3/ES3.g:935:1: unaryExpression : ( postfixExpression | unaryOperator unaryExpression );
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:935:1: unaryExpression : ( postfixExpression | unaryOperator unaryExpression );
     public final ES3Parser.unaryExpression_return unaryExpression() throws RecognitionException {
         ES3Parser.unaryExpression_return retval = new ES3Parser.unaryExpression_return();
         retval.start = input.LT(1);
@@ -2915,7 +2915,7 @@ public class ES3Parser extends Parser {
 
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:936:2: ( postfixExpression | unaryOperator unaryExpression )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:936:2: ( postfixExpression | unaryOperator unaryExpression )
             int alt19=2;
             int LA19_0 = input.LA(1);
 
@@ -2933,7 +2933,7 @@ public class ES3Parser extends Parser {
             }
             switch (alt19) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:936:4: postfixExpression
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:936:4: postfixExpression
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -2947,7 +2947,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:937:4: unaryOperator unaryExpression
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:937:4: unaryOperator unaryExpression
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -2992,7 +2992,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "unaryOperator"
-    // com/google/jstestdriver/coverage/es3/ES3.g:940:1: unaryOperator : ( DELETE | VOID | TYPEOF | INC | DEC | op= ADD | op= SUB | INV | NOT );
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:940:1: unaryOperator : ( DELETE | VOID | TYPEOF | INC | DEC | op= ADD | op= SUB | INV | NOT );
     public final ES3Parser.unaryOperator_return unaryOperator() throws RecognitionException {
         ES3Parser.unaryOperator_return retval = new ES3Parser.unaryOperator_return();
         retval.start = input.LT(1);
@@ -3018,7 +3018,7 @@ public class ES3Parser extends Parser {
         Object NOT71_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:941:2: ( DELETE | VOID | TYPEOF | INC | DEC | op= ADD | op= SUB | INV | NOT )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:941:2: ( DELETE | VOID | TYPEOF | INC | DEC | op= ADD | op= SUB | INV | NOT )
             int alt20=9;
             switch ( input.LA(1) ) {
             case DELETE:
@@ -3075,7 +3075,7 @@ public class ES3Parser extends Parser {
 
             switch (alt20) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:941:4: DELETE
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:941:4: DELETE
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -3087,7 +3087,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:942:4: VOID
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:942:4: VOID
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -3099,7 +3099,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 3 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:943:4: TYPEOF
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:943:4: TYPEOF
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -3111,7 +3111,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 4 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:944:4: INC
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:944:4: INC
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -3123,7 +3123,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 5 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:945:4: DEC
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:945:4: DEC
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -3135,7 +3135,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 6 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:946:4: op= ADD
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:946:4: op= ADD
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -3148,7 +3148,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 7 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:947:4: op= SUB
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:947:4: op= SUB
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -3161,7 +3161,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 8 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:948:4: INV
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:948:4: INV
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -3173,7 +3173,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 9 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:949:4: NOT
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:949:4: NOT
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -3210,7 +3210,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "multiplicativeExpression"
-    // com/google/jstestdriver/coverage/es3/ES3.g:956:1: multiplicativeExpression : unaryExpression ( ( MUL | DIV | MOD ) unaryExpression )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:956:1: multiplicativeExpression : unaryExpression ( ( MUL | DIV | MOD ) unaryExpression )* ;
     public final ES3Parser.multiplicativeExpression_return multiplicativeExpression() throws RecognitionException {
         ES3Parser.multiplicativeExpression_return retval = new ES3Parser.multiplicativeExpression_return();
         retval.start = input.LT(1);
@@ -3226,8 +3226,8 @@ public class ES3Parser extends Parser {
         Object set73_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:957:2: ( unaryExpression ( ( MUL | DIV | MOD ) unaryExpression )* )
-            // com/google/jstestdriver/coverage/es3/ES3.g:957:4: unaryExpression ( ( MUL | DIV | MOD ) unaryExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:957:2: ( unaryExpression ( ( MUL | DIV | MOD ) unaryExpression )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:957:4: unaryExpression ( ( MUL | DIV | MOD ) unaryExpression )*
             {
             root_0 = (Object)adaptor.nil();
 
@@ -3237,7 +3237,7 @@ public class ES3Parser extends Parser {
             state._fsp--;
 
             adaptor.addChild(root_0, unaryExpression72.getTree());
-            // com/google/jstestdriver/coverage/es3/ES3.g:957:20: ( ( MUL | DIV | MOD ) unaryExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:957:20: ( ( MUL | DIV | MOD ) unaryExpression )*
             loop21:
             do {
                 int alt21=2;
@@ -3250,7 +3250,7 @@ public class ES3Parser extends Parser {
 
                 switch (alt21) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:957:22: ( MUL | DIV | MOD ) unaryExpression
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:957:22: ( MUL | DIV | MOD ) unaryExpression
             	    {
             	    set73=(Token)input.LT(1);
             	    set73=(Token)input.LT(1);
@@ -3306,7 +3306,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "additiveExpression"
-    // com/google/jstestdriver/coverage/es3/ES3.g:964:1: additiveExpression : multiplicativeExpression ( ( ADD | SUB ) multiplicativeExpression )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:964:1: additiveExpression : multiplicativeExpression ( ( ADD | SUB ) multiplicativeExpression )* ;
     public final ES3Parser.additiveExpression_return additiveExpression() throws RecognitionException {
         ES3Parser.additiveExpression_return retval = new ES3Parser.additiveExpression_return();
         retval.start = input.LT(1);
@@ -3322,8 +3322,8 @@ public class ES3Parser extends Parser {
         Object set76_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:965:2: ( multiplicativeExpression ( ( ADD | SUB ) multiplicativeExpression )* )
-            // com/google/jstestdriver/coverage/es3/ES3.g:965:4: multiplicativeExpression ( ( ADD | SUB ) multiplicativeExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:965:2: ( multiplicativeExpression ( ( ADD | SUB ) multiplicativeExpression )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:965:4: multiplicativeExpression ( ( ADD | SUB ) multiplicativeExpression )*
             {
             root_0 = (Object)adaptor.nil();
 
@@ -3333,7 +3333,7 @@ public class ES3Parser extends Parser {
             state._fsp--;
 
             adaptor.addChild(root_0, multiplicativeExpression75.getTree());
-            // com/google/jstestdriver/coverage/es3/ES3.g:965:29: ( ( ADD | SUB ) multiplicativeExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:965:29: ( ( ADD | SUB ) multiplicativeExpression )*
             loop22:
             do {
                 int alt22=2;
@@ -3346,7 +3346,7 @@ public class ES3Parser extends Parser {
 
                 switch (alt22) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:965:31: ( ADD | SUB ) multiplicativeExpression
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:965:31: ( ADD | SUB ) multiplicativeExpression
             	    {
             	    set76=(Token)input.LT(1);
             	    set76=(Token)input.LT(1);
@@ -3402,7 +3402,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "shiftExpression"
-    // com/google/jstestdriver/coverage/es3/ES3.g:972:1: shiftExpression : additiveExpression ( ( SHL | SHR | SHU ) additiveExpression )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:972:1: shiftExpression : additiveExpression ( ( SHL | SHR | SHU ) additiveExpression )* ;
     public final ES3Parser.shiftExpression_return shiftExpression() throws RecognitionException {
         ES3Parser.shiftExpression_return retval = new ES3Parser.shiftExpression_return();
         retval.start = input.LT(1);
@@ -3418,8 +3418,8 @@ public class ES3Parser extends Parser {
         Object set79_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:973:2: ( additiveExpression ( ( SHL | SHR | SHU ) additiveExpression )* )
-            // com/google/jstestdriver/coverage/es3/ES3.g:973:4: additiveExpression ( ( SHL | SHR | SHU ) additiveExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:973:2: ( additiveExpression ( ( SHL | SHR | SHU ) additiveExpression )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:973:4: additiveExpression ( ( SHL | SHR | SHU ) additiveExpression )*
             {
             root_0 = (Object)adaptor.nil();
 
@@ -3429,7 +3429,7 @@ public class ES3Parser extends Parser {
             state._fsp--;
 
             adaptor.addChild(root_0, additiveExpression78.getTree());
-            // com/google/jstestdriver/coverage/es3/ES3.g:973:23: ( ( SHL | SHR | SHU ) additiveExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:973:23: ( ( SHL | SHR | SHU ) additiveExpression )*
             loop23:
             do {
                 int alt23=2;
@@ -3442,7 +3442,7 @@ public class ES3Parser extends Parser {
 
                 switch (alt23) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:973:25: ( SHL | SHR | SHU ) additiveExpression
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:973:25: ( SHL | SHR | SHU ) additiveExpression
             	    {
             	    set79=(Token)input.LT(1);
             	    set79=(Token)input.LT(1);
@@ -3498,7 +3498,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "relationalExpression"
-    // com/google/jstestdriver/coverage/es3/ES3.g:980:1: relationalExpression : shiftExpression ( ( LT | GT | LTE | GTE | INSTANCEOF | IN ) shiftExpression )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:980:1: relationalExpression : shiftExpression ( ( LT | GT | LTE | GTE | INSTANCEOF | IN ) shiftExpression )* ;
     public final ES3Parser.relationalExpression_return relationalExpression() throws RecognitionException {
         ES3Parser.relationalExpression_return retval = new ES3Parser.relationalExpression_return();
         retval.start = input.LT(1);
@@ -3514,8 +3514,8 @@ public class ES3Parser extends Parser {
         Object set82_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:981:2: ( shiftExpression ( ( LT | GT | LTE | GTE | INSTANCEOF | IN ) shiftExpression )* )
-            // com/google/jstestdriver/coverage/es3/ES3.g:981:4: shiftExpression ( ( LT | GT | LTE | GTE | INSTANCEOF | IN ) shiftExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:981:2: ( shiftExpression ( ( LT | GT | LTE | GTE | INSTANCEOF | IN ) shiftExpression )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:981:4: shiftExpression ( ( LT | GT | LTE | GTE | INSTANCEOF | IN ) shiftExpression )*
             {
             root_0 = (Object)adaptor.nil();
 
@@ -3525,7 +3525,7 @@ public class ES3Parser extends Parser {
             state._fsp--;
 
             adaptor.addChild(root_0, shiftExpression81.getTree());
-            // com/google/jstestdriver/coverage/es3/ES3.g:981:20: ( ( LT | GT | LTE | GTE | INSTANCEOF | IN ) shiftExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:981:20: ( ( LT | GT | LTE | GTE | INSTANCEOF | IN ) shiftExpression )*
             loop24:
             do {
                 int alt24=2;
@@ -3538,7 +3538,7 @@ public class ES3Parser extends Parser {
 
                 switch (alt24) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:981:22: ( LT | GT | LTE | GTE | INSTANCEOF | IN ) shiftExpression
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:981:22: ( LT | GT | LTE | GTE | INSTANCEOF | IN ) shiftExpression
             	    {
             	    set82=(Token)input.LT(1);
             	    set82=(Token)input.LT(1);
@@ -3594,7 +3594,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "relationalExpressionNoIn"
-    // com/google/jstestdriver/coverage/es3/ES3.g:984:1: relationalExpressionNoIn : shiftExpression ( ( LT | GT | LTE | GTE | INSTANCEOF ) shiftExpression )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:984:1: relationalExpressionNoIn : shiftExpression ( ( LT | GT | LTE | GTE | INSTANCEOF ) shiftExpression )* ;
     public final ES3Parser.relationalExpressionNoIn_return relationalExpressionNoIn() throws RecognitionException {
         ES3Parser.relationalExpressionNoIn_return retval = new ES3Parser.relationalExpressionNoIn_return();
         retval.start = input.LT(1);
@@ -3610,8 +3610,8 @@ public class ES3Parser extends Parser {
         Object set85_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:985:2: ( shiftExpression ( ( LT | GT | LTE | GTE | INSTANCEOF ) shiftExpression )* )
-            // com/google/jstestdriver/coverage/es3/ES3.g:985:4: shiftExpression ( ( LT | GT | LTE | GTE | INSTANCEOF ) shiftExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:985:2: ( shiftExpression ( ( LT | GT | LTE | GTE | INSTANCEOF ) shiftExpression )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:985:4: shiftExpression ( ( LT | GT | LTE | GTE | INSTANCEOF ) shiftExpression )*
             {
             root_0 = (Object)adaptor.nil();
 
@@ -3621,7 +3621,7 @@ public class ES3Parser extends Parser {
             state._fsp--;
 
             adaptor.addChild(root_0, shiftExpression84.getTree());
-            // com/google/jstestdriver/coverage/es3/ES3.g:985:20: ( ( LT | GT | LTE | GTE | INSTANCEOF ) shiftExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:985:20: ( ( LT | GT | LTE | GTE | INSTANCEOF ) shiftExpression )*
             loop25:
             do {
                 int alt25=2;
@@ -3634,7 +3634,7 @@ public class ES3Parser extends Parser {
 
                 switch (alt25) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:985:22: ( LT | GT | LTE | GTE | INSTANCEOF ) shiftExpression
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:985:22: ( LT | GT | LTE | GTE | INSTANCEOF ) shiftExpression
             	    {
             	    set85=(Token)input.LT(1);
             	    set85=(Token)input.LT(1);
@@ -3690,7 +3690,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "equalityExpression"
-    // com/google/jstestdriver/coverage/es3/ES3.g:992:1: equalityExpression : relationalExpression ( ( EQ | NEQ | SAME | NSAME ) relationalExpression )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:992:1: equalityExpression : relationalExpression ( ( EQ | NEQ | SAME | NSAME ) relationalExpression )* ;
     public final ES3Parser.equalityExpression_return equalityExpression() throws RecognitionException {
         ES3Parser.equalityExpression_return retval = new ES3Parser.equalityExpression_return();
         retval.start = input.LT(1);
@@ -3706,8 +3706,8 @@ public class ES3Parser extends Parser {
         Object set88_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:993:2: ( relationalExpression ( ( EQ | NEQ | SAME | NSAME ) relationalExpression )* )
-            // com/google/jstestdriver/coverage/es3/ES3.g:993:4: relationalExpression ( ( EQ | NEQ | SAME | NSAME ) relationalExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:993:2: ( relationalExpression ( ( EQ | NEQ | SAME | NSAME ) relationalExpression )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:993:4: relationalExpression ( ( EQ | NEQ | SAME | NSAME ) relationalExpression )*
             {
             root_0 = (Object)adaptor.nil();
 
@@ -3717,7 +3717,7 @@ public class ES3Parser extends Parser {
             state._fsp--;
 
             adaptor.addChild(root_0, relationalExpression87.getTree());
-            // com/google/jstestdriver/coverage/es3/ES3.g:993:25: ( ( EQ | NEQ | SAME | NSAME ) relationalExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:993:25: ( ( EQ | NEQ | SAME | NSAME ) relationalExpression )*
             loop26:
             do {
                 int alt26=2;
@@ -3730,7 +3730,7 @@ public class ES3Parser extends Parser {
 
                 switch (alt26) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:993:27: ( EQ | NEQ | SAME | NSAME ) relationalExpression
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:993:27: ( EQ | NEQ | SAME | NSAME ) relationalExpression
             	    {
             	    set88=(Token)input.LT(1);
             	    set88=(Token)input.LT(1);
@@ -3786,7 +3786,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "equalityExpressionNoIn"
-    // com/google/jstestdriver/coverage/es3/ES3.g:996:1: equalityExpressionNoIn : relationalExpressionNoIn ( ( EQ | NEQ | SAME | NSAME ) relationalExpressionNoIn )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:996:1: equalityExpressionNoIn : relationalExpressionNoIn ( ( EQ | NEQ | SAME | NSAME ) relationalExpressionNoIn )* ;
     public final ES3Parser.equalityExpressionNoIn_return equalityExpressionNoIn() throws RecognitionException {
         ES3Parser.equalityExpressionNoIn_return retval = new ES3Parser.equalityExpressionNoIn_return();
         retval.start = input.LT(1);
@@ -3802,8 +3802,8 @@ public class ES3Parser extends Parser {
         Object set91_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:997:2: ( relationalExpressionNoIn ( ( EQ | NEQ | SAME | NSAME ) relationalExpressionNoIn )* )
-            // com/google/jstestdriver/coverage/es3/ES3.g:997:4: relationalExpressionNoIn ( ( EQ | NEQ | SAME | NSAME ) relationalExpressionNoIn )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:997:2: ( relationalExpressionNoIn ( ( EQ | NEQ | SAME | NSAME ) relationalExpressionNoIn )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:997:4: relationalExpressionNoIn ( ( EQ | NEQ | SAME | NSAME ) relationalExpressionNoIn )*
             {
             root_0 = (Object)adaptor.nil();
 
@@ -3813,7 +3813,7 @@ public class ES3Parser extends Parser {
             state._fsp--;
 
             adaptor.addChild(root_0, relationalExpressionNoIn90.getTree());
-            // com/google/jstestdriver/coverage/es3/ES3.g:997:29: ( ( EQ | NEQ | SAME | NSAME ) relationalExpressionNoIn )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:997:29: ( ( EQ | NEQ | SAME | NSAME ) relationalExpressionNoIn )*
             loop27:
             do {
                 int alt27=2;
@@ -3826,7 +3826,7 @@ public class ES3Parser extends Parser {
 
                 switch (alt27) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:997:31: ( EQ | NEQ | SAME | NSAME ) relationalExpressionNoIn
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:997:31: ( EQ | NEQ | SAME | NSAME ) relationalExpressionNoIn
             	    {
             	    set91=(Token)input.LT(1);
             	    set91=(Token)input.LT(1);
@@ -3882,7 +3882,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "bitwiseANDExpression"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1004:1: bitwiseANDExpression : equalityExpression ( AND equalityExpression )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1004:1: bitwiseANDExpression : equalityExpression ( AND equalityExpression )* ;
     public final ES3Parser.bitwiseANDExpression_return bitwiseANDExpression() throws RecognitionException {
         ES3Parser.bitwiseANDExpression_return retval = new ES3Parser.bitwiseANDExpression_return();
         retval.start = input.LT(1);
@@ -3898,8 +3898,8 @@ public class ES3Parser extends Parser {
         Object AND94_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1005:2: ( equalityExpression ( AND equalityExpression )* )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1005:4: equalityExpression ( AND equalityExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1005:2: ( equalityExpression ( AND equalityExpression )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1005:4: equalityExpression ( AND equalityExpression )*
             {
             root_0 = (Object)adaptor.nil();
 
@@ -3909,7 +3909,7 @@ public class ES3Parser extends Parser {
             state._fsp--;
 
             adaptor.addChild(root_0, equalityExpression93.getTree());
-            // com/google/jstestdriver/coverage/es3/ES3.g:1005:23: ( AND equalityExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1005:23: ( AND equalityExpression )*
             loop28:
             do {
                 int alt28=2;
@@ -3922,7 +3922,7 @@ public class ES3Parser extends Parser {
 
                 switch (alt28) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:1005:25: AND equalityExpression
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:1005:25: AND equalityExpression
             	    {
             	    AND94=(Token)match(input,AND,FOLLOW_AND_in_bitwiseANDExpression3976); 
             	    AND94_tree = (Object)adaptor.create(AND94);
@@ -3970,7 +3970,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "bitwiseANDExpressionNoIn"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1008:1: bitwiseANDExpressionNoIn : equalityExpressionNoIn ( AND equalityExpressionNoIn )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1008:1: bitwiseANDExpressionNoIn : equalityExpressionNoIn ( AND equalityExpressionNoIn )* ;
     public final ES3Parser.bitwiseANDExpressionNoIn_return bitwiseANDExpressionNoIn() throws RecognitionException {
         ES3Parser.bitwiseANDExpressionNoIn_return retval = new ES3Parser.bitwiseANDExpressionNoIn_return();
         retval.start = input.LT(1);
@@ -3986,8 +3986,8 @@ public class ES3Parser extends Parser {
         Object AND97_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1009:2: ( equalityExpressionNoIn ( AND equalityExpressionNoIn )* )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1009:4: equalityExpressionNoIn ( AND equalityExpressionNoIn )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1009:2: ( equalityExpressionNoIn ( AND equalityExpressionNoIn )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1009:4: equalityExpressionNoIn ( AND equalityExpressionNoIn )*
             {
             root_0 = (Object)adaptor.nil();
 
@@ -3997,7 +3997,7 @@ public class ES3Parser extends Parser {
             state._fsp--;
 
             adaptor.addChild(root_0, equalityExpressionNoIn96.getTree());
-            // com/google/jstestdriver/coverage/es3/ES3.g:1009:27: ( AND equalityExpressionNoIn )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1009:27: ( AND equalityExpressionNoIn )*
             loop29:
             do {
                 int alt29=2;
@@ -4010,7 +4010,7 @@ public class ES3Parser extends Parser {
 
                 switch (alt29) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:1009:29: AND equalityExpressionNoIn
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:1009:29: AND equalityExpressionNoIn
             	    {
             	    AND97=(Token)match(input,AND,FOLLOW_AND_in_bitwiseANDExpressionNoIn3997); 
             	    AND97_tree = (Object)adaptor.create(AND97);
@@ -4058,7 +4058,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "bitwiseXORExpression"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1012:1: bitwiseXORExpression : bitwiseANDExpression ( XOR bitwiseANDExpression )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1012:1: bitwiseXORExpression : bitwiseANDExpression ( XOR bitwiseANDExpression )* ;
     public final ES3Parser.bitwiseXORExpression_return bitwiseXORExpression() throws RecognitionException {
         ES3Parser.bitwiseXORExpression_return retval = new ES3Parser.bitwiseXORExpression_return();
         retval.start = input.LT(1);
@@ -4074,8 +4074,8 @@ public class ES3Parser extends Parser {
         Object XOR100_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1013:2: ( bitwiseANDExpression ( XOR bitwiseANDExpression )* )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1013:4: bitwiseANDExpression ( XOR bitwiseANDExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1013:2: ( bitwiseANDExpression ( XOR bitwiseANDExpression )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1013:4: bitwiseANDExpression ( XOR bitwiseANDExpression )*
             {
             root_0 = (Object)adaptor.nil();
 
@@ -4085,7 +4085,7 @@ public class ES3Parser extends Parser {
             state._fsp--;
 
             adaptor.addChild(root_0, bitwiseANDExpression99.getTree());
-            // com/google/jstestdriver/coverage/es3/ES3.g:1013:25: ( XOR bitwiseANDExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1013:25: ( XOR bitwiseANDExpression )*
             loop30:
             do {
                 int alt30=2;
@@ -4098,7 +4098,7 @@ public class ES3Parser extends Parser {
 
                 switch (alt30) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:1013:27: XOR bitwiseANDExpression
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:1013:27: XOR bitwiseANDExpression
             	    {
             	    XOR100=(Token)match(input,XOR,FOLLOW_XOR_in_bitwiseXORExpression4020); 
             	    XOR100_tree = (Object)adaptor.create(XOR100);
@@ -4146,7 +4146,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "bitwiseXORExpressionNoIn"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1016:1: bitwiseXORExpressionNoIn : bitwiseANDExpressionNoIn ( XOR bitwiseANDExpressionNoIn )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1016:1: bitwiseXORExpressionNoIn : bitwiseANDExpressionNoIn ( XOR bitwiseANDExpressionNoIn )* ;
     public final ES3Parser.bitwiseXORExpressionNoIn_return bitwiseXORExpressionNoIn() throws RecognitionException {
         ES3Parser.bitwiseXORExpressionNoIn_return retval = new ES3Parser.bitwiseXORExpressionNoIn_return();
         retval.start = input.LT(1);
@@ -4162,8 +4162,8 @@ public class ES3Parser extends Parser {
         Object XOR103_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1017:2: ( bitwiseANDExpressionNoIn ( XOR bitwiseANDExpressionNoIn )* )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1017:4: bitwiseANDExpressionNoIn ( XOR bitwiseANDExpressionNoIn )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1017:2: ( bitwiseANDExpressionNoIn ( XOR bitwiseANDExpressionNoIn )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1017:4: bitwiseANDExpressionNoIn ( XOR bitwiseANDExpressionNoIn )*
             {
             root_0 = (Object)adaptor.nil();
 
@@ -4173,7 +4173,7 @@ public class ES3Parser extends Parser {
             state._fsp--;
 
             adaptor.addChild(root_0, bitwiseANDExpressionNoIn102.getTree());
-            // com/google/jstestdriver/coverage/es3/ES3.g:1017:29: ( XOR bitwiseANDExpressionNoIn )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1017:29: ( XOR bitwiseANDExpressionNoIn )*
             loop31:
             do {
                 int alt31=2;
@@ -4186,7 +4186,7 @@ public class ES3Parser extends Parser {
 
                 switch (alt31) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:1017:31: XOR bitwiseANDExpressionNoIn
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:1017:31: XOR bitwiseANDExpressionNoIn
             	    {
             	    XOR103=(Token)match(input,XOR,FOLLOW_XOR_in_bitwiseXORExpressionNoIn4043); 
             	    XOR103_tree = (Object)adaptor.create(XOR103);
@@ -4234,7 +4234,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "bitwiseORExpression"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1020:1: bitwiseORExpression : bitwiseXORExpression ( OR bitwiseXORExpression )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1020:1: bitwiseORExpression : bitwiseXORExpression ( OR bitwiseXORExpression )* ;
     public final ES3Parser.bitwiseORExpression_return bitwiseORExpression() throws RecognitionException {
         ES3Parser.bitwiseORExpression_return retval = new ES3Parser.bitwiseORExpression_return();
         retval.start = input.LT(1);
@@ -4250,8 +4250,8 @@ public class ES3Parser extends Parser {
         Object OR106_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1021:2: ( bitwiseXORExpression ( OR bitwiseXORExpression )* )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1021:4: bitwiseXORExpression ( OR bitwiseXORExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1021:2: ( bitwiseXORExpression ( OR bitwiseXORExpression )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1021:4: bitwiseXORExpression ( OR bitwiseXORExpression )*
             {
             root_0 = (Object)adaptor.nil();
 
@@ -4261,7 +4261,7 @@ public class ES3Parser extends Parser {
             state._fsp--;
 
             adaptor.addChild(root_0, bitwiseXORExpression105.getTree());
-            // com/google/jstestdriver/coverage/es3/ES3.g:1021:25: ( OR bitwiseXORExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1021:25: ( OR bitwiseXORExpression )*
             loop32:
             do {
                 int alt32=2;
@@ -4274,7 +4274,7 @@ public class ES3Parser extends Parser {
 
                 switch (alt32) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:1021:27: OR bitwiseXORExpression
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:1021:27: OR bitwiseXORExpression
             	    {
             	    OR106=(Token)match(input,OR,FOLLOW_OR_in_bitwiseORExpression4065); 
             	    OR106_tree = (Object)adaptor.create(OR106);
@@ -4322,7 +4322,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "bitwiseORExpressionNoIn"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1024:1: bitwiseORExpressionNoIn : bitwiseXORExpressionNoIn ( OR bitwiseXORExpressionNoIn )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1024:1: bitwiseORExpressionNoIn : bitwiseXORExpressionNoIn ( OR bitwiseXORExpressionNoIn )* ;
     public final ES3Parser.bitwiseORExpressionNoIn_return bitwiseORExpressionNoIn() throws RecognitionException {
         ES3Parser.bitwiseORExpressionNoIn_return retval = new ES3Parser.bitwiseORExpressionNoIn_return();
         retval.start = input.LT(1);
@@ -4338,8 +4338,8 @@ public class ES3Parser extends Parser {
         Object OR109_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1025:2: ( bitwiseXORExpressionNoIn ( OR bitwiseXORExpressionNoIn )* )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1025:4: bitwiseXORExpressionNoIn ( OR bitwiseXORExpressionNoIn )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1025:2: ( bitwiseXORExpressionNoIn ( OR bitwiseXORExpressionNoIn )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1025:4: bitwiseXORExpressionNoIn ( OR bitwiseXORExpressionNoIn )*
             {
             root_0 = (Object)adaptor.nil();
 
@@ -4349,7 +4349,7 @@ public class ES3Parser extends Parser {
             state._fsp--;
 
             adaptor.addChild(root_0, bitwiseXORExpressionNoIn108.getTree());
-            // com/google/jstestdriver/coverage/es3/ES3.g:1025:29: ( OR bitwiseXORExpressionNoIn )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1025:29: ( OR bitwiseXORExpressionNoIn )*
             loop33:
             do {
                 int alt33=2;
@@ -4362,7 +4362,7 @@ public class ES3Parser extends Parser {
 
                 switch (alt33) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:1025:31: OR bitwiseXORExpressionNoIn
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:1025:31: OR bitwiseXORExpressionNoIn
             	    {
             	    OR109=(Token)match(input,OR,FOLLOW_OR_in_bitwiseORExpressionNoIn4087); 
             	    OR109_tree = (Object)adaptor.create(OR109);
@@ -4410,7 +4410,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "logicalANDExpression"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1032:1: logicalANDExpression : bitwiseORExpression ( LAND bitwiseORExpression )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1032:1: logicalANDExpression : bitwiseORExpression ( LAND bitwiseORExpression )* ;
     public final ES3Parser.logicalANDExpression_return logicalANDExpression() throws RecognitionException {
         ES3Parser.logicalANDExpression_return retval = new ES3Parser.logicalANDExpression_return();
         retval.start = input.LT(1);
@@ -4426,8 +4426,8 @@ public class ES3Parser extends Parser {
         Object LAND112_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1033:2: ( bitwiseORExpression ( LAND bitwiseORExpression )* )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1033:4: bitwiseORExpression ( LAND bitwiseORExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1033:2: ( bitwiseORExpression ( LAND bitwiseORExpression )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1033:4: bitwiseORExpression ( LAND bitwiseORExpression )*
             {
             root_0 = (Object)adaptor.nil();
 
@@ -4437,7 +4437,7 @@ public class ES3Parser extends Parser {
             state._fsp--;
 
             adaptor.addChild(root_0, bitwiseORExpression111.getTree());
-            // com/google/jstestdriver/coverage/es3/ES3.g:1033:24: ( LAND bitwiseORExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1033:24: ( LAND bitwiseORExpression )*
             loop34:
             do {
                 int alt34=2;
@@ -4450,7 +4450,7 @@ public class ES3Parser extends Parser {
 
                 switch (alt34) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:1033:26: LAND bitwiseORExpression
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:1033:26: LAND bitwiseORExpression
             	    {
             	    LAND112=(Token)match(input,LAND,FOLLOW_LAND_in_logicalANDExpression4113); 
             	    LAND112_tree = (Object)adaptor.create(LAND112);
@@ -4498,7 +4498,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "logicalANDExpressionNoIn"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1036:1: logicalANDExpressionNoIn : bitwiseORExpressionNoIn ( LAND bitwiseORExpressionNoIn )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1036:1: logicalANDExpressionNoIn : bitwiseORExpressionNoIn ( LAND bitwiseORExpressionNoIn )* ;
     public final ES3Parser.logicalANDExpressionNoIn_return logicalANDExpressionNoIn() throws RecognitionException {
         ES3Parser.logicalANDExpressionNoIn_return retval = new ES3Parser.logicalANDExpressionNoIn_return();
         retval.start = input.LT(1);
@@ -4514,8 +4514,8 @@ public class ES3Parser extends Parser {
         Object LAND115_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1037:2: ( bitwiseORExpressionNoIn ( LAND bitwiseORExpressionNoIn )* )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1037:4: bitwiseORExpressionNoIn ( LAND bitwiseORExpressionNoIn )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1037:2: ( bitwiseORExpressionNoIn ( LAND bitwiseORExpressionNoIn )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1037:4: bitwiseORExpressionNoIn ( LAND bitwiseORExpressionNoIn )*
             {
             root_0 = (Object)adaptor.nil();
 
@@ -4525,7 +4525,7 @@ public class ES3Parser extends Parser {
             state._fsp--;
 
             adaptor.addChild(root_0, bitwiseORExpressionNoIn114.getTree());
-            // com/google/jstestdriver/coverage/es3/ES3.g:1037:28: ( LAND bitwiseORExpressionNoIn )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1037:28: ( LAND bitwiseORExpressionNoIn )*
             loop35:
             do {
                 int alt35=2;
@@ -4538,7 +4538,7 @@ public class ES3Parser extends Parser {
 
                 switch (alt35) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:1037:30: LAND bitwiseORExpressionNoIn
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:1037:30: LAND bitwiseORExpressionNoIn
             	    {
             	    LAND115=(Token)match(input,LAND,FOLLOW_LAND_in_logicalANDExpressionNoIn4134); 
             	    LAND115_tree = (Object)adaptor.create(LAND115);
@@ -4586,7 +4586,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "logicalORExpression"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1040:1: logicalORExpression : logicalANDExpression ( LOR logicalANDExpression )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1040:1: logicalORExpression : logicalANDExpression ( LOR logicalANDExpression )* ;
     public final ES3Parser.logicalORExpression_return logicalORExpression() throws RecognitionException {
         ES3Parser.logicalORExpression_return retval = new ES3Parser.logicalORExpression_return();
         retval.start = input.LT(1);
@@ -4602,8 +4602,8 @@ public class ES3Parser extends Parser {
         Object LOR118_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1041:2: ( logicalANDExpression ( LOR logicalANDExpression )* )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1041:4: logicalANDExpression ( LOR logicalANDExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1041:2: ( logicalANDExpression ( LOR logicalANDExpression )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1041:4: logicalANDExpression ( LOR logicalANDExpression )*
             {
             root_0 = (Object)adaptor.nil();
 
@@ -4613,7 +4613,7 @@ public class ES3Parser extends Parser {
             state._fsp--;
 
             adaptor.addChild(root_0, logicalANDExpression117.getTree());
-            // com/google/jstestdriver/coverage/es3/ES3.g:1041:25: ( LOR logicalANDExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1041:25: ( LOR logicalANDExpression )*
             loop36:
             do {
                 int alt36=2;
@@ -4626,7 +4626,7 @@ public class ES3Parser extends Parser {
 
                 switch (alt36) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:1041:27: LOR logicalANDExpression
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:1041:27: LOR logicalANDExpression
             	    {
             	    LOR118=(Token)match(input,LOR,FOLLOW_LOR_in_logicalORExpression4156); 
             	    LOR118_tree = (Object)adaptor.create(LOR118);
@@ -4674,7 +4674,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "logicalORExpressionNoIn"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1044:1: logicalORExpressionNoIn : logicalANDExpressionNoIn ( LOR logicalANDExpressionNoIn )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1044:1: logicalORExpressionNoIn : logicalANDExpressionNoIn ( LOR logicalANDExpressionNoIn )* ;
     public final ES3Parser.logicalORExpressionNoIn_return logicalORExpressionNoIn() throws RecognitionException {
         ES3Parser.logicalORExpressionNoIn_return retval = new ES3Parser.logicalORExpressionNoIn_return();
         retval.start = input.LT(1);
@@ -4690,8 +4690,8 @@ public class ES3Parser extends Parser {
         Object LOR121_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1045:2: ( logicalANDExpressionNoIn ( LOR logicalANDExpressionNoIn )* )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1045:4: logicalANDExpressionNoIn ( LOR logicalANDExpressionNoIn )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1045:2: ( logicalANDExpressionNoIn ( LOR logicalANDExpressionNoIn )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1045:4: logicalANDExpressionNoIn ( LOR logicalANDExpressionNoIn )*
             {
             root_0 = (Object)adaptor.nil();
 
@@ -4701,7 +4701,7 @@ public class ES3Parser extends Parser {
             state._fsp--;
 
             adaptor.addChild(root_0, logicalANDExpressionNoIn120.getTree());
-            // com/google/jstestdriver/coverage/es3/ES3.g:1045:29: ( LOR logicalANDExpressionNoIn )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1045:29: ( LOR logicalANDExpressionNoIn )*
             loop37:
             do {
                 int alt37=2;
@@ -4714,7 +4714,7 @@ public class ES3Parser extends Parser {
 
                 switch (alt37) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:1045:31: LOR logicalANDExpressionNoIn
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:1045:31: LOR logicalANDExpressionNoIn
             	    {
             	    LOR121=(Token)match(input,LOR,FOLLOW_LOR_in_logicalORExpressionNoIn4178); 
             	    LOR121_tree = (Object)adaptor.create(LOR121);
@@ -4762,7 +4762,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "conditionalExpression"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1052:1: conditionalExpression : logicalORExpression ( QUE assignmentExpression COLON assignmentExpression )? ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1052:1: conditionalExpression : logicalORExpression ( QUE assignmentExpression COLON assignmentExpression )? ;
     public final ES3Parser.conditionalExpression_return conditionalExpression() throws RecognitionException {
         ES3Parser.conditionalExpression_return retval = new ES3Parser.conditionalExpression_return();
         retval.start = input.LT(1);
@@ -4782,8 +4782,8 @@ public class ES3Parser extends Parser {
         Object COLON126_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1053:2: ( logicalORExpression ( QUE assignmentExpression COLON assignmentExpression )? )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1053:4: logicalORExpression ( QUE assignmentExpression COLON assignmentExpression )?
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1053:2: ( logicalORExpression ( QUE assignmentExpression COLON assignmentExpression )? )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1053:4: logicalORExpression ( QUE assignmentExpression COLON assignmentExpression )?
             {
             root_0 = (Object)adaptor.nil();
 
@@ -4793,7 +4793,7 @@ public class ES3Parser extends Parser {
             state._fsp--;
 
             adaptor.addChild(root_0, logicalORExpression123.getTree());
-            // com/google/jstestdriver/coverage/es3/ES3.g:1053:24: ( QUE assignmentExpression COLON assignmentExpression )?
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1053:24: ( QUE assignmentExpression COLON assignmentExpression )?
             int alt38=2;
             int LA38_0 = input.LA(1);
 
@@ -4802,7 +4802,7 @@ public class ES3Parser extends Parser {
             }
             switch (alt38) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1053:26: QUE assignmentExpression COLON assignmentExpression
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1053:26: QUE assignmentExpression COLON assignmentExpression
                     {
                     QUE124=(Token)match(input,QUE,FOLLOW_QUE_in_conditionalExpression4204); 
                     QUE124_tree = (Object)adaptor.create(QUE124);
@@ -4854,7 +4854,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "conditionalExpressionNoIn"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1056:1: conditionalExpressionNoIn : logicalORExpressionNoIn ( QUE assignmentExpressionNoIn COLON assignmentExpressionNoIn )? ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1056:1: conditionalExpressionNoIn : logicalORExpressionNoIn ( QUE assignmentExpressionNoIn COLON assignmentExpressionNoIn )? ;
     public final ES3Parser.conditionalExpressionNoIn_return conditionalExpressionNoIn() throws RecognitionException {
         ES3Parser.conditionalExpressionNoIn_return retval = new ES3Parser.conditionalExpressionNoIn_return();
         retval.start = input.LT(1);
@@ -4874,8 +4874,8 @@ public class ES3Parser extends Parser {
         Object COLON131_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1057:2: ( logicalORExpressionNoIn ( QUE assignmentExpressionNoIn COLON assignmentExpressionNoIn )? )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1057:4: logicalORExpressionNoIn ( QUE assignmentExpressionNoIn COLON assignmentExpressionNoIn )?
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1057:2: ( logicalORExpressionNoIn ( QUE assignmentExpressionNoIn COLON assignmentExpressionNoIn )? )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1057:4: logicalORExpressionNoIn ( QUE assignmentExpressionNoIn COLON assignmentExpressionNoIn )?
             {
             root_0 = (Object)adaptor.nil();
 
@@ -4885,7 +4885,7 @@ public class ES3Parser extends Parser {
             state._fsp--;
 
             adaptor.addChild(root_0, logicalORExpressionNoIn128.getTree());
-            // com/google/jstestdriver/coverage/es3/ES3.g:1057:28: ( QUE assignmentExpressionNoIn COLON assignmentExpressionNoIn )?
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1057:28: ( QUE assignmentExpressionNoIn COLON assignmentExpressionNoIn )?
             int alt39=2;
             int LA39_0 = input.LA(1);
 
@@ -4894,7 +4894,7 @@ public class ES3Parser extends Parser {
             }
             switch (alt39) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1057:30: QUE assignmentExpressionNoIn COLON assignmentExpressionNoIn
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1057:30: QUE assignmentExpressionNoIn COLON assignmentExpressionNoIn
                     {
                     QUE129=(Token)match(input,QUE,FOLLOW_QUE_in_conditionalExpressionNoIn4230); 
                     QUE129_tree = (Object)adaptor.create(QUE129);
@@ -4946,7 +4946,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "assignmentExpression"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1086:1: assignmentExpression : lhs= conditionalExpression ({...}? assignmentOperator assignmentExpression )? ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1086:1: assignmentExpression : lhs= conditionalExpression ({...}? assignmentOperator assignmentExpression )? ;
     public final ES3Parser.assignmentExpression_return assignmentExpression() throws RecognitionException {
         ES3Parser.assignmentExpression_return retval = new ES3Parser.assignmentExpression_return();
         retval.start = input.LT(1);
@@ -4965,8 +4965,8 @@ public class ES3Parser extends Parser {
         	Object[] isLhs = new Object[1];
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1091:2: (lhs= conditionalExpression ({...}? assignmentOperator assignmentExpression )? )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1091:4: lhs= conditionalExpression ({...}? assignmentOperator assignmentExpression )?
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1091:2: (lhs= conditionalExpression ({...}? assignmentOperator assignmentExpression )? )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1091:4: lhs= conditionalExpression ({...}? assignmentOperator assignmentExpression )?
             {
             root_0 = (Object)adaptor.nil();
 
@@ -4976,7 +4976,7 @@ public class ES3Parser extends Parser {
             state._fsp--;
 
             adaptor.addChild(root_0, lhs.getTree());
-            // com/google/jstestdriver/coverage/es3/ES3.g:1092:2: ({...}? assignmentOperator assignmentExpression )?
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1092:2: ({...}? assignmentOperator assignmentExpression )?
             int alt40=2;
             int LA40_0 = input.LA(1);
 
@@ -4989,7 +4989,7 @@ public class ES3Parser extends Parser {
             }
             switch (alt40) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1092:4: {...}? assignmentOperator assignmentExpression
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1092:4: {...}? assignmentOperator assignmentExpression
                     {
                     if ( !(( isLeftHandSideAssign(lhs, isLhs) )) ) {
                         throw new FailedPredicateException(input, "assignmentExpression", " isLeftHandSideAssign(lhs, isLhs) ");
@@ -5039,7 +5039,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "assignmentOperator"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1095:1: assignmentOperator : ( ASSIGN | MULASS | DIVASS | MODASS | ADDASS | SUBASS | SHLASS | SHRASS | SHUASS | ANDASS | XORASS | ORASS );
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1095:1: assignmentOperator : ( ASSIGN | MULASS | DIVASS | MODASS | ADDASS | SUBASS | SHLASS | SHRASS | SHUASS | ANDASS | XORASS | ORASS );
     public final ES3Parser.assignmentOperator_return assignmentOperator() throws RecognitionException {
         ES3Parser.assignmentOperator_return retval = new ES3Parser.assignmentOperator_return();
         retval.start = input.LT(1);
@@ -5051,8 +5051,8 @@ public class ES3Parser extends Parser {
         Object set135_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1096:2: ( ASSIGN | MULASS | DIVASS | MODASS | ADDASS | SUBASS | SHLASS | SHRASS | SHUASS | ANDASS | XORASS | ORASS )
-            // com/google/jstestdriver/coverage/es3/ES3.g:
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1096:2: ( ASSIGN | MULASS | DIVASS | MODASS | ADDASS | SUBASS | SHLASS | SHRASS | SHUASS | ANDASS | XORASS | ORASS )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:
             {
             root_0 = (Object)adaptor.nil();
 
@@ -5094,7 +5094,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "assignmentExpressionNoIn"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1099:1: assignmentExpressionNoIn : lhs= conditionalExpressionNoIn ({...}? assignmentOperator assignmentExpressionNoIn )? ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1099:1: assignmentExpressionNoIn : lhs= conditionalExpressionNoIn ({...}? assignmentOperator assignmentExpressionNoIn )? ;
     public final ES3Parser.assignmentExpressionNoIn_return assignmentExpressionNoIn() throws RecognitionException {
         ES3Parser.assignmentExpressionNoIn_return retval = new ES3Parser.assignmentExpressionNoIn_return();
         retval.start = input.LT(1);
@@ -5113,8 +5113,8 @@ public class ES3Parser extends Parser {
         	Object[] isLhs = new Object[1];
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1104:2: (lhs= conditionalExpressionNoIn ({...}? assignmentOperator assignmentExpressionNoIn )? )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1104:4: lhs= conditionalExpressionNoIn ({...}? assignmentOperator assignmentExpressionNoIn )?
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1104:2: (lhs= conditionalExpressionNoIn ({...}? assignmentOperator assignmentExpressionNoIn )? )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1104:4: lhs= conditionalExpressionNoIn ({...}? assignmentOperator assignmentExpressionNoIn )?
             {
             root_0 = (Object)adaptor.nil();
 
@@ -5124,7 +5124,7 @@ public class ES3Parser extends Parser {
             state._fsp--;
 
             adaptor.addChild(root_0, lhs.getTree());
-            // com/google/jstestdriver/coverage/es3/ES3.g:1105:2: ({...}? assignmentOperator assignmentExpressionNoIn )?
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1105:2: ({...}? assignmentOperator assignmentExpressionNoIn )?
             int alt41=2;
             int LA41_0 = input.LA(1);
 
@@ -5137,7 +5137,7 @@ public class ES3Parser extends Parser {
             }
             switch (alt41) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1105:4: {...}? assignmentOperator assignmentExpressionNoIn
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1105:4: {...}? assignmentOperator assignmentExpressionNoIn
                     {
                     if ( !(( isLeftHandSideAssign(lhs, isLhs) )) ) {
                         throw new FailedPredicateException(input, "assignmentExpressionNoIn", " isLeftHandSideAssign(lhs, isLhs) ");
@@ -5187,7 +5187,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "expression"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1112:1: expression : exprs+= assignmentExpression ( COMMA exprs+= assignmentExpression )* -> { $exprs.size() > 1 }? ^( CEXPR ( $exprs)+ ) -> $exprs;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1112:1: expression : exprs+= assignmentExpression ( COMMA exprs+= assignmentExpression )* -> { $exprs.size() > 1 }? ^( CEXPR ( $exprs)+ ) -> $exprs;
     public final ES3Parser.expression_return expression() throws RecognitionException {
         ES3Parser.expression_return retval = new ES3Parser.expression_return();
         retval.start = input.LT(1);
@@ -5202,8 +5202,8 @@ public class ES3Parser extends Parser {
         RewriteRuleTokenStream stream_COMMA=new RewriteRuleTokenStream(adaptor,"token COMMA");
         RewriteRuleSubtreeStream stream_assignmentExpression=new RewriteRuleSubtreeStream(adaptor,"rule assignmentExpression");
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1113:2: (exprs+= assignmentExpression ( COMMA exprs+= assignmentExpression )* -> { $exprs.size() > 1 }? ^( CEXPR ( $exprs)+ ) -> $exprs)
-            // com/google/jstestdriver/coverage/es3/ES3.g:1113:4: exprs+= assignmentExpression ( COMMA exprs+= assignmentExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1113:2: (exprs+= assignmentExpression ( COMMA exprs+= assignmentExpression )* -> { $exprs.size() > 1 }? ^( CEXPR ( $exprs)+ ) -> $exprs)
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1113:4: exprs+= assignmentExpression ( COMMA exprs+= assignmentExpression )*
             {
             pushFollow(FOLLOW_assignmentExpression_in_expression4385);
             exprs=assignmentExpression();
@@ -5214,7 +5214,7 @@ public class ES3Parser extends Parser {
             if (list_exprs==null) list_exprs=new ArrayList();
             list_exprs.add(exprs.getTree());
 
-            // com/google/jstestdriver/coverage/es3/ES3.g:1113:32: ( COMMA exprs+= assignmentExpression )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1113:32: ( COMMA exprs+= assignmentExpression )*
             loop42:
             do {
                 int alt42=2;
@@ -5227,7 +5227,7 @@ public class ES3Parser extends Parser {
 
                 switch (alt42) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:1113:34: COMMA exprs+= assignmentExpression
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:1113:34: COMMA exprs+= assignmentExpression
             	    {
             	    COMMA138=(Token)match(input,COMMA,FOLLOW_COMMA_in_expression4389);  
             	    stream_COMMA.add(COMMA138);
@@ -5265,7 +5265,7 @@ public class ES3Parser extends Parser {
             root_0 = (Object)adaptor.nil();
             // 1114:2: -> { $exprs.size() > 1 }? ^( CEXPR ( $exprs)+ )
             if ( list_exprs.size() > 1 ) {
-                // com/google/jstestdriver/coverage/es3/ES3.g:1114:28: ^( CEXPR ( $exprs)+ )
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1114:28: ^( CEXPR ( $exprs)+ )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot((Object)adaptor.create(CEXPR, "CEXPR"), root_1);
@@ -5316,7 +5316,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "expressionNoIn"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1118:1: expressionNoIn : exprs+= assignmentExpressionNoIn ( COMMA exprs+= assignmentExpressionNoIn )* -> { $exprs.size() > 1 }? ^( CEXPR ( $exprs)+ ) -> $exprs;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1118:1: expressionNoIn : exprs+= assignmentExpressionNoIn ( COMMA exprs+= assignmentExpressionNoIn )* -> { $exprs.size() > 1 }? ^( CEXPR ( $exprs)+ ) -> $exprs;
     public final ES3Parser.expressionNoIn_return expressionNoIn() throws RecognitionException {
         ES3Parser.expressionNoIn_return retval = new ES3Parser.expressionNoIn_return();
         retval.start = input.LT(1);
@@ -5331,8 +5331,8 @@ public class ES3Parser extends Parser {
         RewriteRuleTokenStream stream_COMMA=new RewriteRuleTokenStream(adaptor,"token COMMA");
         RewriteRuleSubtreeStream stream_assignmentExpressionNoIn=new RewriteRuleSubtreeStream(adaptor,"rule assignmentExpressionNoIn");
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1119:2: (exprs+= assignmentExpressionNoIn ( COMMA exprs+= assignmentExpressionNoIn )* -> { $exprs.size() > 1 }? ^( CEXPR ( $exprs)+ ) -> $exprs)
-            // com/google/jstestdriver/coverage/es3/ES3.g:1119:4: exprs+= assignmentExpressionNoIn ( COMMA exprs+= assignmentExpressionNoIn )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1119:2: (exprs+= assignmentExpressionNoIn ( COMMA exprs+= assignmentExpressionNoIn )* -> { $exprs.size() > 1 }? ^( CEXPR ( $exprs)+ ) -> $exprs)
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1119:4: exprs+= assignmentExpressionNoIn ( COMMA exprs+= assignmentExpressionNoIn )*
             {
             pushFollow(FOLLOW_assignmentExpressionNoIn_in_expressionNoIn4430);
             exprs=assignmentExpressionNoIn();
@@ -5343,7 +5343,7 @@ public class ES3Parser extends Parser {
             if (list_exprs==null) list_exprs=new ArrayList();
             list_exprs.add(exprs.getTree());
 
-            // com/google/jstestdriver/coverage/es3/ES3.g:1119:36: ( COMMA exprs+= assignmentExpressionNoIn )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1119:36: ( COMMA exprs+= assignmentExpressionNoIn )*
             loop43:
             do {
                 int alt43=2;
@@ -5356,7 +5356,7 @@ public class ES3Parser extends Parser {
 
                 switch (alt43) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:1119:38: COMMA exprs+= assignmentExpressionNoIn
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:1119:38: COMMA exprs+= assignmentExpressionNoIn
             	    {
             	    COMMA139=(Token)match(input,COMMA,FOLLOW_COMMA_in_expressionNoIn4434);  
             	    stream_COMMA.add(COMMA139);
@@ -5394,7 +5394,7 @@ public class ES3Parser extends Parser {
             root_0 = (Object)adaptor.nil();
             // 1120:2: -> { $exprs.size() > 1 }? ^( CEXPR ( $exprs)+ )
             if ( list_exprs.size() > 1 ) {
-                // com/google/jstestdriver/coverage/es3/ES3.g:1120:28: ^( CEXPR ( $exprs)+ )
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1120:28: ^( CEXPR ( $exprs)+ )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot((Object)adaptor.create(CEXPR, "CEXPR"), root_1);
@@ -5445,7 +5445,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "semic"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1146:1: semic : ( SEMIC | EOF | RBRACE | EOL );
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1146:1: semic : ( SEMIC | EOF | RBRACE | EOL );
     public final ES3Parser.semic_return semic() throws RecognitionException {
         ES3Parser.semic_return retval = new ES3Parser.semic_return();
         retval.start = input.LT(1);
@@ -5469,7 +5469,7 @@ public class ES3Parser extends Parser {
         	promoteEOL(retval);
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1154:2: ( SEMIC | EOF | RBRACE | EOL )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1154:2: ( SEMIC | EOF | RBRACE | EOL )
             int alt44=4;
             switch ( input.LA(1) ) {
             case SEMIC:
@@ -5501,7 +5501,7 @@ public class ES3Parser extends Parser {
 
             switch (alt44) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1154:4: SEMIC
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1154:4: SEMIC
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -5513,7 +5513,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1155:4: EOF
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1155:4: EOF
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -5525,7 +5525,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 3 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1156:4: RBRACE
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1156:4: RBRACE
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -5538,7 +5538,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 4 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1157:4: EOL
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1157:4: EOL
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -5575,7 +5575,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "statement"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1165:1: statement options {k=1; } : ({...}? block | statementTail );
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1165:1: statement options {k=1; } : ({...}? block | statementTail );
     public final ES3Parser.statement_return statement() throws RecognitionException {
         ES3Parser.statement_return retval = new ES3Parser.statement_return();
         retval.start = input.LT(1);
@@ -5589,12 +5589,12 @@ public class ES3Parser extends Parser {
 
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1170:2: ({...}? block | statementTail )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1170:2: ({...}? block | statementTail )
             int alt45=2;
             alt45 = dfa45.predict(input);
             switch (alt45) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1170:4: {...}? block
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1170:4: {...}? block
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -5611,7 +5611,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1171:4: statementTail
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1171:4: statementTail
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -5650,7 +5650,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "statementTail"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1174:1: statementTail : ( variableStatement | emptyStatement | expressionStatement | ifStatement | iterationStatement | continueStatement | breakStatement | returnStatement | withStatement | labelledStatement | switchStatement | throwStatement | tryStatement );
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1174:1: statementTail : ( variableStatement | emptyStatement | expressionStatement | ifStatement | iterationStatement | continueStatement | breakStatement | returnStatement | withStatement | labelledStatement | switchStatement | throwStatement | tryStatement );
     public final ES3Parser.statementTail_return statementTail() throws RecognitionException {
         ES3Parser.statementTail_return retval = new ES3Parser.statementTail_return();
         retval.start = input.LT(1);
@@ -5686,12 +5686,12 @@ public class ES3Parser extends Parser {
 
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1175:2: ( variableStatement | emptyStatement | expressionStatement | ifStatement | iterationStatement | continueStatement | breakStatement | returnStatement | withStatement | labelledStatement | switchStatement | throwStatement | tryStatement )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1175:2: ( variableStatement | emptyStatement | expressionStatement | ifStatement | iterationStatement | continueStatement | breakStatement | returnStatement | withStatement | labelledStatement | switchStatement | throwStatement | tryStatement )
             int alt46=13;
             alt46 = dfa46.predict(input);
             switch (alt46) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1175:4: variableStatement
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1175:4: variableStatement
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -5705,7 +5705,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1176:4: emptyStatement
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1176:4: emptyStatement
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -5719,7 +5719,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 3 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1177:4: expressionStatement
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1177:4: expressionStatement
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -5733,7 +5733,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 4 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1178:4: ifStatement
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1178:4: ifStatement
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -5747,7 +5747,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 5 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1179:4: iterationStatement
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1179:4: iterationStatement
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -5761,7 +5761,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 6 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1180:4: continueStatement
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1180:4: continueStatement
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -5775,7 +5775,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 7 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1181:4: breakStatement
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1181:4: breakStatement
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -5789,7 +5789,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 8 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1182:4: returnStatement
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1182:4: returnStatement
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -5803,7 +5803,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 9 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1183:4: withStatement
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1183:4: withStatement
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -5817,7 +5817,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 10 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1184:4: labelledStatement
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1184:4: labelledStatement
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -5831,7 +5831,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 11 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1185:4: switchStatement
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1185:4: switchStatement
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -5845,7 +5845,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 12 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1186:4: throwStatement
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1186:4: throwStatement
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -5859,7 +5859,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 13 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1187:4: tryStatement
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1187:4: tryStatement
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -5898,7 +5898,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "block"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1192:1: block : lb= LBRACE ( statement )* RBRACE -> ^( BLOCK[$lb, \"BLOCK\"] ( statement )* ) ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1192:1: block : lb= LBRACE ( statement )* RBRACE -> ^( BLOCK[$lb, \"BLOCK\"] ( statement )* ) ;
     public final ES3Parser.block_return block() throws RecognitionException {
         ES3Parser.block_return retval = new ES3Parser.block_return();
         retval.start = input.LT(1);
@@ -5916,13 +5916,13 @@ public class ES3Parser extends Parser {
         RewriteRuleTokenStream stream_LBRACE=new RewriteRuleTokenStream(adaptor,"token LBRACE");
         RewriteRuleSubtreeStream stream_statement=new RewriteRuleSubtreeStream(adaptor,"rule statement");
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1193:2: (lb= LBRACE ( statement )* RBRACE -> ^( BLOCK[$lb, \"BLOCK\"] ( statement )* ) )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1193:4: lb= LBRACE ( statement )* RBRACE
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1193:2: (lb= LBRACE ( statement )* RBRACE -> ^( BLOCK[$lb, \"BLOCK\"] ( statement )* ) )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1193:4: lb= LBRACE ( statement )* RBRACE
             {
             lb=(Token)match(input,LBRACE,FOLLOW_LBRACE_in_block4626);  
             stream_LBRACE.add(lb);
 
-            // com/google/jstestdriver/coverage/es3/ES3.g:1193:14: ( statement )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1193:14: ( statement )*
             loop47:
             do {
                 int alt47=2;
@@ -5935,7 +5935,7 @@ public class ES3Parser extends Parser {
 
                 switch (alt47) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:1193:14: statement
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:1193:14: statement
             	    {
             	    pushFollow(FOLLOW_statement_in_block4628);
             	    statement159=statement();
@@ -5970,12 +5970,12 @@ public class ES3Parser extends Parser {
             root_0 = (Object)adaptor.nil();
             // 1194:2: -> ^( BLOCK[$lb, \"BLOCK\"] ( statement )* )
             {
-                // com/google/jstestdriver/coverage/es3/ES3.g:1194:5: ^( BLOCK[$lb, \"BLOCK\"] ( statement )* )
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1194:5: ^( BLOCK[$lb, \"BLOCK\"] ( statement )* )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot((Object)adaptor.create(BLOCK, lb, "BLOCK"), root_1);
 
-                // com/google/jstestdriver/coverage/es3/ES3.g:1194:28: ( statement )*
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1194:28: ( statement )*
                 while ( stream_statement.hasNext() ) {
                     adaptor.addChild(root_1, stream_statement.nextTree());
 
@@ -6014,7 +6014,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "variableStatement"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1201:1: variableStatement : VAR variableDeclaration ( COMMA variableDeclaration )* semic -> ^( VAR ( variableDeclaration )+ ) ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1201:1: variableStatement : VAR variableDeclaration ( COMMA variableDeclaration )* semic -> ^( VAR ( variableDeclaration )+ ) ;
     public final ES3Parser.variableStatement_return variableStatement() throws RecognitionException {
         ES3Parser.variableStatement_return retval = new ES3Parser.variableStatement_return();
         retval.start = input.LT(1);
@@ -6037,8 +6037,8 @@ public class ES3Parser extends Parser {
         RewriteRuleSubtreeStream stream_variableDeclaration=new RewriteRuleSubtreeStream(adaptor,"rule variableDeclaration");
         RewriteRuleSubtreeStream stream_semic=new RewriteRuleSubtreeStream(adaptor,"rule semic");
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1202:2: ( VAR variableDeclaration ( COMMA variableDeclaration )* semic -> ^( VAR ( variableDeclaration )+ ) )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1202:4: VAR variableDeclaration ( COMMA variableDeclaration )* semic
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1202:2: ( VAR variableDeclaration ( COMMA variableDeclaration )* semic -> ^( VAR ( variableDeclaration )+ ) )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1202:4: VAR variableDeclaration ( COMMA variableDeclaration )* semic
             {
             VAR161=(Token)match(input,VAR,FOLLOW_VAR_in_variableStatement4660);  
             stream_VAR.add(VAR161);
@@ -6049,7 +6049,7 @@ public class ES3Parser extends Parser {
             state._fsp--;
 
             stream_variableDeclaration.add(variableDeclaration162.getTree());
-            // com/google/jstestdriver/coverage/es3/ES3.g:1202:28: ( COMMA variableDeclaration )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1202:28: ( COMMA variableDeclaration )*
             loop48:
             do {
                 int alt48=2;
@@ -6062,7 +6062,7 @@ public class ES3Parser extends Parser {
 
                 switch (alt48) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:1202:30: COMMA variableDeclaration
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:1202:30: COMMA variableDeclaration
             	    {
             	    COMMA163=(Token)match(input,COMMA,FOLLOW_COMMA_in_variableStatement4666);  
             	    stream_COMMA.add(COMMA163);
@@ -6103,7 +6103,7 @@ public class ES3Parser extends Parser {
             root_0 = (Object)adaptor.nil();
             // 1203:2: -> ^( VAR ( variableDeclaration )+ )
             {
-                // com/google/jstestdriver/coverage/es3/ES3.g:1203:5: ^( VAR ( variableDeclaration )+ )
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1203:5: ^( VAR ( variableDeclaration )+ )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(stream_VAR.nextNode(), root_1);
@@ -6149,7 +6149,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "variableDeclaration"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1206:1: variableDeclaration : Identifier ( ASSIGN assignmentExpression )? ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1206:1: variableDeclaration : Identifier ( ASSIGN assignmentExpression )? ;
     public final ES3Parser.variableDeclaration_return variableDeclaration() throws RecognitionException {
         ES3Parser.variableDeclaration_return retval = new ES3Parser.variableDeclaration_return();
         retval.start = input.LT(1);
@@ -6165,8 +6165,8 @@ public class ES3Parser extends Parser {
         Object ASSIGN167_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1207:2: ( Identifier ( ASSIGN assignmentExpression )? )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1207:4: Identifier ( ASSIGN assignmentExpression )?
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1207:2: ( Identifier ( ASSIGN assignmentExpression )? )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1207:4: Identifier ( ASSIGN assignmentExpression )?
             {
             root_0 = (Object)adaptor.nil();
 
@@ -6174,7 +6174,7 @@ public class ES3Parser extends Parser {
             Identifier166_tree = (Object)adaptor.create(Identifier166);
             adaptor.addChild(root_0, Identifier166_tree);
 
-            // com/google/jstestdriver/coverage/es3/ES3.g:1207:15: ( ASSIGN assignmentExpression )?
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1207:15: ( ASSIGN assignmentExpression )?
             int alt49=2;
             int LA49_0 = input.LA(1);
 
@@ -6183,7 +6183,7 @@ public class ES3Parser extends Parser {
             }
             switch (alt49) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1207:17: ASSIGN assignmentExpression
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1207:17: ASSIGN assignmentExpression
                     {
                     ASSIGN167=(Token)match(input,ASSIGN,FOLLOW_ASSIGN_in_variableDeclaration4700); 
                     ASSIGN167_tree = (Object)adaptor.create(ASSIGN167);
@@ -6228,7 +6228,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "variableDeclarationNoIn"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1210:1: variableDeclarationNoIn : Identifier ( ASSIGN assignmentExpressionNoIn )? ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1210:1: variableDeclarationNoIn : Identifier ( ASSIGN assignmentExpressionNoIn )? ;
     public final ES3Parser.variableDeclarationNoIn_return variableDeclarationNoIn() throws RecognitionException {
         ES3Parser.variableDeclarationNoIn_return retval = new ES3Parser.variableDeclarationNoIn_return();
         retval.start = input.LT(1);
@@ -6244,8 +6244,8 @@ public class ES3Parser extends Parser {
         Object ASSIGN170_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1211:2: ( Identifier ( ASSIGN assignmentExpressionNoIn )? )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1211:4: Identifier ( ASSIGN assignmentExpressionNoIn )?
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1211:2: ( Identifier ( ASSIGN assignmentExpressionNoIn )? )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1211:4: Identifier ( ASSIGN assignmentExpressionNoIn )?
             {
             root_0 = (Object)adaptor.nil();
 
@@ -6253,7 +6253,7 @@ public class ES3Parser extends Parser {
             Identifier169_tree = (Object)adaptor.create(Identifier169);
             adaptor.addChild(root_0, Identifier169_tree);
 
-            // com/google/jstestdriver/coverage/es3/ES3.g:1211:15: ( ASSIGN assignmentExpressionNoIn )?
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1211:15: ( ASSIGN assignmentExpressionNoIn )?
             int alt50=2;
             int LA50_0 = input.LA(1);
 
@@ -6262,7 +6262,7 @@ public class ES3Parser extends Parser {
             }
             switch (alt50) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1211:17: ASSIGN assignmentExpressionNoIn
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1211:17: ASSIGN assignmentExpressionNoIn
                     {
                     ASSIGN170=(Token)match(input,ASSIGN,FOLLOW_ASSIGN_in_variableDeclarationNoIn4722); 
                     ASSIGN170_tree = (Object)adaptor.create(ASSIGN170);
@@ -6307,7 +6307,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "emptyStatement"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1218:1: emptyStatement : SEMIC ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1218:1: emptyStatement : SEMIC ;
     public final ES3Parser.emptyStatement_return emptyStatement() throws RecognitionException {
         ES3Parser.emptyStatement_return retval = new ES3Parser.emptyStatement_return();
         retval.start = input.LT(1);
@@ -6319,8 +6319,8 @@ public class ES3Parser extends Parser {
         Object SEMIC172_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1219:2: ( SEMIC )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1219:4: SEMIC
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1219:2: ( SEMIC )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1219:4: SEMIC
             {
             root_0 = (Object)adaptor.nil();
 
@@ -6352,7 +6352,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "expressionStatement"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1232:1: expressionStatement : expression semic ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1232:1: expressionStatement : expression semic ;
     public final ES3Parser.expressionStatement_return expressionStatement() throws RecognitionException {
         ES3Parser.expressionStatement_return retval = new ES3Parser.expressionStatement_return();
         retval.start = input.LT(1);
@@ -6366,8 +6366,8 @@ public class ES3Parser extends Parser {
 
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1233:2: ( expression semic )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1233:4: expression semic
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1233:2: ( expression semic )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1233:4: expression semic
             {
             root_0 = (Object)adaptor.nil();
 
@@ -6409,7 +6409,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "ifStatement"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1240:1: ifStatement : IF LPAREN expression RPAREN statement ({...}? ELSE statement )? -> ^( IF expression statement ( ELSE statement )? ) ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1240:1: ifStatement : IF LPAREN expression RPAREN statement ({...}? ELSE statement )? -> ^( IF expression statement ( ELSE statement )? ) ;
     public final ES3Parser.ifStatement_return ifStatement() throws RecognitionException {
         ES3Parser.ifStatement_return retval = new ES3Parser.ifStatement_return();
         retval.start = input.LT(1);
@@ -6438,8 +6438,8 @@ public class ES3Parser extends Parser {
         RewriteRuleSubtreeStream stream_expression=new RewriteRuleSubtreeStream(adaptor,"rule expression");
         RewriteRuleSubtreeStream stream_statement=new RewriteRuleSubtreeStream(adaptor,"rule statement");
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1242:2: ( IF LPAREN expression RPAREN statement ({...}? ELSE statement )? -> ^( IF expression statement ( ELSE statement )? ) )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1242:4: IF LPAREN expression RPAREN statement ({...}? ELSE statement )?
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1242:2: ( IF LPAREN expression RPAREN statement ({...}? ELSE statement )? -> ^( IF expression statement ( ELSE statement )? ) )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1242:4: IF LPAREN expression RPAREN statement ({...}? ELSE statement )?
             {
             IF175=(Token)match(input,IF,FOLLOW_IF_in_ifStatement4783);  
             stream_IF.add(IF175);
@@ -6462,7 +6462,7 @@ public class ES3Parser extends Parser {
             state._fsp--;
 
             stream_statement.add(statement179.getTree());
-            // com/google/jstestdriver/coverage/es3/ES3.g:1242:42: ({...}? ELSE statement )?
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1242:42: ({...}? ELSE statement )?
             int alt51=2;
             int LA51_0 = input.LA(1);
 
@@ -6475,7 +6475,7 @@ public class ES3Parser extends Parser {
             }
             switch (alt51) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1242:44: {...}? ELSE statement
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1242:44: {...}? ELSE statement
                     {
                     if ( !(( input.LA(1) == ELSE )) ) {
                         throw new FailedPredicateException(input, "ifStatement", " input.LA(1) == ELSE ");
@@ -6498,7 +6498,7 @@ public class ES3Parser extends Parser {
 
 
             // AST REWRITE
-            // elements: statement, IF, expression, statement, ELSE
+            // elements: statement, ELSE, IF, expression, statement
             // token labels: 
             // rule labels: retval
             // token list labels: 
@@ -6510,14 +6510,14 @@ public class ES3Parser extends Parser {
             root_0 = (Object)adaptor.nil();
             // 1243:2: -> ^( IF expression statement ( ELSE statement )? )
             {
-                // com/google/jstestdriver/coverage/es3/ES3.g:1243:5: ^( IF expression statement ( ELSE statement )? )
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1243:5: ^( IF expression statement ( ELSE statement )? )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(stream_IF.nextNode(), root_1);
 
                 adaptor.addChild(root_1, stream_expression.nextTree());
                 adaptor.addChild(root_1, stream_statement.nextTree());
-                // com/google/jstestdriver/coverage/es3/ES3.g:1243:32: ( ELSE statement )?
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1243:32: ( ELSE statement )?
                 if ( stream_statement.hasNext()||stream_ELSE.hasNext() ) {
                     adaptor.addChild(root_1, stream_ELSE.nextNode());
                     adaptor.addChild(root_1, stream_statement.nextTree());
@@ -6558,7 +6558,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "iterationStatement"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1251:1: iterationStatement : ( doStatement | whileStatement | forStatement );
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1251:1: iterationStatement : ( doStatement | whileStatement | forStatement );
     public final ES3Parser.iterationStatement_return iterationStatement() throws RecognitionException {
         ES3Parser.iterationStatement_return retval = new ES3Parser.iterationStatement_return();
         retval.start = input.LT(1);
@@ -6574,7 +6574,7 @@ public class ES3Parser extends Parser {
 
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1252:2: ( doStatement | whileStatement | forStatement )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1252:2: ( doStatement | whileStatement | forStatement )
             int alt52=3;
             switch ( input.LA(1) ) {
             case DO:
@@ -6601,7 +6601,7 @@ public class ES3Parser extends Parser {
 
             switch (alt52) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1252:4: doStatement
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1252:4: doStatement
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -6615,7 +6615,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1253:4: whileStatement
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1253:4: whileStatement
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -6629,7 +6629,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 3 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1254:4: forStatement
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1254:4: forStatement
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -6668,7 +6668,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "doStatement"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1257:1: doStatement : DO statement WHILE LPAREN expression RPAREN semic -> ^( DO statement expression ) ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1257:1: doStatement : DO statement WHILE LPAREN expression RPAREN semic -> ^( DO statement expression ) ;
     public final ES3Parser.doStatement_return doStatement() throws RecognitionException {
         ES3Parser.doStatement_return retval = new ES3Parser.doStatement_return();
         retval.start = input.LT(1);
@@ -6698,8 +6698,8 @@ public class ES3Parser extends Parser {
         RewriteRuleSubtreeStream stream_expression=new RewriteRuleSubtreeStream(adaptor,"rule expression");
         RewriteRuleSubtreeStream stream_semic=new RewriteRuleSubtreeStream(adaptor,"rule semic");
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1258:2: ( DO statement WHILE LPAREN expression RPAREN semic -> ^( DO statement expression ) )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1258:4: DO statement WHILE LPAREN expression RPAREN semic
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1258:2: ( DO statement WHILE LPAREN expression RPAREN semic -> ^( DO statement expression ) )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1258:4: DO statement WHILE LPAREN expression RPAREN semic
             {
             DO185=(Token)match(input,DO,FOLLOW_DO_in_doStatement4860);  
             stream_DO.add(DO185);
@@ -6746,7 +6746,7 @@ public class ES3Parser extends Parser {
             root_0 = (Object)adaptor.nil();
             // 1259:2: -> ^( DO statement expression )
             {
-                // com/google/jstestdriver/coverage/es3/ES3.g:1259:5: ^( DO statement expression )
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1259:5: ^( DO statement expression )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(stream_DO.nextNode(), root_1);
@@ -6786,7 +6786,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "whileStatement"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1262:1: whileStatement : WHILE LPAREN expression RPAREN statement ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1262:1: whileStatement : WHILE LPAREN expression RPAREN statement ;
     public final ES3Parser.whileStatement_return whileStatement() throws RecognitionException {
         ES3Parser.whileStatement_return retval = new ES3Parser.whileStatement_return();
         retval.start = input.LT(1);
@@ -6806,8 +6806,8 @@ public class ES3Parser extends Parser {
         Object RPAREN195_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1263:2: ( WHILE LPAREN expression RPAREN statement )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1263:4: WHILE LPAREN expression RPAREN statement
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1263:2: ( WHILE LPAREN expression RPAREN statement )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1263:4: WHILE LPAREN expression RPAREN statement
             {
             root_0 = (Object)adaptor.nil();
 
@@ -6856,7 +6856,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "forStatement"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1307:1: forStatement : FOR LPAREN forControl RPAREN statement ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1307:1: forStatement : FOR LPAREN forControl RPAREN statement ;
     public final ES3Parser.forStatement_return forStatement() throws RecognitionException {
         ES3Parser.forStatement_return retval = new ES3Parser.forStatement_return();
         retval.start = input.LT(1);
@@ -6876,8 +6876,8 @@ public class ES3Parser extends Parser {
         Object RPAREN200_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1308:2: ( FOR LPAREN forControl RPAREN statement )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1308:4: FOR LPAREN forControl RPAREN statement
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1308:2: ( FOR LPAREN forControl RPAREN statement )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1308:4: FOR LPAREN forControl RPAREN statement
             {
             root_0 = (Object)adaptor.nil();
 
@@ -6926,7 +6926,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "forControl"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1311:1: forControl : ( forControlVar | forControlExpression | forControlSemic );
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1311:1: forControl : ( forControlVar | forControlExpression | forControlSemic );
     public final ES3Parser.forControl_return forControl() throws RecognitionException {
         ES3Parser.forControl_return retval = new ES3Parser.forControl_return();
         retval.start = input.LT(1);
@@ -6942,7 +6942,7 @@ public class ES3Parser extends Parser {
 
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1312:2: ( forControlVar | forControlExpression | forControlSemic )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1312:2: ( forControlVar | forControlExpression | forControlSemic )
             int alt53=3;
             switch ( input.LA(1) ) {
             case VAR:
@@ -6992,7 +6992,7 @@ public class ES3Parser extends Parser {
 
             switch (alt53) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1312:4: forControlVar
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1312:4: forControlVar
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -7006,7 +7006,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1313:4: forControlExpression
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1313:4: forControlExpression
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -7020,7 +7020,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 3 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1314:4: forControlSemic
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1314:4: forControlSemic
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -7059,7 +7059,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "forControlVar"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1317:1: forControlVar : VAR variableDeclarationNoIn ( ( IN expression -> ^( FORITER ^( VAR variableDeclarationNoIn ) ^( EXPR expression ) ) ) | ( ( COMMA variableDeclarationNoIn )* SEMIC (ex1= expression )? SEMIC (ex2= expression )? -> ^( FORSTEP ^( VAR ( variableDeclarationNoIn )+ ) ^( EXPR ( $ex1)? ) ^( EXPR ( $ex2)? ) ) ) ) ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1317:1: forControlVar : VAR variableDeclarationNoIn ( ( IN expression -> ^( FORITER ^( VAR variableDeclarationNoIn ) ^( EXPR expression ) ) ) | ( ( COMMA variableDeclarationNoIn )* SEMIC (ex1= expression )? SEMIC (ex2= expression )? -> ^( FORSTEP ^( VAR ( variableDeclarationNoIn )+ ) ^( EXPR ( $ex1)? ) ^( EXPR ( $ex2)? ) ) ) ) ;
     public final ES3Parser.forControlVar_return forControlVar() throws RecognitionException {
         ES3Parser.forControlVar_return retval = new ES3Parser.forControlVar_return();
         retval.start = input.LT(1);
@@ -7094,8 +7094,8 @@ public class ES3Parser extends Parser {
         RewriteRuleSubtreeStream stream_expression=new RewriteRuleSubtreeStream(adaptor,"rule expression");
         RewriteRuleSubtreeStream stream_variableDeclarationNoIn=new RewriteRuleSubtreeStream(adaptor,"rule variableDeclarationNoIn");
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1318:2: ( VAR variableDeclarationNoIn ( ( IN expression -> ^( FORITER ^( VAR variableDeclarationNoIn ) ^( EXPR expression ) ) ) | ( ( COMMA variableDeclarationNoIn )* SEMIC (ex1= expression )? SEMIC (ex2= expression )? -> ^( FORSTEP ^( VAR ( variableDeclarationNoIn )+ ) ^( EXPR ( $ex1)? ) ^( EXPR ( $ex2)? ) ) ) ) )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1318:4: VAR variableDeclarationNoIn ( ( IN expression -> ^( FORITER ^( VAR variableDeclarationNoIn ) ^( EXPR expression ) ) ) | ( ( COMMA variableDeclarationNoIn )* SEMIC (ex1= expression )? SEMIC (ex2= expression )? -> ^( FORSTEP ^( VAR ( variableDeclarationNoIn )+ ) ^( EXPR ( $ex1)? ) ^( EXPR ( $ex2)? ) ) ) )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1318:2: ( VAR variableDeclarationNoIn ( ( IN expression -> ^( FORITER ^( VAR variableDeclarationNoIn ) ^( EXPR expression ) ) ) | ( ( COMMA variableDeclarationNoIn )* SEMIC (ex1= expression )? SEMIC (ex2= expression )? -> ^( FORSTEP ^( VAR ( variableDeclarationNoIn )+ ) ^( EXPR ( $ex1)? ) ^( EXPR ( $ex2)? ) ) ) ) )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1318:4: VAR variableDeclarationNoIn ( ( IN expression -> ^( FORITER ^( VAR variableDeclarationNoIn ) ^( EXPR expression ) ) ) | ( ( COMMA variableDeclarationNoIn )* SEMIC (ex1= expression )? SEMIC (ex2= expression )? -> ^( FORSTEP ^( VAR ( variableDeclarationNoIn )+ ) ^( EXPR ( $ex1)? ) ^( EXPR ( $ex2)? ) ) ) )
             {
             VAR205=(Token)match(input,VAR,FOLLOW_VAR_in_forControlVar4964);  
             stream_VAR.add(VAR205);
@@ -7106,7 +7106,7 @@ public class ES3Parser extends Parser {
             state._fsp--;
 
             stream_variableDeclarationNoIn.add(variableDeclarationNoIn206.getTree());
-            // com/google/jstestdriver/coverage/es3/ES3.g:1319:2: ( ( IN expression -> ^( FORITER ^( VAR variableDeclarationNoIn ) ^( EXPR expression ) ) ) | ( ( COMMA variableDeclarationNoIn )* SEMIC (ex1= expression )? SEMIC (ex2= expression )? -> ^( FORSTEP ^( VAR ( variableDeclarationNoIn )+ ) ^( EXPR ( $ex1)? ) ^( EXPR ( $ex2)? ) ) ) )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1319:2: ( ( IN expression -> ^( FORITER ^( VAR variableDeclarationNoIn ) ^( EXPR expression ) ) ) | ( ( COMMA variableDeclarationNoIn )* SEMIC (ex1= expression )? SEMIC (ex2= expression )? -> ^( FORSTEP ^( VAR ( variableDeclarationNoIn )+ ) ^( EXPR ( $ex1)? ) ^( EXPR ( $ex2)? ) ) ) )
             int alt57=2;
             int LA57_0 = input.LA(1);
 
@@ -7124,10 +7124,10 @@ public class ES3Parser extends Parser {
             }
             switch (alt57) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1320:3: ( IN expression -> ^( FORITER ^( VAR variableDeclarationNoIn ) ^( EXPR expression ) ) )
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1320:3: ( IN expression -> ^( FORITER ^( VAR variableDeclarationNoIn ) ^( EXPR expression ) ) )
                     {
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1320:3: ( IN expression -> ^( FORITER ^( VAR variableDeclarationNoIn ) ^( EXPR expression ) ) )
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1321:4: IN expression
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1320:3: ( IN expression -> ^( FORITER ^( VAR variableDeclarationNoIn ) ^( EXPR expression ) ) )
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1321:4: IN expression
                     {
                     IN207=(Token)match(input,IN,FOLLOW_IN_in_forControlVar4978);  
                     stream_IN.add(IN207);
@@ -7141,7 +7141,7 @@ public class ES3Parser extends Parser {
 
 
                     // AST REWRITE
-                    // elements: expression, variableDeclarationNoIn, VAR
+                    // elements: variableDeclarationNoIn, expression, VAR
                     // token labels: 
                     // rule labels: retval
                     // token list labels: 
@@ -7153,12 +7153,12 @@ public class ES3Parser extends Parser {
                     root_0 = (Object)adaptor.nil();
                     // 1322:4: -> ^( FORITER ^( VAR variableDeclarationNoIn ) ^( EXPR expression ) )
                     {
-                        // com/google/jstestdriver/coverage/es3/ES3.g:1322:7: ^( FORITER ^( VAR variableDeclarationNoIn ) ^( EXPR expression ) )
+                        // net/awired/jscoverage/instrumentation/es3/ES3.g:1322:7: ^( FORITER ^( VAR variableDeclarationNoIn ) ^( EXPR expression ) )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot((Object)adaptor.create(FORITER, "FORITER"), root_1);
 
-                        // com/google/jstestdriver/coverage/es3/ES3.g:1322:18: ^( VAR variableDeclarationNoIn )
+                        // net/awired/jscoverage/instrumentation/es3/ES3.g:1322:18: ^( VAR variableDeclarationNoIn )
                         {
                         Object root_2 = (Object)adaptor.nil();
                         root_2 = (Object)adaptor.becomeRoot(stream_VAR.nextNode(), root_2);
@@ -7167,7 +7167,7 @@ public class ES3Parser extends Parser {
 
                         adaptor.addChild(root_1, root_2);
                         }
-                        // com/google/jstestdriver/coverage/es3/ES3.g:1322:51: ^( EXPR expression )
+                        // net/awired/jscoverage/instrumentation/es3/ES3.g:1322:51: ^( EXPR expression )
                         {
                         Object root_2 = (Object)adaptor.nil();
                         root_2 = (Object)adaptor.becomeRoot((Object)adaptor.create(EXPR, "EXPR"), root_2);
@@ -7189,12 +7189,12 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1325:3: ( ( COMMA variableDeclarationNoIn )* SEMIC (ex1= expression )? SEMIC (ex2= expression )? -> ^( FORSTEP ^( VAR ( variableDeclarationNoIn )+ ) ^( EXPR ( $ex1)? ) ^( EXPR ( $ex2)? ) ) )
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1325:3: ( ( COMMA variableDeclarationNoIn )* SEMIC (ex1= expression )? SEMIC (ex2= expression )? -> ^( FORSTEP ^( VAR ( variableDeclarationNoIn )+ ) ^( EXPR ( $ex1)? ) ^( EXPR ( $ex2)? ) ) )
                     {
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1325:3: ( ( COMMA variableDeclarationNoIn )* SEMIC (ex1= expression )? SEMIC (ex2= expression )? -> ^( FORSTEP ^( VAR ( variableDeclarationNoIn )+ ) ^( EXPR ( $ex1)? ) ^( EXPR ( $ex2)? ) ) )
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1326:4: ( COMMA variableDeclarationNoIn )* SEMIC (ex1= expression )? SEMIC (ex2= expression )?
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1325:3: ( ( COMMA variableDeclarationNoIn )* SEMIC (ex1= expression )? SEMIC (ex2= expression )? -> ^( FORSTEP ^( VAR ( variableDeclarationNoIn )+ ) ^( EXPR ( $ex1)? ) ^( EXPR ( $ex2)? ) ) )
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1326:4: ( COMMA variableDeclarationNoIn )* SEMIC (ex1= expression )? SEMIC (ex2= expression )?
                     {
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1326:4: ( COMMA variableDeclarationNoIn )*
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1326:4: ( COMMA variableDeclarationNoIn )*
                     loop54:
                     do {
                         int alt54=2;
@@ -7207,7 +7207,7 @@ public class ES3Parser extends Parser {
 
                         switch (alt54) {
                     	case 1 :
-                    	    // com/google/jstestdriver/coverage/es3/ES3.g:1326:6: COMMA variableDeclarationNoIn
+                    	    // net/awired/jscoverage/instrumentation/es3/ES3.g:1326:6: COMMA variableDeclarationNoIn
                     	    {
                     	    COMMA209=(Token)match(input,COMMA,FOLLOW_COMMA_in_forControlVar5026);  
                     	    stream_COMMA.add(COMMA209);
@@ -7230,7 +7230,7 @@ public class ES3Parser extends Parser {
                     SEMIC211=(Token)match(input,SEMIC,FOLLOW_SEMIC_in_forControlVar5033);  
                     stream_SEMIC.add(SEMIC211);
 
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1326:48: (ex1= expression )?
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1326:48: (ex1= expression )?
                     int alt55=2;
                     int LA55_0 = input.LA(1);
 
@@ -7239,7 +7239,7 @@ public class ES3Parser extends Parser {
                     }
                     switch (alt55) {
                         case 1 :
-                            // com/google/jstestdriver/coverage/es3/ES3.g:1326:48: ex1= expression
+                            // net/awired/jscoverage/instrumentation/es3/ES3.g:1326:48: ex1= expression
                             {
                             pushFollow(FOLLOW_expression_in_forControlVar5037);
                             ex1=expression();
@@ -7256,7 +7256,7 @@ public class ES3Parser extends Parser {
                     SEMIC212=(Token)match(input,SEMIC,FOLLOW_SEMIC_in_forControlVar5040);  
                     stream_SEMIC.add(SEMIC212);
 
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1326:70: (ex2= expression )?
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1326:70: (ex2= expression )?
                     int alt56=2;
                     int LA56_0 = input.LA(1);
 
@@ -7265,7 +7265,7 @@ public class ES3Parser extends Parser {
                     }
                     switch (alt56) {
                         case 1 :
-                            // com/google/jstestdriver/coverage/es3/ES3.g:1326:70: ex2= expression
+                            // net/awired/jscoverage/instrumentation/es3/ES3.g:1326:70: ex2= expression
                             {
                             pushFollow(FOLLOW_expression_in_forControlVar5044);
                             ex2=expression();
@@ -7282,7 +7282,7 @@ public class ES3Parser extends Parser {
 
 
                     // AST REWRITE
-                    // elements: ex1, VAR, ex2, variableDeclarationNoIn
+                    // elements: ex1, VAR, variableDeclarationNoIn, ex2
                     // token labels: 
                     // rule labels: retval, ex2, ex1
                     // token list labels: 
@@ -7296,12 +7296,12 @@ public class ES3Parser extends Parser {
                     root_0 = (Object)adaptor.nil();
                     // 1327:4: -> ^( FORSTEP ^( VAR ( variableDeclarationNoIn )+ ) ^( EXPR ( $ex1)? ) ^( EXPR ( $ex2)? ) )
                     {
-                        // com/google/jstestdriver/coverage/es3/ES3.g:1327:7: ^( FORSTEP ^( VAR ( variableDeclarationNoIn )+ ) ^( EXPR ( $ex1)? ) ^( EXPR ( $ex2)? ) )
+                        // net/awired/jscoverage/instrumentation/es3/ES3.g:1327:7: ^( FORSTEP ^( VAR ( variableDeclarationNoIn )+ ) ^( EXPR ( $ex1)? ) ^( EXPR ( $ex2)? ) )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot((Object)adaptor.create(FORSTEP, "FORSTEP"), root_1);
 
-                        // com/google/jstestdriver/coverage/es3/ES3.g:1327:18: ^( VAR ( variableDeclarationNoIn )+ )
+                        // net/awired/jscoverage/instrumentation/es3/ES3.g:1327:18: ^( VAR ( variableDeclarationNoIn )+ )
                         {
                         Object root_2 = (Object)adaptor.nil();
                         root_2 = (Object)adaptor.becomeRoot(stream_VAR.nextNode(), root_2);
@@ -7317,12 +7317,12 @@ public class ES3Parser extends Parser {
 
                         adaptor.addChild(root_1, root_2);
                         }
-                        // com/google/jstestdriver/coverage/es3/ES3.g:1327:52: ^( EXPR ( $ex1)? )
+                        // net/awired/jscoverage/instrumentation/es3/ES3.g:1327:52: ^( EXPR ( $ex1)? )
                         {
                         Object root_2 = (Object)adaptor.nil();
                         root_2 = (Object)adaptor.becomeRoot((Object)adaptor.create(EXPR, "EXPR"), root_2);
 
-                        // com/google/jstestdriver/coverage/es3/ES3.g:1327:60: ( $ex1)?
+                        // net/awired/jscoverage/instrumentation/es3/ES3.g:1327:60: ( $ex1)?
                         if ( stream_ex1.hasNext() ) {
                             adaptor.addChild(root_2, stream_ex1.nextTree());
 
@@ -7331,12 +7331,12 @@ public class ES3Parser extends Parser {
 
                         adaptor.addChild(root_1, root_2);
                         }
-                        // com/google/jstestdriver/coverage/es3/ES3.g:1327:68: ^( EXPR ( $ex2)? )
+                        // net/awired/jscoverage/instrumentation/es3/ES3.g:1327:68: ^( EXPR ( $ex2)? )
                         {
                         Object root_2 = (Object)adaptor.nil();
                         root_2 = (Object)adaptor.becomeRoot((Object)adaptor.create(EXPR, "EXPR"), root_2);
 
-                        // com/google/jstestdriver/coverage/es3/ES3.g:1327:76: ( $ex2)?
+                        // net/awired/jscoverage/instrumentation/es3/ES3.g:1327:76: ( $ex2)?
                         if ( stream_ex2.hasNext() ) {
                             adaptor.addChild(root_2, stream_ex2.nextTree());
 
@@ -7387,7 +7387,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "forControlExpression"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1332:1: forControlExpression : ex1= expressionNoIn ({...}? ( IN ex2= expression -> ^( FORITER ^( EXPR $ex1) ^( EXPR $ex2) ) ) | ( SEMIC (ex2= expression )? SEMIC (ex3= expression )? -> ^( FORSTEP ^( EXPR $ex1) ^( EXPR ( $ex2)? ) ^( EXPR ( $ex3)? ) ) ) ) ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1332:1: forControlExpression : ex1= expressionNoIn ({...}? ( IN ex2= expression -> ^( FORITER ^( EXPR $ex1) ^( EXPR $ex2) ) ) | ( SEMIC (ex2= expression )? SEMIC (ex3= expression )? -> ^( FORSTEP ^( EXPR $ex1) ^( EXPR ( $ex2)? ) ^( EXPR ( $ex3)? ) ) ) ) ;
     public final ES3Parser.forControlExpression_return forControlExpression() throws RecognitionException {
         ES3Parser.forControlExpression_return retval = new ES3Parser.forControlExpression_return();
         retval.start = input.LT(1);
@@ -7415,8 +7415,8 @@ public class ES3Parser extends Parser {
         	Object[] isLhs = new Object[1];
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1337:2: (ex1= expressionNoIn ({...}? ( IN ex2= expression -> ^( FORITER ^( EXPR $ex1) ^( EXPR $ex2) ) ) | ( SEMIC (ex2= expression )? SEMIC (ex3= expression )? -> ^( FORSTEP ^( EXPR $ex1) ^( EXPR ( $ex2)? ) ^( EXPR ( $ex3)? ) ) ) ) )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1337:4: ex1= expressionNoIn ({...}? ( IN ex2= expression -> ^( FORITER ^( EXPR $ex1) ^( EXPR $ex2) ) ) | ( SEMIC (ex2= expression )? SEMIC (ex3= expression )? -> ^( FORSTEP ^( EXPR $ex1) ^( EXPR ( $ex2)? ) ^( EXPR ( $ex3)? ) ) ) )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1337:2: (ex1= expressionNoIn ({...}? ( IN ex2= expression -> ^( FORITER ^( EXPR $ex1) ^( EXPR $ex2) ) ) | ( SEMIC (ex2= expression )? SEMIC (ex3= expression )? -> ^( FORSTEP ^( EXPR $ex1) ^( EXPR ( $ex2)? ) ^( EXPR ( $ex3)? ) ) ) ) )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1337:4: ex1= expressionNoIn ({...}? ( IN ex2= expression -> ^( FORITER ^( EXPR $ex1) ^( EXPR $ex2) ) ) | ( SEMIC (ex2= expression )? SEMIC (ex3= expression )? -> ^( FORSTEP ^( EXPR $ex1) ^( EXPR ( $ex2)? ) ^( EXPR ( $ex3)? ) ) ) )
             {
             pushFollow(FOLLOW_expressionNoIn_in_forControlExpression5110);
             ex1=expressionNoIn();
@@ -7424,7 +7424,7 @@ public class ES3Parser extends Parser {
             state._fsp--;
 
             stream_expressionNoIn.add(ex1.getTree());
-            // com/google/jstestdriver/coverage/es3/ES3.g:1338:2: ({...}? ( IN ex2= expression -> ^( FORITER ^( EXPR $ex1) ^( EXPR $ex2) ) ) | ( SEMIC (ex2= expression )? SEMIC (ex3= expression )? -> ^( FORSTEP ^( EXPR $ex1) ^( EXPR ( $ex2)? ) ^( EXPR ( $ex3)? ) ) ) )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1338:2: ({...}? ( IN ex2= expression -> ^( FORITER ^( EXPR $ex1) ^( EXPR $ex2) ) ) | ( SEMIC (ex2= expression )? SEMIC (ex3= expression )? -> ^( FORSTEP ^( EXPR $ex1) ^( EXPR ( $ex2)? ) ^( EXPR ( $ex3)? ) ) ) )
             int alt60=2;
             int LA60_0 = input.LA(1);
 
@@ -7442,13 +7442,13 @@ public class ES3Parser extends Parser {
             }
             switch (alt60) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1339:3: {...}? ( IN ex2= expression -> ^( FORITER ^( EXPR $ex1) ^( EXPR $ex2) ) )
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1339:3: {...}? ( IN ex2= expression -> ^( FORITER ^( EXPR $ex1) ^( EXPR $ex2) ) )
                     {
                     if ( !(( isLeftHandSideIn(ex1, isLhs) )) ) {
                         throw new FailedPredicateException(input, "forControlExpression", " isLeftHandSideIn(ex1, isLhs) ");
                     }
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1339:37: ( IN ex2= expression -> ^( FORITER ^( EXPR $ex1) ^( EXPR $ex2) ) )
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1340:4: IN ex2= expression
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1339:37: ( IN ex2= expression -> ^( FORITER ^( EXPR $ex1) ^( EXPR $ex2) ) )
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1340:4: IN ex2= expression
                     {
                     IN213=(Token)match(input,IN,FOLLOW_IN_in_forControlExpression5125);  
                     stream_IN.add(IN213);
@@ -7462,7 +7462,7 @@ public class ES3Parser extends Parser {
 
 
                     // AST REWRITE
-                    // elements: ex1, ex2
+                    // elements: ex2, ex1
                     // token labels: 
                     // rule labels: retval, ex2, ex1
                     // token list labels: 
@@ -7476,12 +7476,12 @@ public class ES3Parser extends Parser {
                     root_0 = (Object)adaptor.nil();
                     // 1341:4: -> ^( FORITER ^( EXPR $ex1) ^( EXPR $ex2) )
                     {
-                        // com/google/jstestdriver/coverage/es3/ES3.g:1341:7: ^( FORITER ^( EXPR $ex1) ^( EXPR $ex2) )
+                        // net/awired/jscoverage/instrumentation/es3/ES3.g:1341:7: ^( FORITER ^( EXPR $ex1) ^( EXPR $ex2) )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot((Object)adaptor.create(FORITER, "FORITER"), root_1);
 
-                        // com/google/jstestdriver/coverage/es3/ES3.g:1341:18: ^( EXPR $ex1)
+                        // net/awired/jscoverage/instrumentation/es3/ES3.g:1341:18: ^( EXPR $ex1)
                         {
                         Object root_2 = (Object)adaptor.nil();
                         root_2 = (Object)adaptor.becomeRoot((Object)adaptor.create(EXPR, "EXPR"), root_2);
@@ -7490,7 +7490,7 @@ public class ES3Parser extends Parser {
 
                         adaptor.addChild(root_1, root_2);
                         }
-                        // com/google/jstestdriver/coverage/es3/ES3.g:1341:33: ^( EXPR $ex2)
+                        // net/awired/jscoverage/instrumentation/es3/ES3.g:1341:33: ^( EXPR $ex2)
                         {
                         Object root_2 = (Object)adaptor.nil();
                         root_2 = (Object)adaptor.becomeRoot((Object)adaptor.create(EXPR, "EXPR"), root_2);
@@ -7512,15 +7512,15 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1344:3: ( SEMIC (ex2= expression )? SEMIC (ex3= expression )? -> ^( FORSTEP ^( EXPR $ex1) ^( EXPR ( $ex2)? ) ^( EXPR ( $ex3)? ) ) )
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1344:3: ( SEMIC (ex2= expression )? SEMIC (ex3= expression )? -> ^( FORSTEP ^( EXPR $ex1) ^( EXPR ( $ex2)? ) ^( EXPR ( $ex3)? ) ) )
                     {
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1344:3: ( SEMIC (ex2= expression )? SEMIC (ex3= expression )? -> ^( FORSTEP ^( EXPR $ex1) ^( EXPR ( $ex2)? ) ^( EXPR ( $ex3)? ) ) )
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1345:4: SEMIC (ex2= expression )? SEMIC (ex3= expression )?
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1344:3: ( SEMIC (ex2= expression )? SEMIC (ex3= expression )? -> ^( FORSTEP ^( EXPR $ex1) ^( EXPR ( $ex2)? ) ^( EXPR ( $ex3)? ) ) )
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1345:4: SEMIC (ex2= expression )? SEMIC (ex3= expression )?
                     {
                     SEMIC214=(Token)match(input,SEMIC,FOLLOW_SEMIC_in_forControlExpression5175);  
                     stream_SEMIC.add(SEMIC214);
 
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1345:13: (ex2= expression )?
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1345:13: (ex2= expression )?
                     int alt58=2;
                     int LA58_0 = input.LA(1);
 
@@ -7529,7 +7529,7 @@ public class ES3Parser extends Parser {
                     }
                     switch (alt58) {
                         case 1 :
-                            // com/google/jstestdriver/coverage/es3/ES3.g:1345:13: ex2= expression
+                            // net/awired/jscoverage/instrumentation/es3/ES3.g:1345:13: ex2= expression
                             {
                             pushFollow(FOLLOW_expression_in_forControlExpression5179);
                             ex2=expression();
@@ -7546,7 +7546,7 @@ public class ES3Parser extends Parser {
                     SEMIC215=(Token)match(input,SEMIC,FOLLOW_SEMIC_in_forControlExpression5182);  
                     stream_SEMIC.add(SEMIC215);
 
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1345:35: (ex3= expression )?
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1345:35: (ex3= expression )?
                     int alt59=2;
                     int LA59_0 = input.LA(1);
 
@@ -7555,7 +7555,7 @@ public class ES3Parser extends Parser {
                     }
                     switch (alt59) {
                         case 1 :
-                            // com/google/jstestdriver/coverage/es3/ES3.g:1345:35: ex3= expression
+                            // net/awired/jscoverage/instrumentation/es3/ES3.g:1345:35: ex3= expression
                             {
                             pushFollow(FOLLOW_expression_in_forControlExpression5186);
                             ex3=expression();
@@ -7572,7 +7572,7 @@ public class ES3Parser extends Parser {
 
 
                     // AST REWRITE
-                    // elements: ex3, ex2, ex1
+                    // elements: ex2, ex1, ex3
                     // token labels: 
                     // rule labels: retval, ex3, ex2, ex1
                     // token list labels: 
@@ -7587,12 +7587,12 @@ public class ES3Parser extends Parser {
                     root_0 = (Object)adaptor.nil();
                     // 1346:4: -> ^( FORSTEP ^( EXPR $ex1) ^( EXPR ( $ex2)? ) ^( EXPR ( $ex3)? ) )
                     {
-                        // com/google/jstestdriver/coverage/es3/ES3.g:1346:7: ^( FORSTEP ^( EXPR $ex1) ^( EXPR ( $ex2)? ) ^( EXPR ( $ex3)? ) )
+                        // net/awired/jscoverage/instrumentation/es3/ES3.g:1346:7: ^( FORSTEP ^( EXPR $ex1) ^( EXPR ( $ex2)? ) ^( EXPR ( $ex3)? ) )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot((Object)adaptor.create(FORSTEP, "FORSTEP"), root_1);
 
-                        // com/google/jstestdriver/coverage/es3/ES3.g:1346:18: ^( EXPR $ex1)
+                        // net/awired/jscoverage/instrumentation/es3/ES3.g:1346:18: ^( EXPR $ex1)
                         {
                         Object root_2 = (Object)adaptor.nil();
                         root_2 = (Object)adaptor.becomeRoot((Object)adaptor.create(EXPR, "EXPR"), root_2);
@@ -7601,12 +7601,12 @@ public class ES3Parser extends Parser {
 
                         adaptor.addChild(root_1, root_2);
                         }
-                        // com/google/jstestdriver/coverage/es3/ES3.g:1346:33: ^( EXPR ( $ex2)? )
+                        // net/awired/jscoverage/instrumentation/es3/ES3.g:1346:33: ^( EXPR ( $ex2)? )
                         {
                         Object root_2 = (Object)adaptor.nil();
                         root_2 = (Object)adaptor.becomeRoot((Object)adaptor.create(EXPR, "EXPR"), root_2);
 
-                        // com/google/jstestdriver/coverage/es3/ES3.g:1346:41: ( $ex2)?
+                        // net/awired/jscoverage/instrumentation/es3/ES3.g:1346:41: ( $ex2)?
                         if ( stream_ex2.hasNext() ) {
                             adaptor.addChild(root_2, stream_ex2.nextTree());
 
@@ -7615,12 +7615,12 @@ public class ES3Parser extends Parser {
 
                         adaptor.addChild(root_1, root_2);
                         }
-                        // com/google/jstestdriver/coverage/es3/ES3.g:1346:49: ^( EXPR ( $ex3)? )
+                        // net/awired/jscoverage/instrumentation/es3/ES3.g:1346:49: ^( EXPR ( $ex3)? )
                         {
                         Object root_2 = (Object)adaptor.nil();
                         root_2 = (Object)adaptor.becomeRoot((Object)adaptor.create(EXPR, "EXPR"), root_2);
 
-                        // com/google/jstestdriver/coverage/es3/ES3.g:1346:57: ( $ex3)?
+                        // net/awired/jscoverage/instrumentation/es3/ES3.g:1346:57: ( $ex3)?
                         if ( stream_ex3.hasNext() ) {
                             adaptor.addChild(root_2, stream_ex3.nextTree());
 
@@ -7671,7 +7671,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "forControlSemic"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1351:1: forControlSemic : SEMIC (ex1= expression )? SEMIC (ex2= expression )? -> ^( FORSTEP ^( EXPR ) ^( EXPR ( $ex1)? ) ^( EXPR ( $ex2)? ) ) ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1351:1: forControlSemic : SEMIC (ex1= expression )? SEMIC (ex2= expression )? -> ^( FORSTEP ^( EXPR ) ^( EXPR ( $ex1)? ) ^( EXPR ( $ex2)? ) ) ;
     public final ES3Parser.forControlSemic_return forControlSemic() throws RecognitionException {
         ES3Parser.forControlSemic_return retval = new ES3Parser.forControlSemic_return();
         retval.start = input.LT(1);
@@ -7690,13 +7690,13 @@ public class ES3Parser extends Parser {
         RewriteRuleTokenStream stream_SEMIC=new RewriteRuleTokenStream(adaptor,"token SEMIC");
         RewriteRuleSubtreeStream stream_expression=new RewriteRuleSubtreeStream(adaptor,"rule expression");
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1352:2: ( SEMIC (ex1= expression )? SEMIC (ex2= expression )? -> ^( FORSTEP ^( EXPR ) ^( EXPR ( $ex1)? ) ^( EXPR ( $ex2)? ) ) )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1352:4: SEMIC (ex1= expression )? SEMIC (ex2= expression )?
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1352:2: ( SEMIC (ex1= expression )? SEMIC (ex2= expression )? -> ^( FORSTEP ^( EXPR ) ^( EXPR ( $ex1)? ) ^( EXPR ( $ex2)? ) ) )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1352:4: SEMIC (ex1= expression )? SEMIC (ex2= expression )?
             {
             SEMIC216=(Token)match(input,SEMIC,FOLLOW_SEMIC_in_forControlSemic5245);  
             stream_SEMIC.add(SEMIC216);
 
-            // com/google/jstestdriver/coverage/es3/ES3.g:1352:13: (ex1= expression )?
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1352:13: (ex1= expression )?
             int alt61=2;
             int LA61_0 = input.LA(1);
 
@@ -7705,7 +7705,7 @@ public class ES3Parser extends Parser {
             }
             switch (alt61) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1352:13: ex1= expression
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1352:13: ex1= expression
                     {
                     pushFollow(FOLLOW_expression_in_forControlSemic5249);
                     ex1=expression();
@@ -7722,7 +7722,7 @@ public class ES3Parser extends Parser {
             SEMIC217=(Token)match(input,SEMIC,FOLLOW_SEMIC_in_forControlSemic5252);  
             stream_SEMIC.add(SEMIC217);
 
-            // com/google/jstestdriver/coverage/es3/ES3.g:1352:35: (ex2= expression )?
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1352:35: (ex2= expression )?
             int alt62=2;
             int LA62_0 = input.LA(1);
 
@@ -7731,7 +7731,7 @@ public class ES3Parser extends Parser {
             }
             switch (alt62) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1352:35: ex2= expression
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1352:35: ex2= expression
                     {
                     pushFollow(FOLLOW_expression_in_forControlSemic5256);
                     ex2=expression();
@@ -7762,24 +7762,24 @@ public class ES3Parser extends Parser {
             root_0 = (Object)adaptor.nil();
             // 1353:2: -> ^( FORSTEP ^( EXPR ) ^( EXPR ( $ex1)? ) ^( EXPR ( $ex2)? ) )
             {
-                // com/google/jstestdriver/coverage/es3/ES3.g:1353:5: ^( FORSTEP ^( EXPR ) ^( EXPR ( $ex1)? ) ^( EXPR ( $ex2)? ) )
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1353:5: ^( FORSTEP ^( EXPR ) ^( EXPR ( $ex1)? ) ^( EXPR ( $ex2)? ) )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot((Object)adaptor.create(FORSTEP, "FORSTEP"), root_1);
 
-                // com/google/jstestdriver/coverage/es3/ES3.g:1353:16: ^( EXPR )
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1353:16: ^( EXPR )
                 {
                 Object root_2 = (Object)adaptor.nil();
                 root_2 = (Object)adaptor.becomeRoot((Object)adaptor.create(EXPR, "EXPR"), root_2);
 
                 adaptor.addChild(root_1, root_2);
                 }
-                // com/google/jstestdriver/coverage/es3/ES3.g:1353:26: ^( EXPR ( $ex1)? )
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1353:26: ^( EXPR ( $ex1)? )
                 {
                 Object root_2 = (Object)adaptor.nil();
                 root_2 = (Object)adaptor.becomeRoot((Object)adaptor.create(EXPR, "EXPR"), root_2);
 
-                // com/google/jstestdriver/coverage/es3/ES3.g:1353:34: ( $ex1)?
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1353:34: ( $ex1)?
                 if ( stream_ex1.hasNext() ) {
                     adaptor.addChild(root_2, stream_ex1.nextTree());
 
@@ -7788,12 +7788,12 @@ public class ES3Parser extends Parser {
 
                 adaptor.addChild(root_1, root_2);
                 }
-                // com/google/jstestdriver/coverage/es3/ES3.g:1353:42: ^( EXPR ( $ex2)? )
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1353:42: ^( EXPR ( $ex2)? )
                 {
                 Object root_2 = (Object)adaptor.nil();
                 root_2 = (Object)adaptor.becomeRoot((Object)adaptor.create(EXPR, "EXPR"), root_2);
 
-                // com/google/jstestdriver/coverage/es3/ES3.g:1353:50: ( $ex2)?
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1353:50: ( $ex2)?
                 if ( stream_ex2.hasNext() ) {
                     adaptor.addChild(root_2, stream_ex2.nextTree());
 
@@ -7835,7 +7835,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "continueStatement"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1365:1: continueStatement : CONTINUE ( Identifier )? semic ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1365:1: continueStatement : CONTINUE ( Identifier )? semic ;
     public final ES3Parser.continueStatement_return continueStatement() throws RecognitionException {
         ES3Parser.continueStatement_return retval = new ES3Parser.continueStatement_return();
         retval.start = input.LT(1);
@@ -7851,8 +7851,8 @@ public class ES3Parser extends Parser {
         Object Identifier219_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1366:2: ( CONTINUE ( Identifier )? semic )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1366:4: CONTINUE ( Identifier )? semic
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1366:2: ( CONTINUE ( Identifier )? semic )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1366:4: CONTINUE ( Identifier )? semic
             {
             root_0 = (Object)adaptor.nil();
 
@@ -7861,7 +7861,7 @@ public class ES3Parser extends Parser {
             root_0 = (Object)adaptor.becomeRoot(CONTINUE218_tree, root_0);
 
              if (input.LA(1) == Identifier) promoteEOL(null); 
-            // com/google/jstestdriver/coverage/es3/ES3.g:1366:67: ( Identifier )?
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1366:67: ( Identifier )?
             int alt63=2;
             int LA63_0 = input.LA(1);
 
@@ -7870,7 +7870,7 @@ public class ES3Parser extends Parser {
             }
             switch (alt63) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1366:67: Identifier
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1366:67: Identifier
                     {
                     Identifier219=(Token)match(input,Identifier,FOLLOW_Identifier_in_continueStatement5315); 
                     Identifier219_tree = (Object)adaptor.create(Identifier219);
@@ -7914,7 +7914,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "breakStatement"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1378:1: breakStatement : BREAK ( Identifier )? semic ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1378:1: breakStatement : BREAK ( Identifier )? semic ;
     public final ES3Parser.breakStatement_return breakStatement() throws RecognitionException {
         ES3Parser.breakStatement_return retval = new ES3Parser.breakStatement_return();
         retval.start = input.LT(1);
@@ -7930,8 +7930,8 @@ public class ES3Parser extends Parser {
         Object Identifier222_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1379:2: ( BREAK ( Identifier )? semic )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1379:4: BREAK ( Identifier )? semic
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1379:2: ( BREAK ( Identifier )? semic )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1379:4: BREAK ( Identifier )? semic
             {
             root_0 = (Object)adaptor.nil();
 
@@ -7940,7 +7940,7 @@ public class ES3Parser extends Parser {
             root_0 = (Object)adaptor.becomeRoot(BREAK221_tree, root_0);
 
              if (input.LA(1) == Identifier) promoteEOL(null); 
-            // com/google/jstestdriver/coverage/es3/ES3.g:1379:64: ( Identifier )?
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1379:64: ( Identifier )?
             int alt64=2;
             int LA64_0 = input.LA(1);
 
@@ -7949,7 +7949,7 @@ public class ES3Parser extends Parser {
             }
             switch (alt64) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1379:64: Identifier
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1379:64: Identifier
                     {
                     Identifier222=(Token)match(input,Identifier,FOLLOW_Identifier_in_breakStatement5342); 
                     Identifier222_tree = (Object)adaptor.create(Identifier222);
@@ -7993,7 +7993,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "returnStatement"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1399:1: returnStatement : RETURN ( expression )? semic ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1399:1: returnStatement : RETURN ( expression )? semic ;
     public final ES3Parser.returnStatement_return returnStatement() throws RecognitionException {
         ES3Parser.returnStatement_return retval = new ES3Parser.returnStatement_return();
         retval.start = input.LT(1);
@@ -8009,8 +8009,8 @@ public class ES3Parser extends Parser {
         Object RETURN224_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1400:2: ( RETURN ( expression )? semic )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1400:4: RETURN ( expression )? semic
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1400:2: ( RETURN ( expression )? semic )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1400:4: RETURN ( expression )? semic
             {
             root_0 = (Object)adaptor.nil();
 
@@ -8019,7 +8019,7 @@ public class ES3Parser extends Parser {
             root_0 = (Object)adaptor.becomeRoot(RETURN224_tree, root_0);
 
              promoteEOL(null); 
-            // com/google/jstestdriver/coverage/es3/ES3.g:1400:34: ( expression )?
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1400:34: ( expression )?
             int alt65=2;
             int LA65_0 = input.LA(1);
 
@@ -8028,7 +8028,7 @@ public class ES3Parser extends Parser {
             }
             switch (alt65) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1400:34: expression
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1400:34: expression
                     {
                     pushFollow(FOLLOW_expression_in_returnStatement5369);
                     expression225=expression();
@@ -8074,7 +8074,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "withStatement"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1407:1: withStatement : WITH LPAREN expression RPAREN statement ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1407:1: withStatement : WITH LPAREN expression RPAREN statement ;
     public final ES3Parser.withStatement_return withStatement() throws RecognitionException {
         ES3Parser.withStatement_return retval = new ES3Parser.withStatement_return();
         retval.start = input.LT(1);
@@ -8094,8 +8094,8 @@ public class ES3Parser extends Parser {
         Object RPAREN230_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1408:2: ( WITH LPAREN expression RPAREN statement )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1408:4: WITH LPAREN expression RPAREN statement
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1408:2: ( WITH LPAREN expression RPAREN statement )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1408:4: WITH LPAREN expression RPAREN statement
             {
             root_0 = (Object)adaptor.nil();
 
@@ -8144,7 +8144,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "switchStatement"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1415:1: switchStatement : SWITCH LPAREN expression RPAREN LBRACE ({...}? => defaultClause | caseClause )* RBRACE -> ^( SWITCH expression ( defaultClause )? ( caseClause )* ) ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1415:1: switchStatement : SWITCH LPAREN expression RPAREN LBRACE ({...}? => defaultClause | caseClause )* RBRACE -> ^( SWITCH expression ( defaultClause )? ( caseClause )* ) ;
     public final ES3Parser.switchStatement_return switchStatement() throws RecognitionException {
         ES3Parser.switchStatement_return retval = new ES3Parser.switchStatement_return();
         retval.start = input.LT(1);
@@ -8180,8 +8180,8 @@ public class ES3Parser extends Parser {
         	int defaultClauseCount = 0;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1420:2: ( SWITCH LPAREN expression RPAREN LBRACE ({...}? => defaultClause | caseClause )* RBRACE -> ^( SWITCH expression ( defaultClause )? ( caseClause )* ) )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1420:4: SWITCH LPAREN expression RPAREN LBRACE ({...}? => defaultClause | caseClause )* RBRACE
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1420:2: ( SWITCH LPAREN expression RPAREN LBRACE ({...}? => defaultClause | caseClause )* RBRACE -> ^( SWITCH expression ( defaultClause )? ( caseClause )* ) )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1420:4: SWITCH LPAREN expression RPAREN LBRACE ({...}? => defaultClause | caseClause )* RBRACE
             {
             SWITCH232=(Token)match(input,SWITCH,FOLLOW_SWITCH_in_switchStatement5421);  
             stream_SWITCH.add(SWITCH232);
@@ -8201,7 +8201,7 @@ public class ES3Parser extends Parser {
             LBRACE236=(Token)match(input,LBRACE,FOLLOW_LBRACE_in_switchStatement5429);  
             stream_LBRACE.add(LBRACE236);
 
-            // com/google/jstestdriver/coverage/es3/ES3.g:1420:43: ({...}? => defaultClause | caseClause )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1420:43: ({...}? => defaultClause | caseClause )*
             loop66:
             do {
                 int alt66=3;
@@ -8217,7 +8217,7 @@ public class ES3Parser extends Parser {
 
                 switch (alt66) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:1420:45: {...}? => defaultClause
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:1420:45: {...}? => defaultClause
             	    {
             	    if ( !(( defaultClauseCount == 0 )) ) {
             	        throw new FailedPredicateException(input, "switchStatement", " defaultClauseCount == 0 ");
@@ -8233,7 +8233,7 @@ public class ES3Parser extends Parser {
             	    }
             	    break;
             	case 2 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:1420:118: caseClause
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:1420:118: caseClause
             	    {
             	    pushFollow(FOLLOW_caseClause_in_switchStatement5442);
             	    caseClause238=caseClause();
@@ -8256,7 +8256,7 @@ public class ES3Parser extends Parser {
 
 
             // AST REWRITE
-            // elements: caseClause, expression, defaultClause, SWITCH
+            // elements: SWITCH, expression, defaultClause, caseClause
             // token labels: 
             // rule labels: retval
             // token list labels: 
@@ -8268,19 +8268,19 @@ public class ES3Parser extends Parser {
             root_0 = (Object)adaptor.nil();
             // 1421:2: -> ^( SWITCH expression ( defaultClause )? ( caseClause )* )
             {
-                // com/google/jstestdriver/coverage/es3/ES3.g:1421:5: ^( SWITCH expression ( defaultClause )? ( caseClause )* )
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1421:5: ^( SWITCH expression ( defaultClause )? ( caseClause )* )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(stream_SWITCH.nextNode(), root_1);
 
                 adaptor.addChild(root_1, stream_expression.nextTree());
-                // com/google/jstestdriver/coverage/es3/ES3.g:1421:26: ( defaultClause )?
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1421:26: ( defaultClause )?
                 if ( stream_defaultClause.hasNext() ) {
                     adaptor.addChild(root_1, stream_defaultClause.nextTree());
 
                 }
                 stream_defaultClause.reset();
-                // com/google/jstestdriver/coverage/es3/ES3.g:1421:41: ( caseClause )*
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1421:41: ( caseClause )*
                 while ( stream_caseClause.hasNext() ) {
                     adaptor.addChild(root_1, stream_caseClause.nextTree());
 
@@ -8319,7 +8319,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "caseClause"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1424:1: caseClause : CASE expression COLON ( statement )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1424:1: caseClause : CASE expression COLON ( statement )* ;
     public final ES3Parser.caseClause_return caseClause() throws RecognitionException {
         ES3Parser.caseClause_return retval = new ES3Parser.caseClause_return();
         retval.start = input.LT(1);
@@ -8337,8 +8337,8 @@ public class ES3Parser extends Parser {
         Object COLON242_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1425:2: ( CASE expression COLON ( statement )* )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1425:4: CASE expression COLON ( statement )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1425:2: ( CASE expression COLON ( statement )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1425:4: CASE expression COLON ( statement )*
             {
             root_0 = (Object)adaptor.nil();
 
@@ -8353,7 +8353,7 @@ public class ES3Parser extends Parser {
 
             adaptor.addChild(root_0, expression241.getTree());
             COLON242=(Token)match(input,COLON,FOLLOW_COLON_in_caseClause5480); 
-            // com/google/jstestdriver/coverage/es3/ES3.g:1425:28: ( statement )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1425:28: ( statement )*
             loop67:
             do {
                 int alt67=2;
@@ -8366,7 +8366,7 @@ public class ES3Parser extends Parser {
 
                 switch (alt67) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:1425:28: statement
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:1425:28: statement
             	    {
             	    pushFollow(FOLLOW_statement_in_caseClause5483);
             	    statement243=statement();
@@ -8410,7 +8410,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "defaultClause"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1428:1: defaultClause : DEFAULT COLON ( statement )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1428:1: defaultClause : DEFAULT COLON ( statement )* ;
     public final ES3Parser.defaultClause_return defaultClause() throws RecognitionException {
         ES3Parser.defaultClause_return retval = new ES3Parser.defaultClause_return();
         retval.start = input.LT(1);
@@ -8426,8 +8426,8 @@ public class ES3Parser extends Parser {
         Object COLON245_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1429:2: ( DEFAULT COLON ( statement )* )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1429:4: DEFAULT COLON ( statement )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1429:2: ( DEFAULT COLON ( statement )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1429:4: DEFAULT COLON ( statement )*
             {
             root_0 = (Object)adaptor.nil();
 
@@ -8436,7 +8436,7 @@ public class ES3Parser extends Parser {
             root_0 = (Object)adaptor.becomeRoot(DEFAULT244_tree, root_0);
 
             COLON245=(Token)match(input,COLON,FOLLOW_COLON_in_defaultClause5499); 
-            // com/google/jstestdriver/coverage/es3/ES3.g:1429:20: ( statement )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1429:20: ( statement )*
             loop68:
             do {
                 int alt68=2;
@@ -8449,7 +8449,7 @@ public class ES3Parser extends Parser {
 
                 switch (alt68) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:1429:20: statement
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:1429:20: statement
             	    {
             	    pushFollow(FOLLOW_statement_in_defaultClause5502);
             	    statement246=statement();
@@ -8493,7 +8493,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "labelledStatement"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1436:1: labelledStatement : Identifier COLON statement -> ^( LABELLED Identifier statement ) ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1436:1: labelledStatement : Identifier COLON statement -> ^( LABELLED Identifier statement ) ;
     public final ES3Parser.labelledStatement_return labelledStatement() throws RecognitionException {
         ES3Parser.labelledStatement_return retval = new ES3Parser.labelledStatement_return();
         retval.start = input.LT(1);
@@ -8511,8 +8511,8 @@ public class ES3Parser extends Parser {
         RewriteRuleTokenStream stream_Identifier=new RewriteRuleTokenStream(adaptor,"token Identifier");
         RewriteRuleSubtreeStream stream_statement=new RewriteRuleSubtreeStream(adaptor,"rule statement");
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1437:2: ( Identifier COLON statement -> ^( LABELLED Identifier statement ) )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1437:4: Identifier COLON statement
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1437:2: ( Identifier COLON statement -> ^( LABELLED Identifier statement ) )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1437:4: Identifier COLON statement
             {
             Identifier247=(Token)match(input,Identifier,FOLLOW_Identifier_in_labelledStatement5519);  
             stream_Identifier.add(Identifier247);
@@ -8541,7 +8541,7 @@ public class ES3Parser extends Parser {
             root_0 = (Object)adaptor.nil();
             // 1438:2: -> ^( LABELLED Identifier statement )
             {
-                // com/google/jstestdriver/coverage/es3/ES3.g:1438:5: ^( LABELLED Identifier statement )
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1438:5: ^( LABELLED Identifier statement )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot((Object)adaptor.create(LABELLED, "LABELLED"), root_1);
@@ -8581,7 +8581,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "throwStatement"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1460:1: throwStatement : THROW expression semic ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1460:1: throwStatement : THROW expression semic ;
     public final ES3Parser.throwStatement_return throwStatement() throws RecognitionException {
         ES3Parser.throwStatement_return retval = new ES3Parser.throwStatement_return();
         retval.start = input.LT(1);
@@ -8597,8 +8597,8 @@ public class ES3Parser extends Parser {
         Object THROW250_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1461:2: ( THROW expression semic )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1461:4: THROW expression semic
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1461:2: ( THROW expression semic )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1461:4: THROW expression semic
             {
             root_0 = (Object)adaptor.nil();
 
@@ -8645,7 +8645,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "tryStatement"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1468:1: tryStatement : TRY block ( catchClause ( finallyClause )? | finallyClause ) ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1468:1: tryStatement : TRY block ( catchClause ( finallyClause )? | finallyClause ) ;
     public final ES3Parser.tryStatement_return tryStatement() throws RecognitionException {
         ES3Parser.tryStatement_return retval = new ES3Parser.tryStatement_return();
         retval.start = input.LT(1);
@@ -8665,8 +8665,8 @@ public class ES3Parser extends Parser {
         Object TRY253_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1469:2: ( TRY block ( catchClause ( finallyClause )? | finallyClause ) )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1469:4: TRY block ( catchClause ( finallyClause )? | finallyClause )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1469:2: ( TRY block ( catchClause ( finallyClause )? | finallyClause ) )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1469:4: TRY block ( catchClause ( finallyClause )? | finallyClause )
             {
             root_0 = (Object)adaptor.nil();
 
@@ -8680,7 +8680,7 @@ public class ES3Parser extends Parser {
             state._fsp--;
 
             adaptor.addChild(root_0, block254.getTree());
-            // com/google/jstestdriver/coverage/es3/ES3.g:1469:15: ( catchClause ( finallyClause )? | finallyClause )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1469:15: ( catchClause ( finallyClause )? | finallyClause )
             int alt70=2;
             int LA70_0 = input.LA(1);
 
@@ -8698,7 +8698,7 @@ public class ES3Parser extends Parser {
             }
             switch (alt70) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1469:17: catchClause ( finallyClause )?
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1469:17: catchClause ( finallyClause )?
                     {
                     pushFollow(FOLLOW_catchClause_in_tryStatement5585);
                     catchClause255=catchClause();
@@ -8706,7 +8706,7 @@ public class ES3Parser extends Parser {
                     state._fsp--;
 
                     adaptor.addChild(root_0, catchClause255.getTree());
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1469:29: ( finallyClause )?
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1469:29: ( finallyClause )?
                     int alt69=2;
                     int LA69_0 = input.LA(1);
 
@@ -8715,7 +8715,7 @@ public class ES3Parser extends Parser {
                     }
                     switch (alt69) {
                         case 1 :
-                            // com/google/jstestdriver/coverage/es3/ES3.g:1469:29: finallyClause
+                            // net/awired/jscoverage/instrumentation/es3/ES3.g:1469:29: finallyClause
                             {
                             pushFollow(FOLLOW_finallyClause_in_tryStatement5587);
                             finallyClause256=finallyClause();
@@ -8733,7 +8733,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1469:46: finallyClause
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1469:46: finallyClause
                     {
                     pushFollow(FOLLOW_finallyClause_in_tryStatement5592);
                     finallyClause257=finallyClause();
@@ -8774,7 +8774,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "catchClause"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1472:1: catchClause : CATCH LPAREN Identifier RPAREN block ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1472:1: catchClause : CATCH LPAREN Identifier RPAREN block ;
     public final ES3Parser.catchClause_return catchClause() throws RecognitionException {
         ES3Parser.catchClause_return retval = new ES3Parser.catchClause_return();
         retval.start = input.LT(1);
@@ -8794,8 +8794,8 @@ public class ES3Parser extends Parser {
         Object RPAREN261_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1473:2: ( CATCH LPAREN Identifier RPAREN block )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1473:4: CATCH LPAREN Identifier RPAREN block
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1473:2: ( CATCH LPAREN Identifier RPAREN block )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1473:4: CATCH LPAREN Identifier RPAREN block
             {
             root_0 = (Object)adaptor.nil();
 
@@ -8842,7 +8842,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "finallyClause"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1476:1: finallyClause : FINALLY block ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1476:1: finallyClause : FINALLY block ;
     public final ES3Parser.finallyClause_return finallyClause() throws RecognitionException {
         ES3Parser.finallyClause_return retval = new ES3Parser.finallyClause_return();
         retval.start = input.LT(1);
@@ -8856,8 +8856,8 @@ public class ES3Parser extends Parser {
         Object FINALLY263_tree=null;
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1477:2: ( FINALLY block )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1477:4: FINALLY block
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1477:2: ( FINALLY block )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1477:4: FINALLY block
             {
             root_0 = (Object)adaptor.nil();
 
@@ -8898,7 +8898,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "functionDeclaration"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1490:1: functionDeclaration : FUNCTION name= Identifier formalParameterList functionBody -> ^( FUNCTION $name formalParameterList functionBody ) ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1490:1: functionDeclaration : FUNCTION name= Identifier formalParameterList functionBody -> ^( FUNCTION $name formalParameterList functionBody ) ;
     public final ES3Parser.functionDeclaration_return functionDeclaration() throws RecognitionException {
         ES3Parser.functionDeclaration_return retval = new ES3Parser.functionDeclaration_return();
         retval.start = input.LT(1);
@@ -8919,8 +8919,8 @@ public class ES3Parser extends Parser {
         RewriteRuleSubtreeStream stream_functionBody=new RewriteRuleSubtreeStream(adaptor,"rule functionBody");
         RewriteRuleSubtreeStream stream_formalParameterList=new RewriteRuleSubtreeStream(adaptor,"rule formalParameterList");
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1491:2: ( FUNCTION name= Identifier formalParameterList functionBody -> ^( FUNCTION $name formalParameterList functionBody ) )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1491:4: FUNCTION name= Identifier formalParameterList functionBody
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1491:2: ( FUNCTION name= Identifier formalParameterList functionBody -> ^( FUNCTION $name formalParameterList functionBody ) )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1491:4: FUNCTION name= Identifier formalParameterList functionBody
             {
             FUNCTION265=(Token)match(input,FUNCTION,FOLLOW_FUNCTION_in_functionDeclaration5653);  
             stream_FUNCTION.add(FUNCTION265);
@@ -8943,7 +8943,7 @@ public class ES3Parser extends Parser {
 
 
             // AST REWRITE
-            // elements: FUNCTION, formalParameterList, functionBody, name
+            // elements: FUNCTION, functionBody, name, formalParameterList
             // token labels: name
             // rule labels: retval
             // token list labels: 
@@ -8956,7 +8956,7 @@ public class ES3Parser extends Parser {
             root_0 = (Object)adaptor.nil();
             // 1492:2: -> ^( FUNCTION $name formalParameterList functionBody )
             {
-                // com/google/jstestdriver/coverage/es3/ES3.g:1492:5: ^( FUNCTION $name formalParameterList functionBody )
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1492:5: ^( FUNCTION $name formalParameterList functionBody )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(stream_FUNCTION.nextNode(), root_1);
@@ -8997,7 +8997,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "functionExpression"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1495:1: functionExpression : FUNCTION (name= Identifier )? formalParameterList functionBody -> ^( FUNCTION ( $name)? formalParameterList functionBody ) ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1495:1: functionExpression : FUNCTION (name= Identifier )? formalParameterList functionBody -> ^( FUNCTION ( $name)? formalParameterList functionBody ) ;
     public final ES3Parser.functionExpression_return functionExpression() throws RecognitionException {
         ES3Parser.functionExpression_return retval = new ES3Parser.functionExpression_return();
         retval.start = input.LT(1);
@@ -9018,13 +9018,13 @@ public class ES3Parser extends Parser {
         RewriteRuleSubtreeStream stream_functionBody=new RewriteRuleSubtreeStream(adaptor,"rule functionBody");
         RewriteRuleSubtreeStream stream_formalParameterList=new RewriteRuleSubtreeStream(adaptor,"rule formalParameterList");
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1496:2: ( FUNCTION (name= Identifier )? formalParameterList functionBody -> ^( FUNCTION ( $name)? formalParameterList functionBody ) )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1496:4: FUNCTION (name= Identifier )? formalParameterList functionBody
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1496:2: ( FUNCTION (name= Identifier )? formalParameterList functionBody -> ^( FUNCTION ( $name)? formalParameterList functionBody ) )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1496:4: FUNCTION (name= Identifier )? formalParameterList functionBody
             {
             FUNCTION268=(Token)match(input,FUNCTION,FOLLOW_FUNCTION_in_functionExpression5688);  
             stream_FUNCTION.add(FUNCTION268);
 
-            // com/google/jstestdriver/coverage/es3/ES3.g:1496:17: (name= Identifier )?
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1496:17: (name= Identifier )?
             int alt71=2;
             int LA71_0 = input.LA(1);
 
@@ -9033,7 +9033,7 @@ public class ES3Parser extends Parser {
             }
             switch (alt71) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1496:17: name= Identifier
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1496:17: name= Identifier
                     {
                     name=(Token)match(input,Identifier,FOLLOW_Identifier_in_functionExpression5692);  
                     stream_Identifier.add(name);
@@ -9059,7 +9059,7 @@ public class ES3Parser extends Parser {
 
 
             // AST REWRITE
-            // elements: name, formalParameterList, FUNCTION, functionBody
+            // elements: functionBody, FUNCTION, name, formalParameterList
             // token labels: name
             // rule labels: retval
             // token list labels: 
@@ -9072,12 +9072,12 @@ public class ES3Parser extends Parser {
             root_0 = (Object)adaptor.nil();
             // 1497:2: -> ^( FUNCTION ( $name)? formalParameterList functionBody )
             {
-                // com/google/jstestdriver/coverage/es3/ES3.g:1497:5: ^( FUNCTION ( $name)? formalParameterList functionBody )
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1497:5: ^( FUNCTION ( $name)? formalParameterList functionBody )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(stream_FUNCTION.nextNode(), root_1);
 
-                // com/google/jstestdriver/coverage/es3/ES3.g:1497:17: ( $name)?
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1497:17: ( $name)?
                 if ( stream_name.hasNext() ) {
                     adaptor.addChild(root_1, stream_name.nextNode());
 
@@ -9118,7 +9118,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "formalParameterList"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1500:1: formalParameterList : LPAREN ( Identifier ( COMMA Identifier )* )? RPAREN -> ^( ARGS ( Identifier )* ) ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1500:1: formalParameterList : LPAREN ( Identifier ( COMMA Identifier )* )? RPAREN -> ^( ARGS ( Identifier )* ) ;
     public final ES3Parser.formalParameterList_return formalParameterList() throws RecognitionException {
         ES3Parser.formalParameterList_return retval = new ES3Parser.formalParameterList_return();
         retval.start = input.LT(1);
@@ -9142,13 +9142,13 @@ public class ES3Parser extends Parser {
         RewriteRuleTokenStream stream_LPAREN=new RewriteRuleTokenStream(adaptor,"token LPAREN");
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1501:2: ( LPAREN ( Identifier ( COMMA Identifier )* )? RPAREN -> ^( ARGS ( Identifier )* ) )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1501:4: LPAREN ( Identifier ( COMMA Identifier )* )? RPAREN
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1501:2: ( LPAREN ( Identifier ( COMMA Identifier )* )? RPAREN -> ^( ARGS ( Identifier )* ) )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1501:4: LPAREN ( Identifier ( COMMA Identifier )* )? RPAREN
             {
             LPAREN271=(Token)match(input,LPAREN,FOLLOW_LPAREN_in_formalParameterList5725);  
             stream_LPAREN.add(LPAREN271);
 
-            // com/google/jstestdriver/coverage/es3/ES3.g:1501:11: ( Identifier ( COMMA Identifier )* )?
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1501:11: ( Identifier ( COMMA Identifier )* )?
             int alt73=2;
             int LA73_0 = input.LA(1);
 
@@ -9157,12 +9157,12 @@ public class ES3Parser extends Parser {
             }
             switch (alt73) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1501:13: Identifier ( COMMA Identifier )*
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1501:13: Identifier ( COMMA Identifier )*
                     {
                     Identifier272=(Token)match(input,Identifier,FOLLOW_Identifier_in_formalParameterList5729);  
                     stream_Identifier.add(Identifier272);
 
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1501:24: ( COMMA Identifier )*
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1501:24: ( COMMA Identifier )*
                     loop72:
                     do {
                         int alt72=2;
@@ -9175,7 +9175,7 @@ public class ES3Parser extends Parser {
 
                         switch (alt72) {
                     	case 1 :
-                    	    // com/google/jstestdriver/coverage/es3/ES3.g:1501:26: COMMA Identifier
+                    	    // net/awired/jscoverage/instrumentation/es3/ES3.g:1501:26: COMMA Identifier
                     	    {
                     	    COMMA273=(Token)match(input,COMMA,FOLLOW_COMMA_in_formalParameterList5733);  
                     	    stream_COMMA.add(COMMA273);
@@ -9216,12 +9216,12 @@ public class ES3Parser extends Parser {
             root_0 = (Object)adaptor.nil();
             // 1502:2: -> ^( ARGS ( Identifier )* )
             {
-                // com/google/jstestdriver/coverage/es3/ES3.g:1502:5: ^( ARGS ( Identifier )* )
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1502:5: ^( ARGS ( Identifier )* )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot((Object)adaptor.create(ARGS, "ARGS"), root_1);
 
-                // com/google/jstestdriver/coverage/es3/ES3.g:1502:13: ( Identifier )*
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1502:13: ( Identifier )*
                 while ( stream_Identifier.hasNext() ) {
                     adaptor.addChild(root_1, stream_Identifier.nextNode());
 
@@ -9260,7 +9260,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "functionBody"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1505:1: functionBody : lb= LBRACE ( sourceElement )* RBRACE -> ^( BLOCK[$lb, \"BLOCK\"] ( sourceElement )* ) ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1505:1: functionBody : lb= LBRACE ( sourceElement )* RBRACE -> ^( BLOCK[$lb, \"BLOCK\"] ( sourceElement )* ) ;
     public final ES3Parser.functionBody_return functionBody() throws RecognitionException {
         ES3Parser.functionBody_return retval = new ES3Parser.functionBody_return();
         retval.start = input.LT(1);
@@ -9278,13 +9278,13 @@ public class ES3Parser extends Parser {
         RewriteRuleTokenStream stream_LBRACE=new RewriteRuleTokenStream(adaptor,"token LBRACE");
         RewriteRuleSubtreeStream stream_sourceElement=new RewriteRuleSubtreeStream(adaptor,"rule sourceElement");
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1506:2: (lb= LBRACE ( sourceElement )* RBRACE -> ^( BLOCK[$lb, \"BLOCK\"] ( sourceElement )* ) )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1506:4: lb= LBRACE ( sourceElement )* RBRACE
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1506:2: (lb= LBRACE ( sourceElement )* RBRACE -> ^( BLOCK[$lb, \"BLOCK\"] ( sourceElement )* ) )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1506:4: lb= LBRACE ( sourceElement )* RBRACE
             {
             lb=(Token)match(input,LBRACE,FOLLOW_LBRACE_in_functionBody5768);  
             stream_LBRACE.add(lb);
 
-            // com/google/jstestdriver/coverage/es3/ES3.g:1506:14: ( sourceElement )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1506:14: ( sourceElement )*
             loop74:
             do {
                 int alt74=2;
@@ -9297,7 +9297,7 @@ public class ES3Parser extends Parser {
 
                 switch (alt74) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:1506:14: sourceElement
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:1506:14: sourceElement
             	    {
             	    pushFollow(FOLLOW_sourceElement_in_functionBody5770);
             	    sourceElement276=sourceElement();
@@ -9332,12 +9332,12 @@ public class ES3Parser extends Parser {
             root_0 = (Object)adaptor.nil();
             // 1507:2: -> ^( BLOCK[$lb, \"BLOCK\"] ( sourceElement )* )
             {
-                // com/google/jstestdriver/coverage/es3/ES3.g:1507:5: ^( BLOCK[$lb, \"BLOCK\"] ( sourceElement )* )
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1507:5: ^( BLOCK[$lb, \"BLOCK\"] ( sourceElement )* )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot((Object)adaptor.create(BLOCK, lb, "BLOCK"), root_1);
 
-                // com/google/jstestdriver/coverage/es3/ES3.g:1507:28: ( sourceElement )*
+                // net/awired/jscoverage/instrumentation/es3/ES3.g:1507:28: ( sourceElement )*
                 while ( stream_sourceElement.hasNext() ) {
                     adaptor.addChild(root_1, stream_sourceElement.nextTree());
 
@@ -9376,7 +9376,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "program"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1514:1: program : ( sourceElement )* ;
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1514:1: program : ( sourceElement )* ;
     public final ES3Parser.program_return program() throws RecognitionException {
         ES3Parser.program_return retval = new ES3Parser.program_return();
         retval.start = input.LT(1);
@@ -9388,12 +9388,12 @@ public class ES3Parser extends Parser {
 
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1515:2: ( ( sourceElement )* )
-            // com/google/jstestdriver/coverage/es3/ES3.g:1515:4: ( sourceElement )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1515:2: ( ( sourceElement )* )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1515:4: ( sourceElement )*
             {
             root_0 = (Object)adaptor.nil();
 
-            // com/google/jstestdriver/coverage/es3/ES3.g:1515:4: ( sourceElement )*
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1515:4: ( sourceElement )*
             loop75:
             do {
                 int alt75=2;
@@ -9406,7 +9406,7 @@ public class ES3Parser extends Parser {
 
                 switch (alt75) {
             	case 1 :
-            	    // com/google/jstestdriver/coverage/es3/ES3.g:1515:4: sourceElement
+            	    // net/awired/jscoverage/instrumentation/es3/ES3.g:1515:4: sourceElement
             	    {
             	    pushFollow(FOLLOW_sourceElement_in_program5802);
             	    sourceElement278=sourceElement();
@@ -9450,7 +9450,7 @@ public class ES3Parser extends Parser {
     };
 
     // $ANTLR start "sourceElement"
-    // com/google/jstestdriver/coverage/es3/ES3.g:1523:1: sourceElement options {k=1; } : ({...}? functionDeclaration | statement );
+    // net/awired/jscoverage/instrumentation/es3/ES3.g:1523:1: sourceElement options {k=1; } : ({...}? functionDeclaration | statement );
     public final ES3Parser.sourceElement_return sourceElement() throws RecognitionException {
         ES3Parser.sourceElement_return retval = new ES3Parser.sourceElement_return();
         retval.start = input.LT(1);
@@ -9464,12 +9464,12 @@ public class ES3Parser extends Parser {
 
 
         try {
-            // com/google/jstestdriver/coverage/es3/ES3.g:1528:2: ({...}? functionDeclaration | statement )
+            // net/awired/jscoverage/instrumentation/es3/ES3.g:1528:2: ({...}? functionDeclaration | statement )
             int alt76=2;
             alt76 = dfa76.predict(input);
             switch (alt76) {
                 case 1 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1528:4: {...}? functionDeclaration
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1528:4: {...}? functionDeclaration
                     {
                     root_0 = (Object)adaptor.nil();
 
@@ -9486,7 +9486,7 @@ public class ES3Parser extends Parser {
                     }
                     break;
                 case 2 :
-                    // com/google/jstestdriver/coverage/es3/ES3.g:1529:4: statement
+                    // net/awired/jscoverage/instrumentation/es3/ES3.g:1529:4: statement
                     {
                     root_0 = (Object)adaptor.nil();
 
