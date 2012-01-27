@@ -1,5 +1,5 @@
-// $ANTLR 3.1.2 net/awired/jscoverage/instrumentation/es3/ES3.g 2012-01-26 02:31:46
-package com.google.jstestdriver.coverage.es3;
+// $ANTLR 3.1.2 net/awired/jscoverage/instrumentation/es3/ES3.g 2012-01-26 02:35:07
+package net.awired.jscoverage.instrumentation.es3;
 
 import org.antlr.runtime.*;
 import java.util.Stack;
@@ -2595,7 +2595,7 @@ public class ES3Parser extends Parser {
 
 
             	    // AST REWRITE
-            	    // elements: arguments, leftHandSideExpression
+            	    // elements: leftHandSideExpression, arguments
             	    // token labels: 
             	    // rule labels: retval
             	    // token list labels: 
@@ -2641,7 +2641,7 @@ public class ES3Parser extends Parser {
 
 
             	    // AST REWRITE
-            	    // elements: leftHandSideExpression, expression
+            	    // elements: expression, leftHandSideExpression
             	    // token labels: 
             	    // rule labels: retval
             	    // token list labels: 
@@ -2681,7 +2681,7 @@ public class ES3Parser extends Parser {
 
 
             	    // AST REWRITE
-            	    // elements: leftHandSideExpression, Identifier
+            	    // elements: Identifier, leftHandSideExpression
             	    // token labels: 
             	    // rule labels: retval
             	    // token list labels: 
@@ -6498,7 +6498,7 @@ public class ES3Parser extends Parser {
 
 
             // AST REWRITE
-            // elements: statement, ELSE, IF, expression, statement
+            // elements: IF, statement, expression, statement, ELSE
             // token labels: 
             // rule labels: retval
             // token list labels: 
@@ -7141,7 +7141,7 @@ public class ES3Parser extends Parser {
 
 
                     // AST REWRITE
-                    // elements: variableDeclarationNoIn, expression, VAR
+                    // elements: expression, VAR, variableDeclarationNoIn
                     // token labels: 
                     // rule labels: retval
                     // token list labels: 
@@ -7282,7 +7282,7 @@ public class ES3Parser extends Parser {
 
 
                     // AST REWRITE
-                    // elements: ex1, VAR, variableDeclarationNoIn, ex2
+                    // elements: ex2, variableDeclarationNoIn, VAR, ex1
                     // token labels: 
                     // rule labels: retval, ex2, ex1
                     // token list labels: 
@@ -7572,7 +7572,7 @@ public class ES3Parser extends Parser {
 
 
                     // AST REWRITE
-                    // elements: ex2, ex1, ex3
+                    // elements: ex3, ex2, ex1
                     // token labels: 
                     // rule labels: retval, ex3, ex2, ex1
                     // token list labels: 
@@ -7748,7 +7748,7 @@ public class ES3Parser extends Parser {
 
 
             // AST REWRITE
-            // elements: ex1, ex2
+            // elements: ex2, ex1
             // token labels: 
             // rule labels: retval, ex2, ex1
             // token list labels: 
@@ -8943,7 +8943,7 @@ public class ES3Parser extends Parser {
 
 
             // AST REWRITE
-            // elements: FUNCTION, functionBody, name, formalParameterList
+            // elements: name, formalParameterList, functionBody, FUNCTION
             // token labels: name
             // rule labels: retval
             // token list labels: 
@@ -9059,7 +9059,7 @@ public class ES3Parser extends Parser {
 
 
             // AST REWRITE
-            // elements: functionBody, FUNCTION, name, formalParameterList
+            // elements: name, formalParameterList, functionBody, FUNCTION
             // token labels: name
             // rule labels: retval
             // token list labels: 

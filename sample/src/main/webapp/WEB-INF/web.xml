@@ -1,0 +1,40 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>jscoverage sample</display-name>
+
+	<servlet>
+		<servlet-name>JsInstrumentedServlet</servlet-name>
+		<servlet-class>net.awired.jscoverage.sample.JsInstrumentedServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>JsResultServlet</servlet-name>
+		<servlet-class>net.awired.jscoverage.sample.JsResultServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>JsFileServlet</servlet-name>
+		<servlet-class>net.awired.jscoverage.sample.JsFileServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>JsResultServlet</servlet-name>
+		<url-pattern>/result</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>JsFileServlet</servlet-name>
+		<url-pattern>/file</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>JsInstrumentedServlet</servlet-name>
+		<url-pattern>/instrumented/*</url-pattern>
+	</servlet-mapping>
+
+
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+
+</web-app>
+

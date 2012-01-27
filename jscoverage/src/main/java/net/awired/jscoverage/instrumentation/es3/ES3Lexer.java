@@ -1,5 +1,5 @@
-// $ANTLR 3.1.2 net/awired/jscoverage/instrumentation/es3/ES3.g 2012-01-26 02:31:49
-package com.google.jstestdriver.coverage.es3;
+// $ANTLR 3.1.2 net/awired/jscoverage/instrumentation/es3/ES3.g 2012-01-26 02:35:09
+package net.awired.jscoverage.instrumentation.es3;
 
 import org.antlr.runtime.*;
 import java.util.Stack;

@@ -83,7 +83,7 @@ public Token nextToken()
 	return result;		
 }
 }
-@header {package com.google.jstestdriver.coverage.es3;}
+@header {package net.awired.jscoverage.instrumentation.es3;}
 
 NULL : 'null' ;
 TRUE : 'true' ;

@@ -6,7 +6,7 @@
 	<artifactId>jscoverage-parent</artifactId>
 	<version>0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	
+
 	<name>JsCoverage - Parent</name>
 
 	<parent>
@@ -26,4 +26,13 @@
 		<url>http://github.com/awired/jscoverage</url>
 	</scm>
 
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>net.awired.jscoverage</groupId>
+				<artifactId>jscoverage</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 </project>

@@ -1,4 +1,4 @@
-// $ANTLR 3.1.2 net/awired/jscoverage/instrumentation/es3/ES3Instrument.g 2012-01-26 02:31:43
+// $ANTLR 3.1.2 net/awired/jscoverage/instrumentation/es3/ES3Instrument.g 2012-01-26 02:35:04
 
   package net.awired.jscoverage.instrumentation.es3;
 

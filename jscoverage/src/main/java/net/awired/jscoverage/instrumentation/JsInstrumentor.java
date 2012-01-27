@@ -15,9 +15,9 @@ public class JsInstrumentor {
     public final Logger log = LoggerFactory.getLogger(this.getClass());
 
     private static final char[] TEMPLATE = ("group TestRewrite;\n" //
-            + "init_instrument(stmt, hash, name, lines) ::= \"LCOV_<hash>=" //
-            + "LCOV.initNoop('<name>',0,<lines>);<stmt>\"" //
-            + "instrument(stmt, hash, ln) ::= \"LCOV_<hash>[<ln>]++; <stmt>\""//
+            + "init_instrument(stmt, hash, name, lines) ::= \"JSCOV_<hash>=" //
+            + "JSCOV.initNoop('<name>',<lines>);<stmt>\"" //
+            + "instrument(stmt, hash, ln) ::= \"JSCOV_<hash>[<ln>]++; <stmt>\""//
             + "pass(stmt) ::= \"<stmt>\"").toCharArray();
 
     public JsInstrumentedSource instrument(String fileFullPath, String source) throws JsInstrumentationException {
