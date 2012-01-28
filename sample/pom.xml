@@ -21,6 +21,13 @@
 			<artifactId>jscoverage</artifactId>
 		</dependency>
 
+		<!-- json -->
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-mapper-asl</artifactId>
+			<version>1.9.4</version>
+		</dependency>
+
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>servlet-api</artifactId>

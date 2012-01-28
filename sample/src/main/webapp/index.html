@@ -1,11 +1,57 @@
 <html>
 <head>
-</head>
+<script type="text/javascript" src="jscov"></script>
+<script type="text/javascript" src="instrumented/com/company/Vehicle.js"></script>
+<script type="text/javascript" src="instrumented/com/company/Truck.js"></script>
+<script type="text/javascript" src="instrumented/com/company/Car.js"></script>
+<script type="text/javascript" src="instrumented/Person.js"></script>
+<script type="text/javascript">
+	window.onload = function() {
+		
+		function xmlhttpPost(strURL, obj) {
+		    var xmlHttpReq = false;
+		    var self = this;
+		    // Mozilla/Safari
+		    if (window.XMLHttpRequest) {
+		        self.xmlHttpReq = new XMLHttpRequest();
+		    }
+		    // IE
+		    else if (window.ActiveXObject) {
+		        self.xmlHttpReq = new ActiveXObject("Microsoft.XMLHTTP");
+		    }
+		    self.xmlHttpReq.open('POST', strURL, true);
+		    self.xmlHttpReq.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+		    self.xmlHttpReq.onreadystatechange = function() {
+		        if (self.xmlHttpReq.readyState == 4) {
+		        	document.getElementById("result").innerHTML = self.xmlHttpReq.responseText;
+		        }
+		    }
+		    self.xmlHttpReq.send(JSON.stringify(obj));
+		}
+		
+		
+		run1 = function() {
+			var p = new Person();                  
+			p.whoAreYou();
+			new Car("super", "fastcar", 2004);			
+		}
 
+		run2 = function() {
+			new Car();
+			new Truck("super", "truck", 1995).calculatePrice();
+		}
+		
+		run1();
+		JSCOV.storeCurrentRunResult("run1");
+		JSCOV.resetCurrentRunResult();
+		run2();
+		JSCOV.storeCurrentRunResult("run2");
+		
+		xmlhttpPost('result', JSCOV.getStoredRunResult());
+	}
+	</script>
+</head>
 <body>
-	<ul>
-		<li><a href="run">run test example</a></li>
-		<li><a href="run?2">run test example 2</a></li>		
-	</ul>
+	<pre id="result"></pre>
 </body>
 </html>

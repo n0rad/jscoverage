@@ -14,8 +14,8 @@
 		<servlet-class>net.awired.jscoverage.sample.JsResultServlet</servlet-class>
 	</servlet>
 	<servlet>
-		<servlet-name>JsFileServlet</servlet-name>
-		<servlet-class>net.awired.jscoverage.sample.JsFileServlet</servlet-class>
+		<servlet-name>JSCOVServlet</servlet-name>
+		<servlet-class>net.awired.jscoverage.sample.JSCOVServlet</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
@@ -23,8 +23,8 @@
 		<url-pattern>/result</url-pattern>
 	</servlet-mapping>
 	<servlet-mapping>
-		<servlet-name>JsFileServlet</servlet-name>
-		<url-pattern>/file</url-pattern>
+		<servlet-name>JSCOVServlet</servlet-name>
+		<url-pattern>/jscov</url-pattern>
 	</servlet-mapping>
 	<servlet-mapping>
 		<servlet-name>JsInstrumentedServlet</servlet-name>

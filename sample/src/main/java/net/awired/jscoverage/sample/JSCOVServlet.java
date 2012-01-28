@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import net.awired.jscoverage.instrumentation.JsInstrumentor;
 
-public class JsFileServlet extends HttpServlet {
+public class JSCOVServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
     @Override
