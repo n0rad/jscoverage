@@ -10,7 +10,7 @@ public class JsFileResult {
     private static final Logger LOG = LoggerFactory.getLogger(JsFileResult.class);
 
     private String filename;
-    private Map<Integer, Integer> lineCovered;
+    private Map<Integer, Integer> lineCovered = new HashMap<Integer, Integer>();
 
     public JsFileResult() {
     }
@@ -21,12 +21,13 @@ public class JsFileResult {
     }
 
     public void aggregateFrom(JsFileResult from) {
-        if (!filename.equals(from.filename)) {
-            LOG.warn("trying to aggregate fileResult with different name : {} and {}", filename, from.filename);
+        if (filename != null && !filename.equals(from.filename)) {
+            LOG.warn("aggregating fileResult with different names : {} and {}", filename, from.filename);
         }
 
         for (Integer line : from.lineCovered.keySet()) {
             Integer currentValue = lineCovered.get(line);
+
             lineCovered.put(line, (currentValue == null ? 0 : currentValue) + from.lineCovered.get(line));
         }
     }

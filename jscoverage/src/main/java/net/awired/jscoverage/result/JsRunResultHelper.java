@@ -1,6 +1,7 @@
 package net.awired.jscoverage.result;
 
 import java.util.List;
+import com.google.common.base.Preconditions;
 import com.google.common.base.Predicate;
 import com.google.common.collect.Iterables;
 
@@ -27,10 +28,12 @@ public class JsRunResultHelper {
     }
 
     private static int findIndefOfFileResultForName(List<JsFileResult> jsFileResults, String name) {
+        Preconditions.checkNotNull(name, "name is mandatory");
         final String currentName = name.intern();
         return Iterables.indexOf(jsFileResults, new Predicate<JsFileResult>() {
             @Override
             public boolean apply(JsFileResult fileResult) {
+                Preconditions.checkNotNull(fileResult.getFilename(), "name is mandatory");
                 return fileResult.getFilename().intern() == currentName;
             }
         });
