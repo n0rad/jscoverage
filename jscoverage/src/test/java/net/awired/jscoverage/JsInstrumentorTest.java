@@ -14,7 +14,7 @@ public class JsInstrumentorTest {
 
         JsInstrumentedSource instrument = jsInstrumentor.instrument("genre/style/ouda.js", source);
 
-        assertEquals("LCOV_laf5iu=LCOV.initNoop('genre/style/ouda.js',0,[1, 2]);LCOV_laf5iu[1]++; var a = 1;\n"
-                + "LCOV_laf5iu[2]++; var b = 42;", instrument.getIntrumentedSource());
+        assertEquals("JSCOV_laf5iu=JSCOV.initNoop('genre/style/ouda.js',[1, 2]);JSCOV_laf5iu[1]++; var a = 1;\n"
+                + "JSCOV_laf5iu[2]++; var b = 42;", instrument.getIntrumentedSource());
     }
 }

@@ -13,6 +13,7 @@ import org.slf4j.LoggerFactory;
 public class JsInstrumentor {
 
     public final Logger log = LoggerFactory.getLogger(this.getClass());
+    public static final String JSCOV_FILE = "/JSCOV.js";
 
     private static final char[] TEMPLATE = ("group TestRewrite;\n" //
             + "init_instrument(stmt, hash, name, lines) ::= \"JSCOV_<hash>=" //
