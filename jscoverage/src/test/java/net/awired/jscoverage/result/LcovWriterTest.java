@@ -20,7 +20,7 @@ public class LcovWriterTest {
         test1.setFileResult(Arrays.asList(fileResult, fileResult2));
         StringWriter writer = new StringWriter();
 
-        LcovWriter.write(writer, test1);
+        new LcovWriter().write(writer, test1);
 
         assertEquals("SF:tot42.js\n" + "DA:1,0\n" + "DA:2,0\n" + "DA:3,1\n" + "end_of_record\n"
                 + "SF:genre/style.js\n" + "DA:1,1\n" + "DA:2,1\n" + "DA:3,2\n" + "end_of_record\n", writer.toString());

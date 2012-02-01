@@ -28,7 +28,7 @@ public class JsResultServlet extends HttpServlet {
                 runResults.toArray(new JsRunResult[runResults.size()]));
 
         PrintWriter writer = resp.getWriter();
-        LcovWriter.write(writer, aggregated);
+        new LcovWriter().write(writer, aggregated);
         writer.close();
     }
 }
