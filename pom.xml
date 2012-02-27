@@ -3,7 +3,7 @@
 
 	<groupId>net.awired.jscoverage</groupId>
 	<artifactId>jscoverage-parent</artifactId>
-	<version>0.2-SNAPSHOT</version>
+	<version>0.2</version>
 	<packaging>pom</packaging>
 
 	<name>JsCoverage - Parent</name>
