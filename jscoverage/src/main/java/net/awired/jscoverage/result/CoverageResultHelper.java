@@ -5,18 +5,18 @@ import com.google.common.base.Preconditions;
 import com.google.common.base.Predicate;
 import com.google.common.collect.Iterables;
 
-public class JsRunResultHelper {
+public class CoverageResultHelper {
 
-    public static JsRunResult aggregateRuns(String name, JsRunResult... results) {
-        JsRunResult res = new JsRunResult();
+    public static CoverageResult aggregateRuns(String name, CoverageResult... results) {
+        CoverageResult res = new CoverageResult();
         res.setName(name);
-        for (JsRunResult currentResult : results) {
+        for (CoverageResult currentResult : results) {
             if (currentResult != null && currentResult.getFileResults() != null) {
-                for (JsFileResult currentFileResult : currentResult.getFileResults()) {
-                    int alreadyInIndex = findIndefOfFileResultForName(res.getFileResults(),
+                for (FileCoverage currentFileResult : currentResult.getFileResults()) {
+                    int alreadyInIndex = findIndexOfFileResultForName(res.getFileResults(),
                             currentFileResult.getFilename());
                     if (alreadyInIndex == -1) {
-                        res.getFileResults().add(new JsFileResult(currentFileResult));
+                        res.getFileResults().add(new FileCoverage(currentFileResult));
                     } else {
                         res.getFileResults().get(alreadyInIndex).aggregateFrom(currentFileResult);
                     }
@@ -27,12 +27,12 @@ public class JsRunResultHelper {
         return res;
     }
 
-    private static int findIndefOfFileResultForName(List<JsFileResult> jsFileResults, String name) {
+    private static int findIndexOfFileResultForName(List<FileCoverage> jsFileResults, String name) {
         Preconditions.checkNotNull(name, "name is mandatory");
         final String currentName = name.intern();
-        return Iterables.indexOf(jsFileResults, new Predicate<JsFileResult>() {
+        return Iterables.indexOf(jsFileResults, new Predicate<FileCoverage>() {
             @Override
-            public boolean apply(JsFileResult fileResult) {
+            public boolean apply(FileCoverage fileResult) {
                 Preconditions.checkNotNull(fileResult.getFilename(), "name is mandatory");
                 return fileResult.getFilename().intern() == currentName;
             }

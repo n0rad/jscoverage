@@ -42,9 +42,11 @@ var JSCOV = (function() {
 		initNoop : function(filename, executableLines) {
 			var fileResult = {
 					filename : filename,
-					lineCovered : {}
+					lineCovered : {},
+					numberOfLines : 0
 			};
 			var length = executableLines.length;
+			fileResult.numberOfLines = length;
 			for ( var i = 0; i < length; i++) {
 				fileResult.lineCovered[executableLines[i]] = 0;
 			}

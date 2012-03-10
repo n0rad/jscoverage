@@ -8,17 +8,17 @@ import java.util.Map;
 
 public class LcovWriter {
 
-    public void write(File file, JsRunResult jsRunResult) throws IOException {
+    public void write(File file, CoverageResult coverageResult) throws IOException {
         FileWriter out = new FileWriter(file);
         try {
-            write(out, jsRunResult);
+            write(out, coverageResult);
         } finally {
             out.close();
         }
     }
 
-    public void write(Writer out, JsRunResult jsRunResult) throws IOException {
-        for (JsFileResult fileResult : jsRunResult.getFileResults()) {
+    public void write(Writer out, CoverageResult coverageResult) throws IOException {
+        for (FileCoverage fileResult : coverageResult.getFileResults()) {
             out.append("SF:").append(fileResult.getFilename()).append("\n");
             Map<Integer, Integer> lineCovered = fileResult.getLineCovered();
             for (Integer line : lineCovered.keySet()) {

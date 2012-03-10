@@ -10,11 +10,11 @@ public class LcovWriterTest {
 
     @Test
     public void should_write_lcov() throws Exception {
-        JsRunResult test1 = new JsRunResult();
-        JsFileResult fileResult = new JsFileResult();
+        CoverageResult test1 = new CoverageResult();
+        FileCoverage fileResult = new FileCoverage();
         fileResult.setFilename("tot42.js");
         fileResult.setLineCovered(ImmutableMap.of(1, 0, 2, 0, 3, 1));
-        JsFileResult fileResult2 = new JsFileResult();
+        FileCoverage fileResult2 = new FileCoverage();
         fileResult2.setFilename("genre/style.js");
         fileResult2.setLineCovered(ImmutableMap.of(1, 1, 2, 1, 3, 2));
         test1.setFileResult(Arrays.asList(fileResult, fileResult2));
