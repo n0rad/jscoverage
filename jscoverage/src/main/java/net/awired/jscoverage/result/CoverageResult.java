@@ -31,6 +31,9 @@ public class CoverageResult {
             lines += fileCoverage.getNumberOfLines();
             linesCovered += fileCoverage.findNumberOfLineCovered();
         }
+        if (lines == 0) {
+            return 0;
+        }
         return (linesCovered * 100) / (double) lines;
     }
 
