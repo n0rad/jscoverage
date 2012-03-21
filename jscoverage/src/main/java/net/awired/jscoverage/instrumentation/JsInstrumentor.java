@@ -23,7 +23,7 @@ public class JsInstrumentor {
 
     public JsInstrumentedSource instrument(String fileFullPath, String source) throws JsInstrumentationException {
         JsInstrumentedSource instrumentedSource = new JsInstrumentedSource();
-        instrumentedSource.setFileFullPath(fileFullPath);
+        instrumentedSource.setFileFullPath(fileFullPath.replaceAll("\\\\", "/"));
         instrumentedSource.setSource(source);
 
         long start = System.currentTimeMillis();
